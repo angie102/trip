@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import type { Day, Item, Place } from '../types'
-import { GOOGLE_MAPS_API_KEY } from '../config.local'
+import { GOOGLE_MAPS_API_KEY, GOOGLE_MAPS_MAP_ID } from '../config.local'
 import { makeMarker, refit, setLook, sizeLabels } from './marker'
 import type { Kind } from './maki'
 
@@ -245,6 +245,8 @@ export default function Map({ day, selected, focus, bottomPad,
           disableDefaultUI: true,
           gestureHandling: 'greedy',
           clickableIcons: false,
+          // 동선 지도(route/gmap.ts)와 같은 Map ID. 비어 있으면 래스터로 그린다
+          ...(GOOGLE_MAPS_MAP_ID ? { mapId: GOOGLE_MAPS_MAP_ID } : {}),
           /* 소수 줌은 날아가는 동안만 켠다(flyTo). 켠 채로 두면 안 된다 —
              이 지도는 벡터가 아니라 래스터다. 소수 줌에서는 타일 비트맵을
              늘려 그리므로 글자가 리샘플되어 뭉갠다. 「도쿄역」처럼 여러 곳을
