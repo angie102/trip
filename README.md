@@ -22,7 +22,7 @@ https://tohoku-2026-9pf.pages.dev
 - 데이터는 Python 스크립트가 미리 만들고 앱은 `trip.json`만 읽는다. 순서는 `build.py`가 고정하고 `check.py`가 결과를 검사한다.
 - 장소는 이름 대신 구글 ID로 맞춘다. 저장 목록 CSV의 URL에 든 장소 번호(CID)를 Places API의 placeId로 바꿔 일정과 잇는다(`saved_lists.py`).
 - 동선의 길은 OSRM(OpenStreetMap 길찾기)에서 한 번 받아 `paths.json`에 넣어 두었다. 재생할 때 나가는 요청이 없다.
-- 동선 화면의 구글 지도 코드는 `route/gmap.ts` 안에만 두어, 지도를 바꿀 때 이 파일만 갈아 끼운다.
+- 동선 화면의 구글 지도 코드는 `route/gmap.ts` 안에만 있다. 다른 지도로 바꾸려면 같은 꼴의 파일을 하나 더 쓴다.
 - 시트로 못 고치는 예외는 `data/exceptions.json` 한 곳에 둔다.
 
 React 18, TypeScript, Vite, Google Maps JavaScript API, Places API, Python, Cloudflare Pages
