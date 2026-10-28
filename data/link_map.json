@@ -1,0 +1,122 @@
+{
+ "https://maps.app.goo.gl/k8Xh6896RK4j3XAa6": {
+  "url": "https://www.google.com/maps/place/%EB%8B%88%EA%B0%80%ED%83%80+%EA%B3%B5%ED%95%AD/@37.9549441,139.1111814,17z/data=!3m1!4b1!4m6!3m5!1s0x5ff4ca990fb4342d:0xcffc114f7dfacd39!8m2!3d37.9549441!4d139.1111814!16zL20vMDlrX2I5?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=f2b3e843-7893-4df6-96dd-2c7e4d1a5cc9",
+  "name": "니가타 공항",
+  "lat": 37.9549441,
+  "lng": 139.1111814,
+  "cid": "0x5ff4ca990fb4342d:0xcffc114f7dfacd39",
+  "gid": "ChIJLTS0D5nK9F8ROc36fU8R_M8"
+ },
+ "https://maps.app.goo.gl/pMp53zwgRH5KxZd57": {
+  "url": "https://www.google.com/maps/place/%EB%8B%88%EA%B0%80%ED%83%80+%EC%97%AD/@37.912271,139.0597217,16.42z/data=!4m6!3m5!1s0x5ff4c99ae88a6b01:0x3b1d928b98b9a3ea!8m2!3d37.9120388!4d139.061775!16zL20vMGNieHN4?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=feddff50-62f1-40e3-807d-bfb320ec6ebf",
+  "name": "니가타 역",
+  "lat": 37.9120388,
+  "lng": 139.061775,
+  "cid": "0x5ff4c99ae88a6b01:0x3b1d928b98b9a3ea",
+  "gid": "ChIJAWuK6JrJ9F8R6qO5mIuSHTs"
+ },
+ "https://maps.app.goo.gl/9H96gxURWpnrNBvv7": {
+  "url": "https://www.google.com/maps/place/%EB%8B%88%EA%B0%80%ED%83%80+%EC%97%AD/@37.912043,139.0592001,17z/data=!3m1!4b1!4m6!3m5!1s0x5ff4c99ae88a6b01:0x3b1d928b98b9a3ea!8m2!3d37.9120388!4d139.061775!16zL20vMGNieHN4?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=71b5a9eb-0238-47c7-8ba9-f73d671cccd6",
+  "name": "니가타 역",
+  "lat": 37.9120388,
+  "lng": 139.061775,
+  "cid": "0x5ff4c99ae88a6b01:0x3b1d928b98b9a3ea",
+  "gid": "ChIJAWuK6JrJ9F8R6qO5mIuSHTs"
+ },
+ "https://maps.app.goo.gl/uEM2TQun29xrzHmb8": {
+  "url": "https://www.google.com/maps/place/%EC%98%A4%EB%AF%B8%EC%95%BC+%EC%97%AD/@35.9064528,139.6212799,17z/data=!3m1!4b1!4m6!3m5!1s0x6018c143cc2c5285:0x280f665a32e5d413!8m2!3d35.9064485!4d139.6238548!16zL20vMDVtMmIy?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=b7d97d81-121e-418f-a3ec-2baee6391078",
+  "name": "오미야 역",
+  "lat": 35.9064485,
+  "lng": 139.6238548,
+  "cid": "0x6018c143cc2c5285:0x280f665a32e5d413",
+  "gid": "ChIJhVIszEPBGGARE9TlMlpmDyg"
+ },
+ "https://maps.app.goo.gl/Jc2JibfY8ZvwBYwk7": {
+  "url": "https://www.google.com/maps/place/%EA%B0%80%EB%A3%A8%EC%9D%B4%EC%9E%90%EC%99%80/@36.3451469,138.5933653,14z/data=!4m7!3m6!1s0x601dd37c8d23d1c9:0x7b94804089b313a5!8m2!3d36.3426254!4d138.6353268!15sChLsubTro6jsnbTsnpDsmYDsl62SAQ10cmFpbl9zdGF0aW9u4AEA!16s%2Fg%2F1tzlz0zy?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=169def46-6de0-4d55-852b-21350d8b1aa9",
+  "name": "가루이자와",
+  "lat": 36.3426254,
+  "lng": 138.6353268,
+  "cid": "0x601dd37c8d23d1c9:0x7b94804089b313a5",
+  "gid": "ChIJydEjjXzTHWARpROziUCAlHs"
+ },
+ "https://maps.app.goo.gl/BdmMNVXpg6r5xjpL8": {
+  "url": "https://www.google.com/maps/place/%EB%8F%84%EC%BF%84/@35.6813039,139.7644909,17z/data=!3m1!4b1!4m6!3m5!1s0x60188bfbd89f700b:0x277c49ba34ed38!8m2!3d35.6812996!4d139.7670658!16zL20vMDFfdnY3?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=6a2e227b-564d-45d9-bd4a-0c77e1abf6de",
+  "name": "도쿄",
+  "lat": 35.6812996,
+  "lng": 139.7670658,
+  "cid": "0x60188bfbd89f700b:0x277c49ba34ed38",
+  "gid": "ChIJC3Cf2PuLGGAROO00ukl8JwA"
+ },
+ "https://maps.app.goo.gl/7yVm3PySYvwBugrbA": {
+  "url": "https://www.google.com/maps/place/%EB%8B%A4%EC%B9%B4%EB%82%98%EC%99%80%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4%EC%97%AD/@35.635525,139.738106,17z/data=!3m1!4b1!4m6!3m5!1s0x60188a5215760b97:0x49b5e0b1fe049ba3!8m2!3d35.6355207!4d139.7406809!16s%2Fg%2F11f0403rfs?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=87fb2ab4-f4ce-4764-9f19-5ff3f16b2187",
+  "name": "다카나와게이트웨이역",
+  "lat": 35.6355207,
+  "lng": 139.7406809,
+  "cid": "0x60188a5215760b97:0x49b5e0b1fe049ba3",
+  "gid": "ChIJlwt2FVKKGGARo5sE_rHgtUk"
+ },
+ "https://maps.app.goo.gl/5UcXxGcHWw4cvvfS6": {
+  "url": "https://www.google.com/maps/place/Yamagata+Station/@38.2572122,140.3196845,15z/data=!4m7!3m6!1s0x5f8bb60e42cf107d:0x979c790bd08957af!8m2!3d38.2489263!4d140.3273028!15sCg_slbzrp4jqsIDtg4Dsl62SARdsb2dpY2FsX3RyYW5zaXRfc3RhdGlvbuABAA!16zL20vMGZzN2Jz?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=7d74bc4e-24c7-4cfc-bdf3-c5ddb2577e92",
+  "name": "Yamagata Station",
+  "lat": 38.2489263,
+  "lng": 140.3273028,
+  "cid": "0x5f8bb60e42cf107d:0x979c790bd08957af",
+  "gid": "ChIJfRDPQg62i18Rr1eJ0At5nJc"
+ },
+ "https://maps.app.goo.gl/eLsvRnTzYDmPhhz89": {
+  "url": "https://www.google.com/maps/place/%EC%9E%90%EC%98%A4%EC%98%A8%EC%84%BC%EB%B2%84%EC%8A%A4%ED%84%B0%EB%AF%B8%EB%84%90/@38.1662514,140.3879584,13.5z/data=!4m10!3m9!1s0x5f8a4b11f9433741:0xaae952130629c6b8!5m3!1s2026-09-28!4m1!1i2!8m2!3d38.1674181!4d140.3936943!16s%2Fg%2F11x767zkvs?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=5f66dd1d-294b-4f78-a870-504b26d5b29e",
+  "name": "자오온센버스터미널",
+  "lat": 38.1674181,
+  "lng": 140.3936943,
+  "cid": "0x5f8a4b11f9433741:0xaae952130629c6b8",
+  "gid": "ChIJQTdD-RFLil8RuMYpBhNS6ao"
+ },
+ "https://maps.app.goo.gl/usU6wCB8f6CfwiXk8": {
+  "url": "https://www.google.com/maps/place/%EC%84%BC%EB%8B%A4%EC%9D%B4/@38.2604825,140.8813812,16.75z/data=!4m6!3m5!1s0x5f8a28180c510b87:0xb2a30b91be1ffdbc!8m2!3d38.2601316!4d140.8824375!16zL20vMDY2cl8z?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=40414a70-5a40-46e2-960b-396138395abf",
+  "name": "센다이",
+  "lat": 38.2601316,
+  "lng": 140.8824375,
+  "cid": "0x5f8a28180c510b87:0xb2a30b91be1ffdbc",
+  "gid": "ChIJhwtRDBgoil8RvP0fvpELo7I"
+ },
+ "https://maps.app.goo.gl/TajuTtV3M5rsTPMu7": {
+  "url": "https://www.google.com/maps/place/%ED%95%98%EC%B9%98%EB%85%B8%ED%97%A4+%EC%97%AD/@40.4633777,141.3495104,12z/data=!4m6!3m5!1s0x5f9b4e702b9959d3:0x2b50b5f08e03ad92!8m2!3d40.5092744!4d141.4311735!16zL20vMDI3MHdf?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=9e2e6962-d73e-4079-8ba7-ac8daf72ac3b",
+  "name": "하치노헤 역",
+  "lat": 40.5092744,
+  "lng": 141.4311735,
+  "cid": "0x5f9b4e702b9959d3:0x2b50b5f08e03ad92",
+  "gid": "ChIJ01mZK3BOm18Rkq0DjvC1UCs"
+ },
+ "https://maps.app.goo.gl/fMTGdnWoMtAt6XEZ7": {
+  "url": "https://www.google.com/maps/place/%EC%95%84%EC%98%A4%EB%AA%A8%EB%A6%AC/@40.8288502,140.7316996,17z/data=!4m7!3m6!1s0x5f9b9f1f0a364b55:0x74f4425cd96a215e!8m2!3d40.8288462!4d140.7342745!15sCg_slYTsmKTrqqjrpqzsl61aEiIQ7JWE7Jik66qo66asIOyXrZIBDXRyYWluX3N0YXRpb27gAQA!16s%2Fg%2F11bc6ggm7r?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=5244f66f-9711-4f1f-84fd-ad07793353e5",
+  "name": "아오모리",
+  "lat": 40.8288462,
+  "lng": 140.7342745,
+  "cid": "0x5f9b9f1f0a364b55:0x74f4425cd96a215e",
+  "gid": "ChIJVUs2Ch-fm18RXiFq2VxC9HQ"
+ },
+ "https://maps.app.goo.gl/xopSbT5H8kzhtGWn6": {
+  "url": "https://www.google.com/maps/place/%EC%95%84%EC%82%AC%EB%AC%B4%EC%8B%9C%EC%98%A8%EC%84%BC+%EC%97%AD/@40.8914497,140.8597964,17z/data=!3m1!4b1!4m6!3m5!1s0x5f9b834d5d3cdcb9:0x1618a78213f20237!8m2!3d40.8914457!4d140.8623713!16zL20vMDg3cjJj?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=2477b299-468e-4e5f-8a72-c8d02d5e24f8",
+  "name": "아사무시온센 역",
+  "lat": 40.8914457,
+  "lng": 140.8623713,
+  "cid": "0x5f9b834d5d3cdcb9:0x1618a78213f20237",
+  "gid": "ChIJudw8XU2Dm18RNwLyE4KnGBY"
+ },
+ "https://maps.app.goo.gl/e45npbg49NJ256Jp7": {
+  "url": "https://www.google.com/maps/place/%EB%A6%AC%EC%B9%98%EB%AA%AC%EB%93%9C%ED%98%B8%ED%85%94+%EC%95%84%EC%98%A4%EB%AA%A8%EB%A6%AC/@40.8258227,140.7340042,15.5z/data=!3m1!5s0x5f9b9f02dccef5ef:0x6f8469f55d07ad9c!4m11!3m10!1s0x5f9b9f02dcb8d401:0x2d9f1d53e6cec4a1!5m4!1s2026-09-19!2i2!4m1!1i2!8m2!3d40.823419!4d140.744815!16s%2Fg%2F1tq8jcv4?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=af2eae4f-d5c4-457e-9abd-4375676665d0",
+  "name": "리치몬드호텔 아오모리",
+  "lat": 40.823419,
+  "lng": 140.744815,
+  "cid": "0x5f9b9f02dccef5ef:0x6f8469f55d07ad9c",
+  "gid": "ChIJ7_XO3AKfm18RnK0HXfVphG8"
+ },
+ "https://maps.app.goo.gl/MYinY5R3CADVi31T6": {
+  "url": "https://www.google.com/maps/place/%EC%95%84%EC%98%A4%EB%AA%A8%EB%A6%AC+%EA%B3%B5%ED%95%AD/@40.7659875,140.7086423,12.17z/data=!4m6!3m5!1s0x5f9b0a1878ec3c11:0x79e8883362d48133!8m2!3d40.7354587!4d140.6904126!16s%2Fm%2F02pkvfh?entry=tts&g_ep=EgoyMDI2MDgyNi4wIPu8ASoASAFQAw%3D%3D&skid=01b07e7a-cb4a-40df-88f6-68f4bcca92ce",
+  "name": "아오모리 공항",
+  "lat": 40.7354587,
+  "lng": 140.6904126,
+  "cid": "0x5f9b0a1878ec3c11:0x79e8883362d48133",
+  "gid": "ChIJETzseBgKm18RM4HUYjOI6Hk"
+ }
+}

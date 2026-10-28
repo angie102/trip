@@ -1,0 +1,30 @@
+# 열쇠
+.env
+web-react/src/config.local.ts
+
+# 빌드 산출물, 캐시
+node_modules/
+dist/
+__pycache__/
+.wrangler/
+*.tsbuildinfo
+web-react/dev.log
+
+# 임시, 백업
+.tmp-*/
+data/*.prev.*
+data/places.backup-*.json
+data/sheet.xlsx
+
+# 디자인 작업대 (앱과 빌드에 안 쓰임)
+docs/*
+!docs/route-style.json
+data/radix.json
+tools/archive/
+tools/color_lab.py
+tools/make_*_doc.py
+tools/shot.py
+tools/cut_bg.py
+tools/render_mock.mjs
+tools/probe_route.mjs
+web-react/probe.mjs

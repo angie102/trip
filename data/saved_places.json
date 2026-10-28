@@ -1,0 +1,2912 @@
+{
+ "0x60188be494b4c413:0x7217f50ecd1d80f3": {
+  "byId": true,
+  "title": "센트레 더 베이커리",
+  "found": "센트레 더 베이커리",
+  "address": "일본 〒104-0061 Tokyo, Chuo City, Ginza, 1-chōme−2−１ 紺屋ビル 1F 東京高速道路",
+  "lat": 35.6755334,
+  "lng": 139.76659519999998,
+  "primaryType": "bakery",
+  "typeLabel": "제과점"
+ },
+ "0x5f9b838f372359a1:0xd4ea606285dcfa3b": {
+  "byId": true,
+  "title": "Asamushi Onsen pudding Kinjiro",
+  "found": "Asamushi Onsen pudding Kinjiro",
+  "address": "Hotarudani-65-73 Asamushi, Aomori, 039-3501 일본",
+  "lat": 40.888337199999995,
+  "lng": 140.8633045,
+  "primaryType": "pastry_shop",
+  "typeLabel": "패스트리 판매점"
+ },
+ "0x5f9b83002b87b5b1:0x9d6b4fb9f9666753": {
+  "byId": true,
+  "title": "永井久慈良餅店 本店",
+  "found": "永井久慈良餅店 本店",
+  "address": "Sakamoto-51-5 Asamushi, Aomori, 039-3501 일본",
+  "lat": 40.895280799999995,
+  "lng": 140.8612329,
+  "primaryType": "confectionery",
+  "typeLabel": "과자"
+ },
+ "0x60188bfbc00f7155:0x339fbd8c27a73c46": {
+  "byId": true,
+  "title": "뉴욕퍼펙트치즈 도쿄역점",
+  "found": "뉴욕퍼펙트치즈 도쿄역점",
+  "address": "일본 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR Tokyo Station, １Ｆ 南通路",
+  "lat": 35.6803624,
+  "lng": 139.76667070000002,
+  "primaryType": "pastry_shop",
+  "typeLabel": "패스트리 판매점"
+ },
+ "0x60188babfa5de0ed:0x7e18de0401d7a0ab": {
+  "byId": true,
+  "title": "PRESS BUTTER SAND TOKYO STATION SOUTH PASSAGE Pop-up",
+  "found": "PRESS BUTTER SAND TOKYO STATION SOUTH PASSAGE Pop-up",
+  "address": "일본 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR東日本東京駅構内南通路区画",
+  "lat": 35.680447199999996,
+  "lng": 139.76632519999998,
+  "primaryType": "dessert_restaurant",
+  "typeLabel": "디저트 전문 레스토랑"
+ },
+ "0x5f8a5967b0cac37f:0xc45bb19071ff6fcc": {
+  "byId": true,
+  "title": "hatake style エスパル山形店",
+  "found": "hatake style エスパル山形店",
+  "address": "1-chōme-1-1 Kasumichō, Yamagata, 990-0039 일본",
+  "lat": 38.2486959,
+  "lng": 140.328018,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x60188bdf03739367:0x3f4fcd1f0e1c66de": {
+  "byId": true,
+  "title": "岡田謹製 あんバタ屋 東京ギフトパレット店",
+  "found": "岡田謹製 あんバタ屋 東京ギフトパレット店",
+  "address": "일본 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ 東京駅八重洲北口",
+  "lat": 35.6820266,
+  "lng": 139.76860689999998,
+  "primaryType": "pastry_shop",
+  "typeLabel": "패스트리 판매점"
+ },
+ "0x60188beb874a326f:0x76bbec967f3b5707": {
+  "byId": true,
+  "title": "Derimotokyokafederimo Daimarutokyoten",
+  "found": "Derimotokyokafederimo Daimarutokyoten",
+  "address": "일본 〒100-6701 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ 大丸東京店 4F",
+  "lat": 35.681765,
+  "lng": 139.7690586,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f8b6faaeaa909d7:0xda3625308ba37373": {
+  "byId": true,
+  "title": "Tokiwaen Tea Stall",
+  "found": "Tokiwaen Tea Stall",
+  "address": "3-30 Sakanamachi, 肴町 Murakami, Niigata 958-0864 일본",
+  "lat": 38.223897,
+  "lng": 139.46921369999998,
+  "primaryType": "tea_store",
+  "typeLabel": "차 가게"
+ },
+ "0x5f9b9fb96ceb85eb:0xa4526f3dcfadcc18": {
+  "byId": true,
+  "title": "Mister Donut",
+  "found": "Mister Donut",
+  "address": "Toyota-46-6 Hamada, Aomori, 030-0843 일본",
+  "lat": 40.8032415,
+  "lng": 140.7565718,
+  "primaryType": "donut_shop",
+  "typeLabel": "도넛 전문점"
+ },
+ "0x5f9b9f1d7d95749b:0x4bc9ac8fb81b0b88": {
+  "byId": true,
+  "title": "Akai Ringo",
+  "found": "Akai Ringo",
+  "address": "2-chōme-6-15 Shinmachi, Aomori, 030-0801 일본",
+  "lat": 40.8261385,
+  "lng": 140.7438463,
+  "primaryType": "pastry_shop",
+  "typeLabel": "패스트리 판매점"
+ },
+ "0x5f9b9ee1b0915f51:0xbdde31e026bb8246": {
+  "byId": true,
+  "title": "Sweets Factory pampam ASPAM Store",
+  "found": "Sweets Factory pampam ASPAM Store",
+  "address": "일본 〒030-0803 Aomori, Yasukata, 1-chōme−1−４０ 1F",
+  "lat": 40.8295708,
+  "lng": 140.74111109999998,
+  "primaryType": "dessert_shop",
+  "typeLabel": "디저트 전문점"
+ },
+ "0x5f9b9edf93dc094f:0xa851599ffce16b43": {
+  "byId": true,
+  "title": "Skip Egg",
+  "found": "Skip Egg",
+  "address": "일본 〒038-0012 Aomori, Yanakawa, 1-chōme−4−２ 1F",
+  "lat": 40.8303471,
+  "lng": 140.7351463,
+  "primaryType": "dessert_shop",
+  "typeLabel": "디저트 전문점"
+ },
+ "0x5f8a2818f697b665:0x6e13073e2dc6c310": {
+  "byId": true,
+  "title": "Brown Sugar Tamazawa",
+  "found": "Brown Sugar Tamazawa",
+  "address": "일본 〒980-0021 Miyagi, Sendai, Aoba Ward, Chūō, 1-chōme−1−１ エスパル仙台東館 2F Date no komichi",
+  "lat": 38.2597612,
+  "lng": 140.8828384,
+  "primaryType": "confectionery",
+  "typeLabel": "과자"
+ },
+ "0x5f8a28188971bb43:0x823e532c6bc86c9c": {
+  "byId": true,
+  "title": "ITAGAKI DESSERT KITCHEN",
+  "found": "ITAGAKI DESSERT KITCHEN",
+  "address": "일본 〒983-0852 Miyagi, Sendai, Aoba Ward, Chūō, 1-chōme−1−１ エスパル仙台 東館 2F",
+  "lat": 38.2595637,
+  "lng": 140.883122,
+  "primaryType": "dessert_shop",
+  "typeLabel": "디저트 전문점"
+ },
+ "0x5f9b539f1f60e257:0x78e2266cf36743c0": {
+  "byId": true,
+  "title": "STOKED Doughnuts",
+  "found": "STOKED Doughnuts",
+  "address": "Same-86 Samemachi, Hachinohe, Aomori 031-0841 일본",
+  "lat": 40.537061800000004,
+  "lng": 141.5594738,
+  "primaryType": "donut_shop",
+  "typeLabel": "도넛 전문점"
+ },
+ "0x5f9b4dfee735a983:0x81d642f8041ab4ec": {
+  "byId": true,
+  "title": "hannah cheesecake,coffee【ハンナ チーズケーキ、コーヒー】",
+  "found": "hannah cheesecake,coffee【ハンナ チーズケーキ、コーヒー】",
+  "address": "4-chōme-5-5 Kitahakusandai, Hachinohe, Aomori 039-1114 일본",
+  "lat": 40.4880704,
+  "lng": 141.4613616,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f85773d3cc43221:0x41e79f31786c5c98": {
+  "byId": true,
+  "title": "Fururukikuya Moriokafezanten",
+  "found": "Fururukikuya Moriokafezanten",
+  "address": "일본 〒020-0034 Iwate, Morioka, Moriokaekimaedōri, 1−４４ 盛岡フェザン おでんせ館 １階",
+  "lat": 39.701897699999996,
+  "lng": 141.1362727,
+  "primaryType": "dessert_shop",
+  "typeLabel": "디저트 전문점"
+ },
+ "0x5f8576340cb5e3e9:0x5f3a064bdd128ad8": {
+  "byId": true,
+  "title": "Iwateya",
+  "found": "Iwateya",
+  "address": "일본 〒020-0034 Iwate, Morioka, Moriokaekimaedōri, 1−４４ 盛岡フェザン おでんせ館1F",
+  "lat": 39.7017928,
+  "lng": 141.1364413,
+  "primaryType": "confectionery",
+  "typeLabel": "과자"
+ },
+ "0x5f8576340cb5e3e9:0x7daeea9de60fd27d": {
+  "byId": true,
+  "title": "Shoeido",
+  "found": "Shoeido",
+  "address": "1-44 Moriokaekimaedōri, Morioka, Iwate 020-0034 일본",
+  "lat": 39.7019579,
+  "lng": 141.1362971,
+  "primaryType": "confectionery",
+  "typeLabel": "과자"
+ },
+ "0x5ff4c9000ffceab1:0x4024b6657b3c96f6": {
+  "byId": true,
+  "title": "Un BOURBON",
+  "found": "Un BOURBON",
+  "address": "일본 〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−1−１ CoCoLo新潟 2F EAST SIDE",
+  "lat": 37.9119059,
+  "lng": 139.0620336,
+  "primaryType": "confectionery",
+  "typeLabel": "과자"
+ },
+ "0x5f8bb60e8bda66d9:0x311ef5e15498f868": {
+  "byId": true,
+  "title": "作和庄 山形駅ビル店",
+  "found": "作和庄 山形駅ビル店",
+  "address": "일본 〒990-0039 Yamagata, Kasumichō, 1-chōme−1−１ 山形駅エスパル 2階",
+  "lat": 38.2488168,
+  "lng": 140.3279957,
+  "primaryType": "dessert_shop",
+  "typeLabel": "디저트 전문점"
+ },
+ "0x5f8a4b0dd1ed6303:0x2ed061f65a206ad8": {
+  "byId": true,
+  "title": "食堂 雪ぐら",
+  "found": "食堂 雪ぐら",
+  "address": "일본 〒990-2301 Yamagata, Zaōonsen, 川前９０４−３",
+  "lat": 38.1657042,
+  "lng": 140.3951375,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x601dd3ac3c6abcb3:0x74c78216a7faaf4f": {
+  "byId": true,
+  "title": "Truffle Bakery Karuizawacho",
+  "found": "Truffle Bakery Karuizawacho",
+  "address": "일본 〒389-0102 Nagano, Kitasaku District, Karuizawa, 字中道1210ｰ31",
+  "lat": 36.3433956,
+  "lng": 138.62563849999998,
+  "primaryType": "bakery",
+  "typeLabel": "제과점"
+ },
+ "0x5f8b6fefaecfe6eb:0x2f203738dee27f31": {
+  "byId": true,
+  "title": "結城堂 瀬波店",
+  "found": "結城堂 瀬波店",
+  "address": "2-chōme-6-15 Senamionsen, Murakami, Niigata 958-0037 일본",
+  "lat": 38.2140528,
+  "lng": 139.4393858,
+  "primaryType": "confectionery",
+  "typeLabel": "과자"
+ },
+ "0x5ff4cb89532fd603:0xc77e8243b1622152": {
+  "byId": true,
+  "title": "Patisserie N 2ème",
+  "found": "Patisserie N 2ème",
+  "address": "2-chōme-4547-1 Yokoshichibanchōdōri, Chuo Ward, Niigata, 951-8083 일본",
+  "lat": 37.9321591,
+  "lng": 139.050545,
+  "primaryType": "cake_shop",
+  "typeLabel": "케이크 전문점"
+ },
+ "0x5ff4c1fbbd787fd1:0x5a83c1faf7f7811e": {
+  "byId": true,
+  "title": "Café & Marché Muginchi",
+  "found": "Café & Marché Muginchi",
+  "address": "일본 〒953-0012 Niigata, Nishikan Ward, Echizenhama, ５０２９番地",
+  "lat": 37.810839400000006,
+  "lng": 138.8457679,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5ff4ef22ab2b5b67:0x76dd002a5c39c404": {
+  "byId": true,
+  "title": "Kamakura",
+  "found": "Kamakura",
+  "address": "2916 Yahiko, Nishikambara District, Niigata 959-0323 일본",
+  "lat": 37.7049371,
+  "lng": 138.8266423,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5ff4e500419e36db:0xcb95a4acd8c651f6": {
+  "byId": true,
+  "title": "ｇｏｕｔｅｒ",
+  "found": "ｇｏｕｔｅｒ",
+  "address": "6014 Fumoto, Yahiko, Nishikambara District, Niigata 959-0318 일본",
+  "lat": 37.6874435,
+  "lng": 138.8248861,
+  "primaryType": "cake_shop",
+  "typeLabel": "케이크 전문점"
+ },
+ "0x5ff4c91dc180f315:0xdf5c93d78ebb04e9": {
+  "byId": true,
+  "title": "パティスリー パレット",
+  "found": "パティスリー パレット",
+  "address": "1-chōme-2-26 Nuttarinishi, Chuo Ward, Niigata, 950-0076 일본",
+  "lat": 37.9197092,
+  "lng": 139.06598599999998,
+  "primaryType": "cake_shop",
+  "typeLabel": "케이크 전문점"
+ },
+ "0x5ff4e8d991e20f03:0xa0e8b9e6e1794c8a": {
+  "byId": true,
+  "title": "Gelateria Regalo",
+  "found": "Gelateria Regalo",
+  "address": "259 Hashimoto, Nishikan Ward, Niigata, 953-0103 일본",
+  "lat": 37.734136,
+  "lng": 138.84365700000004,
+  "primaryType": "ice_cream_shop",
+  "typeLabel": "아이스크림 가게"
+ },
+ "0x5ff4e474a26b9b91:0x552ff49a7d6b192e": {
+  "byId": true,
+  "title": "くれーぷａｃｏ",
+  "found": "くれーぷａｃｏ",
+  "address": "4-chōme-11-40 Akibachō, Tsubame, Niigata 959-1261 일본",
+  "lat": 37.6633061,
+  "lng": 138.9105828,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x6018f366aeb9855d:0x2a59276d289048d2": {
+  "byId": true,
+  "title": "La Patisserie Plaisir",
+  "found": "La Patisserie Plaisir",
+  "address": "Kō-62-1 Maki, Nishikan Ward, Niigata, 950-0041 일본",
+  "lat": 37.7672934,
+  "lng": 138.8806773,
+  "primaryType": "pastry_shop",
+  "typeLabel": "패스트리 판매점"
+ },
+ "0x5ff4ca021dbe262f:0xdf90ed166509e928": {
+  "byId": true,
+  "title": "Sawayama",
+  "found": "Sawayama",
+  "address": "4513 Yūeichō, Chuo Ward, Niigata, 951-8023 일본",
+  "lat": 37.9313594,
+  "lng": 139.04928429999998,
+  "primaryType": "confectionery",
+  "typeLabel": "과자"
+ },
+ "0x5ff4c976a4a5ca0d:0xbf3d822115d456ee": {
+  "byId": true,
+  "title": "La Boulangerie Richer",
+  "found": "La Boulangerie Richer",
+  "address": "2-chōme-14-20 Abumi, Chuo Ward, Niigata, 950-0913 일본",
+  "lat": 37.9042697,
+  "lng": 139.0703303,
+  "primaryType": "bakery",
+  "typeLabel": "제과점"
+ },
+ "0x5ff4c9f722b0b12f:0x3d5185d77bde8be5": {
+  "byId": true,
+  "title": "FOFO donut OWL the Bakery",
+  "found": "FOFO donut OWL the Bakery",
+  "address": "2-11 Bandaijima, Chuo Ward, Niigata, 950-0078 일본",
+  "lat": 37.9230868,
+  "lng": 139.0611664,
+  "primaryType": "donut_shop",
+  "typeLabel": "도넛 전문점"
+ },
+ "0x5ff4ef634d3a3695:0xf3952f0aa30badd8": {
+  "byId": true,
+  "title": "Bunsuido Kashiho",
+  "found": "Bunsuido Kashiho",
+  "address": "1041-1 Yahiko, Nishikambara District, Niigata 959-0323 일본",
+  "lat": 37.700768599999996,
+  "lng": 138.83071379999998,
+  "primaryType": "confectionery",
+  "typeLabel": "과자"
+ },
+ "0x5ff4c99b2709fe19:0x412da239b43062a4": {
+  "byId": true,
+  "title": "야스다 요구르트",
+  "found": "야스다 요구르트",
+  "address": "일본 〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−1−１ 新潟駅ビル CoCoLo新潟 2階",
+  "lat": 37.912278,
+  "lng": 139.0627303,
+  "primaryType": "food_store",
+  "typeLabel": "음식점"
+ },
+ "0x5ff4c9dc32d0a5c3:0x16e20b0b38a38837": {
+  "byId": true,
+  "title": "ジェラテリア Popolo",
+  "found": "ジェラテリア Popolo",
+  "address": "1-chōme-5939-37 Suidōchō, Chuo Ward, Niigata, 951-8121 일본",
+  "lat": 37.921814700000006,
+  "lng": 139.0273252,
+  "primaryType": "ice_cream_shop",
+  "typeLabel": "아이스크림 가게"
+ },
+ "0x5f9b9ee350d42bdf:0x798b9db427cb1f15": {
+  "byId": true,
+  "title": "Joboshi Takeuchi Seianjo",
+  "found": "Joboshi Takeuchi Seianjo",
+  "address": "5-chōme-1-20 Honchō, Aomori, 030-0802 일본",
+  "lat": 40.8272904,
+  "lng": 140.75072839999999,
+  "primaryType": "dessert_shop",
+  "typeLabel": "디저트 전문점"
+ },
+ "0x5f9b9f1dd341fe09:0x8b52a9564f8b6ab0": {
+  "byId": true,
+  "title": "칸세이도우",
+  "found": "칸세이도우",
+  "address": "1-chōme-13-21 Shinmachi, Aomori, 030-0801 일본",
+  "lat": 40.826612499999996,
+  "lng": 140.7387874,
+  "primaryType": "confectionery",
+  "typeLabel": "과자"
+ },
+ "0x5f9b9f1ff506e73d:0xaecd4bc9f8b9a9f9": {
+  "byId": true,
+  "title": "gelato natura due",
+  "found": "gelato natura due",
+  "address": "일본 〒038-0012 Aomori, Yanakawa, 1-chōme−4−２ 1F",
+  "lat": 40.8301977,
+  "lng": 140.7350376,
+  "primaryType": "ice_cream_shop",
+  "typeLabel": "아이스크림 가게"
+ },
+ "0x5f9b9f792b5faca5:0xd0486ebe48946ee8": {
+  "byId": true,
+  "title": "A-BossA",
+  "found": "A-BossA",
+  "address": "일본 〒038-0012 Aomori, Yanakawa, 1-chōme−4−２ 1F",
+  "lat": 40.830255199999996,
+  "lng": 140.73526429999998,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b9f81cdd324bd:0x2b742544b5a180b2": {
+  "byId": true,
+  "title": "Impression",
+  "found": "Impression",
+  "address": "일본 〒030-0862 Aomori, Furukawa, 1-chōme−10−１２ 橘ビル 2F",
+  "lat": 40.8245557,
+  "lng": 140.7358473,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5f9b9f1b1e965e8d:0xacd6957acb2d9458": {
+  "byId": true,
+  "title": "グートロンふじや",
+  "found": "グートロンふじや",
+  "address": "2-chōme-11-9 Furukawa, Aomori, 030-0862 일본",
+  "lat": 40.8225117,
+  "lng": 140.7362274,
+  "primaryType": "dessert_shop",
+  "typeLabel": "디저트 전문점"
+ },
+ "0x5f9b9f2057afb5bb:0x33602facc7eeb39d": {
+  "byId": true,
+  "title": "Fruits Parlor Earth",
+  "found": "Fruits Parlor Earth",
+  "address": "2-chōme-7-23 Honchō, Aomori, 030-0802 일본",
+  "lat": 40.8267206,
+  "lng": 140.7478405,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f8b6be6edc1903d:0x309fe944a6d26767": {
+  "byId": true,
+  "title": "岩船お菓子処 村恭 神林店",
+  "found": "岩船お菓子処 村恭 神林店",
+  "address": "일본 〒959-3424 Niigata, Murakami, Makinome, 砂山１２６２",
+  "lat": 38.1768618,
+  "lng": 139.4435915,
+  "primaryType": "dessert_restaurant",
+  "typeLabel": "디저트 전문 레스토랑"
+ },
+ "0x5f8b6e5659d1ad2f:0x61362bce4beb46ed": {
+  "byId": true,
+  "title": "Fujimien",
+  "found": "Fujimien",
+  "address": "4-19 Nagaimachi, Murakami, Niigata 958-0844 일본",
+  "lat": 38.219924899999995,
+  "lng": 139.4780269,
+  "primaryType": "tea_store",
+  "typeLabel": "차 가게"
+ },
+ "0x5f8b6e548095fc61:0xef79a8fa892609ca": {
+  "byId": true,
+  "title": "Sakataya",
+  "found": "Sakataya",
+  "address": "3-8 Aramachi, Murakami, Niigata 958-0846 일본",
+  "lat": 38.223431,
+  "lng": 139.4763678,
+  "primaryType": "dessert_shop",
+  "typeLabel": "디저트 전문점"
+ },
+ "0x5f8a4b0e3f519ce3:0x155c653913f3e8fb": {
+  "byId": true,
+  "title": "Wakamatsuya",
+  "found": "Wakamatsuya",
+  "address": "951-1 Zaōonsen, Yamagata, 990-2301 일본",
+  "lat": 38.167115599999995,
+  "lng": 140.3965503,
+  "primaryType": "inn",
+  "typeLabel": "인"
+ },
+ "0x60188bfe81a90cd7:0xbf0d2f2f76d3fa47": {
+  "byId": true,
+  "title": "CANTON 8",
+  "found": "CANTON 8",
+  "address": "ニッタビル 8階, 8-chōme-2-1 Ginza, Chuo City, Tokyo 104-0061 일본",
+  "lat": 35.6699493,
+  "lng": 139.75973679999998,
+  "primaryType": "dim_sum_restaurant",
+  "typeLabel": "딤섬 전문 레스토랑"
+ },
+ "0x60188b91f72ecd45:0xd443b1b75ea0df0a": {
+  "byId": true,
+  "title": "The Front Room Deli Restaurant Marunouchi",
+  "found": "The Front Room Deli Restaurant Marunouchi",
+  "address": "일본 〒100-6301 Tokyo, Chiyoda City, Marunouchi, 2-chōme−4−１ Marunouchi Building, 1F",
+  "lat": 35.6812689,
+  "lng": 139.7638917,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b9efb631170fd:0xafd77edbbb54bcee": {
+  "byId": true,
+  "title": "Shichibei ya",
+  "found": "Shichibei ya",
+  "address": "5-chōme-5-11 Honchō, Aomori, 030-0802 일본",
+  "lat": 40.826125,
+  "lng": 140.7534713,
+  "primaryType": "japanese_izakaya_restaurant",
+  "typeLabel": "이자카야"
+ },
+ "0x5ff4c9a19f47aa35:0xe714d2b8d3bbcca": {
+  "byId": true,
+  "title": "天㐂あらた",
+  "found": "天㐂あらた",
+  "address": "일본 〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−2−２ コープシティ花園ガレッソ ３階",
+  "lat": 37.9133746,
+  "lng": 139.0619932,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5ff4e32e4f925eb5:0xd32840bfeb095a5b": {
+  "byId": true,
+  "title": "Tsubame-Sanjo Italian Bit",
+  "found": "Tsubame-Sanjo Italian Bit",
+  "address": "일본 〒955-0092 Niigata, Sanjo, Sugoro, 1-chōme−１７ 1F 燕三条地場産業振興センタ",
+  "lat": 37.649171599999995,
+  "lng": 138.9335588,
+  "primaryType": "italian_restaurant",
+  "typeLabel": "이탈리아 음식점"
+ },
+ "0x5ff4c9bef4a3d973:0x3552160a1c94202b": {
+  "byId": true,
+  "title": "Nippon Rent-a-car",
+  "found": "Nippon Rent-a-car",
+  "address": "일본 〒950-0086 新潟県新潟市中央区花園１丁目２４",
+  "lat": 37.913981799999995,
+  "lng": 139.0639617,
+  "primaryType": "car_rental",
+  "typeLabel": "렌터카 업체"
+ },
+ "0x5ff4c985549cd4fb:0x8053e761924dd677": {
+  "byId": true,
+  "title": "와쇼쿠 레스토랑 스시기 야마다 후지시치",
+  "found": "와쇼쿠 레스토랑 스시기 야마다 후지시치",
+  "address": "1-chōme-2-2 Hanazono, Chuo Ward, Niigata, 950-0086 일본",
+  "lat": 37.913487499999995,
+  "lng": 139.0621516,
+  "primaryType": "sushi_restaurant",
+  "typeLabel": "스시/초밥집"
+ },
+ "0x5f8b6e548bc48cf3:0xabb275234aaf68ec": {
+  "byId": true,
+  "title": "料亭 能登新",
+  "found": "料亭 能登新",
+  "address": "2-chōme-1-9 Iino, Murakami, Niigata 958-0857 일본",
+  "lat": 38.223101,
+  "lng": 139.47545499999998,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f8b6f5ec3914263:0xad0ea1a175ac0bcc": {
+  "byId": true,
+  "title": "BLUE BASE SENAMI (サウナ＆SPA付きコテージ)",
+  "found": "BLUE BASE SENAMI (サウナ＆SPA付きコテージ)",
+  "address": "6 2-chōme-10-7 Senamionsen, Murakami, Niigata 958-0037 일본",
+  "lat": 38.2142828,
+  "lng": 139.43750359999999,
+  "primaryType": "hotel",
+  "typeLabel": "호텔"
+ },
+ "0x6018c187e2f3c33d:0xb4d7e5de7e07f3a1": {
+  "byId": true,
+  "title": "다이와 로이넷 호텔 오미야 니시구치",
+  "found": "다이와 로이넷 호텔 오미야 니시구치",
+  "address": "1-chōme-398-1 Sakuragichō, Omiya Ward, Saitama, 330-0854 일본",
+  "lat": 35.9030299,
+  "lng": 139.6209984,
+  "primaryType": "hotel",
+  "typeLabel": "호텔"
+ },
+ "0x5f9b4dbb86e346f5:0x9ad8a7a2e39024d7": {
+  "byId": true,
+  "title": "Grand Sunpia Hachinohe",
+  "found": "Grand Sunpia Hachinohe",
+  "address": "1-chōme-1-1 Higashihakusandai, Hachinohe, Aomori 039-1111 일본",
+  "lat": 40.488439299999996,
+  "lng": 141.4694102,
+  "primaryType": "hotel",
+  "typeLabel": "호텔"
+ },
+ "0x5f9b1444b8a912e7:0x8846516c26de8453": {
+  "byId": true,
+  "title": "Tsuta Onsen Ryokan",
+  "found": "Tsuta Onsen Ryokan",
+  "address": "Tsutanoyu-1 Okuse, Towada, Aomori 034-0301 일본",
+  "lat": 40.596817,
+  "lng": 140.95317079999998,
+  "primaryType": "japanese_inn",
+  "typeLabel": "료칸"
+ },
+ "0x5f9b9ee1ef1d256b:0x33b0e9553af8f902": {
+  "byId": true,
+  "title": "토요타 렌터카 아오모리 야스카타",
+  "found": "토요타 렌터카 아오모리 야스카타",
+  "address": "2-chōme-2-3 Yasukata, Aomori, 030-0803 일본",
+  "lat": 40.828612199999995,
+  "lng": 140.7410411,
+  "primaryType": "car_rental",
+  "typeLabel": "렌터카 업체"
+ },
+ "0x5f9b4e71c145a777:0xba1500a0c0036564": {
+  "byId": true,
+  "title": "Toyota Rent-a-car Hachinohe Station West",
+  "found": "Toyota Rent-a-car Hachinohe Station West",
+  "address": "일본 〒039-1101 Aomori, Hachinohe, Shiriuchimachi, Uchiyasawa−６−１",
+  "lat": 40.5114205,
+  "lng": 141.42865129999998,
+  "primaryType": "car_rental",
+  "typeLabel": "렌터카 업체"
+ },
+ "0x5f9b9f02dcb8d401:0x2d9f1d53e6cec4a1": {
+  "byId": true,
+  "title": "리치몬드호텔 아오모리",
+  "found": "리치몬드호텔 아오모리",
+  "address": "1-chōme-6-6 Nagashima, Aomori, 030-0861 일본",
+  "lat": 40.823419,
+  "lng": 140.744815,
+  "primaryType": "hotel",
+  "typeLabel": "호텔"
+ },
+ "0x5f8a4b11e483a117:0x1ecce0f61f4fc537": {
+  "byId": true,
+  "title": "Gokan-no-yu Tsuruya",
+  "found": "Gokan-no-yu Tsuruya",
+  "address": "710 Zaōonsen, Yamagata, 990-2301 일본",
+  "lat": 38.167581899999995,
+  "lng": 140.3941792,
+  "primaryType": "japanese_inn",
+  "typeLabel": "료칸"
+ },
+ "0x5ff4ea0d575b12a9:0xf33e913e642e57d6": {
+  "byId": true,
+  "title": "가쿠다하마",
+  "found": "가쿠다하마",
+  "address": "일본 〒953-0011 니이가타현 니이가타시 니시칸구 가쿠다하마",
+  "lat": 37.7944776,
+  "lng": 138.82848099999998,
+  "primaryType": null,
+  "typeLabel": null
+ },
+ "0x5ff4c98c389bb4f5:0x83d396fe558f7dd6": {
+  "byId": true,
+  "title": "ANA 크라운 플라자 니가타",
+  "found": "ANA 크라운 플라자 니가타",
+  "address": "5-chōme-11-20 Bandai, Chuo Ward, Niigata, 950-8531 일본",
+  "lat": 37.918693,
+  "lng": 139.0591399,
+  "primaryType": "hotel",
+  "typeLabel": "호텔"
+ },
+ "0x5f9b8385270f6f1d:0x6493a2b5ff9e7df": {
+  "byId": true,
+  "title": "浅虫コリドー",
+  "found": "浅虫コリドー",
+  "address": "일본 〒039-3501 Aomori, Asamushi, Hotarudani, 螢谷7",
+  "lat": 40.891749499999996,
+  "lng": 140.8619094,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f8a4b0b37394245:0x4eff58b087b6bee5": {
+  "byId": true,
+  "title": "蔵王ロープウェイ㈱ レストラン山頂",
+  "found": "蔵王ロープウェイ㈱ レストラン山頂",
+  "address": "229-3 Zaoonsen, Yamagata, 990-2301 일본",
+  "lat": 38.154693,
+  "lng": 140.4309489,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x5f8a4b95dffb540d:0x191313020a5136c": {
+  "byId": true,
+  "title": "レストランとどまつ",
+  "found": "レストランとどまつ",
+  "address": "外５国有林２３６林班 Zaōonsen, Yamagata, 990-2301 일본",
+  "lat": 38.150841799999995,
+  "lng": 140.4103967,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x5ff4c86fc2e37f4b:0x568bdcd10d15a68d": {
+  "byId": true,
+  "title": "Kojimaya Sohonten Kobariten",
+  "found": "Kojimaya Sohonten Kobariten",
+  "address": "3-chōme-1-1 Kobari, Nishi Ward, Niigata, 950-2022 일본",
+  "lat": 37.88893110000001,
+  "lng": 138.9998176,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x5ff4c90028eb9511:0x80667bfb362ceadf": {
+  "byId": true,
+  "title": "長岡小嶋屋 新潟駅前店",
+  "found": "長岡小嶋屋 新潟駅前店",
+  "address": "일본 〒950-0901 Niigata, Chuo Ward, Benten, 1-chōme−1−１５ CREA弁天 １階",
+  "lat": 37.9126458,
+  "lng": 139.05907729999998,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x5f9b0cead3ade7d5:0x6019d7dd4f5e94c9": {
+  "byId": true,
+  "title": "Nagaiki no Chaya",
+  "found": "Nagaiki no Chaya",
+  "address": "Yaegiku-62 Yokouchi, Aomori, 030-0132 일본",
+  "lat": 40.7084033,
+  "lng": 140.823699,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f9b9f84b0028437:0x83c646c713864a27": {
+  "byId": true,
+  "title": "트루 카레",
+  "found": "트루 카레",
+  "address": "일본 〒030-0862 Aomori, Furukawa, 1-chōme−16−１ 一郎屋ビル 1F",
+  "lat": 40.824867,
+  "lng": 140.73721559999998,
+  "primaryType": "japanese_curry_restaurant",
+  "typeLabel": "일본식 카레 전문식당"
+ },
+ "0x5f9b9f7910f46191:0xf14b4ad74f56e015": {
+  "byId": true,
+  "title": "おにぎりわんど",
+  "found": "おにぎりわんど",
+  "address": "1-chōme-3-4 Nagashima, Aomori, 030-0861 일본",
+  "lat": 40.823992499999996,
+  "lng": 140.7443073,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f9b9f1bd2abf541:0x70b1bff1d66a3077": {
+  "byId": true,
+  "title": "Curry Restaurant Nadeshiko",
+  "found": "Curry Restaurant Nadeshiko",
+  "address": "3-chōme-2-5 Furukawa, Aomori, 030-0862 일본",
+  "lat": 40.824016500000006,
+  "lng": 140.7333555,
+  "primaryType": "japanese_curry_restaurant",
+  "typeLabel": "일본식 카레 전문식당"
+ },
+ "0x5f9b9f1fbadbaaab:0x7ef38408d93d3250": {
+  "byId": true,
+  "title": "Seared Tempura Bowl Tenjun",
+  "found": "Seared Tempura Bowl Tenjun",
+  "address": "일본 〒030-0803 Aomori, Yasukata, 1-chōme−3−２４ 一二三ビル 1F",
+  "lat": 40.8288939,
+  "lng": 140.7357932,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f9b9f1b8a9f14f1:0x3d28a73164e2876d": {
+  "byId": true,
+  "title": "아지노삿포로 오오니시",
+  "found": "아지노삿포로 오오니시",
+  "address": "일본 〒030-0862 Aomori, Furukawa, 1-chōme−15−６ 大西クリエイトビル １Ｆ",
+  "lat": 40.8247609,
+  "lng": 140.73683010000002,
+  "primaryType": "ramen_restaurant",
+  "typeLabel": "일본라면 전문식당"
+ },
+ "0x5f9b4e1fc85830a7:0xfbbe96a493431a88": {
+  "byId": true,
+  "title": "Shichirinmura 七厘村",
+  "found": "Shichirinmura 七厘村",
+  "address": "Kansai-22-2 Kawaragi, Hachinohe, Aomori 039-1161 일본",
+  "lat": 40.5265966,
+  "lng": 141.4530636,
+  "primaryType": "barbecue_area",
+  "typeLabel": "바베큐장"
+ },
+ "0x5f9b53436ec0b25d:0x1e34910fe483139": {
+  "byId": true,
+  "title": "Umi cafe Tanesashi",
+  "found": "Umi cafe Tanesashi",
+  "address": "Tanakubo-14-167 Samemachi, Hachinohe, Aomori 031-0841 일본",
+  "lat": 40.508516799999995,
+  "lng": 141.608435,
+  "primaryType": "cafeteria",
+  "typeLabel": "카페테리아"
+ },
+ "0x5f9b4dbaf524e905:0x44b12bf77090ca74": {
+  "byId": true,
+  "title": "Ootoya",
+  "found": "Ootoya",
+  "address": "5-chōme-1-9 Kitahakusandai, Hachinohe, Aomori 039-1114 일본",
+  "lat": 40.486581699999995,
+  "lng": 141.4659685,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f85763255717e9f:0x6ed4c5fc4d138d78": {
+  "byId": true,
+  "title": "Daido-en",
+  "found": "Daido-en",
+  "address": "일본 〒020-0034 Iwate, Morioka, Moriokaekimaedōri, 1−４４ 1F 盛岡駅ビルフェザン おでんせ館",
+  "lat": 39.701404499999995,
+  "lng": 141.136576,
+  "primaryType": "korean_restaurant",
+  "typeLabel": "한식당"
+ },
+ "0x5f8576339006dd1b:0x2c3d67ce9dae96d6": {
+  "byId": true,
+  "title": "Morioka Reimen Jujuen",
+  "found": "Morioka Reimen Jujuen",
+  "address": "일본 〒020-0034 Iwate, Morioka, Moriokaekimaedōri, 1−４４ フェザン南館 B1F",
+  "lat": 39.701778,
+  "lng": 141.13688,
+  "primaryType": "korean_restaurant",
+  "typeLabel": "한식당"
+ },
+ "0x5f9b241bddfe08f5:0xfed641f2377e7acc": {
+  "byId": true,
+  "title": "Morita",
+  "found": "Morita",
+  "address": "Towadakohanyasumiya-486 Okuse, Towada, Aomori 018-5501 일본",
+  "lat": 40.4305729,
+  "lng": 140.89283559999998,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f9b25000508f88d:0x1ccc406d76e4100b": {
+  "byId": true,
+  "title": "Lakeside Noodle Kitchen Sakura",
+  "found": "Lakeside Noodle Kitchen Sakura",
+  "address": "일본 〒018-5501 아오모리현 도와다시 오쿠세 도와다코한야스미야",
+  "lat": 40.4276602,
+  "lng": 140.89409609999998,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5ff4caf89f24140d:0x9a157471c4ca228f": {
+  "byId": true,
+  "title": "코지마야 총본점 마츠자키점",
+  "found": "코지마야 총본점 마츠자키점",
+  "address": "2-chōme-3-16 Shinmatsusaki, Higashi Ward, Niigata, 950-0017 일본",
+  "lat": 37.9334382,
+  "lng": 139.1168202,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x5ff4c9b78cd5a829:0xae31ccc04197a66e": {
+  "byId": true,
+  "title": "돈까스 마사짱 니가타역앞점",
+  "found": "돈까스 마사짱 니가타역앞점",
+  "address": "일본 〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−3−２ ＩＭＡビル 2 2F",
+  "lat": 37.9134417,
+  "lng": 139.0625887,
+  "primaryType": "tonkatsu_restaurant",
+  "typeLabel": "돈까스 전문식당"
+ },
+ "0x5ff4c9003598bc89:0x2fe95b28facf7c76": {
+  "byId": true,
+  "title": "enmusu",
+  "found": "enmusu",
+  "address": "일본 〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−1−１ １CoCoLo新潟 2F",
+  "lat": 37.912133600000004,
+  "lng": 139.0606287,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5ff4ef48f8706b93:0xe43f21974b7d09fc": {
+  "byId": true,
+  "title": "なごみや 弥彦おもてなし広場店",
+  "found": "なごみや 弥彦おもてなし広場店",
+  "address": "1121 Yahiko, Nishikambara District, Niigata 959-0323 일본",
+  "lat": 37.701674499999996,
+  "lng": 138.8295578,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5ff4ef7b26ee1c77:0x8e6c704bc38daf7b": {
+  "byId": true,
+  "title": "Yoshidaya",
+  "found": "Yoshidaya",
+  "address": "941-2 Yahiko, Nishikambara District, Niigata 959-0323 일본",
+  "lat": 37.7018412,
+  "lng": 138.8271754,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5ff4ef64ca363715:0x396302a841928466": {
+  "byId": true,
+  "title": "Kamameshi Yahiko",
+  "found": "Kamameshi Yahiko",
+  "address": "1127 Yahiko, Nishikambara District, Niigata 959-0323 일본",
+  "lat": 37.701875199999996,
+  "lng": 138.8291262,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x6018c143d89f4849:0x5603827efee285a6": {
+  "byId": true,
+  "title": "Ekibenya matsuri select",
+  "found": "Ekibenya matsuri select",
+  "address": "630 Nishikichō, Omiya Ward, Saitama, 330-0853 일본",
+  "lat": 35.9059609,
+  "lng": 139.6238311,
+  "primaryType": "meal_takeaway",
+  "typeLabel": "테이크아웃 전문 레스토랑"
+ },
+ "0x5f8a4b0c7d5dadd9:0x860847f00d771da7": {
+  "byId": true,
+  "title": "Otochaya",
+  "found": "Otochaya",
+  "address": "935-24 Zaōonsen, Yamagata, 990-2301 일본",
+  "lat": 38.1635002,
+  "lng": 140.3952373,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f8a4b00727d4f43:0xd675a405e80880dd": {
+  "byId": true,
+  "title": "Maruden Syouten",
+  "found": "Maruden Syouten",
+  "address": "일본 〒990-2301 Yamagata, Zaōonsen, ９７３−７ 丸伝",
+  "lat": 38.1672724,
+  "lng": 140.3948709,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f8a4b0c6605ed3b:0x7f398cd480c90cb3": {
+  "byId": true,
+  "title": "Shiba Mama no Omise",
+  "found": "Shiba Mama no Omise",
+  "address": "일본 〒990-2301 Yamagata, Zaōonsen, 川前９３９−３",
+  "lat": 38.1643787,
+  "lng": 140.3955095,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x601dd354fd04899d:0x80c3c94916c8bdfc": {
+  "byId": true,
+  "title": "Sacree Fleur Karuizawa",
+  "found": "Sacree Fleur Karuizawa",
+  "address": "일본 〒389-0102 Nagano, Kitasaku District, Karuizawa, 軽井沢・ プリンスショッピングプラザ NE06 ニューイースト",
+  "lat": 36.3412864,
+  "lng": 138.63679,
+  "primaryType": "bistro",
+  "typeLabel": "비스트로"
+ },
+ "0x5ff4eeb86d05c1cf:0xda071910c3094899": {
+  "byId": true,
+  "title": "Takumi",
+  "found": "Takumi",
+  "address": "4295-1 Maze, Nishikan Ward, Niigata, 953-0105 일본",
+  "lat": 37.738064699999995,
+  "lng": 138.7968008,
+  "primaryType": "seafood_restaurant",
+  "typeLabel": "해산물 요리 전문식당"
+ },
+ "0x5ff4c98e60f73ce9:0x904cd2886ca0f55b": {
+  "byId": true,
+  "title": "Nigiri Mai",
+  "found": "Nigiri Mai",
+  "address": "2-chōme-8-4 Higashiōdōri, Chuo Ward, Niigata, 950-0087 일본",
+  "lat": 37.9166887,
+  "lng": 139.0603253,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5ff4c9001b920b8b:0xb6a93dd2a9cafae6": {
+  "byId": true,
+  "title": "中条たまご直売店CoCoLo新潟店",
+  "found": "中条たまご直売店CoCoLo新潟店",
+  "address": "1-chōme-1-1 Hanazono, Chuo Ward, Niigata, 950-0086 일본",
+  "lat": 37.9122665,
+  "lng": 139.06255869999998,
+  "primaryType": "dessert_restaurant",
+  "typeLabel": "디저트 전문 레스토랑"
+ },
+ "0x5ff4cbab4b0fdadf:0x13572435481adaea": {
+  "byId": true,
+  "title": "新潟とんべい～ごちそうおにぎりと豚汁のお店～",
+  "found": "ごちそうおにぎりと豚汁のお店豚米(とんべい) 新潟店",
+  "address": "4 Banchō-632 Furumachidōri, Chuo Ward, Niigata, 951-8063 일본",
+  "lat": 37.918690399999996,
+  "lng": 139.04325839999998,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5ff4c90f4f0fcfd3:0x9572b1ac4da17018": {
+  "byId": true,
+  "title": "農家の息子がつくる食堂 さんかくとまる",
+  "found": "農家の息子がつくる食堂 さんかくとまる",
+  "address": "일본 〒950-0088 Niigata, Chuo Ward, Bandai, 1-chōme−3−３０ 2階",
+  "lat": 37.9160277,
+  "lng": 139.0562123,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f9b53f66a727627:0x3636e9e2c47d4d56": {
+  "byId": true,
+  "title": "코후나토 식당",
+  "found": "코후나토 식당",
+  "address": "Kofunadotai-10 Samemachi, Hachinohe, Aomori 031-0841 일본",
+  "lat": 40.54223530000001,
+  "lng": 141.5738235,
+  "primaryType": "seafood_restaurant",
+  "typeLabel": "해산물 요리 전문식당"
+ },
+ "0x5f9b530019a6b283:0x3db95cedd98f1a13": {
+  "byId": true,
+  "title": "Tsukiu",
+  "found": "Tsukiu",
+  "address": "Honchō-43 Minatomachi, Hachinohe, Aomori 031-0812 일본",
+  "lat": 40.5233595,
+  "lng": 141.52422479999998,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f9b9f25e60e5a6f:0x3cf605f98e1a85b8": {
+  "byId": true,
+  "title": "めし屋 味孝",
+  "found": "Meshiya Ajikou",
+  "address": "1-chōme-8-7 Furukawa, Aomori, 030-0862 일본",
+  "lat": 40.8256969,
+  "lng": 140.7353439,
+  "primaryType": "japanese_izakaya_restaurant",
+  "typeLabel": "이자카야"
+ },
+ "0x5f9b9f1c328db3a7:0x3e3deb90c25f80cb": {
+  "byId": true,
+  "title": "Osanai",
+  "found": "Osanai",
+  "address": "일본 〒030-0801 Aomori, Shinmachi, 1-chōme−1−１７ 1F",
+  "lat": 40.827976899999996,
+  "lng": 140.7359841,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f9b9f1eeb7b0cf3:0x63a97c5c5a2148a7": {
+  "byId": true,
+  "title": "Maru Ao Shokudō",
+  "found": "Maru Ao Shokudō",
+  "address": "아우가 (AUGA) B1F, 1-chōme-3-7 Shinmachi, Aomori, 030-0801 일본",
+  "lat": 40.827273999999996,
+  "lng": 140.7357002,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f9b9f1ea85cb2dd:0xe4bf5340e899e0ae": {
+  "byId": true,
+  "title": "아오모리 교사이 센터(아오모리 놋케동)",
+  "found": "아오모리 교사이 센터(아오모리 놋케동)",
+  "address": "1-chōme-11-16 Furukawa, Aomori, 030-0862 일본",
+  "lat": 40.8258967,
+  "lng": 140.7359117,
+  "primaryType": "market",
+  "typeLabel": "시장"
+ },
+ "0x5f9b241f3509a4f9:0x845b7561b2bd7f24": {
+  "byId": true,
+  "title": "Iwabuki",
+  "found": "Iwabuki",
+  "address": "Yasumitai-64-7 Towadako, Kosaka, Kazuno District, Akita 018-5511 일본",
+  "lat": 40.4248589,
+  "lng": 140.89627579999998,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x5f9b248ee712f529:0x3cf669e63074d795": {
+  "byId": true,
+  "title": "食堂 十和田家",
+  "found": "食堂 十和田家",
+  "address": "Towadakohanutarube-74-4 Okuse, Towada, Aomori 018-5501 일본",
+  "lat": 40.4467992,
+  "lng": 140.9369499,
+  "primaryType": "japanese_restaurant",
+  "typeLabel": "일본 음식점"
+ },
+ "0x5f9b0b253e9019eb:0x6ee2c36bafb24295": {
+  "byId": true,
+  "title": "Cosmos",
+  "found": "Cosmos",
+  "address": "Yamabuki-32-82 Moya, Aomori, 030-0133 일본",
+  "lat": 40.7434662,
+  "lng": 140.7852306,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f8b6f2138435345:0xef89cbacebbf633": {
+  "byId": true,
+  "title": "トト パッセジャータ",
+  "found": "トト パッセジャータ",
+  "address": "2-chōme-6-23 Senamionsen, Murakami, Niigata 958-0037 일본",
+  "lat": 38.214109199999996,
+  "lng": 139.4403907,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f8b6e55f30bf557:0x8a90a49af6ebea02": {
+  "byId": true,
+  "title": "Yamashin",
+  "found": "Yamashin",
+  "address": "3-chōme-2-1 Iino, Murakami, Niigata 958-0857 일본",
+  "lat": 38.2206842,
+  "lng": 139.4732047,
+  "primaryType": "food_store",
+  "typeLabel": "음식점"
+ },
+ "0x5f9b5325f7519b69:0x783222a725bec938": {
+  "byId": true,
+  "title": "Kaisentei Tōkai",
+  "found": "Kaisentei Tōkai",
+  "address": "일본 〒031-0841 Aomori, Hachinohe, Samemachi, Kofunadotai−１０−１２７",
+  "lat": 40.5416131,
+  "lng": 141.56995799999999,
+  "primaryType": "seafood_restaurant",
+  "typeLabel": "해산물 요리 전문식당"
+ },
+ "0x5f9b9f1dd191bacb:0x63177b7594e738ff": {
+  "byId": true,
+  "title": "사쿠라노 백화점 아오모리 본점",
+  "found": "사쿠라노 백화점 아오모리 본점",
+  "address": "1-chōme-13-2 Shinmachi, Aomori, 030-8574 일본",
+  "lat": 40.826046999999996,
+  "lng": 140.73922600000003,
+  "primaryType": "department_store",
+  "typeLabel": "백화점"
+ },
+ "0x5f9b8333b83b0fd1:0xf77d4fb19406cce8": {
+  "byId": true,
+  "title": "아사무시 댐",
+  "found": "아사무시 댐",
+  "address": "일본 〒039-3501 아오모리현 아오모리시 아사무시 우치노",
+  "lat": 40.8848897,
+  "lng": 140.87170419999998,
+  "primaryType": null,
+  "typeLabel": null
+ },
+ "0x5f9b9cb337afcedf:0xe1922355805073fc": {
+  "byId": true,
+  "title": "Asamushi Onsen Source Park Foot Bath",
+  "found": "Asamushi Onsen Source Park Foot Bath",
+  "address": "일본 〒039-3501 Aomori, Asamushi, Uchino−６−６",
+  "lat": 40.8885089,
+  "lng": 140.8634267,
+  "primaryType": "spa",
+  "typeLabel": "스파"
+ },
+ "0x5f9b9cb2cac645ff:0x577270620b60ea15": {
+  "byId": true,
+  "title": "村井おみやげ店",
+  "found": "村井おみやげ店",
+  "address": "Hotarudani-27 Asamushi, Aomori, 039-3501 일본",
+  "lat": 40.8900024,
+  "lng": 140.86163349999998,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5f9b8352a75bffff:0x5b6b7a08a67f389": {
+  "byId": true,
+  "title": "Yu-Sa Market",
+  "found": "Yu-Sa Market",
+  "address": "Hotarudani-11-2 Asamushi, Aomori, 039-3501 일본",
+  "lat": 40.8912152,
+  "lng": 140.8613476,
+  "primaryType": "market",
+  "typeLabel": "시장"
+ },
+ "0x5f9b9cb346bcfb0b:0xfe9e0ac734c5cf08": {
+  "byId": true,
+  "title": "Yanagi No Yu",
+  "found": "Yanagi No Yu",
+  "address": "일본 〒039-3501 Aomori, Asamushi, Yamashita−２３６ 本陣の宿柳の湯",
+  "lat": 40.8880407,
+  "lng": 140.86331099999998,
+  "primaryType": "japanese_inn",
+  "typeLabel": "료칸"
+ },
+ "0x5f9b835407451d71:0x57351a03a785d0fb": {
+  "byId": true,
+  "title": "Sunset beach Asamushi",
+  "found": "Sunset beach Asamushi",
+  "address": "Sunset beach Asamushi, Sakamoto-51-55 Asamushi, Aomori, 039-3501 일본",
+  "lat": 40.8953213,
+  "lng": 140.8597831,
+  "primaryType": "beach",
+  "typeLabel": "해변"
+ },
+ "0x5f9b9cb3035329e5:0x95f0ad4316e17a5f": {
+  "byId": true,
+  "title": "타츠미칸 辰巳館",
+  "found": "타츠미칸",
+  "address": "Yamashita-281 Asamushi, Aomori, 039-3501 일본",
+  "lat": 40.888332399999996,
+  "lng": 140.8609772,
+  "primaryType": "japanese_inn",
+  "typeLabel": "료칸"
+ },
+ "0x5f9b4249227f0c55:0xeb00777a213d2e8c": {
+  "byId": true,
+  "title": "도와다시 현대미술관",
+  "found": "도와다시 현대미술관",
+  "address": "10-9 Nishi2banchō, Towada, Aomori 034-0082 일본",
+  "lat": 40.614059,
+  "lng": 141.20927849999998,
+  "primaryType": "art_museum",
+  "typeLabel": "Art museum"
+ },
+ "0x5f9b3cc613ec7ee3:0x30f2420669d9992": {
+  "byId": true,
+  "title": "Choshi Falls",
+  "found": "Choshi Falls",
+  "address": "일본 〒034-0301 아오모리현 도와다시 오쿠세 오이라세",
+  "lat": 40.488622199999995,
+  "lng": 140.951221,
+  "primaryType": "scenic_spot",
+  "typeLabel": "명승지"
+ },
+ "0x5f9b3d28d467dd79:0x6e19af471cdfc9a7": {
+  "byId": true,
+  "title": "Kumoi-no-taki Waterfall",
+  "found": "Kumoi-no-taki Waterfall",
+  "address": "일본 〒034-0301 아오모리현 도와다시 오쿠세",
+  "lat": 40.5201102,
+  "lng": 140.9732817,
+  "primaryType": "scenic_spot",
+  "typeLabel": "명승지"
+ },
+ "0x5f9b3d26421f2d3b:0x1a55e6e0249402a6": {
+  "byId": true,
+  "title": "Ashura no Nagare",
+  "found": "Ashura no Nagare",
+  "address": "일본 〒034-0301 아오모리현 도와다시 오쿠세",
+  "lat": 40.5294664,
+  "lng": 140.9763928,
+  "primaryType": "tourist_attraction",
+  "typeLabel": "관광 명소"
+ },
+ "0x5f9b0689e3124971:0xdc79f9c2ed58466a": {
+  "byId": true,
+  "title": "구로이시 역",
+  "found": "구로이시 역",
+  "address": "1-chōme-115 Midorichō, 黒石市 青森県 036-0383 일본",
+  "lat": 40.6481841,
+  "lng": 140.5918304,
+  "primaryType": "train_station",
+  "typeLabel": "기차역"
+ },
+ "0x5f8bb60fad2897c7:0x2567faeb9c0f3215": {
+  "byId": true,
+  "title": "山形交通（株）山形駅前案内所",
+  "found": "山形交通（株）山形駅前案内所",
+  "address": "일본 〒990-0039 Yamagata, Kasumichō, 1-chōme−16−３４ 東口交通センタ １階",
+  "lat": 38.2493036,
+  "lng": 140.3285364,
+  "primaryType": "association_or_organization",
+  "typeLabel": "협회 또는 조직"
+ },
+ "0x60188be64830a61f:0x7171afd8b09fb1fc": {
+  "byId": true,
+  "title": "긴자 츠타야 서점",
+  "found": "긴자 츠타야 서점",
+  "address": "일본 〒104-0061 Tokyo, Chuo City, Ginza, 6-chōme−10−１ ＳＩＸ６階",
+  "lat": 35.6694161,
+  "lng": 139.7642674,
+  "primaryType": "book_store",
+  "typeLabel": "서점"
+ },
+ "0x60188b3ea771cbaf:0xe9b5c4e2f56a397b": {
+  "byId": true,
+  "title": "Gion Kitagawa Hanbee Tokyo Marunouchi Building Store",
+  "found": "Gion Kitagawa Hanbee Tokyo Marunouchi Building Store",
+  "address": "일본 〒100-6301 Tokyo, Chiyoda City, Marunouchi, 2-chōme−4−１ 東京駅丸の内南口 丸の内ビルディング地下1階",
+  "lat": 35.681182899999996,
+  "lng": 139.7637704,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x60188bfc1d3c6765:0x4885ac31c5824a3c": {
+  "byId": true,
+  "title": "PLUSTA Gift東京ギフトパレット",
+  "found": "PLUSTA Gift東京ギフトパレット",
+  "address": "일본 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR Tokyo Station, 内 構内 東京ギフトパレット",
+  "lat": 35.6822594,
+  "lng": 139.76844509999998,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x60188bcdeddabc97:0xb41310e9ea66e419": {
+  "byId": true,
+  "title": "Kenele Stand",
+  "found": "Kenele Stand",
+  "address": "일본 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR東日本東京駅構内 八重洲北口改札外1階「八重北食堂内」",
+  "lat": 35.68290470000001,
+  "lng": 139.76833729999998,
+  "primaryType": "toy_store",
+  "typeLabel": "장난감 가게"
+ },
+ "0x60188b737a962c47:0xa15225d906cfbc77": {
+  "byId": true,
+  "title": "TOKYO!!!（トーキョーみっつ）グランスタ東京",
+  "found": "TOKYO!!!（トーキョーみっつ）グランスタ東京",
+  "address": "1-chōme-9-1 Marunouchi, Chiyoda City, Tokyo 100-0005 일본",
+  "lat": 35.681883,
+  "lng": 139.76686899999999,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x60188b000e97f43f:0xafd14fe9c8d8bcab": {
+  "byId": true,
+  "title": "翠の庭",
+  "found": "翠の庭",
+  "address": "2-chōme-21-21 Takanawa, Minato City, Tokyo 108-0074 일본",
+  "lat": 35.6359426,
+  "lng": 139.73968290000002,
+  "primaryType": "observation_deck",
+  "typeLabel": "전망대"
+ },
+ "0x5ff4e96fdf9e7d29:0x76a1554b4a702818": {
+  "byId": true,
+  "title": "サウナと天然温泉 じょんのび館",
+  "found": "サウナと天然温泉 じょんのび館",
+  "address": "4067 Fukui, Nishikan Ward, Niigata, 953-0076 일본",
+  "lat": 37.7599984,
+  "lng": 138.83175599999998,
+  "primaryType": "public_bath",
+  "typeLabel": "공중목욕탕"
+ },
+ "0x5ff4ef40e232036f:0x38d6b6a56b98b3ca": {
+  "byId": true,
+  "title": "Yahiko Shuzo",
+  "found": "Yahiko Shuzo",
+  "address": "1830-1 Kamiizumi, Yahiko, Nishikambara District, Niigata 959-0321 일본",
+  "lat": 37.713266,
+  "lng": 138.8318165,
+  "primaryType": null,
+  "typeLabel": null
+ },
+ "0x5ff4c61e15edd22b:0x6264622b6a2eea5e": {
+  "byId": true,
+  "title": "新潟ふるさと村 バザール館",
+  "found": "新潟ふるさと村 バザール館",
+  "address": "일본 〒950-1101 Niigata, Nishi Ward, Yamada, ２３０７ 道の駅 新潟ふるさと村",
+  "lat": 37.8661294,
+  "lng": 139.019997,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5f8b6f215461a3ff:0x32f2dd828c1fe2b2": {
+  "byId": true,
+  "title": "(株)地酒の店たむら",
+  "found": "(株)地酒の店たむら",
+  "address": "2-chōme-8-4 Senamionsen, Murakami, Niigata 958-0037 일본",
+  "lat": 38.214355499999996,
+  "lng": 139.4389905,
+  "primaryType": "liquor_store",
+  "typeLabel": "주류 판매점"
+ },
+ "0x5ff45586fb86980f:0x5bf49ce31f898eee": {
+  "byId": true,
+  "title": "北国街道妻入り会館",
+  "found": "北国街道妻入り会館",
+  "address": "166 Amaze, Izumozaki, Santo District, Niigata 949-4308 일본",
+  "lat": 37.5402713,
+  "lng": 138.6837147,
+  "primaryType": "historical_landmark",
+  "typeLabel": "역사적 명소"
+ },
+ "0x5f9b9f9b7fcb0fb9:0xb88872d837f76b0e": {
+  "byId": true,
+  "title": "Celest（セレスト）",
+  "found": "Celest（セレスト）",
+  "address": "일본 〒030-0801 Aomori, Shinmachi, 1-chōme−6−１２ THREE ANNEX棟 1F",
+  "lat": 40.826005599999995,
+  "lng": 140.7370087,
+  "primaryType": "supermarket",
+  "typeLabel": "슈퍼마켓"
+ },
+ "0x5f9b9f033c698ec1:0xde6572d02078d364": {
+  "byId": true,
+  "title": "Kaneuminari Shrine",
+  "found": "Kaneuminari Shrine",
+  "address": "2-chōme-18-6 Nagashima, Aomori, 030-0861 일본",
+  "lat": 40.8227395,
+  "lng": 140.74321079999999,
+  "primaryType": "shinto_shrine",
+  "typeLabel": "신사"
+ },
+ "0x5f9b9f0338434eb3:0x31f52ce4053cb441": {
+  "byId": true,
+  "title": "Hirota shrine",
+  "found": "Hirota shrine",
+  "address": "2-chōme-13-5 Nagashima, Aomori, 030-0861 일본",
+  "lat": 40.822494,
+  "lng": 140.7426334,
+  "primaryType": "shinto_shrine",
+  "typeLabel": "신사"
+ },
+ "0x5f84b5569e3c11b5:0x7129ad6d66b65b84": {
+  "byId": true,
+  "title": "Yomasari Dam Viewpoint",
+  "found": "Yomasari Dam Viewpoint",
+  "address": "일본 〒031-0202 아오모리현 하치노헤시 난고 오아자 시마모리 쓰쓰미모리",
+  "lat": 40.3818637,
+  "lng": 141.4686922,
+  "primaryType": "tourist_attraction",
+  "typeLabel": "관광 명소"
+ },
+ "0x5f9b4e1fdd40214b:0x4eb4f320775bc595": {
+  "byId": true,
+  "title": "핫쇼쿠 센터",
+  "found": "핫쇼쿠 센터",
+  "address": "Kansai-22-2 Kawaragi, Hachinohe, Aomori 039-1161 일본",
+  "lat": 40.526441399999996,
+  "lng": 141.4529163,
+  "primaryType": "market",
+  "typeLabel": "시장"
+ },
+ "0x5f9b4f69a49c17e7:0xbf9f381d73b7151c": {
+  "byId": true,
+  "title": "Maeda Store Sanjo",
+  "found": "Maeda Store Sanjo",
+  "address": "Kamogaike-143-1 Shiriuchimachi, Hachinohe, Aomori 039-1101 일본",
+  "lat": 40.5141152,
+  "lng": 141.4334778,
+  "primaryType": "grocery_store",
+  "typeLabel": "식료품점"
+ },
+ "0x5f9b4414bb6ec409:0x3655624ad0e86034": {
+  "byId": true,
+  "title": "Road Station Towada Towadapia",
+  "found": "Road Station Towada Towadapia",
+  "address": "일본 〒034-0051 Aomori, Towada, 伝法Tairakubo−３７−２",
+  "lat": 40.5745545,
+  "lng": 141.2646483,
+  "primaryType": "rest_stop",
+  "typeLabel": "휴게소"
+ },
+ "0x5f9b4d23ffc1297d:0xca807c131ef0a012": {
+  "byId": true,
+  "title": "マエダストア 売市店",
+  "found": "マエダストア 売市店",
+  "address": "4-chōme-6-10 Uruichi, Hachinohe, Aomori 031-0073 일본",
+  "lat": 40.5116826,
+  "lng": 141.472687,
+  "primaryType": "grocery_store",
+  "typeLabel": "식료품점"
+ },
+ "0x5f8a281859026f6b:0xa459136d547317a8": {
+  "byId": true,
+  "title": "東北めぐり いろといろ 仙台店",
+  "found": "東北めぐり いろといろ 仙台店",
+  "address": "일본 〒980-0021 Miyagi, Sendai, Aoba Ward, Chūō, 1-chōme−1−１ エスパル仙台 東館 2F",
+  "lat": 38.259858699999995,
+  "lng": 140.88283370000002,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5f9b530005b85ddf:0xf7b7804ae6ede941": {
+  "byId": true,
+  "title": "種差海岸天然芝生地",
+  "found": "種差海岸天然芝生地",
+  "address": "Tanakubo-15-2 Samemachi, Hachinohe, Aomori 031-0841 일본",
+  "lat": 40.509386299999996,
+  "lng": 141.6096049,
+  "primaryType": "tourist_attraction",
+  "typeLabel": "관광 명소"
+ },
+ "0x5f9b540ab2f8f9b9:0x4d169eeaa267731d": {
+  "byId": true,
+  "title": "Ashigezaki tenbōdai Observatory",
+  "found": "Ashigezaki tenbōdai Observatory",
+  "address": "일본 〒031-0841 아오모리현 하치노헤시 사메마치 히카게자와",
+  "lat": 40.5390678,
+  "lng": 141.58033509999999,
+  "primaryType": "observation_deck",
+  "typeLabel": "전망대"
+ },
+ "0x5f9b0d205513a9bb:0x88242e490b5d8266": {
+  "byId": true,
+  "title": "Hakkōda Ropeway Sanchō-kōen Station",
+  "found": "Hakkōda Ropeway Sanchō-kōen Station",
+  "address": "일본 〒030-0111 Aomori, Arakawa, Kansuizawa 山頂公園駅",
+  "lat": 40.6757808,
+  "lng": 140.8588948,
+  "primaryType": null,
+  "typeLabel": null
+ },
+ "0x5f9b15b9d3908d45:0xdaadd3eda8c5fcd5": {
+  "byId": true,
+  "title": "Tsutanuma Observatory",
+  "found": "Tsutanuma Observatory",
+  "address": "일본 〒034-0301 아오모리현 도와다시 오쿠세",
+  "lat": 40.600021999999996,
+  "lng": 140.9521604,
+  "primaryType": "observation_deck",
+  "typeLabel": "전망대"
+ },
+ "0x5f9b53ef98ca9bdd:0x49f811034735d522": {
+  "byId": true,
+  "title": "카부시마 신사",
+  "found": "카부시마 신사",
+  "address": "Same-56-2 Samemachi, Hachinohe, Aomori 031-0841 일본",
+  "lat": 40.538542799999995,
+  "lng": 141.55757119999998,
+  "primaryType": "shinto_shrine",
+  "typeLabel": "신사"
+ },
+ "0x5f9b4e702b9959d3:0x2b50b5f08e03ad92": {
+  "byId": true,
+  "title": "하치노헤 역",
+  "found": "하치노헤 역",
+  "address": "Tateda-2-2 Shiriuchimachi, Hachinohe-shi, Aomori-ken 039-1101 일본",
+  "lat": 40.509274399999995,
+  "lng": 141.4311735,
+  "primaryType": "train_station",
+  "typeLabel": "기차역"
+ },
+ "0x5ff4df325256b2b5:0x78b2fb3300962a97": {
+  "byId": true,
+  "title": "Roadside Station Tagami",
+  "found": "Roadside Station Tagami",
+  "address": "3072ｰ1 Haragasaki Shinden, Tagami, Minamikambara District, Niigata 959-1503 일본",
+  "lat": 37.6983296,
+  "lng": 139.05897199999998,
+  "primaryType": "rest_stop",
+  "typeLabel": "휴게소"
+ },
+ "0x5f8bb60e57146421:0x74019e8c05c5a9ba": {
+  "byId": true,
+  "title": "야마가타에키마에",
+  "found": "야마가타에키마에",
+  "address": "일본 〒990-0039 야마가타현 야마가타시 가스미초 1 조메−1",
+  "lat": 38.2490752,
+  "lng": 140.3284194,
+  "primaryType": "bus_stop",
+  "typeLabel": "버스 정류장"
+ },
+ "0x5f8a4b0f8393c08f:0x140ecde0e2301924": {
+  "byId": true,
+  "title": "百万人テラス",
+  "found": "百万人テラス",
+  "address": "일본 〒990-2301 야마가타현 야마가타시 자오온센",
+  "lat": 38.150395499999995,
+  "lng": 140.4101547,
+  "primaryType": "tourist_attraction",
+  "typeLabel": "관광 명소"
+ },
+ "0x5f8a4b6cfc6ab44f:0x79ae293afd3fdaad": {
+  "byId": true,
+  "title": "36SHOP",
+  "found": "36SHOP",
+  "address": "일본 〒990-2301 Yamagata, Zaōonsen, 三度川２２９−３ 三度川 ２２９",
+  "lat": 38.161656199999996,
+  "lng": 140.39519669999999,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5f8a4b961b711999:0x569b3714870c1972": {
+  "byId": true,
+  "title": "JUHYO KOGEN STATION",
+  "found": "JUHYO KOGEN STATION",
+  "address": "일본 〒990-2301 Yamagata, Zaōonsen, 山形県山形市蔵王温泉樹氷高原",
+  "lat": 38.1516831,
+  "lng": 140.4106901,
+  "primaryType": "transit_station",
+  "typeLabel": "대중교통 이용장소"
+ },
+ "0x5f8a4bb61eb30c7b:0xdc165e9af602c11a": {
+  "byId": true,
+  "title": "Jizo Sancho Station",
+  "found": "Jizo Sancho Station",
+  "address": "일본 〒990-2301 야마가타현 야마가타시 자오온센",
+  "lat": 38.1547123,
+  "lng": 140.431272,
+  "primaryType": null,
+  "typeLabel": null
+ },
+ "0x5f8a4afe0d7467db:0x888df53c7a3f1ba4": {
+  "byId": true,
+  "title": "Zao Sky Cable Chuo Kogen Station",
+  "found": "Zao Sky Cable Chuo Kogen Station",
+  "address": "일본 〒990-2301 야마가타현 야마가타시 자오온센",
+  "lat": 38.1708054,
+  "lng": 140.416035,
+  "primaryType": null,
+  "typeLabel": null
+ },
+ "0x5f8a4b1a8bec6f23:0xe1cbff40b43bc5e1": {
+  "byId": true,
+  "title": "Zao Sky Cable Uwanodai Station",
+  "found": "Zao Sky Cable Uwanodai Station",
+  "address": "794 Zaōonsen, Yamagata, 990-2301 일본",
+  "lat": 38.1708637,
+  "lng": 140.397954,
+  "primaryType": "transit_station",
+  "typeLabel": "대중교통 이용장소"
+ },
+ "0x5f8a4b0c44e2d537:0xe25f68e32680c2fc": {
+  "byId": true,
+  "title": "Yunohana Chaya Shinzaemon no Yu",
+  "found": "Yunohana Chaya Shinzaemon no Yu",
+  "address": "일본 〒990-2301 Yamagata, Zaōonsen, 川前９０５",
+  "lat": 38.164507799999996,
+  "lng": 140.39489949999998,
+  "primaryType": "spa",
+  "typeLabel": "스파"
+ },
+ "0x5f8a4b05565ef3bf:0x1e2b9be5d46fcd67": {
+  "byId": true,
+  "title": "Genshichi Roten no yu Zao Onsen",
+  "found": "Genshichi Roten no yu Zao Onsen",
+  "address": "862-1 Zaōonsen, Yamagata, 990-2301 일본",
+  "lat": 38.1665829,
+  "lng": 140.3989373,
+  "primaryType": "spa",
+  "typeLabel": "스파"
+ },
+ "0x601dd37ba8d166b3:0xe8cbe5ae3d9b5e72": {
+  "byId": true,
+  "title": "가루이자와 프린스 쇼핑 플라자",
+  "found": "가루이자와 프린스 쇼핑 플라자",
+  "address": "일본 〒389-0102 나가노현 Kitasaku District, 가루이자와마치 가루이자와",
+  "lat": 36.341035,
+  "lng": 138.6330575,
+  "primaryType": "shopping_mall",
+  "typeLabel": "쇼핑몰"
+ },
+ "0x5ff4c99a8b568c3f:0x20a5c2254276e58c": {
+  "byId": true,
+  "title": "JR 동일본 여행 서비스 센터",
+  "found": "JR 동일본 여행 서비스 센터",
+  "address": "1-chōme-1-1 Hanazono, Chuo Ward, Niigata, 950-0086 일본",
+  "lat": 37.911991,
+  "lng": 139.0605306,
+  "primaryType": "tourist_information_center",
+  "typeLabel": "관광 안내소"
+ },
+ "0x5f8c7fc30a75e383:0x448cbd63ca874756": {
+  "byId": true,
+  "title": "사사가와나가레",
+  "found": "사사가와나가레",
+  "address": "891-1 Kuwagawa, Murakami, Niigata 959-3665 일본",
+  "lat": 38.3752171,
+  "lng": 139.4585252,
+  "primaryType": "tourist_attraction",
+  "typeLabel": "관광 명소"
+ },
+ "0x5f8b6f26b2f2882d:0x55d80888873d33e8": {
+  "byId": true,
+  "title": "虎屋おみやげ店",
+  "found": "虎屋おみやげ店",
+  "address": "2-chōme-6-11 Senamionsen, Murakami, Niigata 958-0037 일본",
+  "lat": 38.2140698,
+  "lng": 139.4390118,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5f8b39f0ab8be57d:0xb99a9b689f556d8c": {
+  "byId": true,
+  "title": "Roadside Station Kajikawa",
+  "found": "Roadside Station Kajikawa",
+  "address": "1147 Yokooka, Shibata, Niigata 959-2411 일본",
+  "lat": 38.002320399999995,
+  "lng": 139.37245819999998,
+  "primaryType": "rest_stop",
+  "typeLabel": "휴게소"
+ },
+ "0x5ff4ca271f1971c7:0x49d7e7c52886c31d": {
+  "byId": true,
+  "title": "눗타리 테라스 상점가",
+  "found": "눗타리 테라스 상점가",
+  "address": "3 Chome-5 Nuttarihigashi, Chuo Ward, Niigata, 950-0075 일본",
+  "lat": 37.9205314,
+  "lng": 139.07021369999998,
+  "primaryType": null,
+  "typeLabel": null
+ },
+ "0x5ff4c992364c82b3:0x916a7f5026e31841": {
+  "byId": true,
+  "title": "빌보드플레이스",
+  "found": "빌보드플레이스",
+  "address": "2-chōme-1-2 Yachiyo, Chuo Ward, Niigata, 950-0909 일본",
+  "lat": 37.9160031,
+  "lng": 139.0538116,
+  "primaryType": "shopping_mall",
+  "typeLabel": "쇼핑몰"
+ },
+ "0x5f8b6e53079134bd:0x4f61421b6a5f32e9": {
+  "byId": true,
+  "title": "Sennen Salmon Kikkawa",
+  "found": "Sennen Salmon Kikkawa",
+  "address": "1-20 Ōmachi, Murakami, Niigata 958-0842 일본",
+  "lat": 38.224336099999995,
+  "lng": 139.47874640000003,
+  "primaryType": "asian_grocery_store",
+  "typeLabel": "아시아 식료품점"
+ },
+ "0x5ff4c9c1b828d52d:0xf7782db9c7483f1e": {
+  "byId": true,
+  "title": "하쿠산 신사",
+  "found": "하쿠산 신사",
+  "address": "1-1 Ichibanboridōrichō, Chuo Ward, Niigata, 951-8132 일본",
+  "lat": 37.915499,
+  "lng": 139.0377924,
+  "primaryType": "shinto_shrine",
+  "typeLabel": "신사"
+ },
+ "0x5ff4c219a486c6a3:0x965de10b5225a292": {
+  "byId": true,
+  "title": "Solano Terrace",
+  "found": "Solano Terrace",
+  "address": "1320-1 Shimoyama, Nishikan Ward, Niigata, 959-0438 일본",
+  "lat": 37.7982669,
+  "lng": 138.8920335,
+  "primaryType": "farmers_market",
+  "typeLabel": "농산물 직판장"
+ },
+ "0x5ff4e56375621d19:0x60afca8331278446": {
+  "byId": true,
+  "title": "MUJI",
+  "found": "MUJI",
+  "address": "7035-1 Higashiōta, Tsubame, Niigata 959-1289 일본",
+  "lat": 37.671380299999996,
+  "lng": 138.9105286,
+  "primaryType": "general_store",
+  "typeLabel": "잡화점"
+ },
+ "0x5ff4c701667ae951:0xd937435ad835a8a": {
+  "byId": true,
+  "title": "Harashin Supermarket",
+  "found": "Harashin Supermarket",
+  "address": "1238-1 Shindōri, Nishi Ward, Niigata, 950-2035 일본",
+  "lat": 37.8605556,
+  "lng": 138.95,
+  "primaryType": "supermarket",
+  "typeLabel": "슈퍼마켓"
+ },
+ "0x5ff4c99227e6d2ef:0xbf5099b057309c84": {
+  "byId": true,
+  "title": "니가타 이세탄",
+  "found": "니가타 이세탄",
+  "address": "1-chōme-6-1 Yachiyo, Chuo Ward, Niigata, 950-8589 일본",
+  "lat": 37.9155965,
+  "lng": 139.0549834,
+  "primaryType": "department_store",
+  "typeLabel": "백화점"
+ },
+ "0x5ff4c900460490d1:0x30c5a0ef1d28b112": {
+  "byId": true,
+  "title": "新潟みやげ",
+  "found": "新潟みやげ",
+  "address": "1-chōme-1-1 Hanazono, Chuo Ward, Niigata, 950-0086 일본",
+  "lat": 37.911904199999995,
+  "lng": 139.0617799,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5ff4ef6ee5f883d5:0x65920da6ba5f943d": {
+  "byId": true,
+  "title": "야히코 신사",
+  "found": "이야히코 신사",
+  "address": "2887-2 Yahiko, Nishikambara District, Niigata 959-0323 일본",
+  "lat": 37.706583599999995,
+  "lng": 138.826233,
+  "primaryType": "shinto_shrine",
+  "typeLabel": "신사"
+ },
+ "0x5ff4c903c52f8d27:0x921d8f175377bca4": {
+  "byId": true,
+  "title": "폰슈칸 시음관 사케 니가타역점",
+  "found": "폰슈칸 시음관 사케 니가타역점",
+  "address": "일본 〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−９６−４７ CoCoLo新潟 メッツ館 ぽんしゅ館新潟驛店内",
+  "lat": 37.9110977,
+  "lng": 139.06083529999998,
+  "primaryType": "bar",
+  "typeLabel": "술집"
+ },
+ "0x5ff4ca1e228f6713:0x2648e647511deb2c": {
+  "byId": true,
+  "title": "Befco 바카우케 전망대",
+  "found": "Befco 바카우케 전망대",
+  "address": "일본 〒950-0078 Niigata, Chuo Ward, Bandaijima, 5−１ 朱鷺メッセ 万代島ビル 31階",
+  "lat": 37.9252282,
+  "lng": 139.05954979999998,
+  "primaryType": "observation_deck",
+  "typeLabel": "전망대"
+ },
+ "0x5ff4c99ead416747:0xb2ee917f4607f9cf": {
+  "byId": true,
+  "title": "Bandai City",
+  "found": "Bandai City",
+  "address": "1 Chome-4 Bandai, Chuo Ward, Niigata, 950-0088 일본",
+  "lat": 37.9166124,
+  "lng": 139.0563014,
+  "primaryType": null,
+  "typeLabel": null
+ },
+ "0x5ff4c9ec0fc2769f:0x67d0c9c7974b26ed": {
+  "byId": true,
+  "title": "古町通り",
+  "found": "古町通り",
+  "address": "5 Banchō-599-1 Furumachidōri, Chuo Ward, Niigata, 951-8063 일본",
+  "lat": 37.9191901,
+  "lng": 139.0436158,
+  "primaryType": "market",
+  "typeLabel": "시장"
+ },
+ "0x5ff4e422d873e9eb:0x34cae7718865910b": {
+  "byId": true,
+  "title": "ＦＡＣＴＯＲＹ ＦＲＯＮＴ",
+  "found": "ＦＡＣＴＯＲＹ ＦＲＯＮＴ",
+  "address": "14-3 Higashiōta, Tsubame, Niigata 959-1289 일본",
+  "lat": 37.6764985,
+  "lng": 138.9092512,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5f8a4b1a994ce6e9:0xe4b3a466ae792ce1": {
+  "byId": true,
+  "title": "Zao Onsen Dairotenburo",
+  "found": "Zao Onsen Dairotenburo",
+  "address": "853-3 Zaōonsen, Yamagata, 990-2301 일본",
+  "lat": 38.166111199999996,
+  "lng": 140.4018563,
+  "primaryType": "spa",
+  "typeLabel": "스파"
+ },
+ "0x5f8a4b6b97dba01d:0x55ebb5a40ec74734": {
+  "byId": true,
+  "title": "Zao Onsen Yutabiya TAKAYUDO",
+  "found": "Zao Onsen Yutabiya TAKAYUDO",
+  "address": "일본 〒990-2301 야마가타현 야마가타시 자오온센 19",
+  "lat": 38.1680893,
+  "lng": 140.3963025,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5f9b9edcc66d6aab:0x26c7c5b68c6f6467": {
+  "byId": true,
+  "title": "Aomori Port North Breakwater West Lighthouse",
+  "found": "Aomori Port North Breakwater West Lighthouse",
+  "address": "3 Chome-1 Honcho, Aomori, 030-0802 일본",
+  "lat": 40.8370689,
+  "lng": 140.7429676,
+  "primaryType": "tourist_attraction",
+  "typeLabel": "관광 명소"
+ },
+ "0x5f9b9f1f009c8669:0x3e8bfd0b9612f6f1": {
+  "byId": true,
+  "title": "Shop KASAI",
+  "found": "Shop KASAI",
+  "address": "1-chōme-1-21 Shinmachi, Aomori, 030-0801 일본",
+  "lat": 40.8281784,
+  "lng": 140.7354734,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5f9b130c8925dae3:0x5d962d4dfcb78ca9": {
+  "byId": true,
+  "title": "야치 온천",
+  "found": "야치 온천",
+  "address": "일본 〒034-0303 青森県十和田市法量谷地１",
+  "lat": 40.6329639,
+  "lng": 140.9245396,
+  "primaryType": "japanese_inn",
+  "typeLabel": "료칸"
+ },
+ "0x5f9b9f1befaf4bc7:0x5f33abaab21c57f0": {
+  "byId": true,
+  "title": "아오모리 마치나카 온천",
+  "found": "아오모리 마치나카 온천",
+  "address": "1-chōme-10-14 Furukawa, Aomori, 030-0862 일본",
+  "lat": 40.824661,
+  "lng": 140.7353734,
+  "primaryType": "public_bath",
+  "typeLabel": "공중목욕탕"
+ },
+ "0x5f9b0dac5dd9bd55:0xc98894de2cff6b3d": {
+  "byId": true,
+  "title": "Jōgakura Bridge",
+  "found": "Jōgakura Bridge",
+  "address": "일본 〒030-0111 Aomori, Arakawa, Kansuizawa 城ヶ倉大橋",
+  "lat": 40.6506822,
+  "lng": 140.8258827,
+  "primaryType": "bridge",
+  "typeLabel": "다리"
+ },
+ "0x5f9b404613c7dbb3:0x304d24661595a226": {
+  "byId": true,
+  "title": "Michinoeki Oirase Roman Park 道の駅 奥入瀬ろまんパーク",
+  "found": "Michinoeki Oirase Roman Park 道の駅 奥入瀬ろまんパーク",
+  "address": "Sekimichi-39-1 Okuse, Towada, Aomori 034-0301 일본",
+  "lat": 40.5854985,
+  "lng": 141.1178646,
+  "primaryType": "rest_stop",
+  "typeLabel": "휴게소"
+ },
+ "0x5f9b834d5d3cdcb9:0x1618a78213f20237": {
+  "byId": true,
+  "title": "아사무시온센 역",
+  "found": "아사무시온센 역",
+  "address": "일본 〒039-3501 아오모리현 아오모리시 아사무시 호타루다니",
+  "lat": 40.8914457,
+  "lng": 140.86237130000004,
+  "primaryType": "train_station",
+  "typeLabel": "기차역"
+ },
+ "0x5f9b9f1fcffea281:0xc635e46fa17b3c42": {
+  "byId": true,
+  "title": "네부타의 집 와랏세",
+  "found": "네부타의 집 와랏세",
+  "address": "일본 〒030-0803 Aomori, Yasukata, 1-chōme−1−１ 1F",
+  "lat": 40.829495,
+  "lng": 140.7356284,
+  "primaryType": "art_museum",
+  "typeLabel": "Art museum"
+ },
+ "0x5f9b9f1f1922e85d:0xf3f7765cacb98568": {
+  "byId": true,
+  "title": "러비나 (LOVINA)",
+  "found": "러비나 (LOVINA)",
+  "address": "1-chōme-2-3 Yanakawa, Aomori, 038-0012 일본",
+  "lat": 40.827711699999995,
+  "lng": 140.7341014,
+  "primaryType": "shopping_mall",
+  "typeLabel": "쇼핑몰"
+ },
+ "0x5f9b9f1ff5b7c041:0x13a806e757713fea": {
+  "byId": true,
+  "title": "A-FACTORY",
+  "found": "A-FACTORY",
+  "address": "1-chōme-4-2 Yanakawa, Aomori, 038-0012 일본",
+  "lat": 40.82999650000001,
+  "lng": 140.7349272,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5f9b9ee1ba1fe42d:0x2bf0e7604a1c85fb": {
+  "byId": true,
+  "title": "아오모리현 관광물산관 아스팜",
+  "found": "아오모리현 관광물산관 아스팜",
+  "address": "1-chōme-1-40 Yasukata, Aomori, 030-0803 일본",
+  "lat": 40.829786,
+  "lng": 140.7411462,
+  "primaryType": "store",
+  "typeLabel": "상점"
+ },
+ "0x5f9b1370735f921d:0x4552577e6dbc39ce": {
+  "byId": true,
+  "title": "Hakkoda Beech Secondary forest",
+  "found": "Hakkoda Beech Secondary forest",
+  "address": "일본 〒034-0303 Aomori, Towada, Hōryō, 国道 103 号線",
+  "lat": 40.627226,
+  "lng": 140.93932709999999,
+  "primaryType": "scenic_spot",
+  "typeLabel": "명승지"
+ },
+ "0x5f9b0da7b7f9bb93:0x70b5d98d4492f584": {
+  "byId": true,
+  "title": "핫코다산 로프웨이 산기슭역",
+  "found": "핫코다산 로프웨이 산기슭역",
+  "address": "Kansuizawa-1-12 Arakawa, Aomori, 030-0111 일본",
+  "lat": 40.6807904,
+  "lng": 140.8316987,
+  "primaryType": null,
+  "typeLabel": null
+ },
+ "0x5f9b241be000b8e3:0xd921e6ac6dc80efa": {
+  "byId": true,
+  "title": "Lake Towadako kankō kōryū center Puratto",
+  "found": "Lake Towadako kankō kōryū center Puratto",
+  "address": "Towadakohanyasumiya-486 Okuse, Towada, Aomori 018-5501 일본",
+  "lat": 40.4260594,
+  "lng": 140.89315919999999,
+  "primaryType": "tourist_information_center",
+  "typeLabel": "관광 안내소"
+ },
+ "0x5f9b241ec06daa6b:0x42c6bb46811d8aad": {
+  "byId": true,
+  "title": "도와다호 유람선 승선권 판매소·대기소",
+  "found": "도와다호 유람선 승선권 판매소·대기소",
+  "address": "일본 〒034-0301 Aomori, Towada, Okuse, Towadakohanyasumiya, 奥瀬十和田湖畔休屋４８６",
+  "lat": 40.4267202,
+  "lng": 140.8935568,
+  "primaryType": "ferry_terminal",
+  "typeLabel": "여객선 터미널"
+ },
+ "0x5f8b6e531d9da043:0x6bfdd9d1baa0789c": {
+  "byId": true,
+  "title": "Uoya",
+  "found": "Uoya",
+  "address": "4-3 Ōmachi, Murakami, Niigata 958-0842 일본",
+  "lat": 38.224863299999996,
+  "lng": 139.4786069,
+  "primaryType": "deli",
+  "typeLabel": "델리"
+ },
+ "0x5f8b6f32f020b1b3:0xd35fd763da27c902": {
+  "byId": true,
+  "title": "晶子の愛し湯",
+  "found": "晶子の愛し湯",
+  "address": "2-chōme-9-27 Senamionsen, Murakami, Niigata 958-0037 일본",
+  "lat": 38.2151523,
+  "lng": 139.4386453,
+  "primaryType": "spa",
+  "typeLabel": "스파"
+ },
+ "0x5f8b6f026e3bbdd1:0x1b3bffa8f8e17100": {
+  "byId": true,
+  "title": "Harashin Murakaminishi",
+  "found": "Harashin Murakaminishi",
+  "address": "5-chōme-7-37 Midorimachi, Murakami, Niigata 958-0033 일본",
+  "lat": 38.220145300000006,
+  "lng": 139.46153379999998,
+  "primaryType": "supermarket",
+  "typeLabel": "슈퍼마켓"
+ },
+ "0x5f8b6f21c4170cf1:0xcb406e8a58ee373f": {
+  "byId": true,
+  "title": "Ryusen",
+  "found": "Ryusen",
+  "address": "2-chōme-2-25 Senamionsen, Murakami, Niigata 958-0037 일본",
+  "lat": 38.215158599999995,
+  "lng": 139.4445395,
+  "primaryType": "public_bath",
+  "typeLabel": "공중목욕탕"
+ },
+ "0x5f8b6e4510847b15:0x1425fa46dfc36a73": {
+  "byId": true,
+  "title": "イオン村上東店",
+  "found": "イオン村上東店",
+  "address": "200 Chūgenmachi, Murakami, Niigata 958-0823 일본",
+  "lat": 38.2212812,
+  "lng": 139.4922003,
+  "primaryType": "supermarket",
+  "typeLabel": "슈퍼마켓"
+ },
+ "0x5f8b6e8d17d853cf:0x568855b76dcece46": {
+  "byId": true,
+  "title": "Harashin Market City Murakami",
+  "found": "Harashin Market City Murakami",
+  "address": "1010-1 Kamisukebuchi, Murakami, Niigata 959-3403 일본",
+  "lat": 38.2080088,
+  "lng": 139.4806518,
+  "primaryType": "grocery_store",
+  "typeLabel": "식료품점"
+ },
+ "0x5f8b6e5eb641f563:0x3241b0031e143a78": {
+  "byId": true,
+  "title": "Uoroku Murakami",
+  "found": "Uoroku Murakami",
+  "address": "일본 〒958-0823 Niigata, Murakami, Chūgenmachi, 字坂下５４２−１ 坂下５４２-１",
+  "lat": 38.216000699999995,
+  "lng": 139.487595,
+  "primaryType": "supermarket",
+  "typeLabel": "슈퍼마켓"
+ },
+ "0x5f8b6e4a2305010d:0x81b47fd6504cfc60": {
+  "byId": true,
+  "title": "Miyao Shuzo (Shimeharitsuru)",
+  "found": "Miyao Shuzo (Shimeharitsuru)",
+  "address": "5-15 Kamikatamachi, Murakami, Niigata 958-0873 일본",
+  "lat": 38.228207,
+  "lng": 139.492683,
+  "primaryType": null,
+  "typeLabel": null
+ },
+ "0x5ff4ca1fdfbef965:0x2d08e3d2cac13c0a": {
+  "byId": true,
+  "title": "피아반다이 시장",
+  "found": "피아반다이 시장",
+  "address": "일본 〒950-0078 Niigata, Chuo Ward, Bandaijima, 2−２ にぎわいマルシェ",
+  "lat": 37.923339399999996,
+  "lng": 139.061446,
+  "primaryType": "market",
+  "typeLabel": "시장"
+ },
+ "0x5f9b13b3ea0f7dcd:0x9a997f923139149a": {
+  "byId": true,
+  "title": "Suiren-numa Pond",
+  "found": "Suiren-numa Pond",
+  "address": "일본 〒018-5501 아오모리현 도와다시 오쿠세",
+  "lat": 40.6323921,
+  "lng": 140.8894192,
+  "primaryType": "scenic_spot",
+  "typeLabel": "명승지"
+ },
+ "0x5f9b26e854e94495:0xd24ccae99d1cadc5": {
+  "byId": true,
+  "title": "Hakkatoge observatory",
+  "found": "Hakkatoge observatory",
+  "address": "鹿角郡小坂町十和田湖字十和田国有林３０８２ 林班リ小班, Nakanotai Towadako, Kosaka, Kazuno District, Akita 018-5511 일본",
+  "lat": 40.4088928,
+  "lng": 140.864202,
+  "primaryType": "observation_deck",
+  "typeLabel": "전망대"
+ },
+ "0x5ff4c98881e737e9:0x350c5ea7e317efd": {
+  "byId": true,
+  "title": "미네무라 브루어리",
+  "found": "미네무라 브루어리",
+  "address": "2-chōme-3-44 Akashi, Chuo Ward, Niigata, 950-0084 일본",
+  "lat": 37.9173398,
+  "lng": 139.0697092,
+  "primaryType": "grocery_store",
+  "typeLabel": "식료품점"
+ },
+ "0x5f9b22a92c0c0421:0x5923f1117960dab6": {
+  "byId": true,
+  "title": "Ohanabe Mountain Viewpoint",
+  "found": "Ohanabe Mountain Viewpoint",
+  "address": "일본 〒034-0301 Aomori, Towada, 奥瀬尻辺山国有林６８",
+  "lat": 40.5105013,
+  "lng": 140.8809632,
+  "primaryType": "observation_deck",
+  "typeLabel": "전망대"
+ },
+ "0x5f9b53cd9c76207d:0x87e79dd6b953dddb": {
+  "byId": true,
+  "title": "다테하나 항구 아침 시장",
+  "found": "다테하나 항구 아침 시장",
+  "address": "일본 〒031-0811 Aomori, Hachinohe, Shinminato, 3-chōme, 館鼻岸壁内",
+  "lat": 40.5278596,
+  "lng": 141.5294053,
+  "primaryType": "market",
+  "typeLabel": "시장"
+ },
+ "0x5f8bb60e60a3409f:0x97690a5c293c5566": {
+  "byId": true,
+  "title": "야마가타",
+  "found": "야마가타",
+  "address": "1-chōme-1-1 Kasumichō, Yamagata, 990-0039 일본",
+  "lat": 38.248568,
+  "lng": 140.327475,
+  "primaryType": "train_station",
+  "typeLabel": "기차역"
+ },
+ "0x5f8a4b11f9433741:0xaae952130629c6b8": {
+  "byId": true,
+  "title": "자오온센버스터미널",
+  "found": "자오온센버스터미널",
+  "address": "일본 〒990-2301 야마가타현 야마가타시 자오온센",
+  "lat": 38.1674181,
+  "lng": 140.3936943,
+  "primaryType": "bus_stop",
+  "typeLabel": "버스 정류장"
+ },
+ "0x5f8a28180c510b87:0xb2a30b91be1ffdbc": {
+  "byId": true,
+  "title": "센다이",
+  "found": "센다이",
+  "address": "1-chōme-1-1 Chūō, Aoba Ward, Sendai, Miyagi 980-0021 일본",
+  "lat": 38.2601316,
+  "lng": 140.88243749999998,
+  "primaryType": "transit_station",
+  "typeLabel": "대중교통 이용장소"
+ },
+ "0x5f8a4b0b3740d5f5:0x54cfcd84eaf2c2c": {
+  "byId": true,
+  "title": "Zao Ropeway Sanroku Station",
+  "found": "Zao Ropeway Sanroku Station",
+  "address": "229-3 Zaōonsen, Yamagata, 990-2301 일본",
+  "lat": 38.161600899999996,
+  "lng": 140.3952205,
+  "primaryType": null,
+  "typeLabel": null
+ },
+ "0x6018c143cc2c5285:0x280f665a32e5d413": {
+  "byId": true,
+  "title": "오미야 역",
+  "found": "오미야 역",
+  "address": "일본 〒330-0853 사이타마현 사이타마시 오미야구 니시키초",
+  "lat": 35.906448499999996,
+  "lng": 139.6238548,
+  "primaryType": "train_station",
+  "typeLabel": "기차역"
+ },
+ "0x5ff4c99ae88a6b01:0x3b1d928b98b9a3ea": {
+  "byId": true,
+  "title": "니가타 역",
+  "found": "니가타 역",
+  "address": "1-chōme-1-1 Hanazono, Chuo Ward, Niigata, 950-0086 일본",
+  "lat": 37.9120388,
+  "lng": 139.06177499999998,
+  "primaryType": "train_station",
+  "typeLabel": "기차역"
+ },
+ "0x5f9b9f1f0a364b55:0x74f4425cd96a215e": {
+  "byId": true,
+  "title": "아오모리",
+  "found": "아오모리",
+  "address": "일본 〒038-0012 아오모리현 아오모리시 야나카와 1 조메−1",
+  "lat": 40.82884620000001,
+  "lng": 140.7342745,
+  "primaryType": "train_station",
+  "typeLabel": "기차역"
+ },
+ "0x5f9b0a1878ec3c11:0x79e8883362d48133": {
+  "byId": true,
+  "title": "아오모리 공항",
+  "found": "아오모리 공항",
+  "address": "Kotani-1-5 Ōtani, Aomori, 030-0155 일본",
+  "lat": 40.735458699999995,
+  "lng": 140.6904126,
+  "primaryType": "airport",
+  "typeLabel": "공항"
+ },
+ "0x5ff4ca990fb4342d:0xcffc114f7dfacd39": {
+  "byId": true,
+  "title": "니가타 공항",
+  "found": "니가타 공항",
+  "address": "3710 Matsuhamachō, Higashi Ward, Niigata, 950-0001 일본",
+  "lat": 37.9549441,
+  "lng": 139.1111814,
+  "primaryType": "airport",
+  "typeLabel": "공항"
+ },
+ "0x5f9b3d6f66a15c8d:0xc5bf1269468fa043": {
+  "byId": true,
+  "title": "奥入瀬渓流駐車場",
+  "found": "奥入瀬渓流駐車場",
+  "address": "일본 〒034-0301 아오모리현 도와다시 오쿠세",
+  "lat": 40.4880765,
+  "lng": 140.9510111,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5f9b241f21a3b19f:0x4069479ad728f8d8": {
+  "byId": true,
+  "title": "Yasumiya Parking Lot South",
+  "found": "Yasumiya Parking Lot South",
+  "address": "Towadakohanyasumiya-486 Okuse, Towada, Aomori 018-5501 일본",
+  "lat": 40.4251378,
+  "lng": 140.8942124,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5f9b23f53fd13839:0x1fd6055f05a45f9e": {
+  "byId": true,
+  "title": "Furusato Center Parking Lot",
+  "found": "Furusato Center Parking Lot",
+  "address": "Ōkawatai-57 Towadako, Kosaka, Kazuno District, Akita 018-5511 일본",
+  "lat": 40.454369899999996,
+  "lng": 140.84211539999998,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5ff4ef315b6481bb:0x1b0f6c3bf5b54714": {
+  "byId": true,
+  "title": "Yahikoyama Panorama Tower Parking Lot",
+  "found": "Yahikoyama Panorama Tower Parking Lot",
+  "address": "일본 〒953-0105 니이가타현 니이가타시 니시칸구 마제",
+  "lat": 37.710432999999995,
+  "lng": 138.810488,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5ff4c9a955488f7b:0xf6fa5cb9454907fb": {
+  "byId": true,
+  "title": "ザ・パーク 南笹口",
+  "found": "ザ・パーク 南笹口",
+  "address": "1-chōme-3-3 Minamisasaguchi, Chuo Ward, Niigata, 950-0912 일본",
+  "lat": 37.907553199999995,
+  "lng": 139.0654882,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5ff4c9514bc06697:0xdb5fa38413dddc0d": {
+  "byId": true,
+  "title": "タイムズ新潟市立中央図書館ほんぽーと",
+  "found": "タイムズ新潟市立中央図書館ほんぽーと",
+  "address": "2-chōme-1-1 Akashi, Chuo Ward, Niigata, 950-0084 일본",
+  "lat": 37.916753,
+  "lng": 139.067183,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5ff4c93f4b084815:0x7b38a55c26f2f83b": {
+  "byId": true,
+  "title": "パーキングスペース明石１丁目",
+  "found": "パーキングスペース明石１丁目",
+  "address": "1 Chome-5 Akashi, Chuo Ward, Niigata, 950-0084 일본",
+  "lat": 37.9161315,
+  "lng": 139.06610329999998,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5ff4c99dce3c59d7:0x4e94fdda44053312": {
+  "byId": true,
+  "title": "Parakaminamisasaguchi Dai 1 Parking Lot",
+  "found": "Parakaminamisasaguchi Dai 1 Parking Lot",
+  "address": "1 Chome-1 Minamisasaguchi, Chuo Ward, Niigata, 950-0912 일본",
+  "lat": 37.907431900000006,
+  "lng": 139.06459809999998,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5ff4c900564139e5:0x9af38b1c31aee2d5": {
+  "byId": true,
+  "title": "パーキング南笹口",
+  "found": "パーキング南笹口",
+  "address": "1-chōme-8-55 Minamisasaguchi, Chuo Ward, Niigata, 950-0912 일본",
+  "lat": 37.9079893,
+  "lng": 139.0655959,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5f9b1500327c376b:0x22d3eed6af8edc4d": {
+  "byId": true,
+  "title": "奥入瀬渓流温泉駐車場 １",
+  "found": "奥入瀬渓流温泉駐車場 １",
+  "address": "일본 〒034-0303 아오모리현 도와다시 호료 야케야마",
+  "lat": 40.578491899999996,
+  "lng": 140.99262199999998,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5f9b15005bd8d331:0xb590d7f6becbed64": {
+  "byId": true,
+  "title": "国道102号 ゆとりの駐車帯",
+  "found": "国道102号 ゆとりの駐車帯",
+  "address": "일본 〒034-0303 아오모리현 도와다시 호료 긴나기",
+  "lat": 40.5862074,
+  "lng": 141.0195992,
+  "primaryType": "transportation_service",
+  "typeLabel": "운송 서비스"
+ },
+ "0x5f9b3d7137abfe59:0x2b931d5acf846a7c": {
+  "byId": true,
+  "title": "駐車場",
+  "found": "駐車場",
+  "address": "일본 〒034-0301 아오모리현 도와다시 오쿠세",
+  "lat": 40.5055019,
+  "lng": 140.92983669999998,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5f9b23fed9ecd6e9:0xb031a2bd8b67e77c": {
+  "byId": true,
+  "title": "Nenokuchi Parking Lot",
+  "found": "Nenokuchi Parking Lot",
+  "address": "일본 〒034-0301 아오모리현 도와다시 오쿠세",
+  "lat": 40.479172399999996,
+  "lng": 140.9396269,
+  "primaryType": "parking_lot",
+  "typeLabel": "주차장"
+ },
+ "0x5f9b83ab3d7c7923:0xa1abbce0ad1be5f6": {
+  "byId": true,
+  "title": "Old house Cafe apricot",
+  "found": "Old house Cafe apricot",
+  "address": "Hotarudani-64-13 Asamushi, Aomori, 039-3501 일본",
+  "lat": 40.8901326,
+  "lng": 140.86196859999998,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f8a4b007cada789:0x8cb7c977d6a2d95d": {
+  "byId": true,
+  "title": "丸伝商店 高湯饅頭湯ノ香",
+  "found": "丸伝商店 高湯饅頭湯ノ香",
+  "address": "973-7 Zaōonsen, Yamagata, 990-2301 일본",
+  "lat": 38.1672681,
+  "lng": 140.3948119,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x60188b006cc0a795:0x7d9df87b2c486881": {
+  "byId": true,
+  "title": "瑠璃色コーヒーRURI IRO COFFEE",
+  "found": "瑠璃色コーヒーRURI IRO COFFEE",
+  "address": "일본 〒104-0061 Tokyo, Chuo City, Ginza, 8-chōme−7−７ 中央林ビル ５F 5F in 春枕",
+  "lat": 35.6684468,
+  "lng": 139.76116109999998,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x60188b3acc2ba14b:0x32ed415db127d0e4": {
+  "byId": true,
+  "title": "ROAR COFFEE Tokyo Ginza SEVEN",
+  "found": "ROAR COFFEE Tokyo Ginza SEVEN",
+  "address": "일본 〒104-0061 Tokyo, Chuo City, Ginza, 7-chōme−12−１５ 銀座1階",
+  "lat": 35.6680261,
+  "lng": 139.76357289999999,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x60188b80ca2351e3:0x36407a0431abd909": {
+  "byId": true,
+  "title": "VERVE COFFEE ROASTERS NEWoMan TAKANAWA",
+  "found": "VERVE COFFEE ROASTERS NEWoMan TAKANAWA",
+  "address": "일본 〒108-0074 Tokyo, Minato City, Takanawa, 2-chōme−21−２ THE LINKPILLAR1 South1階",
+  "lat": 35.6349559,
+  "lng": 139.7390687,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x60188b9c516f227b:0x9051bf2d43c32080": {
+  "byId": true,
+  "title": "PostCoffee®︎ KIOSK Daimaru Tokyo",
+  "found": "PostCoffee®︎ KIOSK Daimaru Tokyo",
+  "address": "1-chōme-9-1 Marunouchi, Chiyoda City, Tokyo 100-6701 일본",
+  "lat": 35.681538499999995,
+  "lng": 139.7691144,
+  "primaryType": "coffee_stand",
+  "typeLabel": "커피 노점"
+ },
+ "0x5ff51b81ffcc10bb:0xb7b0bd1ed783d52a": {
+  "byId": true,
+  "title": "yamaga coffee",
+  "found": "yamaga coffee",
+  "address": "412-5 Narayama, Sanjo, Niigata 955-0144 일본",
+  "lat": 37.548473,
+  "lng": 139.0583653,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5f9b9facb3072e9d:0xe51cdea43d5b7200": {
+  "byId": true,
+  "title": "5m Coffee ファイブエムコーヒー",
+  "found": "5m Coffee ファイブエムコーヒー",
+  "address": "1-chōme-6-6 Shinmachi, Aomori, 030-0801 일본",
+  "lat": 40.8265345,
+  "lng": 140.7373801,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5f9b9f1d5e3f217b:0xa595ceb66fd0fe46": {
+  "byId": true,
+  "title": "Cleopatra",
+  "found": "Cleopatra",
+  "address": "일본 〒030-0801 Aomori, Shinmachi, 2-chōme−8−４ タカヤビル",
+  "lat": 40.8254634,
+  "lng": 140.74453939999998,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b9fe5620b7631:0xeba8258ba4d1ac91": {
+  "byId": true,
+  "title": "COTOCOFFEE",
+  "found": "COTOCOFFEE",
+  "address": "일본 〒030-0862 Aomori, Furukawa, 1-chōme−21−１１ 第一須藤ビル １階１号室",
+  "lat": 40.8241735,
+  "lng": 140.7390605,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b9f1bed586689:0xed307f148c293594": {
+  "byId": true,
+  "title": "COFFEE SHA",
+  "found": "COFFEE SHA",
+  "address": "1-chōme-10-10 Furukawa, Aomori, 030-0862 일본",
+  "lat": 40.824619299999995,
+  "lng": 140.735954,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b530072fa4239:0xb74ae76af853f409": {
+  "byId": true,
+  "title": "蔵カフェ バターハウス",
+  "found": "蔵カフェ バターハウス",
+  "address": "1-chōme-2-12 Kashiwazaki, Hachinohe, Aomori 031-0081 일본",
+  "lat": 40.515782699999995,
+  "lng": 141.4933615,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x5f9b5325cfe41c11:0x841b924f79a93f07": {
+  "byId": true,
+  "title": "6kaku Coffee",
+  "found": "6kaku Coffee",
+  "address": "8-chōme-13-2 Konakano, Hachinohe, Aomori 031-0802 일본",
+  "lat": 40.5229662,
+  "lng": 141.5213335,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5f85770050422a15:0x61fe293ba9e27319": {
+  "byId": true,
+  "title": "CAFE LAube",
+  "found": "CAFE LAube",
+  "address": "일본 〒020-0034 Iwate, Morioka, Moriokaekimaedōri, 1−４８ JR盛岡駅 2F 新幹線改札内",
+  "lat": 39.7016955,
+  "lng": 141.13645499999998,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5f8577d296b3260d:0xb3fc32aeb197ef23": {
+  "byId": true,
+  "title": "La Cosecha",
+  "found": "La Cosecha",
+  "address": "2-chōme-19-27 Moriokaekinishidōri, Morioka, Iwate 020-0045 일본",
+  "lat": 39.697579,
+  "lng": 141.1353297,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b53f54b9bfaf1:0xa14b8a9b506de738": {
+  "byId": true,
+  "title": "Cafe Terrace Hulunbuir (Holonbáilu)",
+  "found": "Cafe Terrace Hulunbuir (Holonbáilu)",
+  "address": "Senzogakubo-10-3 Samemachi, Hachinohe, Aomori 031-0841 일본",
+  "lat": 40.5388944,
+  "lng": 141.57948149999999,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b53f72f5e69ad:0xb0651d06d88a34c3": {
+  "byId": true,
+  "title": "우미네레스토랑",
+  "found": "우미네레스토랑",
+  "address": "Shimomekurakubo-25-117 Samemachi, Hachinohe, Aomori 031-0841 일본",
+  "lat": 40.5414168,
+  "lng": 141.56717849999998,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b25003bf28791:0xb3d45ab2807b48c4": {
+  "byId": true,
+  "title": "Jasmine",
+  "found": "Jasmine",
+  "address": "Towadakohanyasumiya-64-5 Towadako, Kosaka, Kazuno District, Akita 018-5511 일본",
+  "lat": 40.423978,
+  "lng": 140.8943314,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5ff4e3c8365b19f5:0x112d1ab066eb00b0": {
+  "byId": true,
+  "title": "ＦＯＯＤ＆ＦＬＯＷＥＲ Ｆｕｎ！",
+  "found": "ＦＯＯＤ＆ＦＬＯＷＥＲ Ｆｕｎ！",
+  "address": "2655-1 Ōmagari, Tsubame, Niigata 959-1263 일본",
+  "lat": 37.651824,
+  "lng": 138.9162317,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x5ff4ef657e0092cf:0xbbf2c605dd123d3e": {
+  "byId": true,
+  "title": "Shasaian Hirashio",
+  "found": "Shasaian Hirashio",
+  "address": "1240-1 Yahiko, Nishikambara District, Niigata 959-0323 일본",
+  "lat": 37.7046318,
+  "lng": 138.827713,
+  "primaryType": "dessert_restaurant",
+  "typeLabel": "디저트 전문 레스토랑"
+ },
+ "0x5ff4c9ec10dd1ea3:0x52bb7e3ffbf6c6b5": {
+  "byId": true,
+  "title": "Chamonix Furumachi",
+  "found": "Chamonix Furumachi",
+  "address": "5 Banchō-591 Furumachidōri, Chuo Ward, Niigata, 951-8063 일본",
+  "lat": 37.9192987,
+  "lng": 139.0439055,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5f8bb78da39cc505:0xa52ba5b748cfdcd2": {
+  "byId": true,
+  "title": "Day & Coffee 山形駅前本店",
+  "found": "Day & Coffee 山形駅前本店",
+  "address": "1-chōme-11-18 Kasumichō, Yamagata, 990-0039 일본",
+  "lat": 38.2491002,
+  "lng": 140.330794,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5f8a4b5b10aa4bd5:0x9aba42afe89f9242": {
+  "byId": true,
+  "title": "珈琲紫 山形蔵王温泉店 - Coffee MURASAKI Yamagata Zao",
+  "found": "珈琲紫 山形蔵王温泉店 - Coffee MURASAKI Yamagata Zao",
+  "address": "940-5 Zaōonsen, Yamagata, 990-2301 일본",
+  "lat": 38.1650053,
+  "lng": 140.3950808,
+  "primaryType": "coffee_stand",
+  "typeLabel": "커피 노점"
+ },
+ "0x5f8a4b10a9fcfd01:0xcc5868119a10a7dc": {
+  "byId": true,
+  "title": "Unite Cafe",
+  "found": "Unite Cafe",
+  "address": "일본 〒990-2301 Yamagata, Zaōonsen, 丈二田752-2",
+  "lat": 38.171734,
+  "lng": 140.39466199999998,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f8a4b553c1b203f:0x2be754e29b71cfb0": {
+  "byId": true,
+  "title": "TAKAYU ONSEN PARLOR",
+  "found": "TAKAYU ONSEN PARLOR",
+  "address": "14 Zaōonsen, Yamagata, 990-2301 일본",
+  "lat": 38.168369999999996,
+  "lng": 140.3968111,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f8b65cb1397b365:0x46bcb01c542b1342": {
+  "byId": true,
+  "title": "芳心",
+  "found": "芳心",
+  "address": "일본 〒958-0006 Niigata, Murakami, Nogata, 砂山４０３−９",
+  "lat": 38.2635067,
+  "lng": 139.4468496,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5ff4c134200b693d:0x2c14e983fb5b0de8": {
+  "byId": true,
+  "title": "KAIHOLO",
+  "found": "KAIHOLO",
+  "address": "1657 Kakudahama, Nishikan Ward, Niigata, 953-0011 일본",
+  "lat": 37.8034854,
+  "lng": 138.8471664,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5ff4fb53be86b109:0x525f6a038b85ef0c": {
+  "byId": true,
+  "title": "日月カフェ",
+  "found": "日月カフェ",
+  "address": "2824 Kugami, Tsubame, Niigata 959-0136 일본",
+  "lat": 37.6612577,
+  "lng": 138.80853969999998,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5ff4e1e65209af05:0x81f9e84e6ce8b1e4": {
+  "byId": true,
+  "title": "ＫＫＶＥＬ",
+  "found": "ＫＫＶＥＬ",
+  "address": "1-28 Nishikata, Sanjo, Niigata 955-0014 일본",
+  "lat": 37.643936599999996,
+  "lng": 138.9943425,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5ff4efc2cd1f9565:0x6fadb2bccc9f3ef0": {
+  "byId": true,
+  "title": "弥彦MONZENカフェ",
+  "found": "弥彦MONZENカフェ",
+  "address": "일본 〒959-0323 Niigata, Nishikambara District, Yahiko, ２９２７−１ 四季の宿みのや 1階",
+  "lat": 37.7042865,
+  "lng": 138.8269895,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5ff4c139abfeaeb7:0x18fa25ab3318ce04": {
+  "byId": true,
+  "title": "pentoito-ペントイト-",
+  "found": "pentoito-ペントイト-",
+  "address": "3032-5 Matsunoo, Nishikan Ward, Niigata, 953-0015 일본",
+  "lat": 37.8001933,
+  "lng": 138.87457179999998,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5ff4e5352540291f:0xf6b3cea9877695d3": {
+  "byId": true,
+  "title": "Ｃａｆｅ Ｂａｔａｋｅ",
+  "found": "Ｃａｆｅ Ｂａｔａｋｅ",
+  "address": "4-chōme-6-34 Akibachō, Tsubame, Niigata 959-1261 일본",
+  "lat": 37.663544,
+  "lng": 138.9145126,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5ff4c1fc1cc3a393:0x3e3431ed359895c": {
+  "byId": true,
+  "title": "Taibow! coffee＆gelato soft",
+  "found": "Taibow! coffee＆gelato soft",
+  "address": "일본 〒953-0016 Niigata, Nishikan Ward, Matsuyama, ５６−４",
+  "lat": 37.7924274,
+  "lng": 138.8713526,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5ff4c98852d87637:0xbcee06acfed4e694": {
+  "byId": true,
+  "title": "Ijin-Ike Architecture Library Kissaten",
+  "found": "Ijin-Ike Architecture Library Kissaten",
+  "address": "일본 〒951-8104 Niigata, Chuo Ward, Nishiōhatachō, ５９１−１ 異人池ハウス 202",
+  "lat": 37.9253609,
+  "lng": 139.0369656,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5ff4c9edc575116f:0xec9a198f50282c94": {
+  "byId": true,
+  "title": "Kitari",
+  "found": "Kitari",
+  "address": "6 Banchō-1113 Honchōdōri, Chuo Ward, Niigata, 951-8067 일본",
+  "lat": 37.9202869,
+  "lng": 139.0463198,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b9f1df14364cf:0x79645d256fae8c27": {
+  "byId": true,
+  "title": "Coffee Marron",
+  "found": "Coffee Marron",
+  "address": "2-chōme-6-7 Yasukata, Aomori, 030-0803 일본",
+  "lat": 40.827135,
+  "lng": 140.74151799999999,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5f9b5331e0834557:0xd7f23fb33733cae1": {
+  "byId": true,
+  "title": "Fruit Parlor Odawara",
+  "found": "Fruit Parlor Odawara",
+  "address": "3-chōme-4-3 Uchimaru, Hachinohe, Aomori 031-0075 일본",
+  "lat": 40.513373099999995,
+  "lng": 141.4899145,
+  "primaryType": "dessert_shop",
+  "typeLabel": "디저트 전문점"
+ },
+ "0x5f9b9fa8e2c9d535:0x797f7463a5b483b3": {
+  "byId": true,
+  "title": "MIA COFFEE ROASTERS",
+  "found": "MIA COFFEE ROASTERS",
+  "address": "1-chōme-7-1 Shinmachi, Aomori, 030-0801 일본",
+  "lat": 40.826239799999996,
+  "lng": 140.7378526,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b9f1eca279cc9:0xdea6302c4f2b58fa": {
+  "byId": true,
+  "title": "Cafe des Gitanes",
+  "found": "Cafe des Gitanes",
+  "address": "1-chōme-1-5 Furukawa, Aomori, 030-0862 일본",
+  "lat": 40.8265935,
+  "lng": 140.7345793,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5f9b9f1dd341fe09:0x4300e022f143904c": {
+  "byId": true,
+  "title": "Viennese Sweets Strauss",
+  "found": "Viennese Sweets Strauss",
+  "address": "1-chōme-13-21 Shinmachi, Aomori, 030-0801 일본",
+  "lat": 40.8265093,
+  "lng": 140.73871309999998,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f8b6f79f697841b:0x92835e545e0025e3": {
+  "byId": true,
+  "title": "사칸 킷카와 카몬테이",
+  "found": "사칸 킷카와 카몬테이",
+  "address": "3-7 Ōmachi, Murakami, Niigata 958-0842 일본",
+  "lat": 38.224471799999996,
+  "lng": 139.4784579,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b0d7578ea9961:0xf50e5e89ed3c9fef": {
+  "byId": true,
+  "title": "효우탄차야",
+  "found": "효우탄차야",
+  "address": "일본 〒030-0132 Aomori, 横内八重菊Yaegiku−６２",
+  "lat": 40.7057577,
+  "lng": 140.8223047,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x5f9b41c0c8638605:0x78546b67a7954032": {
+  "byId": true,
+  "title": "あら、りんご。道の駅奥入瀬ろまんパーク店",
+  "found": "あら、りんご。道の駅奥入瀬ろまんパーク店",
+  "address": "일본 〒034-0301 Aomori, Towada, Okuse, Sekimichi−39−１ 道の駅 奥入瀬（奥入瀬ろまんパーク内",
+  "lat": 40.585169,
+  "lng": 141.11737650000003,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b2425e15007f9:0xb9b90c3ebccaa5ba": {
+  "byId": true,
+  "title": "Towadako Marineblue",
+  "found": "Towadako Marineblue",
+  "address": "일본 〒018-5511 아키타현 Kazuno District, 고사카마치 도와다코 야스미타이",
+  "lat": 40.4213595,
+  "lng": 140.8931388,
+  "primaryType": "cafe",
+  "typeLabel": "카페"
+ },
+ "0x5f9b9ee2fe9438b3:0x983d5c8c8ccb6a8f": {
+  "byId": true,
+  "title": "和食処 なごみ",
+  "found": "和食処 なごみ",
+  "address": "일본 〒030-0802 Aomori, Honchō, 2-chōme−1−２６ ２F",
+  "lat": 40.827191,
+  "lng": 140.74635379999998,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x5f9b241bddfe08f5:0x9485c0b0139b926": {
+  "byId": true,
+  "title": "Restaurant Yasumiya",
+  "found": "Restaurant Yasumiya",
+  "address": "Towadakohanyasumiya-486 Okuse, Towada, Aomori 018-5501 일본",
+  "lat": 40.4248267,
+  "lng": 140.8931158,
+  "primaryType": "restaurant",
+  "typeLabel": "음식점"
+ },
+ "0x5f8b6f26445afa31:0x730cfbbec7eddc8c": {
+  "byId": true,
+  "title": "ゆ処そば処 磐舟",
+  "found": "ゆ処そば処 磐舟",
+  "address": "3-chōme-2-30 Senamionsen, Murakami, Niigata 958-0037 일본",
+  "lat": 38.21210860000001,
+  "lng": 139.43655400000003,
+  "primaryType": "japanese_inn",
+  "typeLabel": "료칸"
+ },
+ "0x60188bef472c0001:0xcfcb0363f18109fc": {
+  "byId": true,
+  "title": "긴자 식스",
+  "found": "긴자 식스",
+  "address": "6-chōme-10-1 Ginza, Chuo City, Tokyo 104-0061 일본",
+  "lat": 35.6697688,
+  "lng": 139.76417619999998,
+  "primaryType": "shopping_mall",
+  "typeLabel": "쇼핑몰"
+ },
+ "0x5ff4ef67c7094035:0xc25a3e729912f978": {
+  "byId": true,
+  "title": "CAFE.HYGGE COCORO",
+  "found": "CAFE.HYGGE COCORO",
+  "address": "3023-1 Yahiko, Nishikambara District, Niigata 959-0323 일본",
+  "lat": 37.7051405,
+  "lng": 138.82586,
+  "primaryType": "coffee_shop",
+  "typeLabel": "커피숍/커피 전문점"
+ },
+ "0x60188be68e21d35f:0x58f3d7c50d4cc2d3": {
+  "byId": true,
+  "title": "Frédéric Cassel Ginza Mitsukoshi Store",
+  "found": "프레데릭 카셀 긴자 미츠코시점",
+  "address": "4-chōme-6-16 Ginza, Chuo City, Tokyo 104-8212 일본",
+  "lat": 35.671272099999996,
+  "lng": 139.7659393,
+  "primaryType": "pastry_shop",
+  "typeLabel": "패스트리 판매점"
+ },
+ "0x60188bf95f25e619:0x103bd7d05407fec7": {
+  "byId": true,
+  "title": "도쿄 캐릭터스트리트",
+  "found": "도쿄 캐릭터스트리트",
+  "address": "일본 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ 東京駅一番街 B1",
+  "lat": 35.682033499999996,
+  "lng": 139.7686549,
+  "primaryType": "shopping_mall",
+  "typeLabel": "쇼핑몰"
+ },
+ "0x60188bdf60624605:0x7c5e709fe996654a": {
+  "byId": true,
+  "title": "Brulee Merize",
+  "found": "Brulee Merize Tokyo Gift Palette Store",
+  "address": "일본 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR Tokyo Station, Yaesu North Exit 「東京ギフトパレット」 内",
+  "lat": 35.681887800000005,
+  "lng": 139.7685559,
+  "primaryType": "pastry_shop",
+  "typeLabel": "패스트리 판매점"
+ },
+ "0x60188be8a1ccf161:0x6a2a886243eedf01": {
+  "byId": true,
+  "title": "긴자 그래픽 갤러리",
+  "found": "긴자 그래픽 갤러리",
+  "address": "일본 〒104-0061 Tokyo, Chuo City, Ginza, 7-chōme−7−２ DNP 銀座ビル 1F",
+  "lat": 35.6697019,
+  "lng": 139.7624842,
+  "primaryType": "art_gallery",
+  "typeLabel": "미술관"
+ },
+ "0x60188bf95f25e619:0x8ff4a0c27c123bf9": {
+  "byId": true,
+  "title": "메이플 매니아",
+  "found": "메이플 매니아",
+  "address": "일본 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR Tokyo Station, １階改札内",
+  "lat": 35.6817724,
+  "lng": 139.7669928,
+  "primaryType": "pastry_shop",
+  "typeLabel": "패스트리 판매점"
+ }
+}

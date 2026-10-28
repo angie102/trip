@@ -1,0 +1,293 @@
+/* ── 전체 동선 화면 ────────────────────────────────────────
+   열닷새를 한 줄로 되감아 보는 자리. 준비 화면과 같은 갈래다 — 날짜 줄
+   아래의 카드 자리를 통째로 쓰고, 나가는 길은 날짜 줄이다.
+
+   같은 페이지에 살지만 소스는 갈라져 있다 — styles.css 의 것을 하나도
+   물려받지 않는다.
+
+   그래서 색과 간격을 여기 다시 적되, :root 가 아니라 .routeview 에 매단다.
+   전역에 풀어 두면 일정 앱의 변수와 같은 자리를 두고 다투고, 나중에 한쪽
+   값을 고쳤을 때 어느 화면이 바뀌는지 알 수 없게 된다. 커스텀 속성은
+   자식에게 흐르므로 이 안에서는 그대로 쓰인다.
+
+   값이 겹치는 것은 갈라 둔 값이다. 두 화면이 한 여행의 것이라 생김새는
+   같은 결이어야 하지만, 그것을 위해 파일을 물리면 갈라 둔 뜻이 사라진다.
+
+   여기에는 마커도 이름표도 없다. 자리를 찾는 화면이 아니라 지나온 자취를
+   보는 화면이라, 글자가 있으면 선을 읽는 눈이 자꾸 그리로 끌린다. */
+
+.routeview{
+  --ink-1:  #1f1f1f;    /* 사람 · 글자 · 꽉 찬 면 */
+  --ink-3:  #808080;
+
+  /* 길의 색. 일정 앱이 쓰는 붉은색과 같은 값이다(styles.css 의 --resv,
+     토스 red700) — 소스는 갈라져 있어도 한 여행의 화면이라 색까지 갈리면
+     딴 앱으로 보인다. 값을 물려받지 않고 여기 다시 적는 것은 갈라 둔 뜻을
+     지키기 위해서다.
+
+     한때 Radix blue 10 이었다. 파랑은 물과 헷갈리지 않아 좋았지만, 지도의
+     길과 강이 이미 파랑 계열이라 선이 그 위에 묻혔다. 붉은색은 지도에
+     거의 없는 색이라 얹힌 선이 또렷하다.
+
+     아직 안 간 길의 색은 걷어냈다. 앞길을 미리 깔지 않기로 했으므로 —
+     지나온 자취만 남는 화면에서는 「어디까지 왔나」가 선의 끝으로 읽힌다. */
+  --route: #d22030;   /* red700 · 지나온 길 */
+  /* 고른 것의 색. 일정 앱의 --accent 와 같은 값이다(토스 blue500) —
+     길(--route)이 그러하듯 값을 물려받지 않고 여기 다시 적는다.
+     날짜 판에서 「지금 보고 있는 날」에만 쓰인다. 길과 겹치지 않는 색이라
+     선 위에 이 파랑이 얹혀도 서로를 먹지 않는다. */
+  --accent: #3182f6;
+  --fill-1: #f2f2f2;    /* 버튼 바탕 */
+  --fill-2: #e6e6e6;    /* 막대 바탕 */
+  --paper:  #ffffff;
+
+  --sp-2:8px; --sp-3:12px; --sp-4:16px;
+  --sz-btn:32px;
+  /* 막대의 키. 날짜 알약을 그 위에 앉힐 때 자로 쓴다 —
+     안쪽 여백 둘에 단추 하나다 */
+  --bar-h:calc(var(--sp-2) * 2 + var(--sz-btn));
+  --r-btn:999px;
+  --ls-2:-.015em;
+
+  --ease:cubic-bezier(.32,.72,0,1);
+  /* 화면 가장자리의 안전 여백(safe-area)은 두지 않는다. 카드 안에 들어앉는
+     화면이라 그 셈은 이미 바깥(styles.css 의 .frame·.dates)이 하고 있다. */
+
+  /* 카드가 내어 준 자리를 다 쓴다. 화면을 덮는 것이 아니라 그 자리에
+     들어앉는 것이라 fixed 가 아니다 — 날짜 줄은 위에 그대로 있다.
+     안의 것들(막대·날짜)은 이 상자를 자로 삼아 앉으므로 relative 다.
+
+     지도를 끌던 손이 경계를 넘어 뒤엣것을 밀지 않게 스크롤을 여기서 가둔다. */
+  position:relative;
+  flex:1; min-height:0;
+  background:var(--paper); color:var(--ink-1);
+  overscroll-behavior:contain;
+}
+.routeview *{box-sizing:border-box}
+/* 단추의 기본 꼴을 지운다.
+ *
+ *  이 규칙은 클래스 하나에 요소 하나라(0,1,1) 클래스만 쓴 규칙(0,1,0)보다
+ *  세다. 그래서 아래 단추들에 바탕을 주려면 .routeview 를 앞에 붙여
+ *  명시도를 맞춰야 한다 — 그러지 않으면 여기 적은 background:none 이
+ *  이겨서, 단추는 보이는데 바탕만 사라진다. 실제로 그렇게 겪었다. */
+.routeview button{
+  font:inherit; color:inherit; border:0; background:none;
+  padding:0; margin:0; cursor:pointer;
+}
+/* z-index 0 을 준다. 값이 0 이라 아무것도 안 하는 듯 보이지만, position 을
+   가진 채 z-index 를 적으면 그 안에 쌓임 맥락이 생긴다 — 지도가 제 안에서
+   쓰는 z-index(구글은 천 단위까지 쓴다)가 이 상자 밖으로 새지 않는다.
+   이것이 없어 지도가 라벨과 막대를 덮고 있었다. */
+.rvmap{position:absolute; inset:0; z-index:0; transition:opacity .3s var(--ease)}
+/* 미리 훑는 동안 — 스물한 화면이 3초에 지나가는 것은 볼 것이 아니라 채비다.
+   감춰 두되 그리기는 시킨다. opacity 는 그리는 것을 막지 않으므로
+   타일은 그대로 받아 곳간에 쌓인다 — display:none 이면 아무것도 안 받는다. */
+.rvmap.is-warm{opacity:0}
+
+.rvwarm{
+  position:absolute; inset:0; z-index:2;
+  display:grid; place-items:center;
+  margin:0; font-size:13px; color:var(--ink-3);
+}
+
+/* 두 단추만 뜬다 — 나가는 길과, 재생·멈춤.
+   막대는 걷어냈다. 진행을 재는 눈금이 있어도 잡아 끌 수 없어 읽을 것이
+   못 되었고, 그 한 줄이 지도의 아래를 가로질러 화면을 좁혔다. */
+
+/* 나가는 길. 왼쪽 위 — 누르는 손이 오른쪽 아래에 있으므로 가장 먼 모서리다.
+   ✕ 가 아니라 ← 인 까닭은 이것이 「닫는 것」이 아니라 「돌아가는 것」이기
+   때문이다. 온 데가 준비 화면이고, 그리로 되돌아간다. */
+.routeview .rvback{
+  position:absolute; z-index:2;
+  left:var(--sp-4); top:var(--sp-4);
+  width:40px; height:40px; border-radius:var(--r-btn);
+  display:grid; place-items:center;
+  background:var(--paper); color:var(--ink-1);
+  box-shadow:0 1px 3px rgba(0,0,0,.14), 0 4px 12px rgba(0,0,0,.10);
+}
+.routeview .rvback:focus-visible{outline:2px solid var(--ink-1); outline-offset:2px}
+
+/* 재생과 멈춤. 들어올 때 누른 단추(일정 앱의 .fab)와 같은 자리 · 같은 크기다.
+   화면이 바뀌어도 손이 가는 데는 그대로여야 한다 — 거기 있던 것이 ▶ 였고
+   지금도 ▶ 이므로, 바뀐 것은 화면이지 하는 일이 아니다.
+
+   같은 값을 두 파일에 적는다. 갈라 둔 소스를 물리지 않으려는 값이고,
+   한쪽을 옮기면 다른 쪽도 옮겨야 한다는 것은 여기 적어 둔다. */
+.routeview .rvplay{
+  position:absolute; z-index:2;
+  right:var(--sp-4); bottom:calc(var(--safe-b, 0px) + var(--sp-4));
+  width:40px; height:40px; border-radius:var(--r-btn);
+  display:grid; place-items:center;
+  /* 흰 바탕에 먹빛 글리프다. 지도 위에 얹히는 단추라 종이가 깔려야
+     떠 보인다 — 막대를 걷어내면서 그 바탕이 함께 사라졌었다.
+     뒤로가기(.rvback)와 같은 결이고, 둘이 한 화면의 것임이 꼴로 읽힌다. */
+  background:var(--paper); color:var(--ink-1);
+  box-shadow:0 2px 6px rgba(0,0,0,.20), 0 6px 16px rgba(0,0,0,.14);
+}
+.routeview .rvplay:focus-visible{outline:2px solid var(--ink-1); outline-offset:2px}
+
+/* 날짜 — 막대 위에 따로 뜨는 알약.
+   요일도 지역도 적지 않는다. 이 화면이 답하는 물음은 「어디를 다녔나」이고,
+   날짜는 지금 선이 어디쯤인지 짚어 주는 눈금일 뿐이다.
+
+   막대 안에 두지 않는 까닭은 그것이 누르는 것들의 자리이기 때문이다.
+   날짜는 읽는 것이라 제 알약으로 떼어 놓으면 뜻이 꼴에서 먼저 읽힌다.
+
+   가운데에 선다. 막대는 화면 폭을 다 쓰지만 이것은 글자만 한 알약이라,
+   왼쪽에 붙이면 단추 위에 얹힌 꼬리표처럼 보인다. */
+/* 선택자에 .routeview 를 붙인다. 위의 `.routeview button` 이 면과 테를
+   걷어 내는데(0,1,1), `.rvday` 하나로는(0,1,0) 그것을 못 이긴다 —
+   div 이던 것을 단추로 바꾸는 순간 흰 알약이 통째로 사라졌다.
+   재생 단추(.rvplay)도 같은 자리에서 한 번 겪은 일이다. */
+.routeview .rvday{
+  position:absolute; z-index:2;
+  left:50%; transform:translateX(-50%);
+  /* 재생 단추와 같은 높이다. 단추는 오른쪽 끝에 있고 이것은 가운데라
+     겹치지 않는다 — 한 줄에 나란히 서면 화면 아래가 한 켜로 정리된다.
+     단추 위에 얹어 두었을 때는 둘이 세로로 쌓여 지도를 두 켜로 갉았다.
+
+     이제 누르는 것이기도 하다. 눌러서 날짜를 고르면 그 날 첫 걸음으로
+     건너뛴다 — 열닷새가 여섯 분이라 「9월 26일만 다시」가 어려웠다.
+     그래도 표시로 먼저 읽혀야 해서 단추의 꼴(먹 면·테)을 입히지 않았다.
+     흰 알약은 아래 두 단추와 같은 재질이므로 「누를 수 있다」는 것은
+     그 결에서 이미 읽힌다. */
+  bottom:calc(var(--safe-b, 0px) + var(--sp-4));
+  padding:6px 14px;
+  border-radius:999px;
+  background:var(--paper);
+  box-shadow:0 1px 3px rgba(0,0,0,.14), 0 4px 12px rgba(0,0,0,.10);
+  font-size:15px; font-weight:700; line-height:20px;
+  letter-spacing:var(--ls-2); white-space:nowrap;
+  font-variant-numeric:tabular-nums;
+}
+
+.rvdead{
+  position:absolute; inset:auto 0 40% 0; text-align:center;
+  font-size:13px; color:var(--ink-3);
+}
+
+/* 걷는 사람의 꼴은 여기 없다.
+   지도가 선과 함께 그리므로 gmap.ts 의 walkerIcon 이 SVG 로 들고 있다 —
+   마커의 그림은 이미지라 CSS 가 닿지 않는다. 색이 갈라지지 않게 그릴 때
+   --ink-1 과 --paper 를 꺼내 쓴다. */
+
+/* ── 걸어갈 그림 고르기 ──────────────────────────────────
+   왼쪽 아래다. 재생(오른쪽 아래)과 대각선으로 마주 서서, 늘 누르는 것과
+   한 번 정하고 마는 것이 손끝에서 섞이지 않는다. 뒤로가기(왼쪽 위)와
+   같은 열에 서므로 왼쪽은 「화면을 바꾸지 않는 일」의 자리가 된다. */
+.routeview .rvskin{
+  position:absolute; z-index:2;
+  left:var(--sp-4); bottom:calc(var(--safe-b, 0px) + var(--sp-4));
+  width:40px; height:40px; border-radius:var(--r-btn);
+  display:grid; place-items:center;
+  background:var(--paper); color:var(--ink-1);
+  box-shadow:0 2px 6px rgba(0,0,0,.20), 0 6px 16px rgba(0,0,0,.14);
+}
+.routeview .rvskin:focus-visible{outline:2px solid var(--ink-1); outline-offset:2px}
+
+/* 판. 아래에서 올라온다 — 누른 단추가 아래에 있으므로 그 손 가까이에서
+   열려야 한다. 위에서 내려오면 눈은 위를 보는데 손은 아래에 남는다.
+
+   뒤를 어둡게 덮지 않는다. 고른 그림이 지도 위에서 어떻게 보이는지를
+   그 자리에서 견주는 판이라, 지도가 흐려지면 고르는 일 자체가 어려워진다.
+   판이 흰 면에 그림자를 지고 있어 덮개 없이도 앞뒤가 갈린다. */
+.routeview .rvsheet{
+  position:absolute; inset:0; z-index:4;
+  display:flex; align-items:flex-end; justify-content:center;
+  /* 판 밖을 눌러 닫으려면 이 자리도 손을 받아야 한다 */
+  background:transparent;
+}
+.routeview .rvsheetbox{
+  width:100%; max-width:420px;
+  padding:var(--sp-4) var(--sp-4) calc(var(--safe-b, 0px) + var(--sp-4));
+  background:var(--paper);
+  border-radius:16px 16px 0 0;
+  box-shadow:0 -2px 16px rgba(0,0,0,.18);
+}
+.routeview .rvsheettitle{
+  margin:0 0 var(--sp-3);
+  font-size:15px; font-weight:600; color:var(--ink-1);
+}
+
+/* 썸네일 — 가로로 늘어놓고 넘치면 민다.
+   그림마다 꼴이 제각각이라(누끼 딴 PNG 는 세로로 길기도 하다) 칸을 정사각으로
+   두고 그 안에 맞춰 넣는다. 자르지는 않는다 — 자르면 고를 때 본 것과
+   지도 위에 선 것이 달라진다. */
+.routeview .rvskins{
+  display:flex; gap:var(--sp-2); align-items:center;
+}
+.routeview .rvskinpick{
+  flex:none; width:56px; height:56px; border-radius:12px;
+  display:grid; place-items:center;
+  background:var(--fill-1);
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.06);
+}
+.routeview .rvskinpick.on{box-shadow:inset 0 0 0 2px var(--ink-1)}
+.routeview .rvskinpick img{max-width:40px; max-height:40px; display:block}
+/* 기본꼴은 그림이 아니라 지도가 그리는 것이라 여기서는 먹 점으로 세운다 */
+.routeview .rvskindot{
+  width:24px; height:24px; border-radius:999px; background:var(--ink-1);
+}
+
+/* 올리기 — 진짜 input 은 감추고 이 칸이 그 노릇을 한다.
+   파일 고르는 상자는 브라우저마다 꼴이 달라 화면의 결을 깬다.
+
+   그림들과 한 줄에, 오른쪽 끝에 선다(margin-left:auto). 크기는 썸네일과
+   같게 두되 면은 먹이다 — 고르는 것들 사이에서 이것만 「새로 들이는 일」이라
+   같은 꼴로 서면 다섯째 그림으로 읽힌다. */
+.routeview .rvupload{
+  flex:none; margin-left:auto;
+  width:56px; height:56px; border-radius:12px;
+  display:grid; place-items:center; cursor:pointer;
+  background:var(--ink-1); color:var(--paper);
+}
+.routeview .rvupload input{display:none}
+.routeview .rvupload:focus-within{outline:2px solid var(--ink-1); outline-offset:2px}
+.routeview .rvoops{
+  margin:var(--sp-2) 0 0; font-size:13px; color:var(--route);
+}
+
+/* 날짜 고르는 판 — 한 줄로 밀어 본다.
+   달을 한 번 적으면 칸에는 숫자 하나만 남는다. 달마다 줄을 나누면 10월이
+   두 칸짜리 줄 하나를 차지해 판이 헐거워지므로, 9월 끝에 10월을 바로 잇는다.
+
+   판 밖으로 흘러 나가게 둔다(음수 여백) — 날짜가 판 테두리에서 잘리지 않고
+   화면 끝까지 이어져야 「옆으로 더 있다」가 읽힌다. 날짜 줄(일정 화면)과
+   같은 어법이다. */
+.routeview .rvdays{
+  display:flex; gap:var(--sp-4);
+  overflow-x:auto; overscroll-behavior-x:contain;
+  margin:0 calc(var(--sp-4) * -1);
+  padding:0 var(--sp-4) var(--sp-2);
+  /* 막대는 감춘다. 밀어 보는 줄이라는 것은 날짜가 테두리에서 잘리는 꼴이
+     이미 말하고, 막대가 서면 판 아래에 쓰지 않는 한 켜가 더 생긴다. */
+  scrollbar-width:none;
+}
+.routeview .rvdays::-webkit-scrollbar{display:none}
+.routeview .rvmonth{flex:none}
+/* 달 이름은 왼쪽에 붙어 따라온다.
+   9월을 밀어 보는 동안 「9월」이 줄 왼쪽에 서 있다가, 10월이 화면에 들어오면
+   그 자리를 내어 준다 — 지금 보고 있는 숫자가 몇 월인지 늘 옆에 있어야
+   「26」이 9월인지 10월인지 되짚지 않는다.
+
+   sticky 는 제 부모(.rvmonth) 안에서만 붙어 있으므로, 9월 칸이 다 지나가면
+   저절로 밀려 나가고 10월이 그 자리에 선다. 두 라벨이 겹치는 순간은
+   없다. */
+.routeview .rvmonthname{
+  position:sticky; left:0; width:max-content;
+  margin:0 0 var(--sp-2) 2px;
+  font-size:13px; font-weight:600; color:var(--ink-3);
+}
+.routeview .rvrow{display:flex; gap:var(--sp-2)}
+.routeview .rvdaypick{
+  flex:none; width:44px; height:44px; border-radius:var(--r-btn);
+  background:var(--fill-1); color:var(--ink-1);
+  font-size:15px; font-weight:600; letter-spacing:var(--ls-2);
+  font-variant-numeric:tabular-nums;
+}
+/* 지금 보고 있는 날. 일정 화면의 고른 날짜와 같은 어법이다 —
+   연한 파랑 면에 파란 글자로, 크기는 그대로 두고 세기만 바꾼다. */
+.routeview .rvdaypick.on{
+  background:color-mix(in srgb, var(--accent) 12%, var(--paper));
+  color:var(--accent);
+}

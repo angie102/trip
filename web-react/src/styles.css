@@ -1,0 +1,1492 @@
+/* ───────────────────────────────────────────────────────────
+   도호쿠 여정 — 흰 바탕
+
+   색은 둘.  파랑 = 이미 정해진 것 (고른 날짜·지켜야 하는 시각·예약)
+             민트 = 아직 할 일   (준비·체크리스트)
+   나머지는 먹과 회색이다. 영업시간에는 색을 쓰지 않는다.
+
+   간격은 4px 격자 일곱 칸. 글줄은 24px 하나로 세워 크기가 달라도
+   가운데가 한 선에 서게 한다.
+
+   글꼴: Pretendard 하나. 전에는 Inter 를 앞에 세워 라틴·숫자만 그쪽으로
+   갈리게 했는데, 두 글꼴의 400 이 같은 무게로 보이지 않았다.
+   한글은 획이 많아 같은 두께로 그리면 더 빽빽해 보인다 —
+   한 화면에 두 글꼴이 섞이면 무게가 안 맞는 것이 당연하다.
+   ─────────────────────────────────────────────────────────── */
+
+:root{
+  /* ── 색 ──────────────────────────────────────────────
+     다섯 단이다. 층 사이가 10 이상 벌어져야 눈이 센다 —
+     전에는 면을 셋(97 · 94 · 91%)으로 나눴는데 3% 씩이라
+     층이 셋인 것이 아니라 하나를 세 번 적은 셈이었다.
+
+     이름은 단계로 읽힌다. ink · muted · faint 는 어느 것이 위인지
+     이름만 봐서는 알 수 없었다.
+
+     색을 들일 때는 이 다섯 값만 바꾼다. 다른 자리에는 색이 없다. */
+  /* 먹도 토스 grey 눈금이다. 검정 투명도(#000 · cc · 99)를 쓰던 때는
+     글자만 채도 0 이라, 면과 강조색이 다 248° 쪽으로 물든 화면에서
+     글자만 혼자 다른 계열이었다. 순검정은 어느 계열에도 속하지 않는다.
+
+     단은 셋 그대로다. 눈금이 투명도(1.0 · 0.8 · 0.6)에서
+     토스의 단계(900 · 700 · 600)로 바뀌었을 뿐이다.
+
+     대비는 내려간다 — 21:1 → 16.6, 12.6 → 7.1, 5.7 → 4.6.
+     ink-3 이 4.62 로 WCAG AA(4.5)를 아직 넘는다. 이보다 아래로는
+     내리지 않는다. 순검정 21:1 은 종이에 없는 값이고(잉크도 그만큼
+     안 검다) 토스가 실제 화면에서 쓰는 값이 grey900 이다.
+
+     겹치지 않는다 — 불투명이라 면 위에 놓여도 같은 색으로 선다.
+     투명도이던 때는 이동 줄 안에서 한 단 더 내려앉았다. */
+  --ink-1:  #191f28;    /* grey900  제목 · 이름 · 시각 · 꽉 찬 면 */
+  --ink-2:  #4e5968;    /* grey700  영업시간 · 설명 · 지역 */
+  --ink-3:  #6b7684;    /* grey600  곁들이는 말 · 원어 · 숙소 */
+  /* 회색은 토스 grey 눈금 그대로다. 검정 투명도로 짓지 않는다 —
+     이 밝기대에서 알파로는 저 푸른기가 안 나온다.
+     재 보면 토스 회색은 밝기가 내려갈수록 채도가 오르는데
+     (grey50 은 0.0017, grey700 은 0.0281) 색상각은 248° 로 붙박이다.
+     한 색을 옅게 푼 것이 아니라 푸른 쪽으로 굽은 길이다.
+     검정을 옅게 깔면 채도가 늘 0 이라 그 길을 못 그린다.
+
+     먹(--ink-*)은 여전히 투명도다. 글자는 여러 바탕 위에 서니 섞여야 하고,
+     면은 제 값이 있어야 어디에 놓이든 같은 색으로 선다. */
+  --fill-0: #f9fafb;    /* grey50  잡아 둔 것의 면 */
+  --fill-1: #f2f4f6;    /* grey100 여느 이동 줄 · 버튼 바탕 */
+  --fill-2: #e5e8eb;    /* grey200 화면 바깥 바탕 */
+  --line:   #e5e8eb;    /* grey200 잡아 둔 것의 테 — 읽는 면의 경계 */
+  --line-2: #d1d6db;    /* grey300 누르는 것의 테 — 한 단 진하다.
+                           읽는 것과 누르는 것은 같은 세기로 서면 안 된다 */
+  --paper:  #ffffff;
+
+  /* 아래는 모두 위의 별명이다. 값을 두 번 적으면 한쪽만 고쳐져 어긋난다.
+
+     색이 없으니 면의 세기가 급한 차례를 말한다:
+     오늘 할 일(먹) · 지정석(fill-2) · 예약과 고른 것(fill-1). */
+  /* ── 색 ──────────────────────────────────────────
+     값은 토스 TDS 에서 온다(tools/color_lab.py 의 SETS['toss']).
+     지어내지 않는다 — 색 문서의 판 넷이 모두 이 세트 위에서 그려졌고,
+     여기서 보고 고른 것을 그대로 옮겨 적는 자리다.
+
+     한때 Radix 에서 다시 뽑았다가 되돌렸다. 「지어내지 않는다」를 지키려던
+     것인데 출처를 바꾸는 일이 되어, 검토해 둔 값과 미묘하게 어긋났다
+     (붉은 글자가 #ce2c31 이 되어 있었다). 규칙은 「정본에서 가져온다」이지
+     「Radix 에서 가져온다」가 아니다.
+
+     세 가지 뜻에만 색이 있다.
+       파랑   내가 고른 것 — 지금 보고 있는 날짜
+       붉은   약속 — 예약 상자 · 북마크 · 지켜야 하는 시각
+       주황   아직 해야 하는 것 — 체크리스트
+
+     할 일이 주황인 까닭은 예약이 붉은 자리를 가져갔기 때문이다.
+     토스 세트의 --todo 는 원래 red700 인데, 둘 다 붉으면 한 화면에서
+     갈리지 않는다. orange900 과 red700 은 Oklab 거리 0.096 으로 갈린다. */
+  --accent:    #3182f6;   /* blue500  · 고른 날짜의 면 */
+  --accent-ink:#ffffff;   /* 면 위의 글자 — 면과 한 쌍으로 짓는다 */
+
+  /* 토스 red700 그대로다(채도 0.209). 한때 채도만 0.180 으로 내렸는데,
+     그때는 이 색이 상자의 면까지 칠하고 있었다 — 넓은 면에서 채도가 세니
+     내릴 수밖에 없었다. 지금은 글자와 표식에만 서고 면은 회색이라,
+     좁은 자리에서는 원래 세기가 맞다. 낮춘 값은 흙빛으로 기울었다. */
+  --resv:      #d22030;   /* red700 · 예약 글자 · 북마크 · 지켜야 하는 시각 */
+  --resv-bg:   #ffeeee;   /* red50  · 잡아 둔 것의 면 */
+  /* 테는 red700 을 0.06 으로 깐 것이다. red100(#ffd4d6)이 눈금상 다음 단인데
+     면(red50)과 ΔE 0.063 이라 선이 면을 이겼다 — 상자를 받치는 것이 아니라
+     상자를 그리고 있었다. 0.06 이면 ΔE 0.030 으로, 이 프로젝트가 「눈이 못 세는
+     차이」라 부르는 값(0.02)의 한 뼘 위다. 있는 줄은 아는데 읽히지는 않는 세기.
+     테 색을 지어낸 것은 아니다 — red700 을 옅게 깐 것이라 계열 안에 있다.
+     회색 테를 못 쓰는 까닭은 색상각이다. grey200 은 248°, 붉은 면은 17° —
+     정반대라 붉은 면 위에서 때가 낀 듯 보인다. */
+  --resv-line: #d220300f; /* red700 0.06 · 잡아 둔 것의 테 */
+  /* 딸린 줄은 같은 값에 투명도 0.8 이다. 먹의 층과 같은 수다.
+
+     Oklab 거리로는 제목과 0.075 인데, 밝기로 갈랐을 때(0.049)보다 오히려 멀다 —
+     투명도는 밝기와 채도를 한꺼번에 움직이기 때문이다(0.556→0.623 · 0.180→0.147).
+     그런데 눈에는 「다른 색」이 아니라 「같은 색이 옅어진 것」으로 읽힌다.
+     거리가 같아도 <b>어느 축으로 갔느냐</b>가 다르게 읽힌다는 뜻이라,
+     여기서는 잰 값보다 본 것을 따랐다.
+
+     채도로 갈라 본 적도 있다(0.180 → 0.09). 붉은에서 채도를 빼면 흙빛으로 가서
+     순수한 붉은 옆에 바랜 것처럼 보였다. 그 축은 안 쓴다. */
+  --resv-2:    #d22030cc; /* 0.8 · 예약 상자의 딸린 줄 */
+  /* 면도 같은 값이다. 0.08 은 red50(#ffeeee)과 Oklab 거리 0.0063 —
+     이 프로젝트가 「눈이 못 세는 차이」라 부르는 범위 안이라 갈아 끼워도
+     같은 면이다. 이제 붉은색은 값 하나에 투명도 셋이다.
+     겹치면 진해진다 — 이동 상자 안의 예약 상자가 그렇고, 그 자리에서는
+     제목이 Lc 66 에서 58 쯤으로 내려앉는다. 「한 겹 더 안쪽」이라는 뜻이
+     색으로도 읽히는 셈이지만, 문턱에 가까우므로 눈으로 봐야 한다. */
+
+  --todo:      #e45600;   /* orange900 · 아직 해야 하는 것 */
+  /* 같은 뜻을 면으로 칠할 때 쓰는 짝. --todo 를 그대로 면에 쓰면 40px 짜리
+     주황 덩어리가 되어 머리에서 가장 센 것이 되는데, 체크리스트는 그날의
+     주인공이 아니라 곁에 있는 문이다. 연한 면에 진한 글리프를 얹으면
+     주황이라는 단서는 남고 채도만 바닥으로 내려간다. */
+  --todo-face: #ffefd6;   /* orange3  · 할 일로 건너가는 단추의 면 */
+  --todo-ink:  #cc4e00;   /* orange11 · 그 면 위의 글리프 */
+
+  --focus:var(--ink-1);     /* 눌러 고르는 테 — 뜻이 아니라 손짓이라 먹이다 */
+  --now:var(--ink-1);       /* 지금 지나는 줄 — 「이미 정해진 것」이 아니다 */
+
+  /* ── 간격 — 4px 격자 ──────────────────────────────
+     뜻은 주석이 맡고 이름은 단계만 말한다. 같은 값에 이름이 둘이면
+     한쪽만 고쳐져 어긋난다 — --gap-ic 가 --sp-1 과 같은 4px 이었다. */
+  --sp-1:4px;               /* 아이콘 옆 · 블록 사이 */
+  --sp-2:8px;               /* 글자 사이 · 상자 안 위아래 */
+  --sp-3:12px;              /* 열 사이 · 상자 안 좌우 */
+  --sp-4:16px;              /* 화면 좌우 여백 */
+  --sp-6:24px;
+  --sp-8:32px;
+  /* 격자 밖 둘. 절반 칸과 칩 안쪽 여백이다.
+     절반 칸은 이미 제 여백을 두른 것들 사이(후보끼리)나, 알약처럼 얇아야
+     하는 것의 세로 여백에 쓴다.
+     칩은 바깥 여백(12px)의 절반을 안에 둔다 — 배경을 가진 것은
+     안보다 밖이 넓어야 면이 떨어져 보인다. */
+  --sp-h:2px;
+  --chip-pad:6px;
+  /* 눈으로 맞추는 한 픽셀. 격자가 아니라 글자 생김새 때문에 생기는 어긋남을
+     되돌리는 값이다 — 한글과 라틴은 글줄 안에서 살짝 내려앉아 있어,
+     둘레를 똑같이 줘도 위가 좁아 보인다. 아이콘의 top:-1px 과 같은 갈래다. */
+  --hair:1px;
+
+  /* ── 글줄 — 활자 세 단과 짝이다 ────────────────────
+     크기가 달라도 이 셋 중 하나에 서므로 가운데가 한 선에 맞는다.
+     4px 격자와는 별개의 규칙이다 — 격자는 사이를 재고 글줄은 글자를 안는다. */
+  --lh-1:28px;              /* 날짜 (22px 글자) */
+  --lh-2:22px;              /* 제목 · 이름 · 시각 (15px) */
+  --lh-3:18px;              /* 설명 · 원어 · 메모 (13px) */
+  --lh-0:32px;              /* 모달·준비 화면의 큰 제목 (26px) */
+
+  /* ── 자간 — 활자 세 단과 짝이다 ────────────────────
+     클수록 좁히고 작을수록 푼다. 큰 글자는 그대로 두면 헐겁고,
+     작은 글자는 좁히면 뭉쳐 읽히지 않는다.
+     숫자는 .num 이 0 으로 되돌린다. */
+  --ls-1:-.03em;            /* 22px */
+  --ls-2:-.015em;           /* 15px */
+  --ls-3:-.01em;            /* 13px */
+
+  /* ── 크기 ──────────────────────────────────────────
+     계산에 들어가는 값이라 토큰이라야 한다. 아이콘을 13에서 16으로
+     키웠을 때 calc 이 안 따라와 아이콘이 밀려 내려간 적이 있다. */
+  --ic:16px;                /* 글줄 옆 아이콘 */
+  --ic-lg:18px;             /* 줄을 이끄는 아이콘 — 이동 수단 · 셰브런 */
+  --ic-sm:14px;             /* 채운 아이콘 — 면적이 커서 한 단 작게 둔다 */
+  --sz-btn:32px;            /* 길 찾기 · 닫기 */
+  --sz-tap:40px;            /* 떠 있는 단추(.fab) — 지도 위에 얹히므로 한 단 크다 */
+  --col-time:52px;          /* 시각 열 — 15px tabular 로 「16:00」이 46px */
+
+  /* ── 모서리 — 무엇을 하는 것이냐로 갈린다 ──────────
+     누르는 것은 원에 가깝고, 읽는 것은 그냥 둥글다.
+     반경은 높이에 비례한다 — 낮은 것에 12px 을 주면 반경이 높이의
+     절반을 넘어 알약이 된다. 50px 상자의 12px 과 같은 값인데도.
+     한때 시각 칩의 6px(--r-chip)이 있었는데, 그 칩을 걷으며 같이 없앴다. */
+  --r-btn:999px;            /* 누르는 것 — 버튼 · 날짜 칩 */
+  --r-box:12px;             /* 읽는 상자 — 예약 · 좌석 */
+
+  /* 여닫는 몸짓은 하나의 곡선을 쓴다. 즉시 나가서 부드럽게 멈춘다 */
+  --ease:cubic-bezier(.32,.72,0,1);
+
+  --safe-b:env(safe-area-inset-bottom, 0px);
+  --safe-t:env(safe-area-inset-top, 0px);
+}
+
+/* 아이콘 획은 원본 비율(24 격자에 2, 곧 8.3%)을 그대로 둔다.
+   한때 non-scaling-stroke 로 화면 1px 에 못 박아 두었는데, 그러면 획이
+   크기를 안 따라간다 — 티켓 아이콘의 절취선은 길이가 0 인 선분을 둥근 끝으로
+   찍은 점이라, 점 지름이 곧 획 두께다. 아이콘을 키워도 점이 안 커져
+   절취선이 사라졌다.
+
+   뭉개 보이던 것은 획이 아니라 크기 탓이었다. 13px 은 24 격자 아이콘에
+   너무 작다. 16·18px 로 키우면 원본 비율 그대로도 형태가 산다. */
+
+/* 아이콘은 글줄 가운데보다 1px 위에 선다.
+   글줄은 baseline 아래로 내려가는 부분(g·y·p 의 꼬리)까지 품는데 한글에는
+   그런 꼬리가 거의 없다 — 그래서 기하학적 가운데에 두면 살짝 내려앉아 보인다.
+   면을 가진 것 안에서는 되돌린다(아래) — 거기서는 글줄이 아니라 면이 기준이다. */
+.ic{position:relative; top:-1px}
+.hbtn .ic{top:0}
+
+*{
+  box-sizing:border-box;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;
+  overflow-wrap:break-word;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+html,body,#root{height:100%}
+body{
+  margin:0; background:var(--fill-2); color:var(--ink-1);
+  /* Pretendard 는 라틴과 한글만 담는다. 가나·한자는 뒤로 흘러가는데,
+     한국어 폰트(Malgun Gothic)가 먼저 잡히면 「弥彦」「温泉」이 한국 한자
+     자형으로 그려지고 히라가나 자형도 어정쩡해진다 — 지금 화면에 일본어
+     이름이 152 곳이라 그대로 두면 절반이 남의 글씨체다.
+
+     그래서 한글 뒤, 한국어 폰트 앞에 일본어 폰트를 세운다.
+       Hiragino Sans   애플 기본. Pretendard 의 한글이 애플 계열 자형이라
+                       가장 결이 맞는다
+       Yu Gothic UI    윈도 기본 중 가장 중성적이다. Meiryo 는 둥글고 넓어
+                       Pretendard 옆에서 혼자 두꺼워 보인다 — 마지막에 둔다
+     한글은 Pretendard 가 이미 다 그리므로 이 순서가 한글을 건드리지 않는다. */
+  font-family:"Pretendard Variable",Pretendard,-apple-system,
+    "Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Yu Gothic",
+    Meiryo,"Segoe UI","Malgun Gothic",system-ui,sans-serif;
+  font-size:16px; line-height:var(--lh-2); font-weight:400;
+  letter-spacing:var(--ls-2); -webkit-font-smoothing:antialiased;
+  display:flex; justify-content:center; overflow:hidden;
+}
+/* #root 에 실제 크기를 준다.
+   프레임의 자식이 전부 absolute 라 in-flow 내용이 없어서,
+   grid 의 place-items:center + width:100% 조합에서는 폭이 0 으로 무너진다. */
+/* 화면이 넓어지면 앱은 모바일 폭을 지키고, 그 바깥은 다른 색으로 물러난다 */
+#root{
+  width:100%; max-width:430px; height:100dvh;
+  /* 옛 mauve(25,31,40)를 적어 두었던 자리다 — 화면에 검정이 둘이 되었다.
+     먹을 옅게 깐 것이므로 --ink-1 에서 만든다. 시각 칩과 같은 방식이다. */
+  background:var(--paper);
+  box-shadow:0 0 0 1px color-mix(in srgb,var(--ink-1) 6%,transparent);
+}
+.num{font-variant-numeric:tabular-nums; letter-spacing:0}
+
+/* 스크롤바는 숨긴다 — 손으로 끌어 쓰는 화면이다 */
+*::-webkit-scrollbar{width:0; height:0; display:none}
+
+button{font:inherit; color:inherit; border:0; background:none; cursor:pointer; padding:0}
+a{color:inherit; text-decoration:none}
+
+/* ── 프레임 ──
+   지도가 배경이고 카드가 그 위에 뜨던 구조를 세로 흐름으로 폈다.
+   날짜 줄 · (지도) · 목록 순서로 쌓이고, 스크롤은 목록만 한다. */
+.frame{
+  position:relative; width:100%; height:100%;
+  overflow:hidden; background:var(--paper);
+  display:flex; flex-direction:column;
+}
+
+/* ── 지도 ── 기본은 접힘. 펴면 목록 위 40% 를 차지한다 ──
+   감싸개(.map)가 높이를 여닫고, 그 안의 캔버스(.mapcanvas)가 자리를 다 쓴다.
+   둘에 같은 이름을 주면 접힘 규칙이 캔버스에도 걸려 지도가 그려질 자리가 없다. */
+.map{
+  flex:none; height:0; overflow:hidden; background:var(--fill-1);
+  transition:height .28s var(--ease);
+}
+.map.open{height:40%}
+.mapcanvas{width:100%; height:100%}
+@media (prefers-reduced-motion: reduce){ .map{transition:none} }
+
+/* 「길 찾기」 — 이 경로를 구글 지도에서 연다.
+   시트에 「길찾기」라 적어 둔 경로에만 붙는다(export_web.py 의 dir_of).
+
+   어디서 어디로(.route) 바로 아래 제 줄에 선다. 같은 줄에 넣으면 요금과
+   「패스 커버」 배지와 자리를 다투는데, 셋 다 폭이 정해져 있지 않아 좁은
+   화면에서 먼저 무너지는 것이 이 버튼이다.
+
+   아이콘은 장소의 지도 링크(.pin)와 같은 것을 쓴다 — 뜻이 같기 때문이다.
+   「구글 지도로 나간다」. 새 그림을 들이면 두 곳이 다른 일처럼 보인다. */
+.legdir{margin:0 0 var(--sp-2)}
+
+/* ── 지도 마커 ──
+   마커는 OverlayView 가 얹어 주는 DOM 이다(components/marker.ts).
+   치수는 전부 거기서 --mk-* 로 넘어오고, 여기서는 그 사이를 잇기만 한다.
+
+   꼴이 셋이다 — 점 · 원 · 이름표. 셋 다 같은 원소라 사이가 이어진다.
+   짚으면 원이 옆으로 늘어나며 이름을 편다. 커지는 것이 아니라 꼴이 바뀐다.
+
+   폭을 트랜지션하려면 끝 값이 px 이어야 한다(auto 는 안 이어진다).
+   그래서 이름 폭을 캔버스로 재어 --mk-lw 로 받는다. */
+.mklayer{position:absolute; left:0; top:0; width:0; height:0}
+
+.mk{
+  /* 쉬고 있을 때의 꼴 — 아이콘을 담은 흰 원. setLook 이 인라인으로 덮어쓴다.
+     기본값을 여기 적어 두지 않으면 마커가 붙는 첫 프레임에 --mk-w 가 없어
+     width 가 auto(=글자까지 안은 폭)로 잡혔다가 26px 로 줄어든다. */
+  --mk-w:26px; --mk-h:26px; --mk-gx:13px; --mk-g:15px; --mk-rim:1px;
+  --mk-line:rgba(0,0,0,.22);
+  --mk-ink:var(--ink-1);
+  position:absolute; left:0; top:0;
+  width:var(--mk-w); height:var(--mk-h);
+  /* 좌표는 늘 알약의 한가운데다. 왼쪽 원에 맞춰 두면 이름이 길수록 덩어리가
+     오른쪽으로만 자라, 짚은 자리가 한쪽 끝에 붙어 어디를 가리키는지 흐려진다.
+     -50% 는 지금 폭에 대해 다시 재므로, 펴지는 동안에도 계속 가운데다. */
+  transform:translate(-50%,-50%);
+  background:var(--paper);
+  border-radius:999px;
+  /* 테는 border 가 아니라 안쪽 그림자로 두른다.
+     box-sizing:border-box 라 border 를 두르면 width 안에서 테 두께만큼
+     안쪽 상자가 줄어드는데, 절대 위치로 앉힌 글리프와 글자의 기준이 바로
+     그 안쪽 상자다 — 원 안의 글리프가 1px 치우쳤고 오른쪽 여백은 8px 이
+     아니라 6px 이 됐다. 안쪽 그림자는 상자를 안 줄이므로 그 어긋남이 없다.
+     그림은 똑같고, 두께가 바뀔 때 이어지는 것도 그대로다.
+
+     뒤의 두 겹은 예전 SVG 의 feDropShadow 를 옮긴 것이다 —
+     stdDeviation 은 blur 의 절반이다. 하드 링 2px 에 그림자 24% 로 그렸더니
+     스티커처럼 보였다. 아주 옅게. */
+  box-shadow:inset 0 0 0 var(--mk-rim) var(--mk-line),
+             0 1px 2px rgba(0,0,0,.16), 0 2px 6px rgba(0,0,0,.08);
+  overflow:hidden;                       /* 접힌 알약이 이름을 가린다 */
+  color:var(--mk-ink);
+  contain:layout style;                  /* 폭이 움직여도 바깥을 다시 재지 않게 */
+  transition:width .26s var(--ease), height .26s var(--ease),
+             box-shadow .26s var(--ease),
+             color .2s var(--ease), opacity .2s var(--ease);
+}
+/* 고르지 않은 항목의 것은 한 단 물러난다 */
+.mk.is-dim{opacity:.72; --mk-line:rgba(0,0,0,.13); --mk-ink:var(--ink-3)}
+.mk:focus-visible{outline:2px solid var(--ink-1); outline-offset:2px}
+
+.mkglyph{
+  position:absolute; top:50%; left:var(--mk-gx);
+  width:var(--mk-g); height:var(--mk-g);
+  transform:translate(-50%,-50%);
+  fill:currentColor;
+  transition:left .26s var(--ease), width .26s var(--ease),
+             height .26s var(--ease), opacity .18s var(--ease);
+}
+.mk.is-far .mkglyph{opacity:0}
+
+/* 이름은 못 박힌 자리에 미리 놓여 있고, 알약이 좁을 때는 잘려 있을 뿐이다.
+   같이 움직이면 「가려져 있다 드러난다」가 아니라 「밖에서 들어온다」로 읽힌다.
+   그래서 옮기는 것은 6px 뿐 — 따라 들어오는 기색만 남긴다. */
+.mkname{
+  position:absolute; top:50%; left:var(--mk-tx,26px);
+  transform:translate(-6px,-50%);
+  white-space:nowrap; pointer-events:none;
+  font-size:13px; font-weight:600; line-height:1; letter-spacing:var(--ls-3);
+  opacity:0;
+  transition:opacity .16s var(--ease), transform .26s var(--ease);
+}
+/* 펼 때만 글자를 조금 늦춘다 — 알약이 먼저 자리를 내어 주고 이름이 든다.
+   접을 때는 바로 사라져야 한다. 글자가 남아 있으면 잘리는 것이 보인다. */
+.mk.is-on .mkname{opacity:1; transform:translate(0,-50%); transition-delay:.07s,0s}
+
+@media (prefers-reduced-motion: reduce){
+  .mk,.mkglyph,.mkname{transition:none}
+}
+
+
+/* ── 날짜 줄 ── 늘 맨 위에 있다 ── */
+.dates{
+  flex:none; padding:var(--sp-3) var(--sp-4);
+  padding-top:calc(var(--safe-t) + var(--sp-3));
+  background:var(--paper);
+}
+.dateslane{
+  display:flex; gap:var(--sp-2); overflow-x:auto; overscroll-behavior-x:contain;
+  /* 고른 날짜가 가운데 오는 스크롤 — 손으로 밀어도 항목 사이에서 멈추지 않는다 */
+  scroll-snap-type:x proximity;
+  scroll-padding-inline:50%;
+  scroll-behavior:smooth;
+}
+@media (prefers-reduced-motion: reduce){ .dateslane{scroll-behavior:auto} }
+/* 날짜 칩 — 「9.19」 처럼 짧은 라벨은 굵어야 읽힌다.
+   고른 것과 안 고른 것은 굵기가 아니라 면이 가른다.
+   굵기까지 갈라 두면 안 고른 쪽이 지나치게 가늘어져 날짜를 훑기 어렵다.
+
+   26px 이던 것을 32px 로 키웠다. 머리 버튼과 같은 키다 — 40px 까지 키워
+   봤더니 이번엔 옆의 원 버튼보다 무거워 둘이 따로 놀았다. 진한 파랑을
+   그대로 키우면 머리에서 가장 센 덩어리가 되므로, 키우면서 면도 함께
+   연하게 했다 — 크기와 세기는 따로 놀 수 있는 두 축이다.
+
+   한때 밑줄 탭으로 바꿔 봤다. 크기 문제는 풀렸지만 화면에서 겉돌았다 —
+   --r-btn 이 「누르는 것은 알약」이라 못박아 두었는데 날짜만 각졌기 때문이다.
+   형태는 그대로 두고 면의 세기만 낮추는 쪽이 옳았다.
+
+   키는 세로 여백이 아니라 height 로 잡는다. 9px 같은 어중간한 여백을 짜내지
+   않아도 되고, 글자 크기를 바꿔도 줄의 키가 흔들리지 않는다. */
+.chip{
+  flex:none; scroll-snap-align:center;
+  color:var(--ink-2); font-size:15px; line-height:var(--lh-2); font-weight:600;
+  letter-spacing:var(--ls-2);
+  height:var(--sz-btn); padding:0 var(--sp-3);
+  border-radius:var(--r-btn); display:grid; place-items:center;
+  font-variant-numeric:tabular-nums;
+  /* 칩 하나는 단추가 아니라 링크다(전체 동선). 밑줄을 지운다 */
+  text-decoration:none;
+  transition:background-color .2s var(--ease), color .2s var(--ease);
+}
+/* 고른 날짜 — 연한 파랑 면에 파란 글자.
+   진한 파랑을 40px 알약에 채우면 머리에서 가장 센 덩어리가 된다. 이 줄은
+   「9.24 가 어디쯤인가」를 훑는 자리이지 눈을 붙드는 자리가 아니다.
+   면을 흰 종이 쪽으로 12% 만 끌어오면 파랑이라는 뜻은 남고 무게만 빠진다 —
+   체크리스트 단추(--todo-face + --todo-ink)와 같은 어법이다.
+   색을 새로 들이지 않고 --accent 하나에서 두 단을 짓는다. */
+.chip[aria-current="true"]{
+  background:color-mix(in srgb, var(--accent) 12%, var(--paper));
+  color:var(--accent);
+}
+.chip:focus-visible{outline:2px solid var(--focus); outline-offset:2px}
+
+/* ── 일정 ── 날짜 줄 아래 남은 자리를 다 쓴다 ── */
+.card{
+  flex:1; min-height:0; display:flex; flex-direction:column;
+  background:var(--paper);
+}
+
+/* 날짜·지역·숙소는 「오늘은 이런 날」 한 덩어리다. 사이는 글줄이 맡는다 —
+   gap 을 더하면 목록의 제목→몸통(16px) 보다 벌어져 머리만 헐거워 보인다.
+
+   아래 여백은 한 단 낮춘 12px 이다. 16px 이던 때는 목록의 첫 항목까지
+   30px 이 나왔다 — 항목끼리(24px)보다 넓어 머리만 붕 떠 보였다.
+   이 값은 셋이 더해진 것이라 토큰만 봐서는 알 수 없다:
+   숙소의 글줄 여백 2.5 + 여기 + 첫 항목의 위 여백 8 + 제목의 글줄 여백 3.5.
+   12px 이면 26px 으로, 항목끼리와 같은 층에 앉는다.
+   머리와 목록의 결이 다르다는 것은 간격이 아니라 크기(22px 날짜)와 색이
+   이미 말하고 있다. */
+.cardhead{
+  display:flex; flex-direction:column;
+  padding:var(--sp-2) var(--sp-4) var(--sp-3); flex:none;
+}
+/* 22px 제목 옆 13px 깃발. 12px 로 벌려 두었는데 — 큰 글자 옆에서는 같은
+   값도 좁아 보인다는 셈이었다 — 실제로는 깃발이 날짜에서 떨어져 따로 놀았다.
+   「9.22 화요일 · JR패스 1일차」는 한 줄로 읽는 것이라 8px 이 맞다.
+   글자 크기가 아니라 「한 호흡에 읽느냐」가 가르는 물음이다. */
+.titlerow{display:flex; align-items:center; gap:var(--sp-2)}
+.titlerow .daytitle{flex:none}
+.daytitle{margin:0; font-size:22px; line-height:var(--lh-1); font-weight:700;
+  letter-spacing:var(--ls-1)}
+/* 지역과 숙소는 둘 다 「그날의 배경」이라 같은 층이다.
+   전에는 지역이 muted, 숙소가 faint 로 미묘하게 갈려 있었는데 —
+   딱 알아볼 만큼은 아니고 어긋난 것만 느껴지는 차이였다.
+   faint 는 본디 아이콘용이라 글자에 쓰면 읽는 데 힘이 든다. */
+.daystay{margin:0; font-size:13px; line-height:var(--lh-3)}
+/* 지역은 그날의 무대다 — 어디에 있느냐가 어디서 자느냐보다 하루를 크게
+   정하므로 숙소보다 한 단 크다(15px). 날짜 옆에 붙여 봤더니 깃발과 같은
+   층으로 보였는데, 깃발은 곁들이는 조건이고 이것은 무대라 층이 다르다.
+   색은 날짜와 같은 ink-1 이다 — 둘이 「언제 · 어디」로 하루를 정하는 짝이라
+   층을 가르는 것은 크기(22 · 15)면 넉넉하다. */
+.daysub{
+  margin:0; font-size:15px; line-height:var(--lh-2);
+  letter-spacing:var(--ls-2);
+  color:var(--ink-1); font-weight:600;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+/* 숙소는 자리다 — 목록의 후보 줄과 가진 것이 같다(이름 · 원어 · 링크 · 금액).
+   그래서 그쪽과 같은 꼴로 적는다 — 600 에, 줄 안의 것들이 한 색이다.
+   머리에서 가장 아래 층이다 — 날짜와 지역이 하루를 정하고 숙소는 그 안의
+   한 자리다. 크기(13)만으로는 15px 지역과 차이가 작아 색과 굵기가 함께 내려간다.
+
+   굵기는 500 이다 — 옅은 색 위에 서는 것들의 단이다(→ 굵기 네 단).
+   ink-1 위에서는 400 도 또렷하지만 ink-3 위에서는 획이 사라지고,
+   600 은 목록의 후보 이름과 같아져 이 줄이 화면의 주인공처럼 보인다. */
+.daystay{
+  color:var(--ink-3); font-weight:500;
+  /* 링크가 이름 뒤에 붙는 자리라 후보 줄(.pn)과 같은 2px 이다.
+     앞에 서는 아이콘은 4px, 뒤에 붙는 것은 2px — 뒤엣것은 그 이름에
+     딸린 것이라 붙어야 「이 곳의 링크」로 읽힌다. */
+  display:flex; align-items:center; gap:var(--sp-h); min-width:0;
+}
+.daystay .n{overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+/* 아직 낼 돈. 굵기는 이름과 같이 두고 색으로만 한 단 올린다 —
+   tabular-nums 는 폭을 고정해 획이 칸에 꽉 차므로, 같은 600 이라도
+   한글보다 두껍게 보인다. 숫자에는 굵기를 얹지 않는다. */
+/* 아직 낼 돈. 색은 줄을 따른다 — 한 줄 안에서 색이 갈리면 두 조각이
+   서로 다른 것으로 읽힌다. 숫자라는 것만으로 이미 이름과 구분된다. */
+.daystay .due{flex:none; font-variant-numeric:tabular-nums}
+/* 링크는 줄 색을 따른다 — 목록의 후보 줄과 같은 규칙이다 */
+.daystay .pin.sm{color:inherit}
+/* 이 줄의 링크가 둘일 때(예약 확인서 + 지도) 누를 자리가 겹치는 문제는
+   .pin.sm 쪽에서 한 번에 다룬다 — 후보 줄에서도 똑같이 일어나기 때문이다. */
+/* 아직 낼 돈은 링크 바로 뒤에 붙는다. 줄 끝으로 밀어 두었더니 숙소 이름이
+   짧은 날에는 금액이 저 멀리 혼자 서서, 무엇에 딸린 값인지 눈으로 이어야 했다.
+
+   색도 굵기도 줄을 따른다. 한 줄 안에서 갈라 놓으면 두 조각이 서로 다른
+   것으로 읽힌다 — 숙소와 그 값은 한 줄이다.
+
+   전에는 숫자만 400 으로 내렸다. 이름이 ink-3 · 400 이던 때는 그래도
+   맞았는데, 이름을 ink-1 · 600 으로 올리고 나니 숫자만 혼자 얇아 보였다.
+   가르는 일은 「숫자」라는 사실이 이미 한다. */
+.daystay .due{margin-left:var(--sp-1)}
+/* 플래그가 없는 날에도 버튼은 늘 오른쪽 끝에 선다 */
+.headbtns{display:flex; gap:var(--sp-2); align-items:center; flex:none;
+  margin-left:auto}
+/* 깃발은 둘 다 「그날의 조건」이다 — JR 패스도 렌트카도. 색을 가르지 않는다.
+   한때 패스만 주황이고 렌트카는 먹이었다. 「패스만 날수를 센다」는 것이
+   까닭이었는데, 날수를 세는 것은 글자(1일차)가 이미 말하고 색이 또 말할 일이
+   아니었다. 알약은 하나인데 규칙이 둘이면 그 안에서 두 조각이 갈라진다.
+   아이콘이던 때는 자동차 그림 하나가 「운전하는 날」인지 「렌터카를 빌리는
+   날」인지 말하지 못했다. 글자는 그것을 말한다. */
+.flag.pass{font-variant-numeric:tabular-nums}
+
+.cardbody{
+  overflow-y:auto; overscroll-behavior:contain; flex:1; min-height:0;
+  padding:0 var(--sp-4) calc(var(--sp-8) + var(--safe-b));
+}
+/* 좌우 여백은 늘 스크롤 컨테이너가 갖는다 — 팝업(.popbody)과 같은 규칙이다.
+   전에는 목록의 행이 저마다 챙겼는데, 그 근거였던 「행 전체가 눌린다」가
+   지금은 맞지 않다(누르는 것은 .rbody 다). 규칙이 하나여야 새 화면이
+   들어와도 여백을 잃지 않는다 — 준비 화면이 그렇게 화면 끝에 붙어 있었다. */
+
+/* ── 타임라인 ── */
+.list{list-style:none; margin:0; padding:0}
+/* 항목 한 칸 — 머리(.rtop) 와 몸통(.rbody) 을 세로로 쌓는다.
+   머리만 위에 붙어 있어야 하므로 둘을 형제로 둔다. */
+/* 항목 사이. 제목과 첫 줄의 간격(11px)의 두 배쯤이라야
+   「이 줄들은 저 제목에 딸린 것」이 간격만으로 읽힌다.
+   12px 씩 두면 세 배 가까이 벌어져 항목이 낱장처럼 흩어진다. */
+/* 항목 사이. 위아래가 같은 한 칸이다 — 안의 마지막 요소(후보·메모)가
+   두르는 여백이 절반 칸뿐이라, 항목이 그 몫까지 받쳐야 위아래가 맞는다.
+   이동 블록이 낀 자리에서 재면 위 20.5 · 아래 19.5px 로 선다. */
+.row{width:100%; text-align:left; padding:var(--sp-2) 0}
+
+/* 시각과 제목이 한 줄. 이 줄째로 붙는다 —
+   긴 항목을 훑는 동안 「무엇을 고르는 중인지」가 화면에 남는다.
+   부모(.row) 를 벗어나지 않으므로 항목이 끝나면 다음 항목에 밀려 넘어간다.
+   배경을 깔지 않으면 아래 후보들이 뒤로 비쳐 지나간다. */
+.rtop{
+  display:grid; grid-template-columns:var(--col-time) 1fr; gap:var(--sp-3);
+  position:sticky; top:0; z-index:2; background:var(--paper);
+  /* top 은 레이아웃을 다시 잡는 값이라 sticky 처럼 매 프레임 재계산되는 자리에서는
+     전이가 씹힌다. transform·opacity 는 레이아웃과 무관해 확실히 걸린다. */
+  transition:transform .2s var(--ease), opacity .2s var(--ease);
+}
+/* 한 화면에 다 들어오는 항목은 붙일 까닭이 없다 — 그냥 흐름대로 지나간다 */
+.row.nostick .rtop{position:static}
+/* 항목의 끝이 화면 6할까지 올라오면 머리는 할 일을 다 했다.
+   살짝 올라가며 사라진다 — 툭 없어지면 눈에 걸린다. */
+.row.unstick .rtop{
+  transform:translateY(-6px); opacity:0; pointer-events:none;
+}
+@media (prefers-reduced-motion: reduce){
+  .rtop{transition:none}
+}
+.row:focus-visible{outline:2px solid var(--focus); outline-offset:var(--sp-1);
+  border-radius:var(--r-box)}
+/* 시각은 제목과 같은 줄에 서는 짝이다 — 「몇 시에 · 무엇을」.
+   크기까지 제목과 같게 둔다. 숫자는 대문자 높이까지만 올라가고 한글은
+   전각 박스를 거의 채우므로, 같은 15px 이라야 눈에 같은 층으로 보인다.
+   굵기는 400 이다 — 크기가 이미 층을 맡았고, tabular 숫자는 획이 칸에
+   꽉 차서 600 을 얹으면 제목보다 두꺼워 보인다. */
+.rtime{
+  font-size:15px;
+  white-space:nowrap;
+  /* 제목과 같은 먹이다. 위 주석대로 크기도 같으니 남은 것은 굵기뿐인데,
+     그것으로 층이 선다 — 400 은 600 옆에서 한 발 물러나 보인다.
+     색까지 내리던 때는 두 자로 같은 말을 두 번 한 셈이었고, 15px 이 옅으면
+     훑다 걸려야 할 것이 안 걸렸다. 시각은 이 화면에서 먼저 읽는 것이다. */
+  color:var(--ink-1);
+  text-align:right;
+  font-variant-numeric:tabular-nums;
+  line-height:var(--lh-2);
+  padding:0 var(--chip-pad) 0 0;
+}
+
+/* 지켜야 하는 시각 — 굵기 하나로만 말한다.
+   면을 깔았다가 걷고, 붉은 글자로 했다가 그것도 걷었다. 시각 열은 숫자만
+   서는 좁은 자리라 면도 색도 결국 잡음이 됐다 — 열다섯 줄이 흐르는 동안
+   서너 개가 붉으면 「어디가 급한가」가 아니라 「왜 알록달록한가」로 읽힌다.
+
+   굵기는 그 자리에서 값을 안 뺏는다. 400 · 700 은 한눈에 갈리고, 색이
+   아니라 획이라 시각 열의 tabular 숫자 폭도 그대로다.
+   같은 뜻을 예약 상자와 북마크가 색으로 지고 있으니, 화면 전체로 보면
+   「이 약속은 붉다」가 이미 서 있다.
+
+   안쪽 여백을 따로 주지 않는다 — .rtime 의 오른쪽 여백을 물려받아 여느
+   시각과 한 열에 선다. 면이 있던 동안에는 그 여백을 면이 져야 해서
+   부모의 padding 을 0 으로 돌리고 안쪽 span 에 옮겨 두었었다. */
+.rtime.fixed{
+  font-weight:700;
+  display:flex;
+  justify-content:flex-end;
+  align-items:flex-start;
+}
+/* 몸통은 시각 칸만큼 들여쓴다 — 머리의 제목과 세로로 한 줄에 선다. */
+.rbody{
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  gap:var(--sp-h);
+  padding-left:calc(var(--col-time) + var(--sp-3));
+}
+/* 몸통의 첫 줄은 제목에서 한 칸 떨어진다. 제목이 거느리는 것들이므로
+   곳과 곳 사이(11px)보다 넓어야 「이 아래가 저 제목의 것」으로 읽힌다 —
+   전에는 10px 으로 도리어 좁아, 제목이 첫 후보에 붙어 보였다.
+   .rbody 의 padding 이 아니라 첫 자식의 margin 인 까닭은, 후보도 메모도
+   없는 항목의 빈 몸통이 그 여백만큼 자리를 먹지 않게 하기 위해서다. */
+.rbody > :first-child{margin-top:var(--sp-2)}
+/* 메모가 첫 줄일 때만 한 단 조인다. 후보 이름은 600 · ink-1 로 진해서 16px 이
+   알맞지만, 메모는 400 · ink-3 로 옅어 같은 값이 더 벌어져 보인다 —
+   물러나 있는 것은 덜 벌려야 딸린 것으로 읽힌다. */
+.rbody > .bnote:first-of-type{margin-top:var(--sp-1)}
+.rhead{
+  display:flex;
+  min-width:0;
+  align-items:center;
+  gap:var(--sp-1);
+}
+/* 제목 앞의 이모지 — 시각과 제목 사이. 무엇이 서는지는 시트가 정한다.
+   14px 로 두었다가 물렸다. 이모지는 그림이지만 글자로 그려지므로 활자 단(11 ·
+   13 · 15 · 22 · 26)을 따라야 하고, 검사가 바로 잡아 줬다 — 단 밖의 값을
+   하나 허용하면 다음에도 「이번만」이 붙는다.
+   13px 이다. 이모지는 전각 박스를 꽉 채워 그리므로 15px 이면 곁의 한글보다
+   커 보이고, 제목(15px · 700)이 이 줄의 주인공 자리를 뺏긴다.
+   line-height 는 1 로 눌러 둔다 — 이모지가 제 폰트의 줄높이를 들고 오면
+   .rtop 의 sticky 높이가 그 줄에서만 한두 px 커져 시각 열이 흔들린다. */
+.remoji{
+  flex:none;
+  font-size:13px;
+  line-height:1;
+}
+.rtitle{
+  overflow:hidden;
+  font-size:15px;
+  line-height:var(--lh-2);
+  font-weight:700;
+  letter-spacing:var(--ls-2);
+  display:block;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+/* 지금 지나는 줄. 예약과 뜻이 달라 색을 안 쓴다 — 「어디쯤인가」는 자리가 말한다 */
+.row[aria-current="true"] .rtitle{color:var(--now)}
+
+
+
+
+/* ── 영업시간 ──
+   테두리 알약을 벗겼다. 영업시간은 어디서나 같은 무게로 읽혀야 하고,
+   알약은 아래 .pill(걸리는 시간) 하나만 쓴다 — 둘이 다른 것이기 때문이다. */
+/* 영업시간 — 상태를 판정하지 않으므로 색이 하나뿐이다 */
+.hrs{
+  flex:none; font-size:13px; line-height:var(--lh-2); color:var(--ink-2);
+  font-variant-numeric:tabular-nums; white-space:nowrap;
+}
+
+/* .pin 단독 규칙은 지웠다. 상세 화면을 두던 시절의 것이라 안 쓰는 줄 알았는데,
+   .pin.sm 도 .pin 이라 28px 상자와 배경이 그대로 상속되고 있었다 —
+   sm 쪽에서 width·background 를 선언하지 않았으니 막을 것이 없었다. */
+/* 안내도 — 눌러서 크게 본다. 상자 너비에 눌리면 승강장 번호가 안 보인다 */
+.legimg{
+  display:block; width:100%; padding:0; border:0;
+  background:var(--paper); border-radius:var(--r-box); overflow:hidden;
+  cursor:zoom-in;
+}
+.legimg img{display:block; width:100%; height:auto}
+.legimg:focus-visible{outline:2px solid var(--focus); outline-offset:2px}
+
+/* 체크리스트의 그림 — 할 일 사이에 한 장 눕는다.
+   .legimg 와 달리 눌러 크게 보지 않는다. 이미 판(Popup) 안이라 넓게 들어가고,
+   판 위에 판을 또 얹으면 닫는 길이 헷갈린다. */
+.tkimg{
+  display:block; width:100%; overflow:hidden;
+  border-radius:var(--r-box); background:var(--paper);
+}
+.tkimg img{display:block; width:100%; height:auto}
+
+/* 화면을 덮는 판. 그림은 화면 안에 다 들어오게 두고, 아무 데나 눌러 닫는다 */
+/* 안내도를 크게 보는 판. 여기만 진짜 검정이다 —
+   먹을 그대로 깔면 86% 여도 사진이 뿌옇게 떠서 그림이 안 보인다.
+   화면의 색이 아니라 사진을 위한 바탕이라 다섯 단 밖에 있다.
+   투명도를 지켜야 뒤가 비쳐 「덮었다」로 읽힌다. */
+.bigimg{
+  position:fixed; inset:0; z-index:60;
+  background:color-mix(in srgb,#000 86%,transparent);
+  display:grid; place-items:center;
+  padding:var(--sp-4);
+  cursor:zoom-out;
+}
+.bigimg img{
+  max-width:100%; max-height:100%;
+  object-fit:contain; border-radius:var(--r-box);
+}
+
+
+/* ── 체크리스트 · 준비 모달 ── 화면을 덮는다 ──
+   놓치면 뒤 일정이 무너지는 것들이라 반쯤 가려두지 않는다. */
+.scrim{
+  position:absolute; inset:0; z-index:50; background:color-mix(in srgb,var(--ink-1) 32%,transparent);
+  display:flex; align-items:center; justify-content:center;
+  padding:var(--sp-4); animation:fade .18s ease-out;
+}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+/* 팝업 — 화면을 다 덮지 않는다. 뒤의 일정이 어렴풋이 비쳐야
+   「그 위에 잠깐 뜬 것」으로 읽히고, 닫으면 보던 자리로 돌아간다는 것이
+   몸에 남는다. 전면으로 덮으면 화면이 바뀐 것처럼 보여 뒤로 가기를 찾게 된다.
+
+   높이는 내용을 따르되 화면의 일흔둘까지만 자란다 — 그보다 길면 안이 구른다.
+   모서리는 --r-box 다. 읽는 것이라 알약이 아니다. */
+.pop{
+  width:100%; max-width:320px; max-height:72%;
+  background:var(--paper); border-radius:var(--r-box);
+  display:flex; flex-direction:column; position:relative;
+  animation:rise .22s var(--ease);
+}
+/* 가운데에서 살짝 자라며 뜬다. 아래에서 올라오던 몸짓은 화면을 다 덮는
+   시트의 것이었다 — 가운데 뜨는 것이 아래에서 밀려 오면 자리가 어긋나 보인다. */
+@keyframes rise{from{transform:scale(.96); opacity:0}to{transform:none; opacity:1}}
+@media (prefers-reduced-motion: reduce){
+  .scrim,.pop{animation:none}
+}
+.popbody{overflow-y:auto; flex:1; padding:var(--sp-4)}
+
+/* 할 일 한 줄 — 누르는 것이 아니라 읽는 것이다.
+   그래서 손가락이 닿을 높이(44px)도, 포커스 링도, 켜짐 상태도 없다.
+   아이콘과 글자 사이는 4px — 앞에 서는 아이콘의 값이다.
+   전에는 22px 체크칸이 앞에 서서 열 사이(12px)를 뒀는데,
+   이제 앞엣것이 16px 아이콘이라 「글자를 이끄는 것」의 규칙을 따른다. */
+.tkrow + .tkrow{margin-top:var(--sp-2)}
+.tk{
+  display:flex; align-items:flex-start; gap:var(--sp-1);
+  margin:0; font-size:15px; line-height:var(--lh-2);
+}
+/* 아이콘은 글줄 한가운데에 선다 */
+.tk > svg{margin-top:calc((var(--lh-2) - var(--ic)) / 2)}
+/* 첫 줄이 곧 그 할 일이라 굵기를 준다. 일정 화면의 할 일 상자와 같은 단이다
+   (제목 600 · 몸통 400). 뒤따르는 줄은 .tkd 로 따로 선다. */
+.tk .t{min-width:0; font-weight:600}
+/* 딸린 줄은 글자 아래에 선다 — 아이콘 폭과 그 사이만큼 들여쓴다 */
+.tkd{
+  margin:0 0 var(--sp-1) calc(var(--ic) + var(--sp-1));
+  font-size:13px; line-height:var(--lh-3); color:var(--ink-2);
+  white-space:pre-line;
+}
+.empty{color:var(--ink-2); font-size:15px; text-align:center; padding:var(--sp-8) 0}
+
+/* ── 준비 화면 ── 날짜가 없는 목록. 체크리스트와 같은 결로 읽힌다 ──
+   다른 화면은 날짜 머리가 제목을 맡지만 여기는 스스로 제목을 갖는다. */
+.prepview{padding:var(--sp-2) 0 0}
+/* 화면 제목. 일정 화면의 날짜 제목(.daytitle)과 같은 층이라 같은 값이다 —
+   26px 이던 때는 이 파일에서 혼자 그 크기를 써서, 같은 자리의 제목인데
+   준비만 한 단 크게 서 있었다.
+
+   개수는 두지 않는다. 스물다섯이라는 숫자가 할 말이 없다 — 다 챙겼는지는
+   목록을 훑어야 알고, 그 셈은 오히려 재촉으로 읽힌다. */
+.prephead{
+  margin:0 0 var(--sp-6); font-size:22px; line-height:var(--lh-1);
+  font-weight:700; letter-spacing:var(--ls-1);
+}
+
+.pgroup + .pgroup{margin-top:var(--sp-6)}
+/* 묶음 제목. 화면 제목(22)과 항목(13) 사이에 선다.
+   13px 이던 때는 항목과 같은 크기에 색은 오히려 옅어(ink-3), 굵기 하나로
+   버티고 있었다 — 제목이 제가 이끄는 것보다 여린 꼴이었다.
+   이 파일의 규칙대로 제목은 ink-1 이다(ink-3 는 곁들이는 말의 자리다). */
+.pgroup h2{
+  margin:0 0 var(--sp-2); font-size:15px; line-height:var(--lh-2); font-weight:600;
+  letter-spacing:var(--ls-2); color:var(--ink-1);
+}
+.pgroup ul{list-style:none; margin:0; padding:0}
+
+/* 두 열로 흘린다. 낱말이 짧아(「여권」「모자」) 한 줄에 하나씩 세우면
+   빈 자리가 오른쪽 절반을 차지하고, 스물다섯 줄이 화면 두 배를 넘어간다.
+
+   열 사이는 12px — 「열 ↔ 열」의 값이다.
+   줄 사이는 4px 이고, 글줄이 남기는 여백까지 더하면 9px 이 되어
+   「붙여 두는 것」 층에 앉는다. 한 덩어리로 훑는 목록이라 그만큼이 맞다. */
+.plist{
+  list-style:none; margin:0; padding:0;
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:var(--sp-1) var(--sp-3);
+}
+/* 한 줄. 아이콘이 글자를 이끄는 자리라 4px 이다.
+   체크를 누를 수 없으므로 손가락 자리(44px)를 잡아 둘 까닭도 없다. */
+.pitem{
+  display:flex; align-items:flex-start; gap:var(--sp-1); min-width:0;
+  font-size:13px; line-height:var(--lh-3); letter-spacing:var(--ls-3);
+  color:var(--ink-1);
+}
+/* 표시는 곁들이는 것이라 글자보다 옅다. 첫 글줄 한가운데에 앉힌다 —
+   (글줄 18px − 아이콘 14px) ÷ 2. */
+.ptick{
+  flex:none; color:var(--ink-3);
+  margin-top:calc((var(--lh-3) - var(--ic-sm)) / 2);
+}
+.pitem .t{min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+
+/* 메모 — 지워 나갈 것이 아니라 읽을 것이라 체크를 달지 않는다 */
+.pmemo{
+  margin:0 0 var(--sp-1); font-size:13px; line-height:var(--lh-3); color:var(--ink-2);
+  letter-spacing:var(--ls-3);
+  /* 말과 그 원어는 이어 읽는 짝이라 4px 이다 — 후보 이름 옆 원어와 같은 값.
+     8px 이던 때는 한 화면에 같은 짝이 두 값으로 서 있었다. */
+  display:flex; align-items:baseline; gap:var(--sp-1); flex-wrap:wrap;
+}
+.pmemo .ja{color:var(--ink-3); flex:none}
+
+/* 아직 아무것도 없을 때 */
+.prepview.empty{text-align:center; padding:var(--sp-8) 0; color:var(--ink-2)}
+.prepview.empty p{margin:0; font-size:15px; line-height:var(--lh-2)}
+.prepview.empty .sub{margin-top:var(--sp-2); font-size:13px; line-height:var(--lh-3); color:var(--ink-3)}
+.prepview.empty b{color:var(--ink-2); font-weight:600}
+
+
+.route .pill{margin-left:auto}
+
+
+/* 이름 왼쪽에 선다. 면을 두르지 않는다 —
+   회색 상자가 28px 이라 22px 글줄보다 컸고, 가운데를 맞추려 끌어올린 음수
+   여백이 고른 면의 안쪽 여백을 그대로 잡아먹었다. 상자를 22px 로 줄이면
+   손가락에 작다. 면을 없애면 그 셈 자체가 사라진다 —
+   아이콘은 제 크기대로 글줄 안에 앉는다.
+
+   색은 먹이다. 파랑은 「지금 보고 있는 것」의 색인데 이 버튼은 늘 거기 있는
+   링크일 뿐이라, 파랗게 두면 켜져 있는 것처럼 보였다.
+   아이콘은 open — 하는 일이 「구글 지도로 나가는 것」이라 모양이 그 뜻을 지닌다.
+   앱 안의 지도로 가는 것은 이름을 누르는 쪽이다.
+
+   면이 작아진 만큼 누를 자리는 밖으로 넓힌다 —
+   보이는 크기와 누를 수 있는 넓이는 따로 정할 수 있다. */
+.pin.sm{
+  position:relative; flex:none;
+  color:var(--ink-1); display:grid; place-items:center;
+}
+.pin.sm::after{content:""; position:absolute; inset:-9px}
+/* 링크가 둘 나란히 설 때 — 숙소 줄(.daystay)과 후보 줄(.pn)이 같은 일을 겪는다.
+   .pin.sm 은 저마다 누를 자리를 사방 9px 씩 넓혀 두는데(::after) 둘 사이는
+   2px 뿐이라, 넓힌 자리가 16px 겹친다. 겹친 자리에서는 나중에 그려지는
+   뒤엣것(지도)이 이기므로, 확인서를 눌러도 지도가 열렸다 —
+   재어 보니 보이는 문서 아이콘의 오른쪽 절반이 지도에게 넘어가 있었다.
+   보이는 크기와 누를 넓이가 따로라는 것이 여기서는 함정이 된다:
+   눈에는 안 보이는 자리끼리 다투기 때문이다.
+
+   눈에 보이는 사이는 건드리지 않는다. 8px 벌려 봤더니 두 아이콘이 한 짝이
+   아니라 따로 놓인 것으로 보였다 — 이름 뒤에 붙는 것들이라 붙어 있어야
+   「이 곳의 링크들」로 읽힌다. 그러니 마주보는 쪽 넓힘만 1px 로 줄인다.
+   1 + 2 + 1 = 4 라 두 자리가 닿기만 하고 겹치지 않는다.
+
+   좁히는 것은 「뒤에 링크가 또 서는 것」의 오른쪽뿐이다(:has). 앞서 이 규칙이
+   .daystay 아래 있던 때는 줄 안의 모든 .pin.sm 을 좁혀, 확인서가 없는 날의
+   외톨이 지도 링크까지 오른쪽 9px 을 잃고 있었다. 후보 줄은 링크가 하나뿐인
+   줄이 훨씬 많아 그대로 옮겼다가는 목록 전체가 누르기 어려워진다.
+   바깥쪽 9px 은 그대로 둔다 — 좁아지는 것은 서로 맞닿은 안쪽뿐이다. */
+.pin.sm:has(+ .pin.sm)::after{right:-1px}
+.pin.sm + .pin.sm::after{left:-1px}
+
+
+
+/* ═══ 흰 바탕으로 옮기며 더한 것 ═══════════════════════════ */
+
+/* 누르는 것들 — 체크 · 지도 · 길 찾기. 셋이 같은 알약이다.
+   머리에 있든 이동 줄에 있든 「누르면 무언가 열린다」는 한 종류이므로
+   꼴이 같아야 한다.
+
+   면은 흰색에 1px 테다. 회색 면(fill-1)이던 때는 드롭다운이 들어 있는
+   이동 상자와 같은 단이라, 「누르는 것」과 「읽는 면」이 한 재질로 보였다.
+   다섯 단 사이에는 그 중간이 없으므로 색을 더 얹는 대신 재질을 바꾼다 —
+   흰 면은 지도 마커와 같은 어법이고, 테가 있어야 흰 바탕 위에 선다.
+
+   테를 border 가 아니라 안쪽 그림자로 두르는 까닭은 box-sizing:border-box 다.
+   border 는 안쪽 상자를 2px 줄여 아이콘과 글자를 한쪽으로 밀어낸다. */
+.hbtn,.dirbtn{
+  flex:none; height:var(--sz-btn); border-radius:var(--r-btn);
+  background:var(--paper);
+  box-shadow:inset 0 0 0 1px var(--line-2);
+  display:inline-grid; place-items:center;
+}
+/* 머리 버튼은 아이콘 하나라 정사각이고, 32px 이다 — 날짜 알약(40px)보다
+   한 단 작다. 한때 40px 로 키워 날짜와 나란히 세워 봤는데, 키가 같은데
+   모양만 다른 둘이 되어 오히려 따로 놀았다. 이 줄에서 무엇을 보여 줄지
+   정하는 것은 날짜이고 이 단추들은 그 곁에서 화면을 여닫는 곁다리라,
+   위계가 크기로 읽히는 편이 낫다.
+
+   면이 먹이고 글리프가 희다. 흰 면에 1px 테이던 때는 아래의 .fab 과 나란히
+   놓고 보면 같은 일을 하는 단추 둘이 서로 다른 물건으로 보였다.
+
+   이제 뜻은 면이 진다. 셋 다 글리프는 희고 뒤의 면만 다르다 —
+   먹은 그냥 손짓, 주황은 아직 해야 하는 것, 파랑은 지금 켜져 있는 것.
+   한때 체크리스트는 흰 면에 주황 글리프였는데, 면이 먹으로 뒤집히자
+   검은 바탕 위 주황이 되어 획이 묻혔다. 색을 글리프에서 면으로 옮기면
+   --todo 라는 단서를 잃지 않으면서 대비도 산다. */
+.hbtn{
+  width:var(--sz-btn); height:var(--sz-btn);
+  background:var(--ink-1); color:var(--paper);
+  box-shadow:none;
+}
+/* 체크리스트는 연한 주황 면이다 — 어디로 건너가는지는 색이 말하되,
+   먹 면인 지도보다 뒤에 서야 한다. 먼저 읽혀야 하는 것은 지금 보는 화면을
+   바꾸는 단추이지, 나중에 볼 목록으로 가는 문이 아니다. */
+.hbtn.task{background:var(--todo-face); color:var(--todo-ink)}
+
+/* 떠 있는 단추 — 전체 동선.
+   화면 위에 얹히므로 면이 아니라 그림자로 떠 있다.
+
+   아래 한가운데다. 한때 오른쪽 아래에 동그란 글리프 하나로 서 있었는데,
+   그 꼴은 「무엇을 하는 단추인가」를 말하지 못했다 — ▶ 하나로는 동선을
+   본다는 뜻이 안 읽혀 눌러 봐야 알 수 있었다. 글자를 넣으면 알약이 되고,
+   알약은 모서리에 붙는 것보다 가운데 서는 편이 꼴에 맞는다.
+
+   가운데는 이 화면에서 가장 센 자리이기도 하다. 준비물을 훑고 나면
+   다음에 할 일이 이것 하나뿐이라 그만한 자리를 줘도 된다. */
+.fab{
+  position:absolute; z-index:40;
+  left:50%; transform:translateX(-50%);
+  bottom:calc(var(--safe-b) + var(--sp-4));
+  height:var(--sz-tap); padding:0 var(--sp-4);
+  border-radius:var(--r-btn);
+  /* 먹빛이다. 준비 화면은 흰 종이 위라 검은 단추라야 떠 보인다.
+     동선 화면의 재생 단추(route/style.css 의 .rvplay)는 반대로 흰
+     바탕인데, 그쪽은 지도 위에 얹히기 때문이다 — 바탕이 다르면
+     색은 뒤집혀야 한다. */
+  background:var(--ink-1); color:var(--paper);
+  display:inline-flex; align-items:center; gap:var(--sp-1);
+  /* 15px — 항목 제목과 같은 단이다. 이 화면에서 할 일이 이것뿐이라
+     읽는 글과 같은 무게로 서도 밀리지 않는다. */
+  font-size:15px; font-weight:600; letter-spacing:var(--ls-2);
+  white-space:nowrap;
+  box-shadow:0 2px 6px rgba(0,0,0,.20), 0 6px 16px rgba(0,0,0,.14);
+  transition:background-color .2s var(--ease), color .2s var(--ease);
+}
+.fab:focus-visible{outline:2px solid var(--ink-1); outline-offset:2px}
+/* 길 찾기는 글자다. 아이콘을 뺀 까닭은 「구글 지도로 나간다」를 그림으로 줄이면
+   장소의 지도 링크(.pin)와 같은 그림이 되어 두 가지 다른 일이 하나로 보이기
+   때문이다 — 하나는 자리를 보여 주고 하나는 길을 찾는다 */
+/* 「길 찾기」 뒤에 대각선 화살표 — 여기서 딴 앱으로 나간다는 뜻이다.
+   글자와 4px 로 붙인다. 이어 읽는 짝이라 한 덩어리로 보여야 한다.
+   아이콘은 14px 로 글자(13px)보다 한 눈금만 크다. 색은 currentColor —
+   버튼의 글자색(--ink-1)을 그대로 따르므로 「길 찾기」와 같은 먹이다.
+   16px 로 키워 봤는데 세 글자짜리 버튼에서 그림이 글자보다 커 보였다.
+   화살촉을 6→18 로 넓게 그린 뒤라 14px 에서도 꼴이 안 뭉갠다 —
+   전에 흐릿했던 것은 크기가 아니라 팔이 짧아 획이 겹쳤던 탓이다. 오른쪽 여백을 한 단 줄여(12 → 8) 화살표가
+   테에 눌리지 않게 한다. */
+.dirbtn{
+  padding:0 var(--sp-2) 0 var(--sp-3); color:var(--ink-1);
+  font-size:13px; line-height:var(--lh-3); font-weight:600;
+  letter-spacing:var(--ls-3);
+  display:inline-flex; align-items:center; gap:var(--sp-1);
+}
+/* 지도가 펴져 있는 동안은 파란 면이다.
+   먹은 이제 쉬고 있는 꼴이라 켜짐을 말할 수 없다. 파랑(--accent)은 이 앱에서
+   이미 「고른 것」의 색이다 — 날짜 줄의 오늘 칩이 같은 면을 쓴다.
+   그래서 새 뜻을 들이는 것이 아니라 있던 말을 한 군데 더 쓰는 셈이다. */
+.hbtn.on{background:var(--accent); color:var(--accent-ink)}
+.hbtn.off{opacity:.35}
+.hbtn:focus-visible{outline:2px solid var(--focus); outline-offset:2px}
+
+/* 그날의 조건 — 렌터카 · JR 패스. 제목 바로 옆에 붙어 줄을 늘리지 않는다.
+   면을 두르지 않는다 — 누르는 것이 아니라 읽는 것이고,
+   바로 옆에 진짜 버튼(지도 · 체크리스트)이 서 있어 더 헷갈린다.
+   면이 없으므로 사이는 조금 더 벌린다. */
+/* 깃발 사이는 중간점으로 가른다. 여백만으로는 렌터카 아이콘과 「JR패스 1일차」가
+   한 덩어리로 보인다 — 서로 다른 조건인데 붙어 읽힌다.
+   점은 글자보다 옅게 두어 가르는 일만 하고 제 존재를 주장하지 않는다. */
+/* 11px · 500 이다. 크기 세 단(22 · 15 · 13)은 읽는 글의 단이고 이것은
+   읽는 글이 아니라 표지라 그 축 밖에 있다.
+   굵기 500 은 숙소 줄과 같은 단이다 — 옅은 색(ink-2) 위에서 400 은
+   획이 사라지고 600 은 날짜와 다투기 때문이다. */
+/* 그날의 조건 — 패스 며칠째, 차가 있나. 둘은 「오늘 무엇을 타나」라는 한
+   물음에 답하므로 알약 하나에 담는다. 가운뎃점으로만 이어 두었을 때는
+   날짜와 같은 무게의 글자 둘로 읽혀, 무엇이 제목이고 무엇이 곁인지 흐렸다.
+
+   면을 채우지 않고 테만 두른다. 머리에는 면이 이것뿐이라 채우면 날짜보다
+   먼저 눈에 들어온다 — 테는 「여기까지가 한 덩어리」만 말하고 물러난다.
+
+   선은 ink-3 이다. --fill-2 는 시각 열의 점선처럼 바탕에 깔리는 선의 단이라,
+   흰 바탕 위 테로 쓰면 있는지 없는지 모를 만큼 옅다. 테는 경계를 그어야
+   제 일을 한다. 테를 안쪽에 두므로 알약이 그만큼 커지지 않는다.
+
+   안쪽 여백은 칩의 것(6px)이고 바깥은 8px 이다 —
+   테를 가진 것도 안보다 밖이 넓어야 바탕에서 떨어져 보인다. */
+.flags{
+  display:flex; gap:var(--sp-1); align-items:center; min-width:0; flex:none;
+  /* 위아래 여백은 주지 않는다. 글줄(18px)이 이미 글자를 안고 있어,
+     2px 을 더하면 22px 이 되어 15px 지역 줄보다 키가 커진다 —
+     곁들이는 조건이 무대보다 커 보였다. 좌우만 칩의 여백을 준다.
+
+     위에만 한 픽셀. 글자가 글줄 안에서 살짝 내려앉아 있어 둘레를 똑같이 주면
+     위가 좁아 보인다 — 격자를 어기는 것이 아니라 그 어긋남을 되돌리는 값이다.
+
+     좌우 여백은 없다. 면이 있던 때는 칩의 안쪽 여백이었지만, 면을 걷고 나니
+     그냥 날짜에서 8px 더 밀어내는 값이었다 — 「9.22 화요일 · JR패스 1일차」는
+     한 호흡에 읽는 한 줄이라 titlerow 의 gap(8px) 하나면 족하다. */
+  padding:var(--hair) 0 0;
+  border-radius:var(--r-btn);
+  /* 알약은 할 일 상자(.btask)와 똑같이 생겼다 —
+     테 없음 · 면 주황 0.06 · 글자 --todo · 굵기 600. 값을 하나도 달리하지 않는다.
+     둘은 같은 것을 말한다(아직 해야 하는 것, 그날 챙길 것).
+     하나라도 어긋나면 눈이 둘을 다른 것으로 갈라 읽는다.
+
+     면도 테도 없다 — 주황 글자만으로 선다. 상자 쪽에서 면을 걷은 것과 같다. */
+}
+.flags .flag + .flag::before{content:"·"; color:var(--todo)}
+.flag{
+  display:inline-flex; align-items:center; gap:var(--sp-1);
+  font-size:11px; line-height:var(--lh-3); white-space:nowrap;
+  color:var(--todo); font-weight:600;
+}
+
+/* 종료 시각은 제목에 딸린 보조다 — 한 단 낮춰 제목과 갈린다 */
+
+/* 지도를 펴면 세로가 빠듯해진다. 지역·숙소는 목록을 보는 데 꼭 필요하지 않으므로
+   접어 두고, 화면이 넉넉할 때만 도로 보인다. */
+.map.open ~ .card .daysub, .map.open ~ .card .daystay{display:none}
+.map.open ~ .card .cardhead{padding-bottom:var(--sp-2)}
+
+@media (min-height:800px){
+  /* 도로 보일 때는 저마다 제 display 로 돌아가야 한다.
+     둘을 묶어 block 으로 되돌리면 숙소 줄의 flex 가 풀려,
+     아이콘이 baseline 에 걸려 처지고 금액을 줄 끝으로 미는
+     margin-left:auto 도 듣지 않는다. */
+  .map.open ~ .card .daysub{display:block}
+  .map.open ~ .card .daystay{display:flex}
+}
+
+
+/* ═══ 목록 ═══════════════════════════════════════════════
+   상세 화면을 두지 않는다. 적어 둔 것은 그 자리에 다 적히고,
+   후보가 여럿일 때만 첫 곳을 남기고 접는다. */
+
+/* 가게 한 곳 — 이름과 원어가 한 줄, 영업시간과 설명이 그 아래 한 줄.
+   안은 붙이고 사이는 벌린다. 줄 사이와 곳 사이가 같으면
+   여섯 줄이 고르게 늘어선 것처럼 보여 어디까지가 한 곳인지 모른다. */
+/* 안쪽 여백을 미리 깔고 같은 만큼 바깥으로 되물린다. 글자 자리는 그대로인 채
+   면만 켜고 끌 수 있다 — 위아래 3px 이 곧 곳과 곳 사이 6px 이다. */
+/* 안쪽 여백을 미리 깔고 왼쪽으로만 되물린다.
+   왼쪽은 시각 열 쪽으로 남는 자리가 있어 면을 넓힐 수 있지만,
+   오른쪽은 화면 바깥 여백(16px)이 곧 끝이라 되물리면 그 선을 넘는다 —
+   면만 다른 요소보다 밖으로 튀어나와 오른쪽 줄이 어긋나 보인다.
+   되물리는 값과 왼쪽 안쪽 여백이 같아 글자 자리는 그대로다. */
+.place{
+  margin:0 0 0 calc(-1 * var(--sp-2));
+  /* 위아래는 절반 칸이다. 4px 이던 때는 곳과 곳 사이가 15px 로,
+     한 곳 안의 줄 사이(5px)의 세 배였다 — 두 줄짜리 한 곳보다
+     곳과 곳 사이가 더 벌어져 목록이 낱장처럼 흩어졌다.
+     11px 이면 안(5px)의 두 배로, 덩어리는 갈리되 목록은 이어진다. */
+  padding:var(--sp-h) 0 var(--sp-h) var(--sp-2);
+  border-radius:var(--r-box);
+  /* 짚은 표시가 이 안에 절대 배치로 앉을 수 있게 */
+  position:relative;
+}
+/* 좌표가 있는 곳은 눌러서 지도로 갈 수 있다 */
+.place.pick{cursor:pointer}
+/* 지도가 지금 보고 있는 곳 — 지금은 아무 표시도 없다.
+
+   써 본 것들. 글자를 파랗게 하면 이름의 Lc 가 98.7 에서 64.2 로 내려가서
+   「지금 보고 있는 곳」인데 도리어 물러나 보였다. 면을 깔면 예약을 품은
+   후보에서 면이 두 겹이 됐다. 왼쪽에 파란 점도 놓아 봤는데, 곳이 붉은 면을
+   가지게 되면서 점이 그 면의 왼쪽 끝에 붙었다.
+
+   자리는 남겨 둔다 — .place 가 position:relative 라 절대 배치로 앉힐 수 있고,
+   왼쪽으로 8px 나가 있어(margin -8 · padding 8) 글자를 밀지 않는 자리가 있다. */
+
+/* 묶음이 바뀌는 자리. 라벨을 띄우지 않으므로 간격이 그 경계를 대신한다 —
+   곳끼리(11px)에 한 단을 더해 15px 이 되고, 「거느리는 것」 층에 앉는다. */
+.place.sep{margin-top:var(--sp-1)}
+/* 이름과 그 아래 줄은 크기가 같다(13px). 가르는 것은 굵기다 —
+   제목 700 · 이름 600 · 곁들이는 말 400.
+   크기 단은 셋이면 넉넉하다(22 · 15 · 13). 일곱 단이던 때는 어느 것이
+   위인지 눈이 세지 못해 도리어 평평해 보였다. */
+/* 이름 뒤에 붙는 표식과 링크는 바짝 붙인다. 앞에 서는 아이콘(제목의 종류,
+   이동 수단)은 글자를 이끄는 것이라 4px 이 필요하지만, 뒤엣것은 그 이름에
+   딸린 것이라 붙어야 「이 가게의 링크」로 읽힌다.
+   아이콘이 제 안에 2px 여백을 품으므로 눈에는 4px 로 보인다. */
+.pn{
+  display:flex; align-items:center; gap:var(--sp-h);
+  /* 글줄은 제 글자(13px)에 맞춘다. --lh-2(22px)는 제목·시각(15px)에 맞춘
+     값이라 여기서는 헐거워, 아래 설명과의 사이를 4.5px 이나 벌렸다.
+     이 줄에 서는 것 중 가장 큰 링크 아이콘이 16px 이라 18px 안에 든다. */
+  font-size:13px; line-height:var(--lh-3); letter-spacing:var(--ls-3);
+}
+/* 이름과 원어가 한 덩어리로 한 줄에 서고, 넘치면 … 로 줄인다.
+   접어 내리면 긴 이름 하나 때문에 그 후보만 두 줄이 되어 목록의 결이
+   어긋난다 — 어디인지는 원어와 지도 버튼이 마저 알려 준다. */
+/* 굵기 600 은 제목·후보 이름이 함께 쓰는 값이다. 아이콘(stroke 2)과 무게가
+   맞는 자리라 여기서 오르내리면 글자든 아이콘이든 한쪽이 따로 논다.
+   이름과 그 아래 줄의 위계는 굵기(600·400)와 색(먹·muted)이 맡는다 —
+   크기 차이는 1px 뿐이라 혼자서는 위계를 세우지 못한다. */
+.nw{
+  /* 제 글자만큼만 차지하고, 자리가 모자랄 때만 줄어든다. flex:1 로 두면
+     남는 자리를 다 먹어 뒤따르는 표식과 링크가 줄 끝까지 밀려났다 */
+  flex:0 1 auto; min-width:0;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  color:var(--ink-1); font-weight:600;
+}
+/* 원어는 이름에 딸린 말이라 무게를 낮춘다. 이름과 붙지 않게 한 칸 띄운다 */
+/* 원어는 이름에 딸린 말이라 바짝 붙인다. 4px 은 곁의 아이콘이 눈에
+   보이는 간격과 같은 값이다 — 아이콘은 gap 2px 에 제가 품은 여백 2px 이
+   더해져 4px 로 보이므로, 글자끼리는 4px 을 그대로 줘야 나란해진다.
+
+   색은 한글 이름과 같은 ink-1 이다. 둘은 같은 것을 가리키는 한 이름이라
+   색까지 갈라 놓으면 두 조각으로 읽힌다 — 가르는 일은 굵기가 이미 한다
+   (600 · 400). ink-3 이던 때는 아래 줄의 설명과 같은 색이라
+   「盛岡冷麺 寿々苑」과 「사과 들은 모리오카 냉면」이 한 층으로 보였고,
+   ink-2 로 올려도 여전히 이름에서 떨어져 나왔다. */
+.nw .ja{margin-left:var(--sp-1); color:var(--ink-1); font-weight:400}
+/* 예약 표식과 링크는 이름 왼쪽에 선다. .pn 이 가운데 정렬이라 손으로
+   맞출 값이 없다 — 아이콘 크기가 달라져도 알아서 한 선에 선다 */
+/* 영업시간과 설명이 한 줄에 선다. 시각은 폭이 정해져 있어 왼쪽에 세우고,
+   설명은 남는 자리를 받는다. 접지 않는다 — 넘치면 아래로 흐른다.
+
+   사이는 8px — 「글자 ↔ 글자」의 기준값이다. 4px(이름 ↔ 원어와 같은 값)으로
+   두었더니 시각과 설명이 한 낱말처럼 붙어 어디서 끊어 읽을지가 흐렸다.
+   이어 읽는 짝이긴 해도 「언제」와 「무엇을」은 서로 딴 것이라, 한 칸 벌려
+   둘로 보이게 하는 편이 맞는다. */
+/* 색은 이 줄에서 한 번만 준다. 영업시간과 설명이 같은 층이므로 각자 적어 두면
+   한쪽만 고쳐져 어긋난다 — 실제로 둘 다 --ink-3 이라 적어 두고 있었다.
+
+   --ink-2(0.6)다. 먹 단을 0.2 로 고르게 벌리며 --ink-3 이 0.498 에서 0.4 로
+   내려갔는데, 13px 이 그 옅기를 못 버텼다. 이 줄은 훑다 걸리는 줄이지
+   물러나 있을 줄이 아니다 — 「몇 시까지 하나」와 「뭐 하는 집인가」다. */
+.psub{
+  display:flex; align-items:baseline; gap:var(--sp-2);
+  margin:0; color:var(--ink-2);
+  font-size:13px; line-height:var(--lh-3); letter-spacing:var(--ls-3);
+}
+/* 설명은 두 줄까지. 읽어야 뜻이 서는 말이라 한 줄로 줄이면 잃는다.
+
+   시각과 같은 색이다(위에서 한 번 준다). 한 줄 안에서 색이 둘이면 눈이
+   「왜 다르지」부터 묻는다 — 층을 세우려 한 것이 도리어 걸림돌이 된다.
+   이 줄은 통째로 한 층이고, 위 줄(이름 · 원어)과 갈리는 것으로 충분하다. */
+.pd{
+  flex:1; min-width:0; margin:0;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.ph{flex:none; font-variant-numeric:tabular-nums}
+
+/* 얼마인가는 경로 줄의 끝에 선다 — 어디서 어디로의 값이라 한 줄이 맞는다 */
+.pcost{margin-left:auto; flex:none; font-variant-numeric:tabular-nums}
+/* 「패스 커버」는 금액에 딸린 말이라 괄호에 넣는다 — 「11,330엔(패스 커버)」.
+   괄호가 이미 「이건 곁말」을 말하므로 사이는 절반 칸이면 넉넉하다.
+   8px 이던 때는 금액과 따로 떨어져 두 값처럼 읽혔다.
+   괄호는 글이 아니라 표시라 CSS 가 그린다 — 데이터에는 없는 글자다.
+
+   색은 주지 않는다. 패스가 덮는 돈이라고 한 단 옅게 두었는데(ink-3),
+   괄호와 「패스 커버」라는 글자가 이미 그것을 말하고 있어 색은 같은 말을
+   두 번 하는 셈이었다. 게다가 옅어서 읽기가 힘들었다 —
+   안 내는 돈이어도 얼마인지는 알아야 한다. 줄의 색(ink-2)을 그대로 따른다. */
+.covtag{margin-left:var(--sp-h); font-size:13px}
+.covtag::before{content:"("}
+.covtag::after{content:")"}
+
+
+/* 펼침 — 높이가 자란다.
+   height:auto 는 전이되지 않고 max-height 는 값을 넘겨짚어야 해 끝이 어긋난다.
+   0fr → 1fr 은 내용이 얼마든 제 높이만큼만 자란다. */
+.fold{
+  display:grid; grid-template-rows:0fr;
+  transition:grid-template-rows .2s var(--ease);
+}
+.fold.open{grid-template-rows:1fr}
+.foldin{overflow:hidden; min-height:0}
+@media (prefers-reduced-motion: reduce){
+  .fold{transition:none}
+}
+
+/* 표식 — 배경 없는 아이콘 하나. 배경을 가진 것은 시각 칩뿐이다 */
+/* 예약 표식 — 잡아 둔 자리라는 뜻. 채운 아이콘은 선 아이콘보다 무겁다.
+   같은 16px 이라도 면적이 훨씬 커서, 한 단 작게 두어야 곁의 링크(선)와
+   같은 무게로 선다. 쓰이는 자리가 넷이라 여기서 한 번에 묶는다. */
+.resvmark, .seatmark{
+  width:var(--ic-sm); height:var(--ic-sm); flex:none;
+}
+/* 예약 표식과 「지켜야 하는 시각」은 한 뜻이지만 지는 방법이 다르다.
+   표식은 색으로, 시각은 굵기로 진다.
+
+   한 토큰으로 묶어 두었던 자리다. 「값을 따로 적으면 한쪽만 물든다」는
+   까닭이었는데, 실제로 색을 들여 보니 시각 열에서는 색이 잡음이 됐다 —
+   좁은 열에 숫자만 서는 자리라 붉은 것이 서넛 흐르면 급한 것이 아니라
+   알록달록한 것으로 읽힌다.
+
+   뜻이 같다고 표까지 같아야 하는 것은 아니다. 자리마다 남는 여유가
+   다르고, 표식에는 굵기가 없고 시각에는 면이 안 든다. */
+/* 북마크는 먹이다. 「잡아 둔 것」이라는 뜻은 붉은 면이 이미 말하고 있어서,
+   그 곁의 표식까지 붉으면 같은 말이 두 번 된다.
+   예약 상자와 신칸센 상자가 둘 다 붉은 면을 가지므로 표식 둘 다 먹이다. */
+/* 북마크는 붉다 — 곁의 상자와 같은 색이라야 한 덩어리로 읽힌다.
+   접힌 이동 줄에서는 이것이 「잡아 둔 차」를 말한다. 줄은 회색이고,
+   좌석 상자는 그 아래 따로 서므로 줄 안에는 표식 하나면 된다. */
+.resvmark, .seatmark{color:var(--resv)}
+
+/* 예약과 할 일 — 같은 꼴의 상자. 색으로만 가른다.
+   파랑은 이미 정해진 것, 민트는 아직 해야 하는 것. */
+.bresv, .btask{display:flex; flex-direction:column; gap:var(--sp-1)}
+/* 할 일도 면을 깐다. 다만 테를 함께 두른다 —
+   잡아 둔 것(예약)은 이미 끝난 일이라 면으로 가라앉고,
+   해야 하는 것은 아직 안 끝나서 테로 한 겹 더 선다.
+
+   면도 테도 없다. 옅은 주황 면을 깔아 봤는데, 곁의 예약 상자(옅은 붉은 면)와
+   한눈에 안 갈렸다 — 밝기도 채도도 비슷한 두 파스텔 면이 나란히 서면
+   눈이 색상각까지 세지 않는다. 붉은 17°, 주황 45°, ΔE 로는 멀지만
+   「옅은 면을 가진 상자」라는 꼴이 같아서 그쪽이 먼저 읽힌다.
+
+   그래서 꼴로 가른다 — 잡아 둔 것은 면, 해야 하는 것은 면 없이 글자와 체크.
+   끝난 일은 상자로 가라앉고, 안 끝난 일은 목록의 한 줄로 떠 있다.
+   좌우 여백도 없앤다. 면이 없으면 여백은 들여쓰기일 뿐이라
+   딸린 줄이 이웃 항목보다 안쪽으로 밀려 보인다. */
+.btask{
+  padding:var(--sp-1) 0;
+}
+/* 예약도 할 일도 면을 갖는다 — 뜻만 색으로 갈린다(붉은은 잡아 둔 것,
+   주황은 아직 할 것). 한때 할 일에는 면을 주지 않았다. 네모 안 체크가
+   이미 그 뜻을 진다는 까닭이었는데, 체크는 「이것이 할 일이다」만 말하고
+   「이 줄부터 저 줄까지가 한 덩어리다」는 말하지 못했다.
+   면이 옅으면(0.06) 항목 하나가 화면에서 가장 진해지는 일도 없다. */
+.bresv{border-radius:var(--r-box); padding:var(--sp-2) var(--sp-3)}
+/* ── 면을 가진 것의 둘레 ────────────────────────────
+   전에는 위 여백만 있고 아래는 아무 규칙도 없었다 — 지정석 상자 아래가
+   4.5px 으로, 상자 안(9px)보다 좁았다. 안이 밖보다 넓으면 상자가
+   아래 글을 제 것처럼 끌어당긴다.
+   위아래 모두 한 칸(8px)이다. 안쪽 padding 은 이웃과의 거리가 아니고,
+   면은 경계가 먼저 눈에 걸려 같은 값도 좁아 보인다.
+   맨 끝에서는 주지 않는다 — 감싸는 것의 안쪽 여백이 이미 그 몫을 한다. */
+.rbody > .bresv, .rbody > .btask,
+.legbody > .bseat, .legbody > .legimg,
+.place > .bresv{margin-block:var(--sp-2)}
+
+.rbody > .bresv:last-child, .rbody > .btask:last-child,
+.legbody > .bseat:last-child, .legbody > .legimg:last-child,
+.place > .bresv:last-child{margin-bottom:0}
+
+/* 제목 바로 아래에 서는 상자만 한 단 더. 제목의 글줄은 아래로 3.5px 밖에
+   남기지 않아, 글자로 시작하는 후보(16px)와 나란히 보이려면 12px 이라야 한다. */
+.rbody > .bresv:first-child{margin-top:var(--sp-3)}
+/* 이동 상자 안의 첫 줄은 누름 줄(.lb)의 안쪽 여백 8px 위에 선다 — 한 칸만 더 */
+.legbody > .bseat:first-child,
+.legbody > .legimg:first-child{margin-top:var(--sp-1)}
+
+/* 예약은 지정석과 같은 것이다 — 시각을 지켜야 하는 약속.
+   그래서 면도 같은 단(fill-2)을 쓴다. fill-1 이던 때는 예약 상자가
+   그냥 이동 상자와 같은 색이라, 신칸센은 진한데 식당 예약은 안 진해
+   같은 뜻이 두 세기로 보였다. */
+/* 예약은 지정석과 같은 것이다 — 시각을 지켜야 하는 약속. 회색 면이던 때는
+   「잡아 둔 것」을 면의 세기로만 말했는데, 색이 생겼으니 색이 말한다. */
+/* 잡아 둔 것의 면은 회색이다. 붉은 면을 깔았던 때는 항목에서 가장 넓은
+   자리를 경고색이 차지했다 — 잡아 둔 것은 이미 끝난 일이라 볼 것이 없는데
+   화면에서 가장 먼저 눈에 걸렸다. 붉은은 글자만 진다.
+
+   면은 red50 이다. 회색 면(grey50)으로 한참 가 봤는데 되돌렸다 —
+   회색이면 「한 덩어리」라고만 말하고 무엇인지는 글자에만 맡기게 되는데,
+   훑을 때 눈에 먼저 닿는 것은 면이다. 잡아 둔 것은 훑다 걸려야 한다.
+
+   밝기는 grey50 보다 0.022 낮을 뿐이라 아직 흰 종이에 가깝다.
+   붉은 면을 걷어냈던 까닭(넓은 면이 경고색이라 튄다)은 이 값에는 안 걸린다 —
+   그때 쓰던 것은 항목 전체를 덮는 면이었고, 지금은 상자 하나다.
+
+   테도 붉은 계열이다(red100). 회색 테는 붉은 면 위에서 때가 낀 듯 보인다.
+
+   좌석 카드는 이동 줄(--fill-1, #f2f2f2) 안에 들어 있어서 이 값이면
+   바깥보다 밝다. 그래도 갈린다 — 걸리는 시간 알약(.pill)이 회색 줄 위의
+   흰 알약인 것과 같은 방식이다. 안이 밝으면 떠 보이고, 그것으로 족하다. */
+.bresv{background:var(--resv-bg); box-shadow:inset 0 0 0 1px var(--resv-line)}
+/* 할 일은 면 없이 글자와 아이콘만. 네모 안 체크가 앞에 서고 내용이 그 오른쪽에
+   붙는다 — 체크리스트에 적힌 것임이 한눈에 읽힌다. 누르는 것은 아니다.
+   색은 --todo 를 그대로 쓴다. 지금은 먹이고, 색을 들이면 여기가 붉어진다. */
+.bresv .t, .btask .t{
+  margin:0; font-size:13px; line-height:var(--lh-3); font-weight:600;
+  letter-spacing:var(--ls-3);
+  display:flex; align-items:flex-start; gap:var(--sp-1);
+}
+/* 제목은 600 이다. 한때 700 을 줬는데, 그때는 상자에 붉은 면만 있고 테가
+   없어서 층을 굵기가 온전히 져야 했다. 지금은 회색 면과 테가 「여기까지가
+   한 덩어리」를 말하고, 붉은 글자가 「잡아 둔 것」을 말한다.
+   굵기까지 700 으로 밀면 13px 두 줄짜리 상자에서 첫 줄만 뭉쳐 보인다.
+   딸린 줄(500)과 한 단 차이면 족하다 — 다른 상자들과도 같은 눈금이다. */
+.bresv .t{color:var(--resv); font-weight:600}
+/* 북마크는 상호 옆에 이미 섰다 — 상자 안에서 되풀이하지 않는다 */
+.btask .t{color:var(--todo)}
+/* 아이콘을 첫 글줄 한가운데로 — (글줄 20px − 아이콘 13px) ÷ 2.
+   여러 줄로 접히는 문구가 흔하므로 align-items 는 flex-start 로 두고
+   첫 줄 기준으로 내린다. center 로 두면 두 줄일 때 아이콘이 가운데로 처진다. */
+.btask .t svg{flex:none; margin-top:calc((var(--lh-3) - var(--ic)) / 2)}
+/* 딸린 줄은 400 이었다. 제목(600)과 두 단이 벌어져 붉은 면 위에서 획이 사라진다 —
+   면을 가진 것 안에서는 글자가 바탕에서 한 겹 떠 있어야 하고, 13px 에서 그 몫은
+   색이 아니라 굵기가 진다. 한 단만 올린다(500). 600 으로 올리면 제목과 같아져
+   「무엇을 잡았나」와 「어디서·얼마」가 한 층으로 읽힌다. */
+.bresv .bd{
+  margin:0; font-size:13px; line-height:var(--lh-3); font-weight:500;
+  color:var(--resv-2);
+}
+/* 딸린 줄은 상자에 붙은 설명이다. 지정석의 딸린 줄(.bseat .bd)과 같은 층이라야 한다 —
+   --ink-3 이던 때는 이 줄만 한 단 아래여서 흰 바탕에서 Lc 54.6 이었다.
+   애플의 secondaryLabel(61.9)보다도 흐린 값이고, 할 일 제목은 경고색이라
+   대비가 세서 제목과의 낙차가 상자 셋 가운데 가장 컸다. */
+/* 딸린 줄은 제목과 같은 계열이라야 한 덩어리로 읽힌다.
+   예약 상자가 그렇게 되어 있다 — 제목 red700 · 딸린 줄 red800 · 면 red50.
+   할 일만 제목이 주황이고 딸린 줄이 먹이던 때는 둘이 따로 놀았다.
+   층은 색이 아니라 굵기(600 · 400)가 진다 — 토스 주황은 900 이 가장 진해서
+   예약처럼 한 단 더 진한 값을 얹을 자리가 없다. */
+/* 할 일에는 딸린 줄이 없다 — 첫 줄만 그린다(DayList.tsx).
+   전문은 머리의 체크리스트가 보여 준다. */
+
+/* 항목에 딸린 메모 — 후보의 설명과 같은 결이다. 자간까지 맞춘다 */
+/* 메모는 여럿이 잇달아 놓인다. 여백은 그 묶음의 바깥에만 준다 —
+   낱장마다 padding 을 두르면 메모끼리도 같은 만큼 벌어져,
+   한 덩어리로 읽혀야 할 것이 따로 논다.
+   묶음 안쪽은 .rbody 의 gap(4px)만 남아 한 덩어리 간격이 된다. */
+/* 색은 후보의 설명과 같은 ink-3 이다. 둘 다 곁들이는 말이라 한 층이어야
+   하는데, 메모만 ink-2 여서 「해산물 시장 · 주차 유료」와 「반다이 시티를
+   메인으로…」가 나란히 놓일 때 층이 둘로 보였다.
+   색 세 단이 그대로 세 층이다: 이름(1) · 원어와 시각(2) · 곁들이는 말(3). */
+/* 시트에 적어 둔 주소 — 메모와 같은 층이되 누를 수 있다는 것만 다르다.
+   아이콘은 두지 않는다. 도메인이 이미 「밖으로 나간다」를 말하고,
+   메모 줄에 아이콘이 서면 곁의 메모들과 시작선이 어긋난다.
+
+   굵기를 한 단 올려 곁의 메모(400)와 가른다. 다만 굵기는 「더 중한 것」을
+   말할 뿐 「누를 수 있음」은 말하지 못한다. 그 몫은 밑줄이 진다 —
+   이 화면은 a{text-decoration:none} 이라 밑줄이 여기 하나뿐이고,
+   웹에서 밑줄은 다른 뜻으로 쓰이지 않는다.
+
+   선은 글자보다 한 단 옅게(ink-3) 두고 2px 내린다. 글자와 같은 세기로
+   그으면 밑줄이 글자만큼 진해져 도메인이 두 겹으로 읽힌다.
+   2px 은 간격이 아니라 활자 값이라 4px 격자를 따르지 않는다. */
+.weblink{
+  color:var(--ink-2); font-weight:500;
+  text-decoration:underline; text-decoration-color:var(--ink-3);
+  text-underline-offset:2px;
+}
+
+.bnote{
+  margin:0; padding:0;
+  display:flex; gap:var(--sp-1);
+  font-size:13px; line-height:var(--lh-3);
+  color:var(--ink-3); letter-spacing:var(--ls-3);
+}
+/* 한 메모 안의 줄바꿈은 살린다 — 택배 보낼 주소처럼 줄을 세워 적은 것이
+   한 줄로 흐르면 읽을 수가 없다. pre-line 은 줄바꿈만 지키고
+   앞뒤 공백은 접으므로 시트의 들쭉날쭉한 여백은 따라오지 않는다.
+
+   이어지는 줄을 들여써 본 적이 있는데 되돌렸다 — 주소든 두 문장짜리 메모든
+   원래 줄을 세워 적은 것이라, 들여써지면 잘못 적힌 것처럼 보인다.
+   메모끼리를 가르는 일은 아래의 간격이 맡는다. */
+.bnote > span,
+.bresv .bd, .bseat .bd{min-width:0; white-space:pre-line}
+/* 상자의 제목 줄은 아이콘과 나란히 선 flex 다 — 여기에 들여쓰기를 걸면
+   padding 만 먹혀 글자가 통째로 밀리고 text-indent 는 듣지 않는다.
+   줄바꿈만 살린다. */
+.bresv .t, .btask .t, .bseat .t{white-space:pre-line}
+/* 메모 묶음의 바깥 여백은 후보가 두르는 것과 같은 절반 칸이다 —
+   몸통의 첫 줄이 메모든 후보든 제목 아래 간격이 같아야 한다. */
+.bnote:first-of-type{padding-top:var(--sp-h)}
+.bnote:last-child{padding-bottom:var(--sp-h)}
+/* 메모끼리는 한 메모 안의 줄 사이(5px)와 갈려야 한다. 7px 이던 때는 2px
+   차이라 눈이 세지 못해, 두 문장짜리 메모 하나와 한 문장짜리 메모 둘이
+   똑같아 보였다. 9px 이면 갈리되, 후보 사이(11px)보다는 좁아
+   메모 묶음이 여전히 한 덩어리로 읽힌다. */
+.bnote + .bnote{margin-top:var(--sp-h)}
+/* 메모가 끝나고 다른 결이 시작하는 자리는 제목 아래와 같은 한 칸이다.
+   메모는 그 항목에 딸린 말이고 후보는 갈 곳의 목록이다 —
+   곳끼리(11px)보다 넓게 떨어져야 「여기서부터는 다른 것」으로 읽힌다. */
+.bnote + :not(.bnote){margin-top:var(--sp-2)}
+/* 시작하는 자리도 같다. 위의 :first-of-type 만으로는 못 잡는다 —
+   이동 상자에서는 경로 줄도 <p> 라 그쪽이 첫 p 가 되고, 메모는 제 여백을
+   잃어 경로 줄에 7px 로 붙었다. */
+:not(.bnote) + .bnote{margin-top:var(--sp-2)}
+.pin.sm:focus-visible{outline:2px solid var(--focus); outline-offset:1px}
+
+/* ── 이동 ── 항목 사이에 낀 것이라 결이 달라야 한다 ── */
+.legwrap{
+  display:grid; grid-template-columns:var(--col-time) 1fr; gap:var(--sp-3);
+  padding:var(--sp-2) 0;
+}
+/* 시각 열을 잇는 점선 — 항목과 항목 사이에 시간이 흐른다.
+
+   grey200(--fill-2)이던 때는 흰 바탕에 1.23:1 이라 사실상 안 보였다.
+   점선은 제 색을 43% 만 덮으므로(3px 긋고 4px 쉰다) 눈에 닿는 세기는
+   그보다도 옅다 — 면에 쓰는 단으로는 선이 서지 않는다.
+
+   그렇다고 grey600(--ink-3, 4.62:1)은 셌다. 시각 열을 잇는 실오라기가
+   본문 글자와 같은 세기로 서면 눈이 그리로 끌린다. 55% 로 섞은 2.09:1 도
+   아직 셌다.
+
+   눈으로 재 본 자리는 이렇다 — 1.23 은 안 보이고 2.09 는 진하다.
+   그 사이인 1.57 에 둔다.
+
+   사다리에 grey400·500 이 없어 섞어 쓴다. 없는 값을 지어 적는 것이 아니라
+   있는 단에서 파생하는 것이라, 나중에 grey600 을 고치면 여기도 따라온다.
+   다시 손볼 일이 있으면 이 몫(35%)만 오르내리면 된다 —
+   45% 면 1.81:1, 25% 면 1.38:1 이다. */
+.legwrap .line{
+  justify-self:end; width:1px; margin-right:var(--chip-pad); align-self:stretch;
+  background:repeating-linear-gradient(
+    color-mix(in srgb, var(--ink-3) 35%, var(--paper)) 0 3px, transparent 3px 7px);
+}
+/* 선을 두르지 않고 가라앉은 면으로 나눈다. 항목은 흰 바탕 위에 그냥 놓이고
+   이동만 면을 가지므로, 둘의 결이 선 없이도 갈린다.
+   열린 것은 셰브런과 자라난 높이가 이미 말하고 있어 색을 바꾸지 않는다. */
+/* 길찾기와 이동 상자가 격자의 한 칸을 같이 쓴다. 점선(.line)이 align-self:stretch
+   하나로 둘을 다 덮으려면 격자의 행이 하나라야 한다 */
+.legcol{min-width:0}
+.legbox{
+  border:0; border-radius:var(--r-box);
+  background:var(--fill-1); min-width:0; overflow:hidden;
+}
+/* 이동 줄 — 항목보다 한 단 낮되 두 단은 아니다.
+   크기(13 · 16)만 한 단 내리고 굵기와 색은 지킨다. 전에는 굵기까지
+   400 으로, 색도 muted 로 떨어뜨려 두 단이 한꺼번에 내려갔다 —
+   렌터카 40분은 훑다 놓치면 안 되는 줄이다. */
+/* 이름이 길면 두 줄로 접힌다(「도호쿠(하야부사) or …」). 가운데 정렬이면
+   아이콘 · 시각 · 알약 · 셰브런이 통째로 아래로 처져 첫 줄의 이름과 어긋난다.
+   첫 줄에 맞춰 세운다 — 내리는 값은 (글줄 − 제 높이) ÷ 2 로, 그 줄의 한가운데다.
+   알약과 시각은 제 높이가 이미 글줄과 같아(18 + 2 + 2) 손댈 것이 없다. */
+.lb{
+  display:flex; align-items:flex-start; gap:var(--sp-1); width:100%; text-align:left;
+  padding:var(--sp-2) var(--sp-3);
+  font-size:13px; line-height:var(--lh-2); font-weight:600;
+  color:var(--ink-1); min-width:0;
+}
+.lb > *{align-self:flex-start}
+.lb .lm, .lb .chev{margin-top:calc((var(--lh-2) - var(--ic-lg)) / 2)}
+.lb .seatmark{margin-top:calc((var(--lh-2) - var(--ic-sm)) / 2)}
+.lb:focus-visible{outline:2px solid var(--focus); outline-offset:-2px}
+/* 펼친 이동 — 같은 상자 안에서 이어진다 */
+/* 펼친 이동 — 같은 상자 안에서 이어진다.
+   위는 .lb 의 padding-bottom(8px)이 맡으므로 여기서 또 주지 않는다.
+   아래를 12px 로 두면 위 8px 과 어긋나 상자가 아래로 처져 보인다 —
+   같은 8px 로 맞춘다.
+   안의 간격은 목록 본문(.rbody)과 같은 절반 칸이다. */
+.legbody{
+  display:flex; flex-direction:column; gap:var(--sp-h);
+  padding:0 var(--sp-3) var(--sp-2);
+}
+.lm{color:var(--ink-1); flex:none}
+/* 지정석 구간의 출발 시각 — 접혀 있어도 보인다 */
+.ltime{flex:none; color:var(--ink-1); font-weight:600; font-variant-numeric:tabular-nums}
+.lv{min-width:0}
+.pill{
+  flex:none; font-size:13px; line-height:var(--lh-3); padding:var(--sp-h) var(--sp-2);
+  letter-spacing:0;
+  border-radius:999px; background:var(--paper); color:var(--ink-2);
+  font-weight:600;
+  font-variant-numeric:tabular-nums; white-space:nowrap; margin-left:auto;
+}
+.lb .pill + .chev{margin-left:var(--sp-1)}
+.lb .chev{margin-left:auto; transition:transform .2s var(--ease)}
+.lb .chev.up{transform:rotate(180deg)}
+.lb .pill ~ .chev{margin-left:var(--sp-1)}
+/* 출발지 → 도착지. 굵기를 주지 않는다 — 이동 상자 안에 든 것은 죄다
+   바깥 누름 줄(.lb)의 설명이고, 그 줄이 이미 600 이다.
+   안에서 또 600 을 쓰면 같은 무게가 두 겹으로 겹쳐, 상자를 폈을 때
+   무엇이 제목이고 무엇이 그 세부인지 눈이 가르지 못한다.
+   이 줄이 상자에서 가장 중요하다는 것은 색과 자리가 말한다 —
+   ink-1 로 한 단 올린다. 곁들이는 말(소요 시간 · 메모)이 ink-3 이라
+   그것만으로도 층이 선다. 굵기로 올리면 바깥 누름 줄과 겹친다. */
+.route{
+  margin:0; font-size:13px; line-height:var(--lh-3);
+  color:var(--ink-1);
+  /* 「A → B」는 한 호흡에 읽는 한 덩어리다. 화살표가 둘을 잇는 것이지
+     가르는 것이 아니므로 「이어 읽는 짝」의 4px 을 쓴다.
+     8px 이던 때는 두 역 이름 사이가 16px 이나 벌어져 따로 놀았다 —
+     화살표가 제 좌우에 여백을 품고 있어 눈에는 더 넓게 보인다. */
+  display:flex; align-items:center; gap:var(--sp-1); flex-wrap:wrap;
+}
+.route .arrow{color:var(--ink-3)}
+
+
+/* ── 지정석 ── 좌석까지 잡은 구간은 자유석과 다르다 ──
+   그 차를 놓치면 표가 죽으므로 상자에 파란 결을 준다. */
+/* 잡아 둔 구간도 여느 이동 줄과 같은 회색이다 — 그릇은 탈것을 말할 뿐이다.
+   「잡아 두었다」는 곁의 북마크와 아래의 좌석 상자가 말한다.
+   줄 자체를 붉게 해 봤는데, 그러면 이동 줄이 「탈것」과 「예약」 둘을 겸해
+   여느 이동 줄과 결이 갈리고 안의 흰 알약(.pill)까지 물들었다. */
+/* 좌석 상자는 식당 예약 상자(.bresv)와 한 글자도 다르지 않다 —
+   같은 것을 말하므로 같은 꼴이다. 잡아 둔 자리 · 붉은 면 · 여린 붉은 테.
+   자리는 이동 상자 아래, 접힘 밖이다(DayList.tsx) — 늘 보인다. */
+.bseat{
+  background:var(--resv-bg); box-shadow:inset 0 0 0 1px var(--resv-line);
+  border-radius:var(--r-box); padding:var(--sp-2) var(--sp-3);
+  margin-top:var(--sp-1);
+  display:flex; flex-direction:column; gap:var(--sp-1);
+}
+/* 열차명은 이 상자에서 가장 진한 줄이다. 굵기로만 세운다.
+   앞에 북마크가 서 있던 때는 그것이 「잡아 둔 자리」를 말했는데, 같은 뜻을
+   바깥 이동 줄이 이미 지고 있어 표식이 두 번 섰다. 아이콘을 떼고 나면
+   무엇이 제목인지 말할 것이 굵기뿐이라 600 을 준다. */
+.bseat .t{
+  margin:0; font-size:13px; line-height:var(--lh-3);
+  color:var(--resv); font-weight:700;
+}
+.bseat .bd{margin:0; font-size:13px; line-height:var(--lh-3);
+  font-weight:500; color:var(--resv-2)}
+
+
+/* 지도가 지금 보고 있는 자리 — 목록에서도 같은 곳임을 알린다.
+   지도에서 짚으면 목록이 그리로 스크롤되고, 목록에서 짚으면 지도가 움직인다.
+   한쪽만 반응하면 무엇을 짚었는지 알 수 없다. */
+/* 짚은 자리의 표시는 .place.on 에 있다(이름 위쪽). 여기서는 스크롤만 맞춘다. */

@@ -1,0 +1,9 @@
+[
+  { "featureType": "poi", "stylers": [{ "visibility": "off" }] },
+  { "featureType": "road", "elementType": "labels", "stylers": [{ "visibility": "off" }] },
+  { "featureType": "transit", "elementType": "labels", "stylers": [{ "visibility": "off" }] },
+  { "featureType": "water", "elementType": "labels", "stylers": [{ "visibility": "off" }] },
+  { "featureType": "landscape", "elementType": "labels", "stylers": [{ "visibility": "off" }] },
+  { "featureType": "administrative.neighborhood", "stylers": [{ "visibility": "off" }] },
+  { "featureType": "administrative.land_parcel", "stylers": [{ "visibility": "off" }] }
+]

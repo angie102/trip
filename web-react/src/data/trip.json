@@ -1,0 +1,7229 @@
+{
+ "title": "2026 9월 일본 여행",
+ "passes": [
+  {
+   "id": "jr_east_wide",
+   "name": "JR 동일본 와이드 패스",
+   "days": 5,
+   "from": "2026-09-22",
+   "to": "2026-09-26",
+   "priceJpy": 35000
+  }
+ ],
+ "checklist": [
+  {
+   "due": "2026-09-18",
+   "text": "12시 45분 출발 택시 예약",
+   "src": "9.18-9.22!C7"
+  },
+  {
+   "due": "2026-09-18",
+   "text": "리무진 버스는 반다이 출구 광장 방향",
+   "src": "9.18-9.22!C21"
+  },
+  {
+   "due": "2026-09-18",
+   "text": "",
+   "image": "9_18-9_22_1-093ec8aa.png",
+   "src": "9.18-9.22!C22"
+  },
+  {
+   "due": "2026-09-19",
+   "text": "JR 동일본 패스와 지정석권 교환\n니가타역 JR 동일본 여행 서비스 센터나 JR 자동 발매기에서 발권",
+   "src": "9.18-9.22!C51",
+   "link": "https://www.eki-net.com/ko/jreast-train-reservation/Top/Index"
+  },
+  {
+   "due": "2026-09-19",
+   "text": "",
+   "image": "9_18-9_22_2-44f66448.png",
+   "src": "9.18-9.22!C52"
+  },
+  {
+   "due": "2026-09-20",
+   "text": "족욕할거면 수건 챙기기",
+   "src": "9.18-9.22!C84"
+  },
+  {
+   "due": "2026-09-20",
+   "text": "다음 날 숙박에 주방 있어서 과일같은 것들 사도 됨",
+   "src": "9.18-9.22!C102"
+  },
+  {
+   "due": "2026-09-22",
+   "text": "호텔 체크인 할 때 택배 관련 물어보기\n체크아웃 시간이 일러서 택배 되는지 간단히 문의\n택배 보낼 때 배송 송장 '고객 보관용 송장(접수증)' 꼭 보관\n\n【送り先】\n〒039-1111\n青森県八戸市東白山台1-1-1\nグランドサンピア八戸\n9月26日宿泊　KIM SEHYEN様",
+   "src": "9.23-9.27!C39"
+  },
+  {
+   "due": "2026-09-23",
+   "text": "내일 기차에서 먹을 도시락이랑 간식 미리 사기",
+   "src": "9.23-9.27!C46"
+  },
+  {
+   "due": "2026-09-24",
+   "text": "캐리어 말고 다른 가방에 2일치 옷과 로션 등 챙겨둘 것",
+   "src": "9.23-9.27!C95"
+  },
+  {
+   "due": "2026-09-24",
+   "text": "캐리어 택배로 보내고 가기",
+   "src": "9.23-9.27!C98"
+  },
+  {
+   "due": "2026-09-24",
+   "text": "버스&로프웨이 할인권 A플랜 구매하기\n자오 중앙 로프웨이 1인 4,400엔",
+   "src": "9.23-9.27!C108"
+  },
+  {
+   "due": "2026-09-24",
+   "text": "로프웨이 운행 정보 확인",
+   "src": "9.23-9.27!C125",
+   "link": "https://zaochuoropeway.co.jp/jp/summer/access.php"
+  },
+  {
+   "due": "2026-09-24",
+   "text": "할인권 샀으면 사용",
+   "src": "9.23-9.27!C126"
+  },
+  {
+   "due": "2026-09-25",
+   "text": "로프웨이 운행 정보 확인",
+   "src": "9.23-9.27!C149",
+   "link": "https://zaoropeway.co.jp/summer/index.php"
+  },
+  {
+   "due": "2026-09-28",
+   "text": "출발 전에 구글 지도 미리 받아두기\nGoogle 지도 → 프로필 → 오프라인 지도\n오이세류·도와다호·아오모리 주변을 다운로드\n출발 전에 목적지를 검색해서 자동차 경로 확인",
+   "src": "9.28-10.2!C5"
+  },
+  {
+   "due": "2026-09-28",
+   "text": "B코스 야스미야-야스미야 티켓 사기\n11:45, 13:15, 14:40, 16:00\n날씨에 따라 운항 중지하는 경우가 있음",
+   "src": "9.28-10.2!C22",
+   "link": "https://www.toutetsu.co.jp/ship.html"
+  },
+  {
+   "due": "2026-09-29",
+   "text": "홈페이지에서 시야 정보 확인",
+   "src": "9.28-10.2!C51",
+   "link": "https://hakkoda-ropeway.jp/"
+  },
+  {
+   "due": "2026-09-29",
+   "text": "조식 하루 신청하기\n마지막 날인 10월 2일에 사용",
+   "src": "9.28-10.2!C64"
+  }
+ ],
+ "prep": [
+  {
+   "name": "해야할 일",
+   "items": [
+    {
+     "text": "이심 구매"
+    },
+    {
+     "text": "비짓재팬 등록"
+    },
+    {
+     "text": "택시 예약"
+    },
+    {
+     "text": "여행자보험"
+    },
+    {
+     "text": "스마트패스"
+    },
+    {
+     "text": "구글지도 다운로드"
+    },
+    {
+     "text": "JR 동일본 패스"
+    },
+    {
+     "text": "공항 라운지 이용권 전날 받기"
+    },
+    {
+     "text": "지정석 예약"
+    },
+    {
+     "text": "이심 깔기"
+    }
+   ]
+  },
+  {
+   "name": "준비물",
+   "items": [
+    {
+     "text": "여권"
+    },
+    {
+     "text": "충전기"
+    },
+    {
+     "text": "옷(겉옷 포함)"
+    },
+    {
+     "text": "트래블카드/엔화"
+    },
+    {
+     "text": "돼지코"
+    },
+    {
+     "text": "속옷/양말"
+    },
+    {
+     "text": "상비약"
+    },
+    {
+     "text": "카메라"
+    },
+    {
+     "text": "세안제"
+    },
+    {
+     "text": "귀마개"
+    },
+    {
+     "text": "보조배터리"
+    },
+    {
+     "text": "양산"
+    },
+    {
+     "text": "배낭"
+    },
+    {
+     "text": "에어팟"
+    },
+    {
+     "text": "모자"
+    },
+    {
+     "text": "국제운전면허증"
+    },
+    {
+     "text": "버릴 수건"
+    },
+    {
+     "text": "선글라스"
+    },
+    {
+     "text": "한국운전면허증"
+    }
+   ]
+  },
+  {
+   "name": "메모",
+   "items": [
+    {
+     "text": "주차장 검색 시",
+     "note": "駐車場"
+    },
+    {
+     "text": "주유소",
+     "note": "ガソリンスタンド"
+    }
+   ]
+  }
+ ],
+ "days": [
+  {
+   "date": "2026-09-18",
+   "dow": "금",
+   "region": "인천-니가타",
+   "stay": {
+    "name": "ANA 크라운 플라자 니가타 호텔",
+    "place": {
+     "id": "p_ana_크라운_플라자_니가타",
+     "name": "ANA 크라운 플라자 니가타",
+     "kind": "place",
+     "lat": 37.918693,
+     "lng": 139.05914,
+     "gid": "ChIJ9bSbOIzJ9F8R1n2PVf6W04M",
+     "address": "5-chōme-11-20 Bandai, Chuo Ward, Niigata, 950-8531, Japan"
+    },
+    "pay": "결제완료",
+    "booker": "아고다",
+    "terms": "조식 포함",
+    "doc": "2026-09-18_ANA크라운플라자니가타.pdf"
+   },
+   "flags": [],
+   "items": [
+    {
+     "id": "2026-09-18-i01",
+     "type": "sight",
+     "title": "집에서 출발",
+     "time": "12:40",
+     "end": null,
+     "tasks": [
+      "12시 45분 출발 택시 예약"
+     ]
+    },
+    {
+     "id": "2026-09-18-i02",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "14:00",
+     "end": null,
+     "notes": [
+      "더 멤버스 라운지 카드 등록하고 라운지 이용하기"
+     ]
+    },
+    {
+     "id": "2026-09-18-i04",
+     "type": "task",
+     "title": "니가타 공항 입국",
+     "time": "19:30",
+     "end": null
+    },
+    {
+     "id": "2026-09-18-i05",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "20:00",
+     "end": null,
+     "notes": [
+      "기내식을 줄 것 같긴 한데 배고프면 공항에서 뭔가 먹기"
+     ]
+    },
+    {
+     "id": "2026-09-18-i06",
+     "type": "sight",
+     "title": "리무진 버스 타러 가기",
+     "time": "20:10",
+     "end": null,
+     "tasks": [
+      "리무진 버스는 반다이 출구 광장 방향"
+     ],
+     "hideTime": true
+    },
+    {
+     "id": "2026-09-18-i09",
+     "type": "sight",
+     "title": "ANA 크라운 플라자 니가타 체크인",
+     "time": "21:30",
+     "end": null
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-09-18-l03",
+     "mode": "plane",
+     "modeLabel": "항공",
+     "title": "✈️ 인천 공항(ICN)에서 대한항공 타고 니가타 공항(KIJ)으로 이동",
+     "fixed": false,
+     "vehicle": "대한항공",
+     "time": "17:10",
+     "end": "19:20",
+     "from": "2026-09-18-i02",
+     "to": "2026-09-18-i04",
+     "min": 130,
+     "cost": null,
+     "covered": false,
+     "dest": "니가타 공항(KIJ)",
+     "origin": "인천 공항(ICN)",
+     "notes": [
+      "제 2터미널 · KE2197 · 17:10~19:20"
+     ],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-18-l08",
+     "mode": "bus",
+     "modeLabel": "버스",
+     "title": "🚌니가타 공항에서 리무진 버스 타고 니가타역으로 이동",
+     "fixed": false,
+     "vehicle": "리무진 버스",
+     "time": "20:30",
+     "end": null,
+     "from": "2026-09-18-i06",
+     "to": "2026-09-18-i09",
+     "min": 27,
+     "cost": "470엔",
+     "covered": false,
+     "dest": "니가타역",
+     "origin": "니가타 공항",
+     "notes": [],
+     "image": null,
+     "seat": null,
+     "dir": {
+      "to": {
+       "text": "니가타 역",
+       "lat": 37.9120388,
+       "lng": 139.061775,
+       "gid": "ChIJAWuK6JrJ9F8R6qO5mIuSHTs"
+      },
+      "from": {
+       "text": "니가타 공항",
+       "lat": 37.9549441,
+       "lng": 139.1111814,
+       "gid": "ChIJLTS0D5nK9F8ROc36fU8R_M8"
+      }
+     }
+    }
+   ],
+   "moveMin": 157,
+   "bounds": null,
+   "tasks": [
+    {
+     "due": "2026-09-18",
+     "text": "12시 45분 출발 택시 예약",
+     "src": "9.18-9.22!C7"
+    },
+    {
+     "due": "2026-09-18",
+     "text": "리무진 버스는 반다이 출구 광장 방향",
+     "src": "9.18-9.22!C21"
+    },
+    {
+     "due": "2026-09-18",
+     "text": "",
+     "image": "9_18-9_22_1-093ec8aa.png",
+     "src": "9.18-9.22!C22"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "dow": "토",
+   "region": "니가타",
+   "stay": {
+    "name": "카쿠다하마 해변 근처 에어비엔비",
+    "place": {
+     "id": "p_카쿠다하마_해변_근처_에어비엔비",
+     "name": "Kakudahama",
+     "kind": "place",
+     "lat": 37.794478,
+     "lng": 138.828481,
+     "gid": "ChIJqRJbVw3q9F8R1lcuZD6RPvM",
+     "address": "Kakudahama, Nishikan Ward, Niigata, 953-0011, Japan"
+    },
+    "pay": "결제완료",
+    "booker": "에어비앤비",
+    "terms": "2박 · 객실 이동있음"
+   },
+   "flags": [
+    {
+     "kind": "car",
+     "text": "렌트카"
+    }
+   ],
+   "items": [
+    {
+     "id": "2026-09-19-i01",
+     "type": "food",
+     "title": "🍚 아침",
+     "time": "07:00",
+     "end": null,
+     "detail": "ANA 크라운 플라자 니가타 호텔",
+     "detailJa": "ANAクラウンプラザホテル新潟",
+     "detailDesc": "조식 뷔페",
+     "place": {
+      "id": "p_ana_크라운_플라자_니가타",
+      "name": "ANA 크라운 플라자 니가타",
+      "kind": "place",
+      "lat": 37.918693,
+      "lng": 139.05914,
+      "gid": "ChIJ9bSbOIzJ9F8R1n2PVf6W04M",
+      "address": "5-chōme-11-20 Bandai, Chuo Ward, Niigata, 950-8531, Japan",
+      "hours": [
+       {
+        "open": "06:00",
+        "close": "09:00"
+       }
+      ]
+     }
+    },
+    {
+     "id": "2026-09-19-i02",
+     "type": "sight",
+     "title": "ANA 크라운 플라자 니가타 호텔 체크아웃",
+     "time": "08:00",
+     "end": null,
+     "notes": [
+      "호텔에 짐 맡겨두기"
+     ]
+    },
+    {
+     "id": "2026-09-19-i03",
+     "type": "cafe",
+     "title": "모닝 산책",
+     "time": "09:00",
+     "end": null,
+     "detail": "Kitari",
+     "detailJa": "炭火焙煎珈琲 きらり",
+     "detailDesc": "모닝커피 한잔",
+     "notes": [
+      "시나노 강 산책하거나 후루마치쪽 구경"
+     ],
+     "place": {
+      "id": "p_kitari",
+      "name": "Kitari",
+      "kind": "cafe",
+      "lat": 37.920287,
+      "lng": 139.04632,
+      "gid": "ChIJbxF1xe3J9F8RlCwoUI8Zmuw",
+      "address": "6 Banchō-1113 Honchōdōri, Chuo Ward, Niigata, 951-8067, Japan",
+      "hours": [
+       {
+        "open": "07:00",
+        "close": "13:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-19-i04",
+     "type": "food",
+     "title": "🍚 점심 따로 먹기",
+     "time": "13:00",
+     "end": null,
+     "fixed": true,
+     "reservation": {
+      "booker": "타베로그",
+      "costJpy": 6600,
+      "costText": "6,600엔(1인)",
+      "note": "낮 코스 · 언니 이름  2인",
+      "name": "스시키 야마다 토시치",
+      "pay": "현지 결제",
+      "doc": "2026-09-19_1300_스시키야마다토시치.pdf"
+     },
+     "settled": true,
+     "place": {
+      "lat": 37.91346475,
+      "lng": 139.0623703,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "스시키 야마다 토시치",
+       "depth": 0,
+       "nameJa": "鮨㐂 やまだ藤七",
+       "desc": "스시 오마카세 · 엄마랑 언니",
+       "place": {
+        "id": "p_스시키_야마다_토시치_鮨㐂_やまだ藤七",
+        "name": "스시키 야마다 토시치(鮨㐂 やまだ藤七)",
+        "kind": "place",
+        "lat": 37.9134875,
+        "lng": 139.0621516,
+        "gid": "ChIJ-9ScVIXJ9F8Rd9ZNkmHnU4A",
+        "address": "1-chōme-2-2 Hanazono, Chuo Ward, Niigata, 950-0086, Japan",
+        "hours": [
+         {
+          "open": "12:00",
+          "close": "14:00"
+         },
+         {
+          "open": "17:00",
+          "close": "22:00"
+         }
+        ],
+        "always": false
+       },
+       "reserved": true
+      },
+      {
+       "name": "돈까스 마사짱 니가타역앞점",
+       "depth": 0,
+       "nameJa": "とんかつ政ちゃん 新潟駅前店",
+       "desc": "니가타 돈가스 · 바로 옆인데 휴일 예약 불가라 가보기로",
+       "place": {
+        "id": "p_돈까스_마사짱_니가타역앞점",
+        "name": "돈까스 마사짱 니가타역앞점",
+        "kind": "food",
+        "lat": 37.913442,
+        "lng": 139.062589,
+        "gid": "ChIJKajVjLfJ9F8RbqaXQcDMMa4",
+        "address": "〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−3−２ ＩＭＡビル 2 2F",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:30"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-19-i05",
+     "type": "sight",
+     "title": "역 근처 구경",
+     "time": "14:30",
+     "end": null,
+     "tasks": [
+      "JR 동일본 패스와 지정석권 교환\n니가타역 JR 동일본 여행 서비스 센터나 JR 자동 발매기에서 발권\n<https://www.eki-net.com/ko/jreast-train-reservation/Top/Index>"
+     ],
+     "place": {
+      "lat": 37.91188725,
+      "lng": 139.0620395,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "폰슈칸 시음관 사케 니가타역점",
+       "depth": 0,
+       "nameJa": "ぽんしゅ館 新潟驛店 唎酒番所",
+       "desc": "코인으로 사케 시음할수 있는 곳",
+       "place": {
+        "id": "p_폰슈칸_시음관_사케_니가타역점",
+        "name": "폰슈칸 시음관 사케 니가타역점",
+        "kind": "place",
+        "lat": 37.911098,
+        "lng": 139.060835,
+        "gid": "ChIJJ40vxQPJ9F8RpLx3UxePHZI",
+        "address": "〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−９６−４７ CoCoLo新潟 メッツ館 ぽんしゅ館新潟驛店内",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "20:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "야스다 요구르트 니가타역점",
+       "depth": 0,
+       "nameJa": "YASUDA YOGURT CoCoLo新潟店",
+       "desc": "이 동네 유명한 요구르트인 듯",
+       "place": {
+        "id": "p_야스다_요구르트_니가타역점",
+        "name": "야스다 요구르트",
+        "kind": "shopping",
+        "lat": 37.912278,
+        "lng": 139.06273,
+        "gid": "ChIJGf4JJ5vJ9F8RpGIwtDmiLUE",
+        "address": "〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−1−１ 新潟駅ビル CoCoLo新潟 2階",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "나카조 타마고 직매점 CoCoLo니가타점",
+       "depth": 0,
+       "desc": "계란 샌드위치",
+       "place": {
+        "id": "p_中条たまご直売店cocolo新潟店",
+        "name": "中条たまご直売店CoCoLo新潟店",
+        "kind": "shopping",
+        "lat": 37.912267,
+        "lng": 139.062559,
+        "gid": "ChIJiwuSGwDJ9F8R5vrKqdI9qbY",
+        "address": "1-chōme-1-1 Hanazono, Chuo Ward, Niigata, 950-0086",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:30"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "中条たまご直売店CoCoLo新潟店"
+      },
+      {
+       "name": "Un BOURBON",
+       "depth": 0,
+       "nameJa": "アン･ブルボン",
+       "desc": "니가타에서 젤 유명한 과자라는데",
+       "place": {
+        "id": "p_un_bourbon",
+        "name": "Un BOURBON",
+        "kind": "shopping",
+        "lat": 37.911906,
+        "lng": 139.062034,
+        "gid": "ChIJser8DwDJ9F8R9pY8e2W2JEA",
+        "address": "〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−1−１ CoCoLo新潟 2F EAST SIDE",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:30"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-19-i06",
+     "type": "task",
+     "title": "렌트카 픽업",
+     "time": "15:00",
+     "end": null,
+     "detail": "닛폰 렌터카 니가타역 북쪽 출구 영업소",
+     "detailDesc": "ETC 카드 물어보기 · 반납도 약간 이르게 가능한지 같이 물어보기",
+     "fixed": true,
+     "reservation": {
+      "booker": "쟈란넷",
+      "costJpy": 23800,
+      "costText": "23,800엔",
+      "note": "야리스,MAZDA2, 스위프트,카로라 중 랜덤",
+      "name": "일본 렌터카 니가타역 북쪽 출구 지점",
+      "pay": "현지 결제",
+      "doc": "2026-09-19_1500_닛폰렌터카니가타역북쪽출구.pdf"
+     },
+     "place": {
+      "id": "p_ニッポンレンタカー新潟駅北口営業所",
+      "name": "Nippon Rent-a-car",
+      "kind": "resv",
+      "lat": 37.913982,
+      "lng": 139.063962,
+      "gid": "ChIJc9mj9L7J9F8RKyCUHAoWUjU",
+      "address": "Japan, 〒950-0086 新潟県新潟市中央区花園１丁目２４",
+      "hours": [
+       {
+        "open": "08:00",
+        "close": "18:00"
+       }
+      ],
+      "always": false
+     },
+     "detailJa": "ニッポンレンタカー新潟駅北口営業所"
+    },
+    {
+     "id": "2026-09-19-i07",
+     "type": "sight",
+     "title": "근처 구경",
+     "time": "16:00",
+     "end": null,
+     "notes": [
+      "주차는 근방에"
+     ],
+     "place": {
+      "lat": 37.919947,
+      "lng": 139.0649495,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "미네무라 브루어리",
+       "depth": 0,
+       "nameJa": "峰村醸造",
+       "desc": "식료품점.  주차 있음",
+       "place": {
+        "id": "p_미네무라_브루어리_峰村醸造",
+        "name": "미네무라 브루어리",
+        "kind": "shopping",
+        "lat": 37.91734,
+        "lng": 139.069709,
+        "gid": "ChIJ6TfngYjJ9F8R_X4xfurFUAM",
+        "address": "2-chōme-3-44 Akashi, Chuo Ward, Niigata, 950-0084",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Befco 바카우케 전망대 전망대",
+       "depth": 0,
+       "nameJa": "Befcoばかうけ展望室",
+       "desc": "무료전망대. 일몰이 예쁘다고 함",
+       "place": {
+        "id": "p_befco_바카우케_전망대_전망대",
+        "name": "Befco 바카우케 전망대",
+        "kind": "place",
+        "lat": 37.925228,
+        "lng": 139.05955,
+        "gid": "ChIJE2ePIh7K9F8RLOsdUUfmSCY",
+        "address": "〒950-0078 Niigata, Chuo Ward, Bandaijima, 5−１ 朱鷺メッセ 万代島ビル 31階",
+        "hours": [
+         {
+          "open": "08:00",
+          "close": "22:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "니기리마이",
+       "depth": 0,
+       "desc": "주먹밥 저녁에 먹을거 미리 살까?",
+       "place": {
+        "id": "p_にぎり米",
+        "name": "Nigiri Mai",
+        "kind": "food",
+        "lat": 37.916689,
+        "lng": 139.060325,
+        "gid": "ChIJ6Tz3YI7J9F8RW_WgbIjSTJA",
+        "address": "2-chōme-8-4 Higashiōdōri, Chuo Ward, Niigata, 950-0087",
+        "hours": [
+         {
+          "open": "08:00",
+          "close": "18:45"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "にぎり米"
+      },
+      {
+       "name": "눗타리 테라스 상점가",
+       "depth": 0,
+       "nameJa": "沼垂テラス商店街",
+       "desc": "아기자기한 상점가",
+       "place": {
+        "id": "p_눗타리_테라스_상점가",
+        "name": "눗타리 테라스 상점가",
+        "kind": "place",
+        "lat": 37.920531,
+        "lng": 139.070214,
+        "gid": "ChIJx3EZHyfK9F8RHcOGKMXn10k",
+        "address": "3 Chome-5 Nuttarihigashi, Chuo Ward, Niigata, 950-0075, Japan",
+        "hours": [
+         {
+          "open": "08:00",
+          "close": "17:00"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-19-i08",
+     "type": "sight",
+     "title": "니가타소우오도리(にいがた総おどり) 구경",
+     "time": "17:30",
+     "end": null,
+     "detail": "Bandai City",
+     "detailJa": "万代シテイ",
+     "detailDesc": "앞 사거리에서 전통 춤 추는 행사 열림",
+     "notes": [
+      "반다이 시티를 메인으로 아침부터 밤까지 이어지는 춤 행사\n5시반부터 8시 사이가 메인인듯"
+     ],
+     "place": {
+      "id": "p_bandai_city",
+      "name": "Bandai City",
+      "kind": "place",
+      "lat": 37.916612,
+      "lng": 139.056301,
+      "gid": "ChIJR2dBrZ7J9F8Rz_kHRn-R7rI",
+      "address": "1 Chome-4 Bandai, Chuo Ward, Niigata, 950-0088, Japan",
+      "hours": [
+       {
+        "open": "10:00",
+        "close": "20:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-19-i10",
+     "type": "sight",
+     "title": "가면서 들릴만한 곳",
+     "time": "20:00",
+     "end": null,
+     "notes": [
+      "아침 먹을 것도 간단히 사기"
+     ],
+     "place": {
+      "lat": 37.84796433333333,
+      "lng": 138.947734,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "피아반다이 시장",
+       "depth": 0,
+       "nameJa": "みなとのマルシェピアBandai",
+       "desc": "해산물 시장 · 주차 유료",
+       "place": {
+        "id": "p_피아반다이_시장",
+        "name": "피아반다이 시장",
+        "kind": "place",
+        "lat": 37.923339,
+        "lng": 139.061446,
+        "gid": "ChIJZfm-3x_K9F8RCjzBytLjCC0",
+        "address": "〒950-0078 Niigata, Chuo Ward, Bandaijima, 2−２ にぎわいマルシェ",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "21:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Harashin Supermarket",
+       "depth": 0,
+       "nameJa": "原信 新通店",
+       "desc": "24시 마트",
+       "place": {
+        "id": "p_harashin_supermarket_原信_新通店",
+        "name": "Harashin Supermarket",
+        "kind": "shopping",
+        "lat": 37.860556,
+        "lng": 138.95,
+        "gid": "ChIJUel6ZgHH9F8RilqDrTV0kw0",
+        "address": "1238-1 Shindōri, Nishi Ward, Niigata, 950-2035",
+        "hours": [
+         {
+          "open": "00:00",
+          "close": "24:00"
+         }
+        ],
+        "always": true
+       }
+      },
+      {
+       "name": "사우나와 천연온센 존노비관",
+       "depth": 0,
+       "desc": "문신있어도 괜찮은 온천 · 880엔",
+       "place": {
+        "id": "p_サウナと天然温泉_じょんのび館",
+        "name": "サウナと天然温泉 じょんのび館",
+        "kind": "onsen",
+        "lat": 37.759998,
+        "lng": 138.831756,
+        "gid": "ChIJKX2e32_p9F8RGChwSktVoXY",
+        "address": "4067 Fukui, Nishikan Ward, Niigata, 953-0076",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "22:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "サウナと天然温泉 じょんのび館"
+      }
+     ]
+    },
+    {
+     "id": "2026-09-19-i11",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "20:30",
+     "end": null,
+     "notes": [
+      "숙소로 가면서 헤기소바 먹기"
+     ],
+     "place": {
+      "lat": 37.900788500000004,
+      "lng": 139.0294475,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "나가오카 코지마야 니가타역앞점",
+       "depth": 0,
+       "desc": "니가타 역앞 헤기소바",
+       "place": {
+        "id": "p_長岡小嶋屋_新潟駅前店",
+        "name": "長岡小嶋屋 新潟駅前店",
+        "kind": "food",
+        "lat": 37.912646,
+        "lng": 139.059077,
+        "gid": "ChIJEZXrKADJ9F8R3-osNvt7ZoA",
+        "address": "〒950-0901 Niigata, Chuo Ward, Benten, 1-chōme−1−１５ CREA弁天 １階",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "15:00"
+         },
+         {
+          "open": "17:00",
+          "close": "22:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "長岡小嶋屋 新潟駅前店"
+      },
+      {
+       "name": "Kojimaya Sohonten Kobariten",
+       "depth": 0,
+       "nameJa": "小嶋屋総本店 小針店",
+       "desc": "가는 길에 먹을 만한 헤기소바",
+       "place": {
+        "id": "p_小嶋屋総本店_小針店_kojimaya_sohonten_kobariten",
+        "name": "Kojimaya Sohonten Kobariten",
+        "kind": "food",
+        "lat": 37.888931,
+        "lng": 138.999818,
+        "gid": "ChIJS3_jwm_I9F8RjaYVDdHci1Y",
+        "address": "3-chōme-1-1 Kobari, Nishi Ward, Niigata, 950-2022",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "21:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-19-i12",
+     "type": "sight",
+     "title": "카쿠다하마 해변 에어비엔비 체크인",
+     "time": "21:00",
+     "end": null
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-09-19-l09",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗니가타역에서 차 타고 카쿠다하마 해변 에어비엔비로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "20:00",
+     "end": null,
+     "from": "2026-09-19-i08",
+     "to": "2026-09-19-i10",
+     "min": 40,
+     "cost": null,
+     "covered": false,
+     "dest": "카쿠다하마 해변 에어비엔비",
+     "origin": "니가타역",
+     "notes": [],
+     "image": null,
+     "seat": null
+    }
+   ],
+   "moveMin": 40,
+   "bounds": {
+    "n": 37.925228,
+    "s": 37.759998,
+    "e": 139.070214,
+    "w": 138.831756
+   },
+   "tasks": [
+    {
+     "due": "2026-09-19",
+     "text": "JR 동일본 패스와 지정석권 교환\n니가타역 JR 동일본 여행 서비스 센터나 JR 자동 발매기에서 발권",
+     "src": "9.18-9.22!C51",
+     "link": "https://www.eki-net.com/ko/jreast-train-reservation/Top/Index"
+    },
+    {
+     "due": "2026-09-19",
+     "text": "",
+     "image": "9_18-9_22_2-44f66448.png",
+     "src": "9.18-9.22!C52"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "dow": "일",
+   "region": "니가타",
+   "stay": {
+    "name": "카쿠다하마 해변 근처 에어비엔비",
+    "place": {
+     "id": "p_카쿠다하마_해변_근처_에어비엔비",
+     "name": "Kakudahama",
+     "kind": "place",
+     "lat": 37.794478,
+     "lng": 138.828481,
+     "gid": "ChIJqRJbVw3q9F8R1lcuZD6RPvM",
+     "address": "Kakudahama, Nishikan Ward, Niigata, 953-0011, Japan"
+    }
+   },
+   "flags": [
+    {
+     "kind": "car",
+     "text": "렌트카"
+    }
+   ],
+   "items": [
+    {
+     "id": "2026-09-20-i01",
+     "type": "food",
+     "title": "🍚 아침",
+     "time": "07:30",
+     "end": null,
+     "notes": [
+      "전날 사온거 먹기"
+     ]
+    },
+    {
+     "id": "2026-09-20-i03",
+     "type": "sight",
+     "title": "야히코 신사 구경",
+     "time": "08:30",
+     "end": null,
+     "detail": "야히코 신사",
+     "detailJa": "彌彦神社",
+     "detailDesc": "니가타에서 가장 큰 신사",
+     "notes": [
+      "로프웨이 있는데 차로도 전망대 갈 수 있음\n근처에 족욕탕 있음"
+     ],
+     "place": {
+      "id": "p_야히코_신사",
+      "name": "이야히코 신사",
+      "kind": "place",
+      "lat": 37.706584,
+      "lng": 138.826233,
+      "gid": "ChIJ1YP45W7v9F8RPZRfuqYNkmU",
+      "address": "2887-2 Yahiko, Nishikambara District, Niigata 959-0323",
+      "hours": [
+       {
+        "open": "08:30",
+        "close": "16:30"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-20-i04",
+     "type": "sight",
+     "title": "야히코 신사 근처 오모테나시 상가 구경",
+     "time": "09:00",
+     "end": null,
+     "place": {
+      "lat": 37.6935975,
+      "lng": 138.84943225,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Bunsuido Kashiho",
+       "depth": 0,
+       "nameJa": "分水堂菓子舗",
+       "desc": "판다떡? 야히코 명물",
+       "place": {
+        "id": "p_bunsuido_kashiho",
+        "name": "Bunsuido Kashiho",
+        "kind": "shopping",
+        "lat": 37.700769,
+        "lng": 138.830714,
+        "gid": "ChIJlTY6TWPv9F8R2K0LowovlfM",
+        "address": "1041-1 Yahiko, Nishikambara District, Niigata 959-0323",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "CAFE.HYGGE COCORO",
+       "depth": 0,
+       "desc": "모닝커피 마실거면 물리기",
+       "place": {
+        "id": "p_cafe_hygge_cocoro",
+        "name": "CAFE.HYGGE COCORO",
+        "kind": "cafe",
+        "lat": 37.70514,
+        "lng": 138.82586,
+        "gid": "ChIJNUAJx2fv9F8RePkSmXI-WsI",
+        "address": "3023-1 Yahiko, Nishikambara District, Niigata 959-0323",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "16:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Ｃａｆｅ Ｂａｔａｋｅ",
+       "depth": 0,
+       "desc": "치크 케이크가 맛있다고 함",
+       "place": {
+        "id": "p_cafe_batake",
+        "name": "Ｃａｆｅ Ｂａｔａｋｅ",
+        "kind": "cafe",
+        "lat": 37.663544,
+        "lng": 138.914513,
+        "gid": "ChIJHylAJTXl9F8R05V2h6nOs_Y",
+        "address": "4-chōme-6-34 Akibachō, Tsubame, Niigata 959-1261",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Kamakura",
+       "depth": 0,
+       "nameJa": "甘味処鎌倉 弥彦神社店",
+       "desc": "와라비 모찌 포장",
+       "place": {
+        "id": "p_kamakura",
+        "name": "Kamakura",
+        "kind": "cafe",
+        "lat": 37.704937,
+        "lng": 138.826642,
+        "gid": "ChIJZ1srqyLv9F8RBMQ5XCoA3XY",
+        "address": "2916 Yahiko, Nishikambara District, Niigata 959-0323",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-20-i05",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "10:00",
+     "end": null,
+     "place": {
+      "lat": 37.71086375,
+      "lng": 138.820665,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Kamameshi Yahiko",
+       "depth": 0,
+       "nameJa": "釜めし弥彦",
+       "desc": "솥밥",
+       "place": {
+        "id": "p_釜めし弥彦_kamameshi_yahiko",
+        "name": "Kamameshi Yahiko",
+        "kind": "food",
+        "lat": 37.701875,
+        "lng": 138.829126,
+        "gid": "ChIJFTc2ymTv9F8RZoSSQagCYzk",
+        "address": "1127 Yahiko, Nishikambara District, Niigata 959-0323",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "13:30"
+         },
+         {
+          "open": "17:30",
+          "close": "18:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Yoshidaya",
+       "depth": 0,
+       "nameJa": "吉田屋",
+       "desc": "갓파메시",
+       "place": {
+        "id": "p_yoshidaya_吉田屋",
+        "name": "Yoshidaya",
+        "kind": "food",
+        "lat": 37.701841,
+        "lng": 138.827175,
+        "gid": "ChIJdxzuJnvv9F8Re6-Nw0twbI4",
+        "address": "941-2 Yahiko, Nishikambara District, Niigata 959-0323, Japan",
+        "hours": [
+         {
+          "open": "10:30",
+          "close": "14:30"
+         },
+         {
+          "open": "17:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "나고미야",
+       "depth": 0,
+       "desc": "해산물 덮밥, 생선구이",
+       "place": {
+        "id": "p_なごみや",
+        "name": "なごみや 弥彦おもてなし広場店",
+        "kind": "food",
+        "lat": 37.701674,
+        "lng": 138.829558,
+        "gid": "ChIJk2tw-Ejv9F8R_Al9S5chP-Q",
+        "address": "1121 Yahiko, Nishikambara District, Niigata 959-0323",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "16:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "なごみや"
+      },
+      {
+       "name": "Takumi",
+       "depth": 0,
+       "nameJa": "たくみ",
+       "desc": "아지후라이, 회나 소바도 있음",
+       "place": {
+        "id": "p_たくみ_takumi",
+        "name": "Takumi",
+        "kind": "food",
+        "lat": 37.738065,
+        "lng": 138.796801,
+        "gid": "ChIJz8EFbbju9F8RmUgJwxAZB9o",
+        "address": "4295-1 Maze, Nishikan Ward, Niigata, 953-0105",
+        "hours": [
+         {
+          "open": "11:30",
+          "close": "14:00"
+         },
+         {
+          "open": "17:00",
+          "close": "19:30"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-20-i06",
+     "type": "sight",
+     "title": "Solano Terrace 구경",
+     "time": "11:00",
+     "end": null,
+     "detail": "Solano Terrace",
+     "detailJa": "そら野テラス",
+     "detailDesc": "니가타 농산물 직판장",
+     "tasks": [
+      "다음 날 숙박에 주방 있어서 과일같은 것들 사도 됨"
+     ],
+     "place": {
+      "id": "p_solano_terrace",
+      "name": "Solano Terrace",
+      "kind": "place",
+      "lat": 37.798267,
+      "lng": 138.892033,
+      "gid": "ChIJo8aGpBnC9F8RkqIlUgvhXZY",
+      "address": "1320-1 Shimoyama, Nishikan Ward, Niigata, 959-0438",
+      "hours": [
+       {
+        "open": "09:00",
+        "close": "19:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-20-i08",
+     "type": "cafe",
+     "title": "카페 들리기",
+     "time": "14:00",
+     "end": null,
+     "place": {
+      "lat": 37.7396275,
+      "lng": 138.8455445,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Shasaian Hirashio",
+       "depth": 0,
+       "nameJa": "社彩庵 ひらしお",
+       "desc": "안미츠, 푸딩",
+       "place": {
+        "id": "p_社彩庵_ひらしお_shasaian_hirashio",
+        "name": "Shasaian Hirashio",
+        "kind": "shopping",
+        "lat": 37.704632,
+        "lng": 138.827713,
+        "gid": "ChIJz5IAfmXv9F8RPj0S3QXG8rs",
+        "address": "1240-1 Yahiko, Nishikambara District, Niigata 959-0323",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Taibow! coffee＆gelato soft",
+       "depth": 0,
+       "desc": "고급스런 분위기, 넓은 정원",
+       "place": {
+        "id": "p_taibow_coffee_gelato_soft",
+        "name": "Taibow! coffee＆gelato soft",
+        "kind": "cafe",
+        "lat": 37.792427,
+        "lng": 138.871353,
+        "gid": "ChIJk6PDHPzB9F8RXIlZ0x5D4wM",
+        "address": "〒953-0016 Niigata, Nishikan Ward, Matsuyama, ５６−４",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "펜토이토",
+       "depth": 0,
+       "nameJa": "pentoito-ペントイト",
+       "desc": "인스타 느낌 세련됨",
+       "place": {
+        "id": "p_pentoito_ペントイト",
+        "name": "pentoito-ペントイト-",
+        "kind": "cafe",
+        "lat": 37.800193,
+        "lng": 138.874572,
+        "gid": "ChIJt67-qznB9F8RBM4YM6sl-hg",
+        "address": "3032-5 Matsunoo, Nishikan Ward, Niigata, 953-0015",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "니치게츠 카페",
+       "depth": 0,
+       "desc": "고민가 카페",
+       "place": {
+        "id": "p_日月カフェ",
+        "name": "日月カフェ",
+        "kind": "cafe",
+        "lat": 37.661258,
+        "lng": 138.80854,
+        "gid": "ChIJCbGGvlP79F8RDO-FiwNqX1I",
+        "address": "2824 Kugami, Tsubame, Niigata 959-0136",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "16:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "日月カフェ"
+      }
+     ]
+    },
+    {
+     "id": "2026-09-20-i10",
+     "type": "sight",
+     "title": "근처 구경",
+     "time": "16:30",
+     "end": null,
+     "place": {
+      "lat": 37.7025228,
+      "lng": 138.8909394,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "MUJI",
+       "depth": 0,
+       "nameJa": "無印良品 燕店",
+       "desc": "뭔가 크고 특이한 무인양품",
+       "place": {
+        "id": "p_muji",
+        "name": "MUJI",
+        "kind": "place",
+        "lat": 37.67138,
+        "lng": 138.910529,
+        "gid": "ChIJGR1idWPl9F8RRoQnMYPKr2A",
+        "address": "7035-1 Higashiōta, Tsubame, Niigata 959-1289, Japan",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "ＦＡＣＴＯＲＹ ＦＲＯＮＴ",
+       "depth": 0,
+       "desc": "디자인 공방",
+       "place": {
+        "id": "p_factory_front",
+        "name": "ＦＡＣＴＯＲＹ ＦＲＯＮＴ",
+        "kind": "shopping",
+        "lat": 37.676499,
+        "lng": 138.909251,
+        "gid": "ChIJ6-lz2CLk9F8RC5FliHHnyjQ",
+        "address": "14-3 Higashiōta, Tsubame, Niigata 959-1289",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "크레프 아코",
+       "depth": 0,
+       "desc": "크레페",
+       "place": {
+        "id": "p_くれーぷaco",
+        "name": "くれーぷａｃｏ",
+        "kind": "cafe",
+        "lat": 37.663306,
+        "lng": 138.910583,
+        "gid": "ChIJkZtronTk9F8RLhlrfZr0L1U",
+        "address": "4-chōme-11-40 Akibachō, Tsubame, Niigata 959-1261",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "くれーぷａｃｏ"
+      },
+      {
+       "name": "Gelateria Regalo",
+       "depth": 0,
+       "nameJa": "レガーロ",
+       "desc": "젤라또",
+       "place": {
+        "id": "p_gelateria_regalo",
+        "name": "Gelateria Regalo",
+        "kind": "shopping",
+        "lat": 37.734136,
+        "lng": 138.843657,
+        "gid": "ChIJAw_ikdno9F8Rikx54ea56KA",
+        "address": "259 Hashimoto, Nishikan Ward, Niigata, 953-0103",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "La Patisserie Plaisir",
+       "depth": 0,
+       "nameJa": "プレジール",
+       "desc": "디저트",
+       "place": {
+        "id": "p_la_patisserie_plaisir",
+        "name": "La Patisserie Plaisir",
+        "kind": "shopping",
+        "lat": 37.767293,
+        "lng": 138.880677,
+        "gid": "ChIJXYW5rmbzGGAR0kiQKG0nWSo",
+        "address": "Kō-62-1 Maki, Nishikan Ward, Niigata, 950-0041",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-20-i12",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "19:30",
+     "end": null,
+     "detail": "Tsubamesanjo Bit 츠바메 산조 본점",
+     "detailJa": "Tsubamesanjo Bit 燕三条本店",
+     "detailDesc": "프렌치 파인다이닝",
+     "fixed": true,
+     "reservation": {
+      "booker": "타베로그",
+      "costJpy": 9900,
+      "costText": "9,900엔(1인)",
+      "note": "타마가와도 코스",
+      "name": "Tsubamesanjo Bit 츠바메 산조 본점",
+      "pay": "현지 결제",
+      "doc": "2026-09-20_1930_츠바메산조Bit.pdf"
+     },
+     "place": {
+      "id": "p_tsubamesanjo_bit_츠바메_산조_본점",
+      "name": "Tsubame-Sanjo Italian Bit",
+      "kind": "food",
+      "lat": 37.649172,
+      "lng": 138.933559,
+      "gid": "ChIJtV6STy7j9F8RW1oJ679AKNM",
+      "address": "〒955-0092 Niigata, Sanjo, Sugoro, 1-chōme−１７ 1F 燕三条地場産業振興センタ",
+      "hours": [
+       {
+        "open": "11:30",
+        "close": "15:00"
+       },
+       {
+        "open": "18:00",
+        "close": "22:00"
+       }
+      ],
+      "always": false
+     }
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-09-20-l02",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗카쿠다하마 해변 에어비엔비에서 차 타고 야히코 신사로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "08:00",
+     "end": null,
+     "from": "2026-09-20-i01",
+     "to": "2026-09-20-i03",
+     "min": 25,
+     "cost": null,
+     "covered": false,
+     "dest": "야히코 신사",
+     "origin": "카쿠다하마 해변 에어비엔비",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-20-l07",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗야히코 신사에서 차 타고 마쓰야마쪽 카페로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "13:00",
+     "end": null,
+     "from": "2026-09-20-i06",
+     "to": "2026-09-20-i08",
+     "min": 15,
+     "cost": null,
+     "covered": false,
+     "dest": "마쓰야마쪽 카페",
+     "origin": "야히코 신사",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-20-l09",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗마쓰야마쪽 카페에서 차 타고 쓰바메 산조역으로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "16:00",
+     "end": null,
+     "from": "2026-09-20-i08",
+     "to": "2026-09-20-i10",
+     "min": 15,
+     "cost": null,
+     "covered": false,
+     "dest": "쓰바메 산조역",
+     "origin": "마쓰야마쪽 카페",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-20-l11",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗쓰바메 산조역에서 차 타고 Tsubamesanjo Bit 츠바메 산조 본점으로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "19:00",
+     "end": null,
+     "from": "2026-09-20-i10",
+     "to": "2026-09-20-i12",
+     "min": 10,
+     "cost": null,
+     "covered": false,
+     "dest": "Tsubamesanjo Bit 츠바메 산조 본점",
+     "origin": "쓰바메 산조역",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-20-l13",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗Tsubamesanjo Bit에서 차 타고 카쿠다하마 해변 에어비엔비로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "21:00",
+     "end": null,
+     "from": "2026-09-20-i12",
+     "to": null,
+     "min": 20,
+     "cost": null,
+     "covered": false,
+     "dest": "카쿠다하마 해변 에어비엔비",
+     "origin": "Tsubamesanjo Bit",
+     "notes": [],
+     "image": null,
+     "seat": null
+    }
+   ],
+   "moveMin": 85,
+   "bounds": {
+    "n": 37.800193,
+    "s": 37.649172,
+    "e": 138.933559,
+    "w": 138.796801
+   },
+   "tasks": [
+    {
+     "due": "2026-09-20",
+     "text": "족욕할거면 수건 챙기기",
+     "src": "9.18-9.22!C84"
+    },
+    {
+     "due": "2026-09-20",
+     "text": "다음 날 숙박에 주방 있어서 과일같은 것들 사도 됨",
+     "src": "9.18-9.22!C102"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "dow": "월",
+   "region": "니가타-세나미 온천",
+   "stay": {
+    "name": "BLUE BASE SENAMI",
+    "place": {
+     "id": "p_blue_base_senami",
+     "name": "BLUE BASE SENAMI (サウナ＆SPA付きコテージ)",
+     "kind": "place",
+     "lat": 38.214283,
+     "lng": 139.437504,
+     "gid": "ChIJY0KRw15vi18RzAusdaGhDq0",
+     "address": "6 2-chōme-10-7 Senamionsen, Murakami, Niigata 958-0037",
+     "hours": [
+      {
+       "open": "11:00",
+       "close": "20:00"
+      }
+     ],
+     "always": false
+    },
+    "pay": "현지 결제",
+    "booker": "홈페이지",
+    "terms": "1박",
+    "costJpy": 46200,
+    "doc": "2026-09-21_BLUE_BASE_SENAMI.pdf"
+   },
+   "flags": [
+    {
+     "kind": "car",
+     "text": "렌트카"
+    }
+   ],
+   "items": [
+    {
+     "id": "2026-09-21-i01",
+     "type": "sight",
+     "title": "에어비엔비 체크아웃",
+     "time": "08:00",
+     "end": null
+    },
+    {
+     "id": "2026-09-21-i02",
+     "type": "food",
+     "title": "🍚 아침 카페에서 가볍게",
+     "time": "08:30",
+     "end": null,
+     "detail": "KAIHOLO",
+     "detailDesc": "아침 일찍 여는 카페. 간단히 아침 먹기 좋아보임",
+     "place": {
+      "id": "p_kaiholo",
+      "name": "KAIHOLO",
+      "kind": "cafe",
+      "lat": 37.803485,
+      "lng": 138.847166,
+      "gid": "ChIJPWkLIDTB9F8R6A1b-4PpFCw",
+      "address": "1657 Kakudahama, Nishikan Ward, Niigata, 953-0011",
+      "hours": [
+       {
+        "open": "08:00",
+        "close": "16:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-21-i04",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "11:30",
+     "end": null,
+     "detail": "텐키아라타",
+     "detailJa": "天㐂あらた",
+     "detailDesc": "야채, 생선 튀김 정식",
+     "fixed": true,
+     "reservation": {
+      "booker": "타베로그",
+      "costJpy": 4000,
+      "costText": "4,000엔(1인)",
+      "note": "낮 코스 · 야채, 생선 튀김 정식",
+      "name": "텐키아라타(天㐂あらた)",
+      "pay": "현지 결제",
+      "doc": "2026-09-21_1130_텐키아라타.pdf"
+     },
+     "place": {
+      "id": "p_텐키아라타_天㐂あらた",
+      "name": "天㐂あらた",
+      "kind": "food",
+      "lat": 37.913375,
+      "lng": 139.061993,
+      "gid": "ChIJNapHn6HJ9F8Ryrw7jStNcQ4",
+      "address": "〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−2−２ コープシティ花園ガレッソ ３階",
+      "byReservation": true,
+      "hours": [
+       {
+        "close": "14:00",
+        "open": "11:30"
+       },
+       {
+        "close": "21:30",
+        "open": "17:00"
+       }
+      ]
+     }
+    },
+    {
+     "id": "2026-09-21-i06",
+     "type": "sight",
+     "title": "가는 길에 들려볼 만한 곳",
+     "time": "13:00",
+     "end": null,
+     "hideTime": true,
+     "place": {
+      "lat": 38.089591,
+      "lng": 139.4080245,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "이와후네 과자점 무라쿄 카미하야시점",
+       "depth": 0,
+       "desc": "젤라또, 크레페 맛있겟다",
+       "place": {
+        "id": "p_岩船お菓子処_村恭_神林店",
+        "name": "岩船お菓子処 村恭 神林店",
+        "kind": "shopping",
+        "lat": 38.176862,
+        "lng": 139.443591,
+        "gid": "ChIJPZDB7eZri18RZ2fSpkTpnzA",
+        "address": "〒959-3424 Niigata, Murakami, Makinome, 砂山１２６２",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "岩船お菓子処 村恭 神林店"
+      },
+      {
+       "name": "Roadside Station Kajikawa",
+       "depth": 0,
+       "nameJa": "道の駅 加治川",
+       "desc": "가는 길에 들릴만한 휴게소",
+       "place": {
+        "id": "p_道の駅_加治川_roadside_station_kajikawa",
+        "name": "Roadside Station Kajikawa",
+        "kind": "place",
+        "lat": 38.00232,
+        "lng": 139.372458,
+        "gid": "ChIJfeWLq_A5i18RjG1Vn2ibmrk",
+        "address": "1147 Yokooka, Shibata, Niigata 959-2411",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-21-i07",
+     "type": "sight",
+     "title": "근처 구경",
+     "time": "13:30",
+     "end": null,
+     "notes": [
+      "날씨 좋으면 위쪽 쪽 사사가와나가레 해안가 드라이브\n마트에서 먹을 것도 사기"
+     ],
+     "place": {
+      "lat": 38.22361383333333,
+      "lng": 139.47576633333333,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "구경",
+       "depth": 0,
+       "group": true
+      },
+      {
+       "name": "센넨자케 킷카와",
+       "depth": 1,
+       "desc": "천장에 연어를 말리는 모습이 유명",
+       "place": {
+        "id": "p_千年鮭_きっかわ",
+        "name": "Sennen Salmon Kikkawa",
+        "kind": "shopping",
+        "lat": 38.224336,
+        "lng": 139.478746,
+        "gid": "ChIJvTSRB1Nui18R6TJfahtCYU8",
+        "address": "1-20 Ōmachi, Murakami, Niigata 958-0842",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "17:30"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "千年鮭 きっかわ"
+      },
+      {
+       "name": "음식",
+       "depth": 0,
+       "group": true
+      },
+      {
+       "name": "Yamashin",
+       "depth": 1,
+       "nameJa": "やま信",
+       "desc": "무라카미규 고로케 등 포장할만한 음식",
+       "place": {
+        "id": "p_やま信_yamashin",
+        "name": "Yamashin",
+        "kind": "shopping",
+        "lat": 38.220684,
+        "lng": 139.473205,
+        "gid": "ChIJV_UL81Vui18RAurr9pqkkIo",
+        "address": "3-chōme-2-1 Iino, Murakami, Niigata 958-0857",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Uoya",
+       "depth": 1,
+       "nameJa": "越後村上うおや",
+       "desc": "도시락이나 반찬 파는데 사서 다음 날이나 숙소에서 먹어도 될 듯",
+       "place": {
+        "id": "p_越後村上うおや_uoya",
+        "name": "Uoya",
+        "kind": "shopping",
+        "lat": 38.224863,
+        "lng": 139.478607,
+        "gid": "ChIJQ6CdHVNui18RnHigutHZ_Ws",
+        "address": "4-3 Ōmachi, Murakami, Niigata 958-0842",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Sakataya",
+       "depth": 1,
+       "nameJa": "御菓子司 酒田屋",
+       "desc": "니가타 반숙 카스텔라",
+       "place": {
+        "id": "p_御菓子司_酒田屋_sakataya",
+        "name": "Sakataya",
+        "kind": "shopping",
+        "lat": 38.223431,
+        "lng": 139.476368,
+        "gid": "ChIJYfyVgFRui18Rygkmifqoee8",
+        "address": "3-8 Aramachi, Murakami, Niigata 958-0846",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "사칸 킷카와 카몬테이",
+       "depth": 1,
+       "nameJa": "茶館きっかわ 嘉門亭",
+       "desc": "고급스러운 찻집. 앞에 무료 주차도 있다",
+       "place": {
+        "id": "p_茶館きっかわ_嘉門亭_사칸_킷카와_카몬테이",
+        "name": "사칸 킷카와 카몬테이",
+        "kind": "cafe",
+        "lat": 38.224472,
+        "lng": 139.478458,
+        "gid": "ChIJG4SX9nlvi18R4yUAXlReg5I",
+        "address": "3-7 Ōmachi, Murakami, Niigata 958-0842",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Tokiwaen Tea Stall",
+       "depth": 1,
+       "nameJa": "常盤園茶舗",
+       "desc": "녹차 아이스크림이 맛있다고 함. 차도 줌",
+       "place": {
+        "id": "p_常盤園茶舗_tokiwaen_tea_stall",
+        "name": "Tokiwaen Tea Stall",
+        "kind": "shopping",
+        "lat": 38.223897,
+        "lng": 139.469214,
+        "gid": "ChIJ1wmp6qpvi18Rc3OjizAlNto",
+        "address": "3-30 Sakanamachi, 肴町 Murakami, Niigata 958-0864",
+        "hours": [
+         {
+          "open": "08:30",
+          "close": "18:30"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-21-i08",
+     "type": "sight",
+     "title": "BLUE BASE SENAMI 체크인",
+     "time": "16:00",
+     "end": null,
+     "notes": [
+      "VIEW동 예약\n독채 에어비앤비에 가까운 듯. 비밀번호는 이메일로 보내준다고 함\n욕실에 나오는 물이 온천 수"
+     ]
+    },
+    {
+     "id": "2026-09-21-i09",
+     "type": "sight",
+     "title": "근처 구경",
+     "time": "16:30",
+     "end": null,
+     "notes": [
+      "족욕하는 곳이 많고 해변 따라 산책해도 될 듯"
+     ],
+     "place": {
+      "lat": 38.21444376666667,
+      "lng": 139.43934943333332,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "토라야 오미야게텐",
+       "depth": 0,
+       "desc": "기념품샵",
+       "place": {
+        "id": "p_虎屋おみやげ店",
+        "name": "虎屋おみやげ店",
+        "kind": "shopping",
+        "lat": 38.21407,
+        "lng": 139.439012,
+        "gid": "ChIJLYjysiZvi18R6DM9h4gI2FU",
+        "address": "2-chōme-6-11 Senamionsen, Murakami, Niigata 958-0037",
+        "hours": [
+         {
+          "open": "08:30",
+          "close": "19:30"
+         }
+        ]
+       },
+       "nameJa": "虎屋おみやげ店"
+      },
+      {
+       "name": "아키코노 아이시유",
+       "depth": 0,
+       "desc": "족욕탕",
+       "place": {
+        "id": "p_晶子の愛し湯",
+        "name": "晶子の愛し湯",
+        "kind": "onsen",
+        "lat": 38.2151523,
+        "lng": 139.4386453,
+        "gid": "ChIJs7Eg8DJvi18RAskn2mPXX9M",
+        "address": "2-chōme-9-27 Senamionsen, Murakami, Niigata 958-0037, Japan",
+        "hours": [
+         {
+          "open": "07:00",
+          "close": "18:00"
+         }
+        ]
+       },
+       "nameJa": "晶子の愛し湯"
+      },
+      {
+       "name": "토토 파세지아타",
+       "depth": 0,
+       "desc": "고등어 샌드..? 를 팔고있음",
+       "place": {
+        "id": "p_トト_パッセジャータ",
+        "name": "トト パッセジャータ",
+        "kind": "cafe",
+        "lat": 38.214109,
+        "lng": 139.440391,
+        "gid": "ChIJRVNDOCFvi18RM_a7zrqc-A4",
+        "address": "2-chōme-6-23 Senamionsen, Murakami, Niigata 958-0037",
+        "hours": [
+         {
+          "open": "10:30",
+          "close": "19:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "トト パッセジャータ"
+      }
+     ]
+    },
+    {
+     "id": "2026-09-21-i11",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "19:00",
+     "end": null,
+     "detail": "료우테이 노토신",
+     "detailJa": "料亭 能登新",
+     "detailDesc": "일정식 코스 요리 집",
+     "fixed": true,
+     "reservation": {
+      "booker": "타베로그",
+      "costJpy": 8800,
+      "costText": "8,800엔+880엔(1인)",
+      "note": "무라카미 소 나오는 코스 (村上堪能コース)",
+      "name": "료우테이 노토신(料亭 能登新)",
+      "pay": "현지 결제",
+      "doc": "2026-09-21_1900_료우테이노토신.pdf"
+     },
+     "place": {
+      "id": "p_료우테이_노토신_料亭_能登新",
+      "name": "料亭 能登新",
+      "kind": "food",
+      "lat": 38.223101,
+      "lng": 139.475455,
+      "gid": "ChIJ84zEi1Rui18R7GivSiN1sqs",
+      "address": "2-chōme-1-9 Iino, Murakami, Niigata 958-0857",
+      "byReservation": true,
+      "hours": [
+       {
+        "close": "14:00",
+        "open": "11:30"
+       },
+       {
+        "close": "22:00",
+        "open": "17:00"
+       }
+      ]
+     }
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-09-21-l03",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗BLUE BASE SENAM에서 차 타고 니가타역으로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "10:30",
+     "end": null,
+     "from": "2026-09-21-i02",
+     "to": "2026-09-21-i04",
+     "min": 30,
+     "cost": null,
+     "covered": false,
+     "dest": "니가타역",
+     "origin": "BLUE BASE SENAM",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-21-l05",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗니가타역에서 차 타고 무라카미역으로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "12:30",
+     "end": null,
+     "from": "2026-09-21-i04",
+     "to": "2026-09-21-i06",
+     "min": 60,
+     "cost": null,
+     "covered": false,
+     "dest": "무라카미역",
+     "origin": "니가타역",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-21-l10",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗무라카미역에서 차 타고 BLUE BASE SENAMI로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "18:30",
+     "end": null,
+     "from": "2026-09-21-i09",
+     "to": "2026-09-21-i11",
+     "min": 10,
+     "cost": null,
+     "covered": false,
+     "dest": "BLUE BASE SENAMI",
+     "origin": "무라카미역",
+     "notes": [],
+     "image": null,
+     "seat": null
+    }
+   ],
+   "moveMin": 100,
+   "bounds": {
+    "n": 38.224863,
+    "s": 37.803485,
+    "e": 139.478746,
+    "w": 138.847166
+   },
+   "tasks": []
+  },
+  {
+   "date": "2026-09-22",
+   "dow": "화",
+   "region": "니가타-오미야-카루이자와",
+   "stay": {
+    "name": "다이와 로이넷 호텔 오미야-니시구치",
+    "place": {
+     "id": "p_다이와_로이넷_호텔_오미야_니시구치",
+     "name": "다이와 로이넷 호텔 오미야 니시구치",
+     "kind": "place",
+     "lat": 35.90303,
+     "lng": 139.620998,
+     "gid": "ChIJPcPz4ofBGGARofMHft7l17Q",
+     "address": "1-chōme-398-1 Sakuragichō, Omiya Ward, Saitama, 330-0854, Japan"
+    },
+    "pay": "현지 결제",
+    "booker": "아고다",
+    "terms": "트윈룸 (소파베드)",
+    "costJpy": 41270,
+    "doc": "2026-09-22_다이와로이넷오미야.pdf"
+   },
+   "flags": [
+    {
+     "kind": "pass",
+     "text": "JR패스 1일차",
+     "full": "JR 동일본 와이드 패스 1/5일차"
+    },
+    {
+     "kind": "car",
+     "text": "렌트카"
+    }
+   ],
+   "items": [
+    {
+     "id": "2026-09-22-i01",
+     "type": "food",
+     "title": "🍚 아침",
+     "time": "07:00",
+     "end": null,
+     "notes": [
+      "전날 사온 음식 먹기"
+     ]
+    },
+    {
+     "id": "2026-09-22-i02",
+     "type": "sight",
+     "title": "BLUE BASE SENAMI 체크아웃",
+     "time": "08:00",
+     "end": null
+    },
+    {
+     "id": "2026-09-22-i04",
+     "type": "shop",
+     "title": "기차에서 먹을거 사기",
+     "time": "10:00",
+     "end": null,
+     "detail": "enmusu",
+     "detailJa": "笑ん結",
+     "detailDesc": "주먹밥",
+     "notes": [
+      "렌트 반납 전에 시간 남으면 밥을 먹어도 될 듯"
+     ],
+     "hideTime": true,
+     "place": {
+      "id": "p_笑ん結_enmusu",
+      "name": "enmusu",
+      "kind": "shopping",
+      "lat": 37.912134,
+      "lng": 139.060629,
+      "gid": "ChIJibyYNQDJ9F8RdnzP-ihb6S8",
+      "address": "〒950-0086 Niigata, Chuo Ward, Hanazono, 1-chōme−1−１ １CoCoLo新潟 2F",
+      "hours": [
+       {
+        "open": "07:00",
+        "close": "20:30"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-22-i05",
+     "type": "task",
+     "title": "렌트카 반납",
+     "time": "11:00",
+     "end": null,
+     "detail": "닛폰 렌터카 니가타역 북쪽 출구 영업소",
+     "fixed": true,
+     "reservation": {
+      "name": "일본 렌터카 니가타역 북쪽 출구 지점"
+     },
+     "place": {
+      "id": "p_ニッポンレンタカー新潟駅北口営業所",
+      "name": "Nippon Rent-a-car",
+      "kind": "resv",
+      "lat": 37.913982,
+      "lng": 139.063962,
+      "gid": "ChIJc9mj9L7J9F8RKyCUHAoWUjU",
+      "address": "Japan, 〒950-0086 新潟県新潟市中央区花園１丁目２４",
+      "hours": [
+       {
+        "open": "08:00",
+        "close": "19:00"
+       }
+      ],
+      "always": false
+     },
+     "detailJa": "ニッポンレンタカー新潟駅北口営業所"
+    },
+    {
+     "id": "2026-09-22-i08",
+     "type": "task",
+     "title": "다이와 로이넷 호텔 오미야-니시구치에 짐 맡기기",
+     "time": "13:45",
+     "end": null
+    },
+    {
+     "id": "2026-09-22-i11",
+     "type": "shop",
+     "title": "카루이자와 프린스 쇼핑 플라자 구경",
+     "time": "15:30",
+     "end": null,
+     "detail": "Truffle Bakery Karuizawacho",
+     "detailJa": "Truffle bakery 軽井沢店",
+     "detailDesc": "트러플 소금빵",
+     "place": {
+      "id": "p_truffle_bakery_karuizawacho",
+      "name": "Truffle Bakery Karuizawacho",
+      "kind": "shopping",
+      "lat": 36.343396,
+      "lng": 138.625638,
+      "gid": "ChIJs7xqPKzTHWART6_6pxaCx3Q",
+      "address": "〒389-0102 Nagano, Kitasaku District, Karuizawa, 字中道1210ｰ31",
+      "hours": [
+       {
+        "open": "09:00",
+        "close": "18:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-22-i12",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "19:30",
+     "end": null,
+     "place": {
+      "lat": 36.3417555,
+      "lng": 138.63502899999997,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Sacree Fleur Karuizawa",
+       "depth": 0,
+       "nameJa": "サクレフルール軽井沢",
+       "desc": "스테이크, 감자 뷔페",
+       "place": {
+        "id": "p_sacree_fleur_karuizawa",
+        "name": "Sacree Fleur Karuizawa",
+        "kind": "food",
+        "lat": 36.341286,
+        "lng": 138.63679,
+        "gid": "ChIJnYkE_VTTHWAR_L3IFknJw4A",
+        "address": "〒389-0102 Nagano, Kitasaku District, Karuizawa, 軽井沢・ プリンスショッピングプラザ NE06 ニューイースト",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "21:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "후지야",
+       "depth": 0,
+       "desc": "규카츠",
+       "place": {
+        "id": "p_후지야",
+        "name": "Fujiya",
+        "kind": "place",
+        "lat": 36.342225,
+        "lng": 138.633268,
+        "gid": "ChIJaddmfnvTHWAREme1TIvRHc8",
+        "address": "ショッピングプラザ KARUIZAWA AJI NO MACHI, 1178 Karuizawa, Kitasaku District, Nagano 389-0102, Japan",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "21:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-22-i15",
+     "type": "sight",
+     "title": "다이와 로이넷 호텔 오미야-니시구치 체크인",
+     "time": "21:30",
+     "end": null,
+     "tasks": [
+      "호텔 체크인 할 때 택배 관련 물어보기\n체크아웃 시간이 일러서 택배 되는지 간단히 문의\n택배 보낼 때 배송 송장 '고객 보관용 송장(접수증)' 꼭 보관\n\n【送り先】\n〒039-1111\n青森県八戸市東白山台1-1-1\nグランドサンピア八戸\n9月26日宿泊　KIM SEHYEN様"
+     ]
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-09-22-l03",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗BLUE BASE SENAMI에서 차 타고 니기타역으로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "08:30",
+     "end": null,
+     "from": "2026-09-22-i02",
+     "to": "2026-09-22-i04",
+     "min": 60,
+     "cost": null,
+     "covered": false,
+     "dest": "니기타역",
+     "origin": "BLUE BASE SENAMI",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-22-l07",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 니가타역에서 조에츠 신칸센 타고 오미야역으로 이동",
+     "fixed": false,
+     "vehicle": "조에츠 신칸센",
+     "time": "12:01",
+     "end": "13:35",
+     "from": "2026-09-22-i05",
+     "to": "2026-09-22-i08",
+     "min": 94,
+     "cost": "10,750엔",
+     "covered": true,
+     "dest": "오미야역",
+     "origin": "니가타역",
+     "notes": [],
+     "image": null,
+     "seat": {
+      "train": "Toki 58",
+      "seat": "8호차 20번 A석, B석, C석",
+      "span": "12:01~13:35",
+      "from": "NIIGATA",
+      "to": "OMIYA"
+     },
+     "dir": {
+      "to": {
+       "text": "오미야 역",
+       "lat": 35.9064485,
+       "lng": 139.6238548,
+       "gid": "ChIJhVIszEPBGGARE9TlMlpmDyg"
+      },
+      "from": {
+       "text": "니가타 역",
+       "lat": 37.9120388,
+       "lng": 139.061775,
+       "gid": "ChIJAWuK6JrJ9F8R6qO5mIuSHTs"
+      }
+     }
+    },
+    {
+     "id": "2026-09-22-l10",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 오미야역에서 호쿠리쿠 신칸센 타고 카루이자와역으로 이동",
+     "fixed": false,
+     "vehicle": "호쿠리쿠 신칸센",
+     "time": "14:29",
+     "end": "15:20",
+     "from": "2026-09-22-i08",
+     "to": "2026-09-22-i11",
+     "min": 51,
+     "cost": "5,460엔",
+     "covered": true,
+     "dest": "카루이자와역",
+     "origin": "오미야역",
+     "notes": [],
+     "image": null,
+     "seat": {
+      "train": "Asama 615",
+      "seat": "6호차 18번 A석, B석, C석",
+      "span": "14:29 ~15:20",
+      "from": "OMIYA",
+      "to": "KARUIZAWA"
+     },
+     "dir": {
+      "to": {
+       "text": "가루이자와",
+       "lat": 36.3426254,
+       "lng": 138.6353268,
+       "gid": "ChIJydEjjXzTHWARpROziUCAlHs"
+      },
+      "from": {
+       "text": "오미야 역",
+       "lat": 35.9064485,
+       "lng": 139.6238548,
+       "gid": "ChIJhVIszEPBGGARE9TlMlpmDyg"
+      }
+     }
+    },
+    {
+     "id": "2026-09-22-l14",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 카루이자와역에서 호쿠리쿠 신칸센 타고 오미야역으로 이동",
+     "fixed": false,
+     "vehicle": "호쿠리쿠 신칸센",
+     "time": "20:33",
+     "end": "21:11",
+     "from": "2026-09-22-i12",
+     "to": "2026-09-22-i15",
+     "min": 60,
+     "cost": "5,460엔",
+     "covered": true,
+     "dest": "오미야역",
+     "origin": "카루이자와역",
+     "notes": [],
+     "image": null,
+     "seat": {
+      "train": "Asama 658",
+      "seat": "8호차 20번 A석, B석, C석",
+      "span": "20:33~21:11",
+      "from": "KARUIZAWA",
+      "to": "OMIYA"
+     },
+     "dir": {
+      "to": {
+       "text": "오미야 역",
+       "lat": 35.9064485,
+       "lng": 139.6238548,
+       "gid": "ChIJhVIszEPBGGARE9TlMlpmDyg"
+      },
+      "from": {
+       "text": "가루이자와",
+       "lat": 36.3426254,
+       "lng": 138.6353268,
+       "gid": "ChIJydEjjXzTHWARpROziUCAlHs"
+      }
+     }
+    }
+   ],
+   "moveMin": 265,
+   "bounds": {
+    "n": 37.913982,
+    "s": 36.341286,
+    "e": 139.063962,
+    "w": 138.625638
+   },
+   "tasks": [
+    {
+     "due": "2026-09-22",
+     "text": "호텔 체크인 할 때 택배 관련 물어보기\n체크아웃 시간이 일러서 택배 되는지 간단히 문의\n택배 보낼 때 배송 송장 '고객 보관용 송장(접수증)' 꼭 보관\n\n【送り先】\n〒039-1111\n青森県八戸市東白山台1-1-1\nグランドサンピア八戸\n9月26日宿泊　KIM SEHYEN様",
+     "src": "9.23-9.27!C39"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "dow": "수",
+   "region": "오미야-도쿄",
+   "stay": {
+    "name": "다이와 로이넷 호텔 오미야-니시구치",
+    "place": {
+     "id": "p_다이와_로이넷_호텔_오미야_니시구치",
+     "name": "다이와 로이넷 호텔 오미야 니시구치",
+     "kind": "place",
+     "lat": 35.90303,
+     "lng": 139.620998,
+     "gid": "ChIJPcPz4ofBGGARofMHft7l17Q",
+     "address": "1-chōme-398-1 Sakuragichō, Omiya Ward, Saitama, 330-0854, Japan"
+    },
+    "doc": "2026-09-22_다이와로이넷오미야.pdf"
+   },
+   "flags": [
+    {
+     "kind": "pass",
+     "text": "JR패스 2일차",
+     "full": "JR 동일본 와이드 패스 2/5일차"
+    }
+   ],
+   "items": [
+    {
+     "id": "2026-09-23-i01",
+     "type": "food",
+     "title": "🍚 아침",
+     "time": "06:30",
+     "end": null,
+     "notes": [
+      "역에서 간단히 먹기"
+     ]
+    },
+    {
+     "id": "2026-09-23-i04",
+     "type": "sight",
+     "title": "도쿄역 구경",
+     "time": "07:30",
+     "end": null,
+     "notes": [
+      "양산 보이면 사야지"
+     ],
+     "place": {
+      "lat": 35.68127036,
+      "lng": 139.76708278,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "메이플 매니아",
+       "depth": 0,
+       "nameJa": "The MAPLE MANIA グランスタ東京店",
+       "desc": "메이플 샌드 쿠키",
+       "place": {
+        "id": "p_메이플_매니아",
+        "name": "메이플 매니아",
+        "kind": "shopping",
+        "lat": 35.681772,
+        "lng": 139.766993,
+        "gid": "ChIJGeYlX_mLGGAR-TsSfMKg9I8",
+        "address": "〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR Tokyo Station, １階改札内",
+        "hours": [
+         {
+          "open": "08:00",
+          "close": "22:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "TOKYO!!!",
+       "depth": 0,
+       "nameJa": "トーキョーみっつ",
+       "desc": "귀여운 편집샵",
+       "place": {
+        "id": "p_tokyo_トーキョーみっつ_グランスタ東京",
+        "name": "TOKYO!!!（トーキョーみっつ）グランスタ東京",
+        "kind": "shopping",
+        "lat": 35.681883,
+        "lng": 139.766869,
+        "gid": "ChIJRyyWenOLGGARd7zPBtklUqE",
+        "address": "1-chōme-9-1 Marunouchi, Chiyoda City, Tokyo 100-0005",
+        "hours": [
+         {
+          "open": "08:00",
+          "close": "22:00"
+         }
+        ]
+       }
+      },
+      {
+       "name": "Brulee Merize Tokyo Gift Palette Store",
+       "depth": 0,
+       "nameJa": "ブリュレメリゼ 東京ギフトパレット店",
+       "desc": "이것도 맛있다던데",
+       "place": {
+        "id": "p_brulee_merize_tokyo_gift_palette_store",
+        "name": "Brulee Merize Tokyo Gift Palette Store",
+        "kind": "shopping",
+        "lat": 35.6818878,
+        "lng": 139.7685559,
+        "gid": "ChIJBUZiYN-LGGARSmWW6Z9wXnw",
+        "address": "〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR Tokyo Station, Yaesu North Exit 「東京ギフトパレット」 内",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "20:30"
+         }
+        ]
+       }
+      },
+      {
+       "name": "PRESS BUTTER SAND TOKYO STATION SOUTH PASSAGE Pop-up",
+       "depth": 0,
+       "nameJa": "PRESS BUTTER SAND 東京駅南通路店",
+       "desc": "버터프레스 샌드",
+       "place": {
+        "id": "p_press_butter_sand_tokyo_station_south_passage_po",
+        "name": "PRESS BUTTER SAND TOKYO STATION SOUTH PASSAGE Pop-up",
+        "kind": "shopping",
+        "lat": 35.680447,
+        "lng": 139.766325,
+        "gid": "ChIJ7eBd-quLGGARq6DXAQTeGH4",
+        "address": "〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR東日本東京駅構内南通路区画",
+        "hours": [
+         {
+          "open": "07:00",
+          "close": "22:00"
+         }
+        ]
+       }
+      },
+      {
+       "name": "뉴욕퍼펙트치즈 도쿄역점",
+       "depth": 0,
+       "nameJa": "NEWYORK PERFECT CHEESE 東京駅店",
+       "desc": "요새 핫한 과자",
+       "place": {
+        "id": "p_뉴욕퍼펙트치즈_도쿄역점",
+        "name": "뉴욕퍼펙트치즈 도쿄역점",
+        "kind": "shopping",
+        "lat": 35.680362,
+        "lng": 139.766671,
+        "gid": "ChIJVXEPwPuLGGARRjynJ4y9nzM",
+        "address": "〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR Tokyo Station, １Ｆ 南通路",
+        "hours": [
+         {
+          "open": "08:00",
+          "close": "21:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-23-i05",
+     "type": "cafe",
+     "title": "파르페 먹기",
+     "time": "10:00",
+     "end": null,
+     "detail": "Derimotokyokafederimo Daimarutokyoten",
+     "detailDesc": "화려한 파르페 · 예약 안되서 오픈런",
+     "place": {
+      "id": "p_derimotokyokafederimo_daimarutokyoten",
+      "name": "Derimotokyokafederimo Daimarutokyoten",
+      "kind": "cafe",
+      "lat": 35.681765,
+      "lng": 139.769059,
+      "gid": "ChIJbzJKh-uLGGARB1c7f5bsu3Y",
+      "address": "Japan, 〒100-6701 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ 大丸東京店 4F",
+      "hours": [
+       {
+        "open": "10:00",
+        "close": "20:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-23-i06",
+     "type": "sight",
+     "title": "도쿄역 마저 구경",
+     "time": "11:00",
+     "end": null,
+     "place": {
+      "lat": 35.682183875,
+      "lng": 139.76863772500002,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "다이마루 백화점",
+       "depth": 0,
+       "group": true
+      },
+      {
+       "name": "PostCoffee®︎ KIOSK Daimaru Tokyo",
+       "depth": 1,
+       "desc": "커피가 맛있다고 함. 드립커피 좀 사고싶음",
+       "place": {
+        "id": "p_postcoffee_kiosk_daimaru_tokyo",
+        "name": "PostCoffee®︎ KIOSK Daimaru Tokyo",
+        "kind": "cafe",
+        "lat": 35.681538,
+        "lng": 139.769114,
+        "gid": "ChIJeyJvUZyLGGARgCDDQy2_UZA",
+        "address": "1-chōme-9-1 Marunouchi, Chiyoda City, Tokyo 100-6701",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "도쿄역 1번가",
+       "depth": 0,
+       "group": true
+      },
+      {
+       "name": "도쿄 캐릭터스트리트",
+       "depth": 1,
+       "nameJa": "東京キャラクターストリート",
+       "desc": "미피샵이랑 치아카와 들리기",
+       "place": {
+        "id": "p_도쿄_캐릭터스트리트",
+        "name": "도쿄 캐릭터스트리트",
+        "kind": "shopping",
+        "lat": 35.6820335,
+        "lng": 139.7686549,
+        "gid": "ChIJGeYlX_mLGGARx_4HVNDXOxA",
+        "address": "〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ 東京駅一番街 B1",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "PLUSTA Gift 도쿄 기프트 팔레트",
+       "depth": 1,
+       "desc": "기념품샵",
+       "place": {
+        "id": "p_plusta_gift東京ギフトパレット",
+        "name": "PLUSTA Gift東京ギフトパレット",
+        "kind": "shopping",
+        "lat": 35.682259,
+        "lng": 139.768445,
+        "gid": "ChIJZWc8HfyLGGARPEqCxTGshUg",
+        "address": "〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR Tokyo Station, 内 構内 東京ギフトパレット",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "20:30"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "PLUSTA Gift東京ギフトパレット"
+      },
+      {
+       "name": "Kenele Stand",
+       "depth": 1,
+       "nameJa": "ケンエレスタンド グランスタ八重北店",
+       "desc": "특이한 가챠가 가득한 곳",
+       "place": {
+        "id": "p_kenele_stand",
+        "name": "Kenele Stand",
+        "kind": "shopping",
+        "lat": 35.682905,
+        "lng": 139.768337,
+        "gid": "ChIJl7za7c2LGGARGeRm6ukQE7Q",
+        "address": "〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR東日本東京駅構内 八重洲北口改札外1階「八重北食堂内」",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "21:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-23-i07",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "11:30",
+     "end": null,
+     "detail": "Gyukatsu Motomura Tofrom Yaesu",
+     "detailDesc": "규카츠",
+     "fixed": true,
+     "reservation": {
+      "booker": "table check",
+      "note": "좌석 · 대기가 좀 있을 수도 있다는데 일단 예약함",
+      "name": "Gyukatsu Motomura Tofrom Yaesu",
+      "pay": "-",
+      "doc": "2026-09-23_1130_규카츠모토무라야에스.pdf"
+     },
+     "place": {
+      "id": "p_gyukatsu_motomura_tofrom_yaesu",
+      "name": "牛かつもと村 トフロム八重洲店",
+      "kind": "place",
+      "lat": 35.681544,
+      "lng": 139.770238,
+      "gid": "ChIJb4BVWlWLGGAR0Z-NSJkR6CA",
+      "address": "Japan, 〒103-0028 Tokyo, Chuo City, Yaesu, 1-chōme−6−１ 120区画",
+      "hours": [
+       {
+        "open": "11:30",
+        "close": "22:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-23-i08",
+     "type": "sight",
+     "title": "긴자 구경",
+     "time": "14:30",
+     "end": null,
+     "place": {
+      "lat": 35.67156905,
+      "lng": 139.764798725,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "긴자 그래픽 갤러리",
+       "depth": 0,
+       "nameJa": "ギンザ・グラフィック・ギャラリー",
+       "desc": "디자인 무료 전시",
+       "place": {
+        "id": "p_긴자_그래픽_갤러리",
+        "name": "긴자 그래픽 갤러리",
+        "kind": "place",
+        "lat": 35.6697019,
+        "lng": 139.7624842,
+        "gid": "ChIJYfHMoeiLGGARAd_uQ2KIKmo",
+        "address": "〒104-0061 Tokyo, Chuo City, Ginza, 7-chōme−7−２ DNP 銀座ビル 1F",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "19:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "프레데릭 카셀 긴자 미츠코시점",
+       "depth": 0,
+       "nameJa": "フレデリック・カッセル 銀座三越店",
+       "desc": "케이크 사가야지",
+       "place": {
+        "id": "p_프레데릭_카셀_긴자_미츠코시점",
+        "name": "프레데릭 카셀 긴자 미츠코시점",
+        "kind": "shopping",
+        "lat": 35.6712721,
+        "lng": 139.7659393,
+        "gid": "ChIJX9MhjuaLGGAR08JMDcXX81g",
+        "address": "4-chōme-6-16 Ginza, Chuo City, Tokyo 104-8212",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "긴자식스",
+       "depth": 0,
+       "desc": "츠타야서점 유명. 아트 구경할 것도 많음",
+       "place": {
+        "id": "p_긴자식스",
+        "name": "긴자 식스",
+        "kind": "shopping",
+        "lat": 35.6697688,
+        "lng": 139.7641762,
+        "gid": "ChIJAQAsR--LGGAR_AmB8WMDy88",
+        "address": "6-chōme-10-1 Ginza, Chuo City, Tokyo 104-0061",
+        "hours": [
+         {
+          "open": "10:30",
+          "close": "20:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "센트레 더 베이커리",
+       "depth": 0,
+       "nameJa": "セントル ザ ベーカリー銀座店",
+       "desc": "식빵. 토스트기를 골라 구워먹을 수 있음",
+       "place": {
+        "id": "p_센트레_더_베이커리",
+        "name": "센트레 더 베이커리",
+        "kind": "shopping",
+        "lat": 35.6755334,
+        "lng": 139.7665952,
+        "gid": "ChIJE8S0lOSLGGAR84AdzQ71F3I",
+        "address": "Japan, 〒104-0061 Tokyo, Chuo City, Ginza, 1-chōme−2−１ 紺屋ビル 1F 東京高速道路",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "19:00"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-23-i09",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "17:30",
+     "end": null,
+     "detail": "CANTON 8",
+     "detailJa": "CANTON8/喜粤8号",
+     "detailDesc": "홍콩 미슐랭 2스타의 체인점",
+     "fixed": true,
+     "reservation": {
+      "booker": "타베로그",
+      "costJpy": 5800,
+      "costText": "5,800엔+580엔(1인)",
+      "note": "긴자 코스 츠루",
+      "name": "CANTON8 銀座店",
+      "pay": "현지 결제",
+      "doc": "2026-09-23_1730_CANTON8긴자점.pdf"
+     },
+     "place": {
+      "id": "p_canton_8",
+      "name": "CANTON 8",
+      "kind": "food",
+      "lat": 35.669949,
+      "lng": 139.759737,
+      "gid": "ChIJ1wypgf6LGGARR_rTdi8vDb8",
+      "address": "ニッタビル 8階, 8-chōme-2-1 Ginza, Chuo City, Tokyo 104-0061",
+      "hours": [
+       {
+        "open": "11:30",
+        "close": "15:00"
+       },
+       {
+        "open": "17:30",
+        "close": "22:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-23-i12",
+     "type": "sight",
+     "title": "다카나와 게이트웨이 시티에서 야경보기",
+     "time": "18:30",
+     "end": null,
+     "detail": "다카나와 게이트웨이 시티",
+     "detailDesc": "옥의 정원 후지산 방면 · 야마후키의 정원은 도쿄방면",
+     "notes": [
+      "가는 법: 다카나와 게이트웨이 역 개찰구와 직결되어 있는 2층 → North라고 쓰여진 입구에서 NEWoMan 다카나와 → LUFTBAUM 입구 안의 엘리베이터로 28층 → 엘리베이터를 내리면 왼쪽 야마후키의 정원. 오른쪽 옥의 정원"
+     ],
+     "place": {
+      "id": "p_다카나와_게이트웨이_시티",
+      "name": "Takanawa Gateway City",
+      "kind": "place",
+      "lat": 35.635722,
+      "lng": 139.740214,
+      "gid": "ChIJnbjuhOuLGGARCT2ffPShwsc",
+      "address": "2-chōme-21-21 Takanawa, Minato City, Tokyo 108-0074, Japan"
+     }
+    },
+    {
+     "id": "2026-09-23-i15",
+     "type": "cafe",
+     "title": "파르페 먹기",
+     "time": "21:00",
+     "end": null,
+     "detail": "Pâtisserie & Chocolat Del'immo Tokyo Midtown Hibiya",
+     "detailDesc": "화려한 파르페 · 밤에는 웨이팅 없지않을까",
+     "place": {
+      "id": "p_pâtisserie_chocolat_del_immo_tokyo_midtown_hibiy",
+      "name": "Pâtisserie & Chocolat Del'immo Tokyo Midtown Hibiya",
+      "kind": "place",
+      "lat": 35.673744,
+      "lng": 139.759176,
+      "gid": "ChIJq_OOJO6LGGARnzwPJx03Y2g",
+      "address": "Japan, 〒100-0006 Tokyo, Chiyoda City, Yūrakuchō, 1-chōme−1−２ 東京ミッドタウン日比谷 B1F",
+      "hours": [
+       {
+        "open": "11:00",
+        "close": "23:00"
+       }
+      ],
+      "always": false
+     }
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-09-23-l03",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 오미야역에서 조에츠 신칸센 타고 도쿄역으로 이동",
+     "fixed": false,
+     "vehicle": "조에츠 신칸센",
+     "time": "07:00",
+     "end": "07:24",
+     "from": "2026-09-23-i01",
+     "to": "2026-09-23-i04",
+     "min": 20,
+     "cost": "2,610엔",
+     "covered": true,
+     "dest": "도쿄역",
+     "origin": "오미야역",
+     "notes": [],
+     "image": null,
+     "seat": {
+      "train": "Tanigawa 472",
+      "seat": "6호차 18번 A석, B석, C석",
+      "span": "07:00~07:24",
+      "from": "OMIYA",
+      "to": "TOKYO"
+     },
+     "dir": {
+      "to": {
+       "text": "도쿄",
+       "lat": 35.6812996,
+       "lng": 139.7670658,
+       "gid": "ChIJC3Cf2PuLGGAROO00ukl8JwA"
+      },
+      "from": {
+       "text": "오미야 역",
+       "lat": 35.9064485,
+       "lng": 139.6238548,
+       "gid": "ChIJhVIszEPBGGARE9TlMlpmDyg"
+      }
+     }
+    },
+    {
+     "id": "2026-09-23-l11",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 도쿄역에서 JR야마노테선 타고 다카나와게이트웨이역으로 이동",
+     "fixed": false,
+     "vehicle": "JR야마노테선",
+     "time": "18:00",
+     "end": null,
+     "from": "2026-09-23-i09",
+     "to": "2026-09-23-i12",
+     "min": 23,
+     "cost": "200엔",
+     "covered": true,
+     "dest": "다카나와게이트웨이역",
+     "origin": "도쿄역",
+     "notes": [],
+     "image": null,
+     "seat": null,
+     "dir": {
+      "to": {
+       "text": "다카나와게이트웨이역",
+       "lat": 35.6355207,
+       "lng": 139.7406809,
+       "gid": "ChIJlwt2FVKKGGARo5sE_rHgtUk"
+      },
+      "from": {
+       "text": "도쿄",
+       "lat": 35.6812996,
+       "lng": 139.7670658,
+       "gid": "ChIJC3Cf2PuLGGAROO00ukl8JwA"
+      }
+     }
+    },
+    {
+     "id": "2026-09-23-l14",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 다카나와게이트웨이역에서 JR야마노테선 타고 유라쿠초역으로 이동",
+     "fixed": false,
+     "vehicle": "JR야마노테선",
+     "time": "20:30",
+     "end": null,
+     "from": "2026-09-23-i12",
+     "to": "2026-09-23-i15",
+     "min": 23,
+     "cost": "200엔",
+     "covered": true,
+     "dest": "유라쿠초역",
+     "origin": "다카나와게이트웨이역",
+     "notes": [],
+     "image": null,
+     "seat": null,
+     "dir": {
+      "to": {
+       "text": "오미야 역",
+       "lat": 35.9064485,
+       "lng": 139.6238548,
+       "gid": "ChIJhVIszEPBGGARE9TlMlpmDyg"
+      },
+      "from": {
+       "text": "다카나와게이트웨이역",
+       "lat": 35.6355207,
+       "lng": 139.7406809,
+       "gid": "ChIJlwt2FVKKGGARo5sE_rHgtUk"
+      }
+     }
+    },
+    {
+     "id": "2026-09-23-l16",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 유라쿠초역에서 JR 열차 타고 도쿄역으로 이동",
+     "fixed": false,
+     "vehicle": "JR 열차",
+     "time": "21:00",
+     "end": null,
+     "from": "2026-09-23-i15",
+     "to": null,
+     "min": 3,
+     "cost": "200엔",
+     "covered": true,
+     "dest": "도쿄역",
+     "origin": "유라쿠초역",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-23-l17",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 도쿄역에서 JR 열차 타고 오미야역으로 이동",
+     "fixed": false,
+     "vehicle": "JR 열차",
+     "time": "21:00",
+     "end": null,
+     "from": "2026-09-23-i15",
+     "to": null,
+     "min": 44,
+     "cost": "620엔",
+     "covered": true,
+     "dest": "오미야역",
+     "origin": "도쿄역",
+     "notes": [],
+     "image": null,
+     "seat": null
+    }
+   ],
+   "moveMin": 113,
+   "bounds": {
+    "n": 35.682905,
+    "s": 35.635722,
+    "e": 139.770238,
+    "w": 139.740214
+   },
+   "tasks": [
+    {
+     "due": "2026-09-23",
+     "text": "내일 기차에서 먹을 도시락이랑 간식 미리 사기",
+     "src": "9.23-9.27!C46"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "dow": "목",
+   "region": "오미야-자오오천",
+   "stay": {
+    "name": "와카마츠야 료칸",
+    "place": {
+     "id": "p_와카마츠야_료칸",
+     "name": "Wakamatsuya",
+     "kind": "place",
+     "lat": 38.167116,
+     "lng": 140.39655,
+     "gid": "ChIJ45xRPw5Lil8R--jzEzllXBU",
+     "address": "951-1 Zaōonsen, Yamagata, 990-2301, Japan"
+    },
+    "pay": "결제완료",
+    "booker": "쟈란넷",
+    "terms": "저녁,아침 포함",
+    "doc": "2026-09-24_와카마츠야.pdf"
+   },
+   "flags": [
+    {
+     "kind": "pass",
+     "text": "JR패스 3일차",
+     "full": "JR 동일본 와이드 패스 3/5일차"
+    }
+   ],
+   "items": [
+    {
+     "id": "2026-09-24-i01",
+     "type": "sight",
+     "title": "다이와 로이넷 호텔 오미야-니시구치 체크아웃",
+     "time": "06:00",
+     "end": null,
+     "tasks": [
+      "캐리어 택배로 보내고 가기"
+     ]
+    },
+    {
+     "id": "2026-09-24-i02",
+     "type": "shop",
+     "title": "기차에서 먹을 도시락 사기",
+     "time": "07:00",
+     "end": null,
+     "detail": "Ekibenya matsuri select",
+     "detailDesc": "아침 일찍 여는 에키벤",
+     "hideTime": true,
+     "place": {
+      "id": "p_ekibenya_matsuri_select",
+      "name": "Ekibenya matsuri select",
+      "kind": "place",
+      "lat": 35.905961,
+      "lng": 139.623831,
+      "gid": "ChIJSUif2EPBGGARpoXi_n6CA1Y",
+      "address": "630 Nishikichō, Omiya Ward, Saitama, 330-0853, Japan",
+      "hours": [
+       {
+        "open": "06:00",
+        "close": "22:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-24-i05",
+     "type": "task",
+     "title": "야마가타역앞 안내소에서 버스&로프웨이 할인권 구매",
+     "time": "10:00",
+     "end": null,
+     "detail": "야마가타 안내소",
+     "detailJa": "山形交通",
+     "detailDesc": "야마가타역 동쪽 출구 방향으로 내려와 직진",
+     "tasks": [
+      "버스&로프웨이 할인권 A플랜 구매하기\n자오 중앙 로프웨이 1인 4,400엔"
+     ],
+     "place": {
+      "id": "p_山形交通_株_山形駅前案内所",
+      "name": "山形交通（株）山形駅前案内所",
+      "kind": "place",
+      "lat": 38.249304,
+      "lng": 140.328536,
+      "gid": "ChIJx5corQ-2i18RFTIPnOv6ZyU",
+      "address": "〒990-0039 Yamagata, Kasumichō, 1-chōme−16−３４ 東口交通センタ １階",
+      "hours": [
+       {
+        "open": "07:30",
+        "close": "17:40"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-24-i06",
+     "type": "sight",
+     "title": "시간 남으면 야마가타역 구경",
+     "time": "10:30",
+     "end": null,
+     "hideTime": true,
+     "place": {
+      "lat": 38.2489585,
+      "lng": 140.329395,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Day & Coffee 야마가타역앞 본점",
+       "depth": 0,
+       "desc": "카페",
+       "place": {
+        "id": "p_day_coffee_山形駅前本店",
+        "name": "Day & Coffee 山形駅前本店",
+        "kind": "cafe",
+        "lat": 38.2491,
+        "lng": 140.330794,
+        "gid": "ChIJBcWco423i18R0tzPSLelK6U",
+        "address": "1-chōme-11-18 Kasumichō, Yamagata, 990-0039",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "Day & Coffee 山形駅前本店"
+      },
+      {
+       "name": "사쿠와소 야마가타역빌딩점",
+       "depth": 0,
+       "desc": "뭔가 떡인데 유명한가봄",
+       "place": {
+        "id": "p_作和庄_山形駅ビル店",
+        "name": "作和庄 山形駅ビル店",
+        "kind": "shopping",
+        "lat": 38.248817,
+        "lng": 140.327996,
+        "gid": "ChIJ2Wbaiw62i18RaPiYVOH1HjE",
+        "address": "〒990-0039 Yamagata, Kasumichō, 1-chōme−1−１ 山形駅エスパル 2階",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "19:30"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "作和庄 山形駅ビル店"
+      }
+     ]
+    },
+    {
+     "id": "2026-09-24-i09",
+     "type": "task",
+     "title": "와카마츠야 료칸에 짐 맡기기",
+     "time": "12:10",
+     "end": null,
+     "hideTime": true
+    },
+    {
+     "id": "2026-09-24-i10",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "12:30",
+     "end": null,
+     "place": {
+      "lat": 38.1639395,
+      "lng": 140.3953735,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Otochaya",
+       "depth": 0,
+       "nameJa": "音茶屋",
+       "desc": "스프카레",
+       "place": {
+        "id": "p_音茶屋_otochaya",
+        "name": "Otochaya",
+        "kind": "cafe",
+        "lat": 38.1635,
+        "lng": 140.395237,
+        "gid": "ChIJ2a1dfQxLil8Rpx13DfBHCIY",
+        "address": "935-24 Zaōonsen, Yamagata, 990-2301",
+        "hours": [
+         {
+          "open": "11:30",
+          "close": "16:00"
+         },
+         {
+          "open": "17:30",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "시바마마노 오미세",
+       "depth": 0,
+       "desc": "야채 위주 정식, 카레 등",
+       "place": {
+        "id": "p_しばママのお店",
+        "name": "Shiba Mama no Omise",
+        "kind": "food",
+        "lat": 38.164379,
+        "lng": 140.39551,
+        "gid": "ChIJO-0FZgxLil8RswzJgNSMOX8",
+        "address": "〒990-2301 Yamagata, Zaōonsen, 川前９３９−３",
+        "hours": [
+         {
+          "open": "11:30",
+          "close": "16:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "しばママのお店"
+      }
+     ]
+    },
+    {
+     "id": "2026-09-24-i11",
+     "type": "sight",
+     "title": "자오 중앙 로프웨이 & 중앙 제1 리프트",
+     "time": "13:30",
+     "end": null,
+     "detail": "자오 중앙 로프웨이",
+     "detailJa": "蔵王ロープウェイ 蔵王山麓駅",
+     "detailDesc": "왕복 2,400 엔 · 산책하기",
+     "tasks": [
+      "로프웨이 운행 정보 확인\n<https://zaochuoropeway.co.jp/jp/summer/access.php>",
+      "할인권 샀으면 사용"
+     ],
+     "place": {
+      "id": "p_자오_중앙_로프웨이",
+      "name": "Zao Ropeway Sanroku Station",
+      "kind": "place",
+      "lat": 38.161601,
+      "lng": 140.39522,
+      "gid": "ChIJ9dVANwtLil8RLCyvTtj8TAU",
+      "address": "229-3 Zaōonsen, Yamagata, 990-2301",
+      "hours": [
+       {
+        "open": "08:30",
+        "close": "17:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-24-i12",
+     "type": "sight",
+     "title": "마을 구경",
+     "time": "15:00",
+     "end": null,
+     "place": {
+      "lat": 38.16750216666667,
+      "lng": 140.39664166666668,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "카페",
+       "depth": 0,
+       "group": true
+      },
+      {
+       "name": "Zao Onsen Yutabiya TAKAYUDO",
+       "depth": 1,
+       "nameJa": "Zao Onsen 湯旅屋 高湯堂",
+       "desc": "기념품가게. 온천점 궁금",
+       "place": {
+        "id": "p_zao_onsen_yutabiya_takayudo",
+        "name": "Zao Onsen Yutabiya TAKAYUDO",
+        "kind": "shopping",
+        "lat": 38.168089,
+        "lng": 140.396302,
+        "gid": "ChIJHaDbl2tLil8RNEfHDqS161U",
+        "address": "〒990-2301 야마가타현 야마가타시 자오온센 19",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "12:00"
+         },
+         {
+          "open": "13:00",
+          "close": "17:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "쇼쿠도 유키구라",
+       "depth": 1,
+       "desc": "구슬 곤약. 궁금",
+       "place": {
+        "id": "p_食堂_雪ぐら",
+        "name": "食堂 雪ぐら",
+        "kind": "food",
+        "lat": 38.165704,
+        "lng": 140.395138,
+        "gid": "ChIJA2Pt0Q1Lil8R2GogWvZh0C4",
+        "address": "〒990-2301 Yamagata, Zaōonsen, 川前９０４−３",
+        "hours": [
+         {
+          "open": "08:30",
+          "close": "16:30"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "食堂 雪ぐら"
+      },
+      {
+       "name": "TAKAYU ONSEN PARLOR",
+       "depth": 1,
+       "nameJa": "TAKAYU温泉パーラー",
+       "desc": "소다집",
+       "place": {
+        "id": "p_takayu_onsen_parlor",
+        "name": "TAKAYU ONSEN PARLOR",
+        "kind": "cafe",
+        "lat": 38.16837,
+        "lng": 140.396811,
+        "gid": "ChIJPyAbPFVLil8RsM9xm-JU5ys",
+        "address": "14 Zaōonsen, Yamagata, 990-2301",
+        "closed": true
+       }
+      },
+      {
+       "name": "Unite Cafe",
+       "depth": 1,
+       "desc": "카페",
+       "place": {
+        "id": "p_unite_cafe",
+        "name": "Unite Cafe",
+        "kind": "cafe",
+        "lat": 38.171734,
+        "lng": 140.394662,
+        "gid": "ChIJAf38qRBLil8R3KcQmhFoWMw",
+        "address": "〒990-2301 Yamagata, Zaōonsen, 丈二田752-2",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "16:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Coffee MURASAKI Yamagata Zao",
+       "depth": 1,
+       "desc": "커피",
+       "place": {
+        "id": "p_coffee_murasaki_yamagata_zao",
+        "name": "珈琲紫 山形蔵王温泉店 - Coffee MURASAKI Yamagata Zao",
+        "kind": "cafe",
+        "lat": 38.165005,
+        "lng": 140.395081,
+        "gid": "ChIJ1UuqEFtLil8RQpKf6K9Cupo",
+        "address": "940-5 Zaōonsen, Yamagata, 990-2301",
+        "hours": [
+         {
+          "open": "08:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "온천",
+       "depth": 0,
+       "group": true
+      },
+      {
+       "name": "자오 대노천탕",
+       "depth": 1,
+       "nameJa": "蔵王温泉 大露天風呂",
+       "desc": "850엔 · 4시 반까지 입장",
+       "place": {
+        "id": "p_자오_대노천탕_zao_onsen_dairotenburo",
+        "name": "Zao Onsen Dairotenburo",
+        "kind": "onsen",
+        "lat": 38.166111,
+        "lng": 140.401856,
+        "gid": "ChIJ6eZMmRpLil8R4Sx5rmaks-Q",
+        "address": "853-3 Zaōonsen, Yamagata, 990-2301",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-24-i13",
+     "type": "sight",
+     "title": "와카마츠야 료칸 체크인",
+     "time": "17:00",
+     "end": null,
+     "notes": [
+      "전세온천 무료 2종, 대욕장 2종 있음\n온천 후 먹을 수 있는 푸딩, 우유 무료 서비스 코너 제공"
+     ]
+    },
+    {
+     "id": "2026-09-24-i14",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "18:00",
+     "end": null,
+     "detail": "와카마츠야 료칸",
+     "detailJa": "和歌の宿 わかまつや",
+     "detailDesc": "야마가타규 일본식 코스",
+     "place": {
+      "id": "p_와카마츠야_료칸",
+      "name": "Wakamatsuya",
+      "kind": "place",
+      "lat": 38.167116,
+      "lng": 140.39655,
+      "gid": "ChIJ45xRPw5Lil8R--jzEzllXBU",
+      "address": "951-1 Zaōonsen, Yamagata, 990-2301, Japan",
+      "hoursPick": [
+       "18:00",
+       "18:30"
+      ]
+     }
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-09-24-l04",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 오미야역에서 야마가타 신칸센 타고 야마가타역으로 이동",
+     "fixed": false,
+     "vehicle": "야마가타 신칸센",
+     "time": "07:37",
+     "end": "09:53",
+     "from": "2026-09-24-i02",
+     "to": "2026-09-24-i05",
+     "min": 136,
+     "cost": "11,330엔",
+     "covered": true,
+     "dest": "야마가타역",
+     "origin": "오미야역",
+     "notes": [],
+     "image": null,
+     "seat": {
+      "train": "Tsubasa 123",
+      "seat": "13호차 17번 A석, B석, C석",
+      "span": "07:37~09:53",
+      "from": "OMIYA",
+      "to": "YAMAGATA"
+     },
+     "dir": {
+      "to": {
+       "text": "Yamagata Station",
+       "lat": 38.2489263,
+       "lng": 140.3273028,
+       "gid": "ChIJfRDPQg62i18Rr1eJ0At5nJc"
+      },
+      "from": {
+       "text": "오미야 역",
+       "lat": 35.9064485,
+       "lng": 139.6238548,
+       "gid": "ChIJhVIszEPBGGARE9TlMlpmDyg"
+      }
+     }
+    },
+    {
+     "id": "2026-09-24-l08",
+     "mode": "bus",
+     "modeLabel": "버스",
+     "title": "🚌 야마가타에키마에에서 Z90・C2 버스 타고 자오온센버스터미널로 이동",
+     "fixed": false,
+     "vehicle": "Z90・C2 버스",
+     "time": "11:18",
+     "end": "11:57",
+     "from": "2026-09-24-i06",
+     "to": "2026-09-24-i09",
+     "min": 40,
+     "cost": "1,200엔",
+     "covered": false,
+     "dest": "자오온센버스터미널",
+     "origin": "야마가타에키마에",
+     "notes": [
+      "18분마다 출발하는데 만석이면 못 타므로 좀 일찍 가있기"
+     ],
+     "image": null,
+     "seat": null,
+     "dir": {
+      "to": {
+       "text": "자오온센버스터미널",
+       "lat": 38.1674181,
+       "lng": 140.3936943,
+       "gid": "ChIJQTdD-RFLil8RuMYpBhNS6ao"
+      },
+      "from": {
+       "text": "Yamagata Station",
+       "lat": 38.2489263,
+       "lng": 140.3273028,
+       "gid": "ChIJfRDPQg62i18Rr1eJ0At5nJc"
+      }
+     }
+    }
+   ],
+   "moveMin": 176,
+   "bounds": {
+    "n": 38.249304,
+    "s": 35.905961,
+    "e": 140.401856,
+    "w": 139.623831
+   },
+   "tasks": [
+    {
+     "due": "2026-09-24",
+     "text": "캐리어 말고 다른 가방에 2일치 옷과 로션 등 챙겨둘 것",
+     "src": "9.23-9.27!C95"
+    },
+    {
+     "due": "2026-09-24",
+     "text": "캐리어 택배로 보내고 가기",
+     "src": "9.23-9.27!C98"
+    },
+    {
+     "due": "2026-09-24",
+     "text": "버스&로프웨이 할인권 A플랜 구매하기\n자오 중앙 로프웨이 1인 4,400엔",
+     "src": "9.23-9.27!C108"
+    },
+    {
+     "due": "2026-09-24",
+     "text": "로프웨이 운행 정보 확인",
+     "src": "9.23-9.27!C125",
+     "link": "https://zaochuoropeway.co.jp/jp/summer/access.php"
+    },
+    {
+     "due": "2026-09-24",
+     "text": "할인권 샀으면 사용",
+     "src": "9.23-9.27!C126"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "dow": "금",
+   "region": "자오오천",
+   "stay": {
+    "name": "츠루야 료칸",
+    "place": {
+     "id": "p_츠루야_료칸",
+     "name": "Gokan-no-yu Tsuruya",
+     "kind": "place",
+     "lat": 38.167582,
+     "lng": 140.394179,
+     "gid": "ChIJF6GD5BFLil8RN8VPH_bgzB4",
+     "address": "710 Zaōonsen, Yamagata, 990-2301",
+     "hours": [
+      {
+       "open": "12:30",
+       "close": "17:00"
+      }
+     ],
+     "always": false
+    },
+    "pay": "현지 결제",
+    "booker": "홈페이지",
+    "terms": "저녁,아침 포함 · 전세온천 1회 포함",
+    "costJpy": 56100,
+    "doc": "2026-09-25_츠루야.pdf"
+   },
+   "flags": [
+    {
+     "kind": "pass",
+     "text": "JR패스 4일차",
+     "full": "JR 동일본 와이드 패스 4/5일차"
+    }
+   ],
+   "items": [
+    {
+     "id": "2026-09-25-i01",
+     "type": "food",
+     "title": "🍚 아침",
+     "time": "07:30",
+     "end": null,
+     "detail": "와카마츠야 료칸",
+     "detailJa": "和歌の宿 わかまつや",
+     "detailDesc": "야마가타 향토식 일본 정식",
+     "place": {
+      "id": "p_와카마츠야_료칸",
+      "name": "Wakamatsuya",
+      "kind": "place",
+      "lat": 38.167116,
+      "lng": 140.39655,
+      "gid": "ChIJ45xRPw5Lil8R--jzEzllXBU",
+      "address": "951-1 Zaōonsen, Yamagata, 990-2301, Japan",
+      "hoursPick": [
+       "07:30",
+       "08:00",
+       "08:30"
+      ]
+     }
+    },
+    {
+     "id": "2026-09-25-i02",
+     "type": "sight",
+     "title": "와카마츠야 료칸 체크아웃",
+     "time": "09:30",
+     "end": null,
+     "notes": [
+      "츠루야 료칸에 짐 맡기기"
+     ]
+    },
+    {
+     "id": "2026-09-25-i03",
+     "type": "sight",
+     "title": "자오 로프웨이 타고 경치 구경",
+     "time": "10:00",
+     "end": null,
+     "tasks": [
+      "로프웨이 운행 정보 확인\n<https://zaoropeway.co.jp/summer/index.php>"
+     ],
+     "place": {
+      "lat": 38.159323,
+      "lng": 140.40722966666667,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "자오 로프웨이",
+       "depth": 0,
+       "nameJa": "蔵王ロープウェイ 蔵王山麓駅",
+       "desc": "왕복 4,400엔",
+       "place": {
+        "id": "p_자오_로프웨이",
+        "name": "Zao Ropeway Sanroku Station",
+        "kind": "place",
+        "lat": 38.161601,
+        "lng": 140.39522,
+        "gid": "ChIJ9dVANwtLil8RLCyvTtj8TAU",
+        "address": "229-3 Zaōonsen, Yamagata, 990-2301",
+        "hours": [
+         {
+          "open": "08:30",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "자오 로프웨이 산정 테라스",
+       "depth": 0,
+       "nameJa": "蔵王ロープウェイ 地蔵山頂駅",
+       "desc": "로프웨이 타고 가면 있는 테라스",
+       "place": {
+        "id": "p_자오_로프웨이_산정_테라스",
+        "name": "Jizo Sancho Station",
+        "kind": "place",
+        "lat": 38.154712,
+        "lng": 140.431272,
+        "gid": "ChIJewyzHrZLil8RGsEC9ppeFtw",
+        "address": "일본 〒990-2301 야마가타현 야마가타시 자오온센",
+        "hours": [
+         {
+          "open": "08:45",
+          "close": "16:45"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "36SHOP",
+       "depth": 0,
+       "desc": "기념품샵",
+       "place": {
+        "id": "p_36shop",
+        "name": "36SHOP",
+        "kind": "shopping",
+        "lat": 38.161656,
+        "lng": 140.395197,
+        "gid": "ChIJT7Rq_GxLil8Rrdo__Toprnk",
+        "address": "Japan, 〒990-2301 Yamagata, Zaōonsen, 三度川２２９−３ 三度川 ２２９",
+        "hours": [
+         {
+          "open": "08:30",
+          "close": "17:00"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-25-i04",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "12:00",
+     "end": null,
+     "notes": [
+      "로프웨이 쪽에 있는 식당에서 먹기"
+     ]
+    },
+    {
+     "id": "2026-09-25-i05",
+     "type": "sight",
+     "title": "마을 구경",
+     "time": "13:00",
+     "end": null,
+     "hideTime": true,
+     "place": {
+      "lat": 38.167240500000005,
+      "lng": 140.3993335,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "카페",
+       "depth": 0,
+       "group": true
+      },
+      {
+       "name": "TAKAYU ONSEN PARLOR",
+       "depth": 1,
+       "nameJa": "TAKAYU温泉パーラー",
+       "desc": "소다집",
+       "place": {
+        "id": "p_takayu_onsen_parlor",
+        "name": "TAKAYU ONSEN PARLOR",
+        "kind": "cafe",
+        "lat": 38.16837,
+        "lng": 140.396811,
+        "gid": "ChIJPyAbPFVLil8RsM9xm-JU5ys",
+        "address": "14 Zaōonsen, Yamagata, 990-2301",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "12:00"
+         },
+         {
+          "open": "13:00",
+          "close": "17:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "온천",
+       "depth": 0,
+       "group": true
+      },
+      {
+       "name": "자오 대노천탕",
+       "depth": 1,
+       "nameJa": "蔵王温泉 大露天風呂",
+       "desc": "850엔 · 4시 반까지 입장",
+       "place": {
+        "id": "p_자오_대노천탕_zao_onsen_dairotenburo",
+        "name": "Zao Onsen Dairotenburo",
+        "kind": "onsen",
+        "lat": 38.166111,
+        "lng": 140.401856,
+        "gid": "ChIJ6eZMmRpLil8R4Sx5rmaks-Q",
+        "address": "853-3 Zaōonsen, Yamagata, 990-2301",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-25-i06",
+     "type": "sight",
+     "title": "츠루야 료칸 체크인",
+     "time": "16:00",
+     "end": null,
+     "notes": [
+      "유료 전세온천 4종류 1회 50분 무료. 추가는 1,100엔"
+     ]
+    },
+    {
+     "id": "2026-09-25-i07",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "18:00",
+     "end": null,
+     "detail": "츠루야 료칸",
+     "detailJa": "蔵王温泉 五感の湯つるや",
+     "detailDesc": "야마가타 향토요리 코스",
+     "place": {
+      "id": "p_츠루야_료칸",
+      "name": "Gokan-no-yu Tsuruya",
+      "kind": "place",
+      "lat": 38.167582,
+      "lng": 140.394179,
+      "gid": "ChIJF6GD5BFLil8RN8VPH_bgzB4",
+      "address": "710 Zaōonsen, Yamagata, 990-2301",
+      "hoursPick": [
+       "18:00",
+       "18:30",
+       "19:00"
+      ]
+     }
+    }
+   ],
+   "legs": [],
+   "moveMin": 0,
+   "bounds": {
+    "n": 38.16837,
+    "s": 38.154712,
+    "e": 140.431272,
+    "w": 140.394179
+   },
+   "tasks": [
+    {
+     "due": "2026-09-25",
+     "text": "로프웨이 운행 정보 확인",
+     "src": "9.23-9.27!C149",
+     "link": "https://zaoropeway.co.jp/summer/index.php"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-26",
+   "dow": "토",
+   "region": "자오온천-센다이-하치노헤",
+   "stay": {
+    "name": "그랜드 선피아 하치노헤",
+    "place": {
+     "id": "p_그랜드_선피아_하치노헤",
+     "name": "Grand Sunpia Hachinohe",
+     "kind": "place",
+     "lat": 40.488439,
+     "lng": 141.46941,
+     "gid": "ChIJ9UbjhrtNm18R1ySQ46Kn2Jo",
+     "address": "1-chōme-1-1 Higashihakusandai, Hachinohe, Aomori 039-1111, Japan"
+    },
+    "pay": "결제완료",
+    "booker": "아고다",
+    "terms": "2박 일본식 룸",
+    "doc": "2026-09-26_그랜드선피아하치노헤.pdf"
+   },
+   "flags": [
+    {
+     "kind": "pass",
+     "text": "JR패스 5일차",
+     "full": "JR 동일본 와이드 패스 5/5일차"
+    },
+    {
+     "kind": "car",
+     "text": "렌트카"
+    }
+   ],
+   "items": [
+    {
+     "id": "2026-09-26-i01",
+     "type": "food",
+     "title": "🍚 아침",
+     "time": "07:30",
+     "end": null,
+     "detail": "츠루야 료칸",
+     "detailJa": "蔵王温泉 五感の湯つるや",
+     "detailDesc": "일본식 정식",
+     "place": {
+      "id": "p_츠루야_료칸",
+      "name": "Gokan-no-yu Tsuruya",
+      "kind": "place",
+      "lat": 38.167582,
+      "lng": 140.394179,
+      "gid": "ChIJF6GD5BFLil8RN8VPH_bgzB4",
+      "address": "710 Zaōonsen, Yamagata, 990-2301",
+      "hoursPick": [
+       "07:30",
+       "08:00",
+       "08:30"
+      ]
+     }
+    },
+    {
+     "id": "2026-09-26-i02",
+     "type": "sight",
+     "title": "츠루야 료칸 체크아웃",
+     "time": "09:30",
+     "end": null
+    },
+    {
+     "id": "2026-09-26-i06",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "13:00",
+     "end": null,
+     "place": {
+      "lat": 38.262172666666665,
+      "lng": 140.87671466666666,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Hoshiyama coffee shop AER shop",
+       "depth": 0,
+       "desc": "애프터눈티 세트로 가볍게 먹는것도",
+       "place": {
+        "id": "p_hoshiyama_coffee_shop_aer_shop",
+        "name": "Hoshiyama coffee shop AER shop",
+        "kind": "place",
+        "lat": 38.262805,
+        "lng": 140.881799,
+        "gid": "ChIJEYgULCIoil8RNWeoaMoDz-g",
+        "address": "Japan, 〒980-0021 Miyagi, Sendai, Aoba Ward, Chūō, 1-chōme−3−１ Aer, 2F",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Links",
+       "depth": 0,
+       "desc": "런치플레이티와 티",
+       "place": {
+        "id": "p_links",
+        "name": "Links",
+        "kind": "place",
+        "lat": 38.259882,
+        "lng": 140.876991,
+        "gid": "ChIJhXnvSD0oil8RfNdc2Wn4Mj8",
+        "address": "Japan, 〒980-0021 Miyagi, Sendai, Aoba Ward, Chūō, 3-chōme−2−１６ 第2Mkビル B1F",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Hikoichi",
+       "depth": 0,
+       "desc": "딴데 안가고 일본식 디저트와 음식 먹을거면 여기",
+       "place": {
+        "id": "p_hikoichi",
+        "name": "Hikoichi",
+        "kind": "place",
+        "lat": 38.263831,
+        "lng": 140.871354,
+        "gid": "ChIJgSTN1Dooil8RWsVLZv0Y6YY",
+        "address": "4-chōme-5-41 Ichibanchō, Aoba Ward, Sendai, Miyagi 980-0811, Japan",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "17:30"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-26-i07",
+     "type": "sight",
+     "title": "센다이 구경",
+     "time": "14:30",
+     "end": null,
+     "place": {
+      "lat": 38.25936175,
+      "lng": 140.88034787499998,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "관광",
+       "depth": 0,
+       "group": true
+      },
+      {
+       "name": "즈이호덴",
+       "depth": 1,
+       "desc": "570엔 · 다테 마사무네의 무덤. 화려한 조각과 건축",
+       "place": {
+        "id": "p_즈이호덴",
+        "name": "Zuihōden (Mausoleum of Date Masamune)",
+        "kind": "place",
+        "lat": 38.250448,
+        "lng": 140.866708,
+        "gid": "ChIJ8y-8UGkoil8ROchbu7NB2iw",
+        "address": "23-2 Otamayashita, Aoba Ward, Sendai, Miyagi 980-0814, Japan",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "16:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "AER 전망테라스",
+       "depth": 1,
+       "desc": "무료 전망대",
+       "place": {
+        "id": "p_aer_전망테라스",
+        "name": "AER Observation Terrace",
+        "kind": "place",
+        "lat": 38.262739,
+        "lng": 140.881781,
+        "gid": "ChIJU5F-LiIoil8RowkTpLAUs3U",
+        "address": "1-chōme-3-1 Chūō, Aoba Ward, Sendai, Miyagi 980-0021, Japan",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "LOFT 센다이",
+       "depth": 1,
+       "desc": "간단히 잡화 쇼핑",
+       "place": {
+        "id": "p_loft_센다이",
+        "name": "Sendai LOFT",
+        "kind": "place",
+        "lat": 38.26016,
+        "lng": 140.88051,
+        "gid": "ChIJrRkSdxgoil8RoDDU1RPqO4k",
+        "address": "1-chōme-10-10 Chūō, Aoba Ward, Sendai, Miyagi 980-0021, Japan",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "역 근처",
+       "depth": 0,
+       "group": true
+      },
+      {
+       "name": "호시야마 커피점 AER점",
+       "depth": 1,
+       "desc": "카페",
+       "place": {
+        "id": "p_ホシヤマ珈琲店_アエル店",
+        "name": "Hoshiyama coffee shop AER shop",
+        "kind": "place",
+        "lat": 38.262805,
+        "lng": 140.881799,
+        "gid": "ChIJEYgULCIoil8RNWeoaMoDz-g",
+        "address": "Japan, 〒980-0021 Miyagi, Sendai, Aoba Ward, Chūō, 1-chōme−3−１ Aer, 2F",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "ホシヤマ珈琲店 アエル店"
+      },
+      {
+       "name": "도호쿠메구리 이로토이로",
+       "depth": 1,
+       "desc": "센다이 오미야게 사야지",
+       "place": {
+        "id": "p_東北めぐり_いろといろ",
+        "name": "東北めぐり いろといろ 仙台店",
+        "kind": "shopping",
+        "lat": 38.259859,
+        "lng": 140.882834,
+        "gid": "ChIJa28CWRgoil8RqBdzVG0TWaQ",
+        "address": "〒980-0021 Miyagi, Sendai, Aoba Ward, Chūō, 1-chōme−1−１ エスパル仙台 東館 2F",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "東北めぐり いろといろ"
+      },
+      {
+       "name": "ITAGAKI DESSERT KITCHEN",
+       "depth": 1,
+       "desc": "과일산도, 케이크",
+       "place": {
+        "id": "p_itagaki_dessert_kitchen",
+        "name": "ITAGAKI DESSERT KITCHEN",
+        "kind": "shopping",
+        "lat": 38.259564,
+        "lng": 140.883122,
+        "gid": "ChIJQ7txiRgoil8RnGzIayxTPoI",
+        "address": "〒983-0852 Miyagi, Sendai, Aoba Ward, Chūō, 1-chōme−1−１ エスパル仙台 東館 2F",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "21:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Brown Sugar Tamazawa",
+       "depth": 1,
+       "nameJa": "黒砂糖工房",
+       "desc": "만쥬? 스럽게 생김",
+       "place": {
+        "id": "p_brown_sugar_tamazawa",
+        "name": "Brown Sugar Tamazawa",
+        "kind": "shopping",
+        "lat": 38.259761,
+        "lng": 140.882838,
+        "gid": "ChIJZbaX9hgoil8REMPGLT4HE24",
+        "address": "Japan, 〒980-0021 Miyagi, Sendai, Aoba Ward, Chūō, 1-chōme−1−１ エスパル仙台東館 2F Date no komichi",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "21:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "kazunori ikeda individuel S-Pal Sendai",
+       "depth": 1,
+       "desc": "마카롱 , 무스케이크",
+       "place": {
+        "id": "p_kazunori_ikeda_individuel_s_pal_sendai",
+        "name": "kazunori ikeda individuel S-Pal Sendai",
+        "kind": "place",
+        "lat": 38.259558,
+        "lng": 140.883191,
+        "gid": "ChIJQ7txiRgoil8RQD77DdvSLxU",
+        "address": "Japan, 〒983-0852 Miyagi, Sendai, Aoba Ward, Chūō, 1-chōme−1−１ エスパル仙台 東館 2F",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "21:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-26-i10",
+     "type": "task",
+     "title": "렌트카 픽업",
+     "time": "18:00",
+     "end": null,
+     "detail": "닛폰 렌터카 하치노헤역 동쪽 출구 영업소",
+     "detailDesc": "ETC 카드 빌릴 수 있는지 물어보기",
+     "fixed": true,
+     "reservation": {
+      "booker": "쟈란넷",
+      "costJpy": 39000,
+      "costText": "39,000엔",
+      "note": "스바루 크로스트렉, 스바루 인프레자, 카롤라 투어링, 카롤라 크로스, 에클립스 크로스 중 랜덤",
+      "name": "일본 렌터카 하치노헤역 동쪽 출구",
+      "pay": "현지 결제",
+      "doc": "2026-09-26_1800_닛폰렌터카하치노헤역동쪽출구.pdf"
+     },
+     "place": {
+      "id": "p_nippon_rent_a_car_hachinohe_eki_east_exit",
+      "name": "Nippon Rent-a-car Hachinohe-Eki East Exit",
+      "kind": "resv",
+      "lat": 40.507749,
+      "lng": 141.43168,
+      "gid": "ChIJu8e-WHBOm18RUhkBW-UBdQQ",
+      "address": "Japan, 〒039-1102 Aomori, Hachinohe, Ichibanchō, 1-chōme−８−１９",
+      "hours": [
+       {
+        "open": "08:00",
+        "close": "19:00"
+       }
+      ],
+      "always": false
+     },
+     "detailJa": "Nippon Rent-a-car Hachinohe-Eki East Exit"
+    },
+    {
+     "id": "2026-09-26-i12",
+     "type": "shop",
+     "title": "가는 길에 슈퍼 들리기",
+     "time": "19:00",
+     "end": null,
+     "detail": "Maeda Store Sanjo",
+     "detailDesc": "특산품이나 먹을게 다양하다는 슈퍼",
+     "hideTime": true,
+     "place": {
+      "id": "p_maeda_store_sanjo",
+      "name": "Maeda Store Sanjo",
+      "kind": "shopping",
+      "lat": 40.514115,
+      "lng": 141.433478,
+      "gid": "ChIJ5xecpGlPm18RHBW3cx04n78",
+      "address": "Kamogaike-143-1 Shiriuchimachi, Hachinohe, Aomori 039-1101, Japan",
+      "hours": [
+       {
+        "open": "09:00",
+        "close": "22:00"
+       }
+      ]
+     }
+    },
+    {
+     "id": "2026-09-26-i13",
+     "type": "sight",
+     "title": "그랜드 선피아 하치노헤 체크인",
+     "time": "19:30",
+     "end": null,
+     "notes": [
+      "주차 무료 (300대 가능이라니까 문제는 없을 듯)\n온천 7종, 사우나 있음 · 체크인~24시, 5~9시 이용 가능"
+     ]
+    },
+    {
+     "id": "2026-09-26-i14",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "20:00",
+     "end": null,
+     "notes": [
+      "호텔 근처에서 먹거나 올때 마트에서 사오기"
+     ],
+     "place": {
+      "lat": 40.507009000000004,
+      "lng": 141.48445533333333,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Ootoya",
+       "depth": 0,
+       "nameJa": "大戸屋",
+       "desc": "굴튀김, 생선, 고기 등 다양한 일정식",
+       "place": {
+        "id": "p_大戸屋_ootoya",
+        "name": "Ootoya",
+        "kind": "food",
+        "lat": 40.486582,
+        "lng": 141.465969,
+        "gid": "ChIJBekk9bpNm18RdMqQcPcrsUQ",
+        "address": "5-chōme-1-9 Kitahakusandai, Hachinohe, Aomori 039-1114, Japan",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "22:00"
+         }
+        ]
+       }
+      },
+      {
+       "name": "Tenmaru",
+       "depth": 0,
+       "desc": "우동",
+       "place": {
+        "id": "p_tenmaru",
+        "name": "Tenmaru",
+        "kind": "place",
+        "lat": 40.540265,
+        "lng": 141.477442,
+        "gid": "ChIJ__9oKbxRm18RF5e4dzlRFwk",
+        "address": "1-chōme-3-16 Hibakari, Hachinohe, Aomori 039-1169, Japan",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "15:00"
+         },
+         {
+          "open": "17:00",
+          "close": "21:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "KOMEKUUTO 하치노헤점",
+       "depth": 0,
+       "desc": "쌀전문점의 일본식 정식집",
+       "place": {
+        "id": "p_komekuuto八戸店",
+        "name": "KOMEKUUTO八戸店",
+        "kind": "place",
+        "lat": 40.49418,
+        "lng": 141.509955,
+        "gid": "ChIJLWFXqX9Sm18REipxGt53EHQ",
+        "address": "2-chōme-14-10 Tamukai, Hachinohe, Aomori 031-0011, Japan",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "19:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "KOMEKUUTO八戸店"
+      }
+     ]
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-09-26-l04",
+     "mode": "bus",
+     "modeLabel": "버스",
+     "title": "🚌 자오온센버스터미널에서 Z90・C2 버스 타고 야마코비루로 이동",
+     "fixed": false,
+     "vehicle": "Z90・C2 버스",
+     "time": "09:40",
+     "end": "10:16",
+     "from": "2026-09-26-i02",
+     "to": "2026-09-26-i06",
+     "min": 40,
+     "cost": "1,200엔",
+     "covered": false,
+     "dest": "야마코비루",
+     "origin": "자오온센버스터미널",
+     "notes": [],
+     "image": null,
+     "seat": null,
+     "dir": {
+      "to": {
+       "text": "센다이",
+       "lat": 38.2601316,
+       "lng": 140.8824375,
+       "gid": "ChIJhwtRDBgoil8RvP0fvpELo7I"
+      },
+      "from": {
+       "text": "자오온센버스터미널",
+       "lat": 38.1674181,
+       "lng": 140.3936943,
+       "gid": "ChIJQTdD-RFLil8RuMYpBhNS6ao"
+      }
+     }
+    },
+    {
+     "id": "2026-09-26-l05",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 야마가타역에서 JR 센잔선타고 센다이역으로 이동",
+     "fixed": false,
+     "vehicle": "JR 센잔선",
+     "time": "11:00",
+     "end": "12:27",
+     "from": "2026-09-26-i02",
+     "to": "2026-09-26-i06",
+     "min": 87,
+     "cost": "1,230엔",
+     "covered": true,
+     "dest": "센다이역",
+     "origin": "야마가타역",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-26-l09",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 센다이역에서 도호쿠 신칸센 타고 하치노헤역으로 이동",
+     "fixed": false,
+     "vehicle": "도호쿠 신칸센",
+     "time": "15:53",
+     "end": "17:04",
+     "from": "2026-09-26-i07",
+     "to": "2026-09-26-i10",
+     "min": 78,
+     "cost": "9,660엔",
+     "covered": true,
+     "dest": "하치노헤역",
+     "origin": "센다이역",
+     "notes": [],
+     "image": null,
+     "seat": {
+      "train": "Hayabusa 27",
+      "seat": "3호차 1번 A석, B석, C석",
+      "span": "15:53~17:04",
+      "from": "SENDAI",
+      "to": "HACHINOHE"
+     },
+     "dir": {
+      "to": {
+       "text": "하치노헤 역",
+       "lat": 40.5092744,
+       "lng": 141.4311735,
+       "gid": "ChIJ01mZK3BOm18Rkq0DjvC1UCs"
+      },
+      "from": {
+       "text": "센다이",
+       "lat": 38.2601316,
+       "lng": 140.8824375,
+       "gid": "ChIJhwtRDBgoil8RvP0fvpELo7I"
+      }
+     }
+    },
+    {
+     "id": "2026-09-26-l11",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗 하치노헤역에서 차 타고 그랜드 선피아 하치노헤로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "18:30",
+     "end": null,
+     "from": "2026-09-26-i10",
+     "to": "2026-09-26-i12",
+     "min": 15,
+     "cost": null,
+     "covered": false,
+     "dest": "그랜드 선피아 하치노헤",
+     "origin": "하치노헤역",
+     "notes": [],
+     "image": null,
+     "seat": null
+    }
+   ],
+   "moveMin": 220,
+   "bounds": {
+    "n": 40.540265,
+    "s": 38.167582,
+    "e": 141.509955,
+    "w": 140.394179
+   },
+   "tasks": []
+  },
+  {
+   "date": "2026-09-27",
+   "dow": "일",
+   "region": "하치노헤-아오모리",
+   "stay": {
+    "name": "그랜드 선피아 하치노헤",
+    "place": {
+     "id": "p_그랜드_선피아_하치노헤",
+     "name": "Grand Sunpia Hachinohe",
+     "kind": "place",
+     "lat": 40.488439,
+     "lng": 141.46941,
+     "gid": "ChIJ9UbjhrtNm18R1ySQ46Kn2Jo",
+     "address": "1-chōme-1-1 Higashihakusandai, Hachinohe, Aomori 039-1111, Japan"
+    },
+    "doc": "2026-09-26_그랜드선피아하치노헤.pdf"
+   },
+   "flags": [
+    {
+     "kind": "car",
+     "text": "렌트카"
+    }
+   ],
+   "items": [
+    {
+     "id": "2026-09-27-i01",
+     "type": "sight",
+     "title": "일찍 일어나기",
+     "time": "05:00",
+     "end": null
+    },
+    {
+     "id": "2026-09-27-i03",
+     "type": "shop",
+     "title": "아침 시장 구경",
+     "time": "06:00",
+     "end": null,
+     "detail": "다테하나 항구 아침 시장",
+     "detailDesc": "일요일 새벽마다 열리는 도호쿠 최대 아침시장 · 6시부터는 주차도 어려울 정도로 사람 많다고 함",
+     "place": {
+      "id": "p_다테하나_항구_아침_시장",
+      "name": "Tatehana Wharf Morning Market",
+      "kind": "place",
+      "lat": 40.52786,
+      "lng": 141.529405,
+      "gid": "ChIJfSB2nM1Tm18R291Tudad54c",
+      "address": "Japan, 〒031-0811 Aomori, Hachinohe, Shinminato, 3-chōme, 館鼻岸壁内",
+      "hours": [
+       {
+        "open": "04:30",
+        "close": "09:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-27-i04",
+     "type": "food",
+     "title": "🍚 아침",
+     "time": "07:00",
+     "end": null,
+     "notes": [
+      "시장에서 먹기"
+     ],
+     "hideTime": true
+    },
+    {
+     "id": "2026-09-27-i05",
+     "type": "sight",
+     "title": "근처 구경",
+     "time": "08:30",
+     "end": null,
+     "place": {
+      "lat": 40.538805499999995,
+      "lng": 141.568953,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "카부시마 신사",
+       "depth": 0,
+       "nameJa": "蕪嶋神社",
+       "desc": "갈매기가 많은 곳인데 철은 아닌 듯",
+       "place": {
+        "id": "p_카부시마_신사",
+        "name": "카부시마 신사",
+        "kind": "place",
+        "lat": 40.538543,
+        "lng": 141.557571,
+        "gid": "ChIJ3ZvKmO9Tm18RItU1RwMR-Ek",
+        "address": "Same-56-2 Samemachi, Hachinohe, Aomori 031-0841",
+        "hours": [
+         {
+          "open": "08:30",
+          "close": "17:20"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "아시게자키 전망대",
+       "depth": 0,
+       "nameJa": "葦毛崎展望台",
+       "desc": "해안가 산책로",
+       "place": {
+        "id": "p_아시게자키_전망대",
+        "name": "Ashigezaki tenbōdai Observatory",
+        "kind": "place",
+        "lat": 40.539068,
+        "lng": 141.580335,
+        "gid": "ChIJufn4sgpUm18RHXNnouqeFk0",
+        "address": "〒031-0841 아오모리현 하치노헤시 사메마치 히카게자와",
+        "hours": [
+         {
+          "open": "00:00",
+          "close": "24:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-27-i06",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "11:00",
+     "end": null,
+     "place": {
+      "lat": 40.541923999999995,
+      "lng": 141.571891,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Kaisentei Tōkai",
+       "depth": 0,
+       "nameJa": "海鮮亭 東海",
+       "desc": "카이센동",
+       "place": {
+        "id": "p_海鮮亭_東海_kaisentei_tōkai",
+        "name": "Kaisentei Tōkai",
+        "kind": "food",
+        "lat": 40.541613,
+        "lng": 141.569958,
+        "gid": "ChIJaZtR9yVTm18ROMm-JaciMng",
+        "address": "〒031-0841 Aomori, Hachinohe, Samemachi, Kofunadotai−１０−１２７",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "14:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "코후나토 식당",
+       "depth": 0,
+       "nameJa": "海席料理処 小舟渡",
+       "desc": "카이센동과 해물라면 유명 · 한국어메뉴 있음",
+       "place": {
+        "id": "p_海席料理処_小舟渡_코후나토_식당",
+        "name": "코후나토 식당",
+        "kind": "food",
+        "lat": 40.542235,
+        "lng": 141.573824,
+        "gid": "ChIJJ3ZyavZTm18RVk19xOLpNjY",
+        "address": "Kofunadotai-10 Samemachi, Hachinohe, Aomori 031-0841",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "14:30"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-27-i07",
+     "type": "cafe",
+     "title": "근처 카페나 간식",
+     "time": "12:00",
+     "end": null,
+     "place": {
+      "lat": 40.535084749999996,
+      "lng": 141.5568665,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "STOKED Doughnuts",
+       "depth": 0,
+       "desc": "줄 서서 사는 도넛",
+       "place": {
+        "id": "p_stoked_doughnuts",
+        "name": "STOKED Doughnuts",
+        "kind": "shopping",
+        "lat": 40.537062,
+        "lng": 141.559474,
+        "gid": "ChIJV-JgH59Tm18RwENn82wm4ng",
+        "address": "Same-86 Samemachi, Hachinohe, Aomori 031-0841",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "우미네레스토랑",
+       "depth": 0,
+       "nameJa": "うみ音",
+       "desc": "식사류 있는 카페",
+       "place": {
+        "id": "p_うみ音_우미네레스토랑",
+        "name": "우미네레스토랑",
+        "kind": "cafe",
+        "lat": 40.541417,
+        "lng": 141.567178,
+        "gid": "ChIJrWleL_dTm18RwzSK2AYdZbA",
+        "address": "Shimomekurakubo-25-117 Samemachi, Hachinohe, Aomori 031-0841",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "16:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Cafe Terrace Hulunbuir",
+       "depth": 0,
+       "nameJa": "ホロンバイル",
+       "desc": "도넛 아이스크림 등",
+       "place": {
+        "id": "p_ホロンバイル_cafe_terrace_hulunbuir",
+        "name": "Cafe Terrace Hulunbuir (Holonbáilu)",
+        "kind": "cafe",
+        "lat": 40.538894,
+        "lng": 141.579481,
+        "gid": "ChIJ8fqbS_VTm18ROOdtUJuKS6E",
+        "address": "Senzogakubo-10-3 Samemachi, Hachinohe, Aomori 031-0841",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "6kaku Coffee",
+       "depth": 0,
+       "nameJa": "6かく珈琲",
+       "desc": "스페셜티 커피 파는 카페",
+       "place": {
+        "id": "p_6kaku_coffee",
+        "name": "6kaku Coffee",
+        "kind": "cafe",
+        "lat": 40.522966,
+        "lng": 141.521333,
+        "gid": "ChIJERzkzyVTm18RBz-peU-SG4Q",
+        "address": "8-chōme-13-2 Konakano, Hachinohe, Aomori 031-0802",
+        "hours": [
+         {
+          "open": "12:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-27-i09",
+     "type": "sight",
+     "title": "바다 구경",
+     "time": "13:20",
+     "end": null,
+     "place": {
+      "lat": 40.508951499999995,
+      "lng": 141.60902,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "타네사시 해안",
+       "depth": 0,
+       "nameJa": "種差海岸天然芝生地",
+       "desc": "잔디와 바다가 같이 보이는 특이한 풍경",
+       "place": {
+        "id": "p_타네사시_해안_種差海岸天然芝生地",
+        "name": "種差海岸天然芝生地",
+        "kind": "place",
+        "lat": 40.509386,
+        "lng": 141.609605,
+        "gid": "ChIJ3124BQBTm18RQent5kqAt_c",
+        "address": "Tanakubo-15-2 Samemachi, Hachinohe, Aomori 031-0841, Japan"
+       }
+      },
+      {
+       "name": "Umi cafe Tanesashi",
+       "depth": 0,
+       "nameJa": "海カフェ たねさし",
+       "desc": "아이스크림, 음식도 파는 카페",
+       "place": {
+        "id": "p_umi_cafe_tanesashi",
+        "name": "Umi cafe Tanesashi",
+        "kind": "cafe",
+        "lat": 40.508517,
+        "lng": 141.608435,
+        "gid": "ChIJXbLAbkNTm18ROTFI_hBJ4wE",
+        "address": "Tanakubo-14-167 Samemachi, Hachinohe, Aomori 031-0841",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-27-i11",
+     "type": "sight",
+     "title": "핫쇼쿠 센터 구경",
+     "time": "15:00",
+     "end": null,
+     "detail": "나나카무라",
+     "detailJa": "七厘村",
+     "detailDesc": "500엔(1인) 2시간 · 핫쇼쿠 센터에서 원하는 해산물이나 고기 구매해서 구워먹는 곳",
+     "hideTime": true,
+     "place": {
+      "id": "p_나나카무라_七厘村",
+      "name": "Shichirinmura 七厘村",
+      "kind": "food",
+      "lat": 40.526597,
+      "lng": 141.453064,
+      "gid": "ChIJpzBYyB9Om18RiBpDk6SWvvs",
+      "address": "Kansai-22-2 Kawaragi, Hachinohe, Aomori 039-1161",
+      "hours": [
+       {
+        "open": "10:00",
+        "close": "17:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-27-i12",
+     "type": "sight",
+     "title": "근처 구경",
+     "time": "17:00",
+     "end": null,
+     "place": {
+      "lat": 40.514578,
+      "lng": 141.4916375,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "쿠라카페 버터하우스",
+       "depth": 0,
+       "desc": "팬케이크, 파르페 등",
+       "place": {
+        "id": "p_蔵カフェ_バターハウス",
+        "name": "蔵カフェ バターハウス",
+        "kind": "food",
+        "lat": 40.515783,
+        "lng": 141.493361,
+        "gid": "ChIJOUL6cgBTm18RCfRT-GrnSrc",
+        "address": "1-chōme-2-12 Kashiwazaki, Hachinohe, Aomori 031-0081",
+        "hours": [
+         {
+          "open": "08:45",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "蔵カフェ バターハウス"
+      },
+      {
+       "name": "Fruit Parlor Odawara",
+       "depth": 0,
+       "nameJa": "フルーツショップ＆パーラー おだわら",
+       "desc": "과일 파르페 카페",
+       "place": {
+        "id": "p_フルーツショップ_パーラー_おだわら_fruit_parlor_odawara",
+        "name": "Fruit Parlor Odawara",
+        "kind": "shopping",
+        "lat": 40.513373,
+        "lng": 141.489914,
+        "gid": "ChIJV0WD4DFTm18R4cozN7M_8tc",
+        "address": "3-chōme-4-3 Uchimaru, Hachinohe, Aomori 031-0075",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "19:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-27-i13",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "18:00",
+     "end": null,
+     "notes": [
+      "간식 사서 적당히 호텔에서 먹기"
+     ]
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-09-27-l02",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗그랜드 선피아 하치노헤에서 차 타고 다테하나 항구 아침 시장으로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "05:30",
+     "end": null,
+     "from": "2026-09-27-i01",
+     "to": "2026-09-27-i03",
+     "min": 15,
+     "cost": null,
+     "covered": false,
+     "dest": "다테하나 항구 아침 시장",
+     "origin": "그랜드 선피아 하치노헤",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-27-l08",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗카부시마 신사 근처에서 차 타고 타네사시 해안으로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "13:00",
+     "end": null,
+     "from": "2026-09-27-i07",
+     "to": "2026-09-27-i09",
+     "min": 15,
+     "cost": null,
+     "covered": false,
+     "dest": "타네사시 해안",
+     "origin": "카부시마 신사 근처",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-27-l10",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗타네사시 해안에서 차 타고 핫쇼쿠 센터로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "14:40",
+     "end": null,
+     "from": "2026-09-27-i09",
+     "to": "2026-09-27-i11",
+     "min": 20,
+     "cost": null,
+     "covered": false,
+     "dest": "핫쇼쿠 센터",
+     "origin": "타네사시 해안",
+     "notes": [],
+     "image": null,
+     "seat": null
+    }
+   ],
+   "moveMin": 50,
+   "bounds": {
+    "n": 40.542235,
+    "s": 40.508517,
+    "e": 141.609605,
+    "w": 141.453064
+   },
+   "tasks": []
+  },
+  {
+   "date": "2026-09-28",
+   "dow": "월",
+   "region": "하치노헤-토와다",
+   "stay": {
+    "name": "츠타 온천 료칸",
+    "place": {
+     "id": "p_츠타_온천_료칸",
+     "name": "Tsuta Onsen Ryokan",
+     "kind": "place",
+     "lat": 40.596817,
+     "lng": 140.953171,
+     "gid": "ChIJ5xKpuEQUm18RU4TeJmxRRog",
+     "address": "Tsutanoyu-1 Okuse, Towada, Aomori 034-0301, Japan"
+    },
+    "pay": "결제완료",
+    "booker": "아고다",
+    "terms": "저녁,아침 포함",
+    "doc": "2026-09-28_츠타온천.pdf"
+   },
+   "flags": [
+    {
+     "kind": "car",
+     "text": "렌트카"
+    }
+   ],
+   "items": [
+    {
+     "id": "2026-09-28-i01",
+     "type": "sight",
+     "title": "그랜드 선피아 하치노헤 체크아웃",
+     "time": "07:30",
+     "end": null
+    },
+    {
+     "id": "2026-09-28-i03",
+     "type": "sight",
+     "title": "가면서 들릴만한 곳",
+     "time": "09:00",
+     "end": null,
+     "notes": [
+      "다음 날 점심으로 먹을 만한 것도 사두면 좋음"
+     ],
+     "hideTime": true,
+     "place": {
+      "lat": 40.585333500000004,
+      "lng": 141.11762099999999,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Michinoeki Oirase Roman Park",
+       "depth": 0,
+       "nameJa": "道の駅 奥入瀬ろまんパーク",
+       "desc": "휴게소 · 간식이랑 이것 저것",
+       "place": {
+        "id": "p_道の駅_奥入瀬ろまんパーク_michinoeki_oirase_roman_park",
+        "name": "Michinoeki Oirase Roman Park 道の駅 奥入瀬ろまんパーク",
+        "kind": "place",
+        "lat": 40.585498,
+        "lng": 141.117865,
+        "gid": "ChIJs9vHE0ZAm18RJqKVFWYkTTA",
+        "address": "Sekimichi-39-1 Okuse, Towada, Aomori 034-0301",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "아라 링고 미치노에키 오이라세로만파크점",
+       "depth": 0,
+       "desc": "애플파이",
+       "place": {
+        "id": "p_あら_りんご_道の駅奥入瀬ろまんパーク店",
+        "name": "あら、りんご。道の駅奥入瀬ろまんパーク店",
+        "kind": "cafe",
+        "lat": 40.585169,
+        "lng": 141.117377,
+        "gid": "ChIJBYZjyMBBm18RMkCVp2drVHg",
+        "address": "〒034-0301 Aomori, Towada, Okuse, Sekimichi−39−１ 道の駅 奥入瀬（奥入瀬ろまんパーク内",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "あら、りんご。道の駅奥入瀬ろまんパーク店"
+      }
+     ]
+    },
+    {
+     "id": "2026-09-28-i05",
+     "type": "sight",
+     "title": "가면서 오이세류 구경",
+     "time": "10:00",
+     "end": null,
+     "hideTime": true
+    },
+    {
+     "id": "2026-09-28-i06",
+     "type": "sight",
+     "title": "토와다 호 구경",
+     "time": "11:00",
+     "end": null,
+     "notes": [
+      "곰 나온다니까 주의!"
+     ],
+     "place": {
+      "lat": 40.422669,
+      "lng": 140.893735,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Towadako Marineblue",
+       "depth": 0,
+       "nameJa": "十和田湖マリンブルー",
+       "desc": "애플파이",
+       "place": {
+        "id": "p_towadako_marineblue",
+        "name": "Towadako Marineblue",
+        "kind": "cafe",
+        "lat": 40.42136,
+        "lng": 140.893139,
+        "gid": "ChIJ-QdQ4SUkm18RuqXKvD4Mubk",
+        "address": "〒018-5511 아키타현 Kazuno District, 고사카마치 도와다코 야스미타이",
+        "hours": [
+         {
+          "open": "08:00",
+          "close": "17:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Jasmine",
+       "depth": 0,
+       "nameJa": "十和田湖 喫茶ジャスミン",
+       "desc": "커피맛이 괜찮다는 듯",
+       "place": {
+        "id": "p_jasmine",
+        "name": "Jasmine",
+        "kind": "cafe",
+        "lat": 40.423978,
+        "lng": 140.894331,
+        "gid": "ChIJkYfyOwAlm18RxEh7gLJa1LM",
+        "address": "Towadakohanyasumiya-64-5 Towadako, Kosaka, Kazuno District, Akita 018-5511",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-28-i07",
+     "type": "sight",
+     "title": "토와다호 유람선 타기",
+     "time": "11:45",
+     "end": null,
+     "detail": "Lake Towadako kankō kōryū center Puratto",
+     "detailJa": "十和田湖観光交流センター ぷらっと",
+     "detailDesc": "1층에서 티켓 발권 · 1,760엔 50분",
+     "tasks": [
+      "B코스 야스미야-야스미야 티켓 사기\n11:45, 13:15, 14:40, 16:00\n날씨에 따라 운항 중지하는 경우가 있음\n<https://www.toutetsu.co.jp/ship.html>"
+     ],
+     "place": {
+      "id": "p_lake_towadako_kankō_kōryū_center_puratto",
+      "name": "Lake Towadako kankō kōryū center Puratto",
+      "kind": "place",
+      "lat": 40.426059,
+      "lng": 140.893159,
+      "gid": "ChIJ47gA4Bskm18R-g7IbazmIdk",
+      "address": "Towadakohanyasumiya-486 Okuse, Towada, Aomori 018-5501",
+      "hours": [
+       {
+        "open": "09:00",
+        "close": "17:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-28-i08",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "12:30",
+     "end": null,
+     "notes": [
+      "토와다호 근처에서 먹기"
+     ],
+     "place": {
+      "lat": 40.4309436,
+      "lng": 140.9026548,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Iwabuki",
+       "depth": 0,
+       "nameJa": "岩蕗",
+       "desc": "회도 있고 카레도 있음 · 메뉴 다양",
+       "place": {
+        "id": "p_岩蕗_iwabuki",
+        "name": "Iwabuki",
+        "kind": "food",
+        "lat": 40.424859,
+        "lng": 140.896276,
+        "gid": "ChIJ-aQJNR8km18RJH-9smF1W4Q",
+        "address": "Yasumitai-64-7 Towadako, Kosaka, Kazuno District, Akita 018-5511",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "14:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Restaurant Yasumiya",
+       "depth": 0,
+       "nameJa": "レストランやすみや",
+       "desc": "호수가 보이는 식당",
+       "place": {
+        "id": "p_レストランやすみや_restaurant_yasumiya",
+        "name": "Restaurant Yasumiya",
+        "kind": "food",
+        "lat": 40.424827,
+        "lng": 140.893116,
+        "gid": "ChIJ9Qj-3Rskm18RJrk5AQtcSAk",
+        "address": "Towadakohanyasumiya-486 Okuse, Towada, Aomori 018-5501, Japan",
+        "hours": [
+         {
+          "open": "08:00",
+          "close": "17:00"
+         }
+        ]
+       }
+      },
+      {
+       "name": "코한멘 추보 사쿠라",
+       "depth": 0,
+       "desc": "라멘",
+       "place": {
+        "id": "p_湖畔麺厨房桜",
+        "name": "Lakeside Noodle Kitchen Sakura",
+        "kind": "food",
+        "lat": 40.42766,
+        "lng": 140.894096,
+        "gid": "ChIJjfgIBQAlm18RCxDkdm1AzBw",
+        "address": "〒018-5501 아오모리현 도와다시 오쿠세 도와다코한야스미야",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "15:00"
+         },
+         {
+          "open": "17:00",
+          "close": "19:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "湖畔麺厨房桜"
+      },
+      {
+       "name": "쇼쿠도 토와다야",
+       "depth": 0,
+       "desc": "일정식집. 송어구이 정식",
+       "place": {
+        "id": "p_食堂_十和田家",
+        "name": "食堂 十和田家",
+        "kind": "food",
+        "lat": 40.446799,
+        "lng": 140.93695,
+        "gid": "ChIJKfUS544km18Rldd0MOZp9jw",
+        "address": "Towadakohanutarube-74-4 Okuse, Towada, Aomori 018-5501",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "14:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "食堂 十和田家"
+      },
+      {
+       "name": "Morita",
+       "depth": 0,
+       "nameJa": "お土産とお食事の店もりた",
+       "desc": "히메마스(무지개송어?), 카이센동, 카레 등",
+       "place": {
+        "id": "p_お土産とお食事の店もりた_morita",
+        "name": "Morita",
+        "kind": "food",
+        "lat": 40.430573,
+        "lng": 140.892836,
+        "gid": "ChIJ9Qj-3Rskm18RzHp-N_JB1v4",
+        "address": "Towadakohanyasumiya-486 Okuse, Towada, Aomori 018-5501",
+        "hours": [
+         {
+          "open": "12:00",
+          "close": "14:50"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-28-i10",
+     "type": "onsen",
+     "title": "츠타 온천 료칸 체크인",
+     "time": "15:00",
+     "end": null,
+     "notes": [
+      "온천은 남녀 교대 1개(10:00 ～ 12:00), 24시간 1개 있음\n전세온천 50분 4,000엔"
+     ]
+    },
+    {
+     "id": "2026-09-28-i11",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "18:00",
+     "end": null,
+     "detail": "츠타 온천 료칸 석식",
+     "detailJa": "蔦温泉旅館",
+     "place": {
+      "id": "p_츠타_온천_료칸",
+      "name": "Tsuta Onsen Ryokan",
+      "kind": "place",
+      "lat": 40.596817,
+      "lng": 140.953171,
+      "gid": "ChIJ5xKpuEQUm18RU4TeJmxRRog",
+      "address": "Tsutanoyu-1 Okuse, Towada, Aomori 034-0301, Japan"
+     }
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-09-28-l02",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗그랜드 선피아 하치노헤에서 차 타고 도와다시 미치노에키로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "08:00",
+     "end": null,
+     "from": "2026-09-28-i01",
+     "to": "2026-09-28-i03",
+     "min": 50,
+     "cost": null,
+     "covered": false,
+     "dest": "도와다시 미치노에키",
+     "origin": "그랜드 선피아 하치노헤",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-28-l04",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗도와다시 미치노에키에서 차 타고 토와다호로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "09:30",
+     "end": null,
+     "from": "2026-09-28-i03",
+     "to": "2026-09-28-i05",
+     "min": 50,
+     "cost": null,
+     "covered": false,
+     "dest": "토와다호",
+     "origin": "도와다시 미치노에키",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-28-l09",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗토와다호에서 차 타고 츠타 온천 료칸으로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "14:30",
+     "end": null,
+     "from": "2026-09-28-i08",
+     "to": "2026-09-28-i10",
+     "min": 10,
+     "cost": null,
+     "covered": false,
+     "dest": "츠타 온천 료칸",
+     "origin": "토와다호",
+     "notes": [],
+     "image": null,
+     "seat": null
+    }
+   ],
+   "moveMin": 110,
+   "bounds": {
+    "n": 40.596817,
+    "s": 40.42136,
+    "e": 141.117865,
+    "w": 140.892836
+   },
+   "tasks": [
+    {
+     "due": "2026-09-28",
+     "text": "출발 전에 구글 지도 미리 받아두기\nGoogle 지도 → 프로필 → 오프라인 지도\n오이세류·도와다호·아오모리 주변을 다운로드\n출발 전에 목적지를 검색해서 자동차 경로 확인",
+     "src": "9.28-10.2!C5"
+    },
+    {
+     "due": "2026-09-28",
+     "text": "B코스 야스미야-야스미야 티켓 사기\n11:45, 13:15, 14:40, 16:00\n날씨에 따라 운항 중지하는 경우가 있음",
+     "src": "9.28-10.2!C22",
+     "link": "https://www.toutetsu.co.jp/ship.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "dow": "화",
+   "region": "토와다-아오모리",
+   "stay": {
+    "name": "리치몬드 호텔 아오모리",
+    "place": {
+     "id": "p_리치몬드_호텔_아오모리",
+     "name": "리치몬드호텔 아오모리",
+     "kind": "place",
+     "lat": 40.823419,
+     "lng": 140.744815,
+     "gid": "ChIJAdS43AKfm18RocTO5lMdny0",
+     "address": "1-chōme-6-6 Nagashima, Aomori, 030-0861, Japan"
+    },
+    "pay": "결제완료",
+    "booker": "아고다",
+    "terms": "3박 · 트리풀 룸",
+    "doc": "2026-09-29_리치몬드아오모리.pdf"
+   },
+   "flags": [
+    {
+     "kind": "car",
+     "text": "렌트카"
+    }
+   ],
+   "items": [
+    {
+     "id": "2026-09-29-i01",
+     "type": "food",
+     "title": "🍚 아침",
+     "time": "08:00",
+     "end": null,
+     "detail": "츠타 온천 료칸 조식",
+     "detailJa": "蔦温泉旅館",
+     "place": {
+      "id": "p_츠타_온천_료칸",
+      "name": "Tsuta Onsen Ryokan",
+      "kind": "place",
+      "lat": 40.596817,
+      "lng": 140.953171,
+      "gid": "ChIJ5xKpuEQUm18RU4TeJmxRRog",
+      "address": "Tsutanoyu-1 Okuse, Towada, Aomori 034-0301, Japan"
+     }
+    },
+    {
+     "id": "2026-09-29-i02",
+     "type": "onsen",
+     "title": "츠타 온천 료칸 체크아웃",
+     "time": "10:00",
+     "end": null
+    },
+    {
+     "id": "2026-09-29-i04",
+     "type": "sight",
+     "title": "핫코다 산 구경",
+     "time": "12:00",
+     "end": null,
+     "detail": "핫코다 산 로프웨이",
+     "detailJa": "八甲田ロープウェー 山麓駅",
+     "detailDesc": "왕복 2,500 엔 · 20분 간격 운행",
+     "tasks": [
+      "홈페이지에서 시야 정보 확인\n<https://hakkoda-ropeway.jp/>"
+     ],
+     "place": {
+      "id": "p_핫코다_산_로프웨이",
+      "name": "핫코다산 로프웨이 산기슭역",
+      "kind": "place",
+      "lat": 40.68079,
+      "lng": 140.831699,
+      "gid": "ChIJk7v5t6cNm18RhPWSRI3ZtXA",
+      "address": "Kansuizawa-1-12 Arakawa, Aomori, 030-0111",
+      "hours": [
+       {
+        "open": "09:00",
+        "close": "16:20"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-29-i06",
+     "type": "sight",
+     "title": "가는 길에 쉴만한 곳",
+     "time": "15:10",
+     "end": null,
+     "detail": "효우탄차야",
+     "detailJa": "ひょうたん茶屋",
+     "detailDesc": "카페",
+     "hideTime": true,
+     "place": {
+      "id": "p_효우탄차야_ひょうたん茶屋",
+      "name": "효우탄차야",
+      "kind": "cafe",
+      "lat": 40.705758,
+      "lng": 140.822305,
+      "gid": "ChIJYZnqeHUNm18R75887YleDvU",
+      "address": "〒030-0132 Aomori, 横内八重菊Yaegiku−６２",
+      "hours": [
+       {
+        "open": "10:00",
+        "close": "16:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-29-i07",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "15:30",
+     "end": null,
+     "notes": [
+      "먹을 데가 별로 없음\n전날 미리 간식거리 사두고 아오모리에서 먹는게 나을지도"
+     ],
+     "place": {
+      "lat": 40.725934499999994,
+      "lng": 140.804465,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Nagaiki no Chaya",
+       "depth": 0,
+       "nameJa": "長生きの茶屋",
+       "desc": "오뎅 소바 약간 휴게소 느낌",
+       "place": {
+        "id": "p_nagaiki_no_chaya",
+        "name": "Nagaiki no Chaya",
+        "kind": "food",
+        "lat": 40.708403,
+        "lng": 140.823699,
+        "gid": "ChIJ1eet0-oMm18RyZReT93XGWA",
+        "address": "Yaegiku-62 Yokouchi, Aomori, 030-0132",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "16:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Cosmos",
+       "depth": 0,
+       "nameJa": "こすもす",
+       "desc": "가는 중 먹을 만한 식당",
+       "place": {
+        "id": "p_cosmos",
+        "name": "Cosmos",
+        "kind": "cafe",
+        "lat": 40.743466,
+        "lng": 140.785231,
+        "gid": "ChIJ6xmQPiULm18RlUKyr2vD4m4",
+        "address": "Yamabuki-32-82 Moya, Aomori, 030-0133",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-29-i08",
+     "type": "sight",
+     "title": "리치몬드 호텔 아오모리 체크인",
+     "time": "17:00",
+     "end": null,
+     "tasks": [
+      "조식 하루 신청하기\n마지막 날인 10월 2일에 사용"
+     ]
+    },
+    {
+     "id": "2026-09-29-i09",
+     "type": "task",
+     "title": "렌트 반납 전에 시간 남으면 오미야게 쇼핑",
+     "time": "17:30",
+     "end": null,
+     "detail": "아오모리현 관광물산관 아스팜",
+     "detailJa": "青森県観光物産館アスパム",
+     "detailDesc": "금액에 따라 무료 주차 · 1층 인포메이션에 영수중과 주차권 제시",
+     "place": {
+      "id": "p_아오모리현_관광물산관_아스팜",
+      "name": "아오모리현 관광물산관 아스팜",
+      "kind": "shopping",
+      "lat": 40.829786,
+      "lng": 140.741146,
+      "gid": "ChIJLeQfuuGem18R-4UcSmDn8Cs",
+      "address": "1-chōme-1-40 Yasukata, Aomori, 030-0803",
+      "hours": [
+       {
+        "open": "09:00",
+        "close": "19:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-29-i10",
+     "type": "task",
+     "title": "렌트카 반납",
+     "time": "18:00",
+     "end": null,
+     "detail": "닛폰 렌터카 아오모리역 동쪽 출구 영업소",
+     "fixed": true,
+     "reservation": {
+      "name": "일본 렌터카 아오모리역 동쪽 출구"
+     },
+     "place": {
+      "id": "p_ニッポンレンタカー_青森駅東口_営業所",
+      "name": "Nippon Rent-a-car",
+      "kind": "resv",
+      "lat": 40.829023,
+      "lng": 140.739081,
+      "gid": "ChIJveYpKB6fm18Rmlwi-sug9vU",
+      "address": "1-chōme-6-5 Yasukata, Aomori, 030-0803, Japan",
+      "hours": [
+       {
+        "open": "08:00",
+        "close": "19:00"
+       }
+      ],
+      "always": false
+     },
+     "detailJa": "ニッポンレンタカー 青森駅東口 営業所"
+    },
+    {
+     "id": "2026-09-29-i11",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "19:30",
+     "end": null,
+     "detail": "나나베야",
+     "detailJa": "七兵衛や",
+     "detailDesc": "조개랑 7가지 구이 세트 · 참치 갈빗살? 있는 시기면 서비스로 준다고 함",
+     "fixed": true,
+     "reservation": {
+      "booker": "HOT PEPPER",
+      "costJpy": 3500,
+      "costText": "3,500엔+700엔(1인)",
+      "note": "나나와야키 코스(七輪焼コース)",
+      "name": "나나베야(七兵衛や)",
+      "pay": "현지 결제",
+      "doc": "2026-09-29_1930_나나베야.pdf"
+     },
+     "place": {
+      "id": "p_七兵衛や_나나베야",
+      "name": "Shichibei ya",
+      "kind": "food",
+      "lat": 40.826125,
+      "lng": 140.753471,
+      "gid": "ChIJ_XARY_uem18R7rxUu9t-168",
+      "address": "5-chōme-5-11 Honchō, Aomori, 030-0802",
+      "hours": [
+       {
+        "open": "17:30",
+        "close": "00:00"
+       }
+      ],
+      "always": false
+     }
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-09-29-l03",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗츠타 온천 료칸에서 차 타고 핫코다 산으로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "10:30",
+     "end": null,
+     "from": "2026-09-29-i02",
+     "to": "2026-09-29-i04",
+     "min": 30,
+     "cost": null,
+     "covered": false,
+     "dest": "핫코다 산",
+     "origin": "츠타 온천 료칸",
+     "notes": [],
+     "image": null,
+     "seat": null
+    },
+    {
+     "id": "2026-09-29-l05",
+     "mode": "car",
+     "modeLabel": "렌트카",
+     "title": "🚗핫코다 산에서 차 타고 아오모리로 이동",
+     "fixed": false,
+     "vehicle": "렌트카",
+     "time": "15:00",
+     "end": null,
+     "from": "2026-09-29-i04",
+     "to": "2026-09-29-i06",
+     "min": 30,
+     "cost": null,
+     "covered": false,
+     "dest": "아오모리",
+     "origin": "핫코다 산",
+     "notes": [],
+     "image": null,
+     "seat": null
+    }
+   ],
+   "moveMin": 60,
+   "bounds": {
+    "n": 40.829786,
+    "s": 40.596817,
+    "e": 140.953171,
+    "w": 140.739081
+   },
+   "tasks": [
+    {
+     "due": "2026-09-29",
+     "text": "홈페이지에서 시야 정보 확인",
+     "src": "9.28-10.2!C51",
+     "link": "https://hakkoda-ropeway.jp/"
+    },
+    {
+     "due": "2026-09-29",
+     "text": "조식 하루 신청하기\n마지막 날인 10월 2일에 사용",
+     "src": "9.28-10.2!C64"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "dow": "수",
+   "region": "아오모리",
+   "stay": {
+    "name": "리치몬드 호텔 아오모리",
+    "place": {
+     "id": "p_리치몬드_호텔_아오모리",
+     "name": "리치몬드호텔 아오모리",
+     "kind": "place",
+     "lat": 40.823419,
+     "lng": 140.744815,
+     "gid": "ChIJAdS43AKfm18RocTO5lMdny0",
+     "address": "1-chōme-6-6 Nagashima, Aomori, 030-0861, Japan"
+    },
+    "doc": "2026-09-29_리치몬드아오모리.pdf"
+   },
+   "flags": [],
+   "items": [
+    {
+     "id": "2026-09-30-i01",
+     "type": "food",
+     "title": "🍚 아침 따로 먹기",
+     "time": "07:00",
+     "end": null,
+     "settled": true,
+     "place": {
+      "lat": 40.8260685,
+      "lng": 140.7368825,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "아오모리 교사이 센터",
+       "depth": 0,
+       "nameJa": "株式会社青森魚菜センター 本店",
+       "desc": "2200엔으로 12장의 쿠폰을 구매하고 원하는 해산물을 골라 덮밥을 만들어 먹는 곳",
+       "place": {
+        "id": "p_아오모리_교사이_센터_아오모리_놋케동",
+        "name": "아오모리 교사이 센터(아오모리 놋케동)",
+        "kind": "place",
+        "lat": 40.825897,
+        "lng": 140.735912,
+        "gid": "ChIJ3bJcqB6fm18RruCZ6EBTv-Q",
+        "address": "1-chōme-11-16 Furukawa, Aomori, 030-0862",
+        "hours": [
+         {
+          "open": "07:00",
+          "close": "16:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "MIA COFFEE ROASTERS",
+       "depth": 0,
+       "desc": "양식 브런치",
+       "place": {
+        "id": "p_mia_coffee_roasters",
+        "name": "MIA COFFEE ROASTERS",
+        "kind": "cafe",
+        "lat": 40.82624,
+        "lng": 140.737853,
+        "gid": "ChIJNdXJ4qifm18Rs4O0pWN0f3k",
+        "address": "1-chōme-7-1 Shinmachi, Aomori, 030-0801",
+        "hours": [
+         {
+          "open": "08:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-30-i02",
+     "type": "sight",
+     "title": "네부타의 집 와랏세 관람",
+     "time": "09:00",
+     "end": null,
+     "detail": "네부타의 집 와랏세",
+     "detailJa": "ねぶたの家 ワ･ラッセ",
+     "detailDesc": "600엔 · 아오모리 전통축제 등불 전시",
+     "place": {
+      "id": "p_네부타의_집_와랏세",
+      "name": "네부타의 집 와랏세",
+      "kind": "place",
+      "lat": 40.829495,
+      "lng": 140.735628,
+      "gid": "ChIJgaL-zx-fm18RQjx7oW_kNcY",
+      "address": "〒030-0803 Aomori, Yasukata, 1-chōme−1−１ 1F",
+      "hours": [
+       {
+        "open": "09:00",
+        "close": "19:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-30-i03",
+     "type": "sight",
+     "title": "A-FACTORY 구경",
+     "time": "10:00",
+     "end": null,
+     "notes": [
+      "아오모리 역 앞의 기념품샵"
+     ],
+     "place": {
+      "lat": 40.83026666666667,
+      "lng": 140.73514933333334,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "A-BossA",
+       "depth": 0,
+       "desc": "사과사탕",
+       "place": {
+        "id": "p_a_bossa",
+        "name": "A-BossA",
+        "kind": "cafe",
+        "lat": 40.830255,
+        "lng": 140.735264,
+        "gid": "ChIJpaxfK3mfm18R6G6USL5uSNA",
+        "address": "Japan, 〒038-0012 Aomori, Yanakawa, 1-chōme−4−２ 1F",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "18:00"
+         }
+        ]
+       }
+      },
+      {
+       "name": "Skip Egg",
+       "depth": 0,
+       "desc": "사과파이",
+       "place": {
+        "id": "p_skip_egg",
+        "name": "Skip Egg",
+        "kind": "shopping",
+        "lat": 40.830347,
+        "lng": 140.735146,
+        "gid": "ChIJTwnck9-em18RQ2vh_J9ZUag",
+        "address": "〒038-0012 Aomori, Yanakawa, 1-chōme−4−２ 1F",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "17:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "gelato natura due",
+       "depth": 0,
+       "desc": "젤라또",
+       "place": {
+        "id": "p_gelato_natura_due",
+        "name": "gelato natura due",
+        "kind": "shopping",
+        "lat": 40.830198,
+        "lng": 140.735038,
+        "gid": "ChIJPecG9R-fm18R-am5-MlLza4",
+        "address": "〒038-0012 Aomori, Yanakawa, 1-chōme−4−２ 1F",
+        "closed": true
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-30-i04",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "11:00",
+     "end": null,
+     "notes": [
+      "오픈 시간에 맞춰갈 수 있는 가게로 가기"
+     ],
+     "place": {
+      "lat": 40.82752266666666,
+      "lng": 140.73570700000002,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Osanai",
+       "depth": 0,
+       "nameJa": "おさない",
+       "desc": "가리비 된장 볶음, 구이, 튀김 등",
+       "place": {
+        "id": "p_おさない_osanai",
+        "name": "Osanai",
+        "kind": "food",
+        "lat": 40.827977,
+        "lng": 140.735984,
+        "gid": "ChIJp7ONMhyfm18Ry4BfwpDrPT4",
+        "address": "〒030-0801 Aomori, Shinmachi, 1-chōme−1−１７ 1F",
+        "hours": [
+         {
+          "open": "10:30",
+          "close": "14:00"
+         },
+         {
+          "open": "16:30",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "메시야 미카타",
+       "depth": 0,
+       "nameJa": "めし屋 味孝",
+       "desc": "가리비 된장 정식",
+       "place": {
+        "id": "p_めし屋_味孝_메시야_미카타",
+        "name": "めし屋 味孝",
+        "kind": "food",
+        "lat": 40.825697,
+        "lng": 140.735344,
+        "gid": "ChIJb1oO5iWfm18RuIUajvkF9jw",
+        "address": "1-chōme-8-7 Furukawa, Aomori, 030-0862",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "14:00"
+         },
+         {
+          "open": "17:00",
+          "close": "21:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "Seared Tempura Bowl Tenjun",
+       "depth": 0,
+       "nameJa": "あぶり天丼 天じゅん",
+       "desc": "텐동",
+       "place": {
+        "id": "p_あぶり天丼_天じゅん_seared_tempura_bowl_tenjun",
+        "name": "Seared Tempura Bowl Tenjun",
+        "kind": "food",
+        "lat": 40.828894,
+        "lng": 140.735793,
+        "gid": "ChIJq6rbuh-fm18RUDI92QiE834",
+        "address": "〒030-0803 Aomori, Yasukata, 1-chōme−3−２４ 一二三ビル 1F",
+        "hours": [
+         {
+          "open": "11:30",
+          "close": "14:30"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-09-30-i05",
+     "type": "cafe",
+     "title": "커피 타임",
+     "time": "12:00",
+     "end": null,
+     "detail": "Viennese Sweets Strauss",
+     "detailJa": "ウィーン菓子 シュトラウス",
+     "detailDesc": "고급스러운 오스트리아 디저트 카페",
+     "place": {
+      "id": "p_viennese_sweets_strauss",
+      "name": "Viennese Sweets Strauss",
+      "kind": "cafe",
+      "lat": 40.826509,
+      "lng": 140.738713,
+      "gid": "ChIJCf5B0x2fm18RTJBD8SLgAEM",
+      "address": "1-chōme-13-21 Shinmachi, Aomori, 030-0801",
+      "hours": [
+       {
+        "open": "10:30",
+        "close": "17:00"
+       }
+      ],
+      "always": false
+     }
+    },
+    {
+     "id": "2026-09-30-i06",
+     "type": "shop",
+     "title": "주변 구경하고 쇼핑",
+     "time": "13:30",
+     "end": null,
+     "place": {
+      "lat": 40.826973,
+      "lng": 140.74061457142858,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "아오모리현 관광물산관 아스팜",
+       "depth": 0,
+       "nameJa": "青森県観光物産館アスパム",
+       "desc": "오미야게 파는 곳",
+       "place": {
+        "id": "p_아오모리현_관광물산관_아스팜",
+        "name": "아오모리현 관광물산관 아스팜",
+        "kind": "shopping",
+        "lat": 40.829786,
+        "lng": 140.741146,
+        "gid": "ChIJLeQfuuGem18R-4UcSmDn8Cs",
+        "address": "1-chōme-1-40 Yasukata, Aomori, 030-0803",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "19:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "러비나",
+       "depth": 0,
+       "nameJa": "青森駅ビル LOVINA",
+       "desc": "쇼핑몰",
+       "place": {
+        "id": "p_러비나",
+        "name": "러비나 (LOVINA)",
+        "kind": "shopping",
+        "lat": 40.827712,
+        "lng": 140.734101,
+        "gid": "ChIJXegiGR-fm18RaIW5rFx29_M",
+        "address": "1-chōme-2-3 Yanakawa, Aomori, 038-0012",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "카사이 상점",
+       "depth": 0,
+       "desc": "아오모리 기념품샵",
+       "place": {
+        "id": "p_葛西商店",
+        "name": "Shop KASAI",
+        "kind": "shopping",
+        "lat": 40.828178,
+        "lng": 140.735473,
+        "gid": "ChIJaYacAB-fm18R8fYSlgv9iz4",
+        "address": "1-chōme-1-21 Shinmachi, Aomori, 030-0801",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "19:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "葛西商店"
+      },
+      {
+       "name": "칸세이도우",
+       "depth": 0,
+       "nameJa": "甘精堂本店",
+       "desc": "화과자점",
+       "place": {
+        "id": "p_甘精堂本店_칸세이도우",
+        "name": "칸세이도우",
+        "kind": "shopping",
+        "lat": 40.826612,
+        "lng": 140.738787,
+        "gid": "ChIJCf5B0x2fm18RsGqLT1apUos",
+        "address": "1-chōme-13-21 Shinmachi, Aomori, 030-0801",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "카미보시 타케우치 세이아메쇼",
+       "depth": 0,
+       "desc": "금붕어 패키지 귀여운 화과자",
+       "place": {
+        "id": "p_有_上ボシ武内製飴所",
+        "name": "Joboshi Takeuchi Seianjo",
+        "kind": "shopping",
+        "lat": 40.82729,
+        "lng": 140.750728,
+        "gid": "ChIJ3yvUUOOem18RFR_LJ7Sdi3k",
+        "address": "5-chōme-1-20 Honchō, Aomori, 030-0802",
+        "hours": [
+         {
+          "open": "08:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "㈲上ボシ武内製飴所"
+      },
+      {
+       "name": "Fruits Parlor Earth",
+       "depth": 0,
+       "nameJa": "フルーツパーラーアース",
+       "desc": "파르페",
+       "place": {
+        "id": "p_fruits_parlor_earth",
+        "name": "Fruits Parlor Earth",
+        "kind": "cafe",
+        "lat": 40.826721,
+        "lng": 140.74784,
+        "gid": "ChIJu7WvVyCfm18RnbPux6wvYDM",
+        "address": "2-chōme-7-23 Honchō, Aomori, 030-0802",
+        "hours": [
+         {
+          "open": "12:00",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "구토론 후지야",
+       "depth": 0,
+       "desc": "케이크",
+       "place": {
+        "id": "p_グートロンふじや",
+        "name": "グートロンふじや",
+        "kind": "shopping",
+        "lat": 40.822512,
+        "lng": 140.736227,
+        "gid": "ChIJjV6WHhufm18RWJQty3qV1qw",
+        "address": "2-chōme-11-9 Furukawa, Aomori, 030-0862",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "18:30"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "グートロンふじや"
+      }
+     ]
+    },
+    {
+     "id": "2026-09-30-i07",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "18:00",
+     "end": null,
+     "notes": [
+      "회나 먹을 거 사서 호텔에서 먹는 것도 괜찮을 듯"
+     ],
+     "place": {
+      "lat": 40.82375125,
+      "lng": 140.74201125,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "아지노삿포로 오오니시",
+       "depth": 0,
+       "nameJa": "味の札幌 大西",
+       "desc": "줄서는 라멘집 미소카레밀크라멘 궁금",
+       "place": {
+        "id": "p_아지노삿포로_오오니시",
+        "name": "아지노삿포로 오오니시",
+        "kind": "food",
+        "lat": 40.824761,
+        "lng": 140.73683,
+        "gid": "ChIJ8RSfihufm18RbYfiZDGnKD0",
+        "address": "〒030-0862 Aomori, Furukawa, 1-chōme−15−６ 大西クリエイトビル １Ｆ",
+        "closed": true
+       }
+      },
+      {
+       "name": "트루 카레",
+       "depth": 0,
+       "desc": "카레먹을거면",
+       "place": {
+        "id": "p_트루_카레",
+        "name": "트루 카레",
+        "kind": "food",
+        "lat": 40.824867,
+        "lng": 140.737216,
+        "gid": "ChIJN4QCsISfm18RJ0qGE8dGxoM",
+        "address": "〒030-0862 Aomori, Furukawa, 1-chōme−16−１ 一郎屋ビル 1F",
+        "closed": true
+       }
+      },
+      {
+       "name": "치이사나 토마토",
+       "depth": 0,
+       "desc": "양식 디너",
+       "place": {
+        "id": "p_小さなトマト",
+        "name": "小さなトマト",
+        "kind": "place",
+        "lat": 40.823722,
+        "lng": 140.746796,
+        "gid": "ChIJq0fmSWqfm18RfvTt0QROgRo",
+        "address": "1-chōme-2-13 Honchō, Aomori, 030-0851, Japan",
+        "hours": [
+         {
+          "open": "11:00",
+          "close": "15:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "小さなトマト"
+      },
+      {
+       "name": "Kitchen Pigeon",
+       "depth": 0,
+       "desc": "오므라이스 테이크아웃 전문점",
+       "place": {
+        "id": "p_kitchen_pigeon",
+        "name": "Kitchen Pigeon",
+        "kind": "place",
+        "lat": 40.821655,
+        "lng": 140.747203,
+        "gid": "ChIJAQ3-SQKfm18RrfFHBCaIZdc",
+        "address": "1-chōme-21-19 Chūō, Aomori, 030-0822, Japan",
+        "hours": [
+         {
+          "open": "10:30",
+          "close": "18:30"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    }
+   ],
+   "legs": [],
+   "moveMin": 0,
+   "bounds": {
+    "n": 40.830347,
+    "s": 40.821655,
+    "e": 140.750728,
+    "w": 140.734101
+   },
+   "tasks": []
+  },
+  {
+   "date": "2026-10-01",
+   "dow": "목",
+   "region": "아오모리-아사무시온천",
+   "stay": {
+    "name": "리치몬드 호텔 아오모리",
+    "place": {
+     "id": "p_리치몬드_호텔_아오모리",
+     "name": "리치몬드호텔 아오모리",
+     "kind": "place",
+     "lat": 40.823419,
+     "lng": 140.744815,
+     "gid": "ChIJAdS43AKfm18RocTO5lMdny0",
+     "address": "1-chōme-6-6 Nagashima, Aomori, 030-0861, Japan"
+    },
+    "doc": "2026-09-29_리치몬드아오모리.pdf"
+   },
+   "flags": [],
+   "items": [
+    {
+     "id": "2026-10-01-i01",
+     "type": "food",
+     "title": "🍚 아침은 카페에서 토스트나 오니기리",
+     "time": "07:30",
+     "end": null,
+     "place": {
+      "lat": 40.82524866666666,
+      "lng": 140.740593,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "Coffee Marron",
+       "depth": 0,
+       "nameJa": "喫茶マロン",
+       "desc": "토스트",
+       "place": {
+        "id": "p_coffee_marron",
+        "name": "Coffee Marron",
+        "kind": "cafe",
+        "lat": 40.827135,
+        "lng": 140.741518,
+        "gid": "ChIJz2RD8R2fm18RJ4yubyVdZHk",
+        "address": "2-chōme-6-7 Yasukata, Aomori, 030-0803",
+        "hours": [
+         {
+          "open": "07:00",
+          "close": "17:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "COFFEE SHA",
+       "depth": 0,
+       "nameJa": "珈琲舎",
+       "desc": "여기도 토스트",
+       "place": {
+        "id": "p_coffee_sha",
+        "name": "COFFEE SHA",
+        "kind": "cafe",
+        "lat": 40.824619,
+        "lng": 140.735954,
+        "gid": "ChIJiWZY7Rufm18RlDUpjBR_MO0",
+        "address": "1-chōme-10-10 Furukawa, Aomori, 030-0862",
+        "hours": [
+         {
+          "open": "07:00",
+          "close": "16:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "오니기리 완도",
+       "depth": 0,
+       "desc": "오니기리",
+       "place": {
+        "id": "p_おにぎりわんど",
+        "name": "おにぎりわんど",
+        "kind": "food",
+        "lat": 40.823992,
+        "lng": 140.744307,
+        "gid": "ChIJkWH0EHmfm18RFeBWT9dKS_E",
+        "address": "1-chōme-3-4 Nagashima, Aomori, 030-0861",
+        "hours": [
+         {
+          "open": "07:00",
+          "close": "09:00"
+         },
+         {
+          "open": "11:00",
+          "close": "15:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "おにぎりわんど"
+      }
+     ]
+    },
+    {
+     "id": "2026-10-01-i04",
+     "type": "onsen",
+     "title": "족욕탕에서 온천달걀 만들기",
+     "time": "09:30",
+     "end": null,
+     "notes": [
+      "달걀 사와서 담가두면 된다고 함"
+     ],
+     "place": {
+      "lat": 40.8901475,
+      "lng": 140.8621265,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "모토야마 야오야",
+       "depth": 0,
+       "desc": "슈퍼",
+       "place": {
+        "id": "p_元山八百屋",
+        "name": "元山八百屋",
+        "kind": "shopping",
+        "lat": 40.88908,
+        "lng": 140.862905,
+        "gid": "ChIJL8F1K7Ocm18RckxLR7o6TWk",
+        "address": "Hotarudani-207 Asamushi, Aomori, 039-3501",
+        "hours": [
+         {
+          "open": "09:30",
+          "close": "18:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "元山八百屋"
+      },
+      {
+       "name": "Yu-Sa Market",
+       "depth": 0,
+       "nameJa": "ゆ〜さ市場",
+       "desc": "마트",
+       "place": {
+        "id": "p_yu_sa_market",
+        "name": "Yu-Sa Market",
+        "kind": "place",
+        "lat": 40.891215,
+        "lng": 140.861348,
+        "gid": "ChIJ__9bp1KDm18RifNniqC3tgU",
+        "address": "Hotarudani-11-2 Asamushi, Aomori, 039-3501, Japan",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "17:30"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-10-01-i05",
+     "type": "food",
+     "title": "🍚 점심",
+     "time": "11:30",
+     "end": null,
+     "place": {
+      "lat": 40.890941,
+      "lng": 140.861939,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "아사무시 코리도",
+       "depth": 0,
+       "desc": "런치 세트가 있는 카페",
+       "place": {
+        "id": "p_浅虫コリドー",
+        "name": "浅虫コリドー",
+        "kind": "cafe",
+        "lat": 40.891749,
+        "lng": 140.861909,
+        "gid": "ChIJHW8PJ4WDm18R3-f5Xys6SQY",
+        "address": "〒039-3501 Aomori, Asamushi, Hotarudani, 螢谷7",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "16:00"
+         }
+        ],
+        "always": false
+       },
+       "nameJa": "浅虫コリドー"
+      },
+      {
+       "name": "Old house Cafe apricot",
+       "depth": 0,
+       "desc": "원플레이트, 나폴리탄 양식계열",
+       "place": {
+        "id": "p_old_house_cafe_apricot",
+        "name": "Old house Cafe apricot",
+        "kind": "cafe",
+        "lat": 40.890133,
+        "lng": 140.861969,
+        "gid": "ChIJI3l8PauDm18R9uUbreC8q6E",
+        "address": "Hotarudani-64-13 Asamushi, Aomori, 039-3501",
+        "hours": [
+         {
+          "open": "11:30",
+          "close": "15:30"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-10-01-i06",
+     "type": "onsen",
+     "title": "당일치기 온천",
+     "time": "12:00",
+     "end": null,
+     "notes": [
+      "둘 다 문신 관련 언급없어서 가도 될듯"
+     ],
+     "place": {
+      "lat": 40.8881865,
+      "lng": 140.862144,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "타츠미칸",
+       "depth": 0,
+       "nameJa": "辰巳館",
+       "desc": "500엔",
+       "place": {
+        "id": "p_타츠미칸",
+        "name": "타츠미칸",
+        "kind": "place",
+        "lat": 40.888332,
+        "lng": 140.860977,
+        "gid": "ChIJ5SlTA7Ocm18RX3rhFkOt8JU",
+        "address": "Yamashita-281 Asamushi, Aomori, 039-3501, Japan",
+        "hours": [
+         {
+          "open": "12:00",
+          "close": "16:00"
+         }
+        ]
+       }
+      },
+      {
+       "name": "Yanagi No Yu",
+       "depth": 0,
+       "nameJa": "浅虫温泉 津軽藩本陣の宿 旅館柳の湯",
+       "desc": "500엔",
+       "place": {
+        "id": "p_yanagi_no_yu",
+        "name": "Yanagi No Yu",
+        "kind": "place",
+        "lat": 40.888041,
+        "lng": 140.863311,
+        "gid": "ChIJC_u8RrOcm18RCM_FNMcKnv4",
+        "address": "Japan, 〒039-3501 Aomori, Asamushi, Yamashita−２３６ 本陣の宿柳の湯",
+        "hours": [
+         {
+          "open": "12:00",
+          "close": "15:00"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-10-01-i07",
+     "type": "sight",
+     "title": "해변 산책",
+     "time": "15:00",
+     "end": null,
+     "detail": "키쿠야 떡집",
+     "detailDesc": "타라쿠떡과 쿠지라모치",
+     "place": {
+      "id": "p_菊屋もち店",
+      "name": "菊屋もち店",
+      "kind": "shopping",
+      "lat": 40.889009,
+      "lng": 140.861863,
+      "gid": "ChIJ4-eM2LKcm18RZGxKPRKkdfg",
+      "address": "Hotarudani-64-3 Asamushi, Aomori, 039-3501",
+      "hours": [
+       {
+        "open": "08:00",
+        "close": "17:30"
+       }
+      ],
+      "always": false
+     },
+     "detailJa": "菊屋もち店"
+    },
+    {
+     "id": "2026-10-01-i10",
+     "type": "shop",
+     "title": "아오모리에서 필요한거 마저 쇼핑",
+     "time": "16:30",
+     "end": null,
+     "place": {
+      "lat": 40.828749,
+      "lng": 140.73762349999998,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "아오모리현 관광물산관 아스팜",
+       "depth": 0,
+       "nameJa": "青森県観光物産館アスパム",
+       "desc": "오미야게",
+       "place": {
+        "id": "p_아오모리현_관광물산관_아스팜",
+        "name": "아오모리현 관광물산관 아스팜",
+        "kind": "shopping",
+        "lat": 40.829786,
+        "lng": 140.741146,
+        "gid": "ChIJLeQfuuGem18R-4UcSmDn8Cs",
+        "address": "1-chōme-1-40 Yasukata, Aomori, 030-0803",
+        "hours": [
+         {
+          "open": "09:00",
+          "close": "19:00"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "러비나",
+       "depth": 0,
+       "nameJa": "青森駅ビル LOVINA",
+       "desc": "쇼핑몰",
+       "place": {
+        "id": "p_러비나",
+        "name": "러비나 (LOVINA)",
+        "kind": "shopping",
+        "lat": 40.827712,
+        "lng": 140.734101,
+        "gid": "ChIJXegiGR-fm18RaIW5rFx29_M",
+        "address": "1-chōme-2-3 Yanakawa, Aomori, 038-0012",
+        "hours": [
+         {
+          "open": "10:00",
+          "close": "20:00"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-10-01-i11",
+     "type": "food",
+     "title": "🍚 저녁",
+     "time": "18:00",
+     "end": null,
+     "detail": "일식집 나고미",
+     "detailDesc": "스키야끼, 냄비요리 뭔가 많은데",
+     "place": {
+      "id": "p_和食処_なごみ",
+      "name": "和食処 なごみ",
+      "kind": "food",
+      "lat": 40.827191,
+      "lng": 140.746354,
+      "gid": "ChIJsziU_uKem18Rj2rLjIxcPZg",
+      "address": "〒030-0802 Aomori, Honchō, 2-chōme−1−２６ ２F",
+      "hours": [
+       {
+        "open": "17:30",
+        "close": "21:00"
+       }
+      ],
+      "always": false
+     },
+     "detailJa": "和食処 なごみ"
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-10-01-l03",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 아오모리역에서 아오모리 철도 타고 아사무시온센역으로 이동",
+     "fixed": false,
+     "vehicle": "아오모리 철도",
+     "time": "08:33",
+     "end": "08:53",
+     "from": "2026-10-01-i01",
+     "to": "2026-10-01-i04",
+     "min": 23,
+     "cost": "540엔",
+     "covered": false,
+     "dest": "아사무시온센역",
+     "origin": "아오모리역",
+     "notes": [],
+     "image": null,
+     "seat": null,
+     "dir": {
+      "to": {
+       "text": "아사무시온센 역",
+       "lat": 40.8914457,
+       "lng": 140.8623713,
+       "gid": "ChIJudw8XU2Dm18RNwLyE4KnGBY"
+      },
+      "from": {
+       "text": "아오모리",
+       "lat": 40.8288462,
+       "lng": 140.7342745,
+       "gid": "ChIJVUs2Ch-fm18RXiFq2VxC9HQ"
+      }
+     }
+    },
+    {
+     "id": "2026-10-01-l09",
+     "mode": "train",
+     "modeLabel": "기차",
+     "title": "🚝 아사무시온센역에서 아오모리 철도 타고 아오모리역으로 이동",
+     "fixed": false,
+     "vehicle": "아오모리 철도",
+     "time": "15:45",
+     "end": "16:10",
+     "from": "2026-10-01-i07",
+     "to": "2026-10-01-i10",
+     "min": 23,
+     "cost": "540엔",
+     "covered": false,
+     "dest": "아오모리역",
+     "origin": "아사무시온센역",
+     "notes": [],
+     "image": null,
+     "seat": null,
+     "dir": {
+      "to": {
+       "text": "아오모리",
+       "lat": 40.8288462,
+       "lng": 140.7342745,
+       "gid": "ChIJVUs2Ch-fm18RXiFq2VxC9HQ"
+      },
+      "from": {
+       "text": "아사무시온센 역",
+       "lat": 40.8914457,
+       "lng": 140.8623713,
+       "gid": "ChIJudw8XU2Dm18RNwLyE4KnGBY"
+      }
+     }
+    }
+   ],
+   "moveMin": 46,
+   "bounds": {
+    "n": 40.891749,
+    "s": 40.823992,
+    "e": 140.863311,
+    "w": 140.734101
+   },
+   "tasks": []
+  },
+  {
+   "date": "2026-10-02",
+   "dow": "금",
+   "region": "아오모리-인천",
+   "stay": null,
+   "flags": [],
+   "items": [
+    {
+     "id": "2026-10-02-i01",
+     "type": "food",
+     "title": "🍚 아침",
+     "time": "07:00",
+     "end": null,
+     "detail": "리치몬드 호텔 아오모리",
+     "detailJa": "リッチモンドホテル青森",
+     "detailDesc": "호텔 조식",
+     "place": {
+      "id": "p_리치몬드_호텔_아오모리",
+      "name": "리치몬드호텔 아오모리",
+      "kind": "place",
+      "lat": 40.823419,
+      "lng": 140.744815,
+      "gid": "ChIJAdS43AKfm18RocTO5lMdny0",
+      "address": "1-chōme-6-6 Nagashima, Aomori, 030-0861, Japan",
+      "hours": [
+       {
+        "open": "07:00",
+        "close": "10:00"
+       }
+      ]
+     }
+    },
+    {
+     "id": "2026-10-02-i02",
+     "type": "sight",
+     "title": "호텔 바로 앞 신사 가볍게 들려보기",
+     "time": "08:30",
+     "end": null,
+     "place": {
+      "lat": 40.822616499999995,
+      "lng": 140.74292200000002,
+      "approx": true
+     },
+     "spots": [
+      {
+       "name": "히로타 신사",
+       "depth": 0,
+       "nameJa": "廣田神社",
+       "desc": "사과 부적으로 유명한 신사",
+       "place": {
+        "id": "p_히로타_신사",
+        "name": "Hirota shrine",
+        "kind": "place",
+        "lat": 40.822494,
+        "lng": 140.742633,
+        "gid": "ChIJs05DOAOfm18RQbQ8BeQs9TE",
+        "address": "2-chōme-13-5 Nagashima, Aomori, 030-0861",
+        "hours": [
+         {
+          "open": "08:30",
+          "close": "16:30"
+         }
+        ],
+        "always": false
+       }
+      },
+      {
+       "name": "킨쇼 이나리 신사",
+       "depth": 0,
+       "nameJa": "金生稲荷神社",
+       "desc": "재물운 신사",
+       "place": {
+        "id": "p_킨쇼_이나리_신사_kaneuminari_shrine",
+        "name": "Kaneuminari Shrine",
+        "kind": "place",
+        "lat": 40.822739,
+        "lng": 140.743211,
+        "gid": "ChIJwY5pPAOfm18RZNN4INByZd4",
+        "address": "2-chōme-18-6 Nagashima, Aomori, 030-0861",
+        "hours": [
+         {
+          "open": "08:30",
+          "close": "16:30"
+         }
+        ],
+        "always": false
+       }
+      }
+     ]
+    },
+    {
+     "id": "2026-10-02-i03",
+     "type": "sight",
+     "title": "리치몬드 호텔 아오모리 체크아웃",
+     "time": "09:00",
+     "end": null
+    },
+    {
+     "id": "2026-10-02-i06",
+     "type": "food",
+     "title": "🍚 공항에서 점심 간단히 먹기",
+     "time": "12:00",
+     "end": null,
+     "notes": [
+      "보안검색대 지나가면 카페고 뭐고 아무것도 없다니까 보딩패스 끊고 너무 일찍 들어가지말 것"
+     ],
+     "hideTime": true
+    }
+   ],
+   "legs": [
+    {
+     "id": "2026-10-02-l05",
+     "mode": "bus",
+     "modeLabel": "버스",
+     "title": "🚌 柳町通り에서 青森空港線(青森空港行)버스 타고 아오모리 공항으로 이동",
+     "fixed": false,
+     "vehicle": "青森空港線(青森空港行)버스",
+     "time": "10:33",
+     "end": "11:08",
+     "from": "2026-10-02-i03",
+     "to": "2026-10-02-i06",
+     "min": 35,
+     "cost": "980엔",
+     "covered": false,
+     "dest": "아오모리 공항",
+     "origin": "柳町通り",
+     "notes": [],
+     "image": null,
+     "seat": null,
+     "dir": {
+      "to": {
+       "text": "아오모리 공항",
+       "lat": 40.7354587,
+       "lng": 140.6904126,
+       "gid": "ChIJETzseBgKm18RM4HUYjOI6Hk"
+      },
+      "from": {
+       "text": "리치몬드호텔 아오모리",
+       "lat": 40.823419,
+       "lng": 140.744815,
+       "gid": "ChIJ7_XO3AKfm18RnK0HXfVphG8"
+      }
+     }
+    },
+    {
+     "id": "2026-10-02-l07",
+     "mode": "plane",
+     "modeLabel": "항공",
+     "title": "✈️ 아오모리 공항(AOJ)에서 대한항공 타고 인천 공항(ICN)으로 이동",
+     "fixed": false,
+     "vehicle": "대한항공",
+     "time": "12:45",
+     "end": "15:30",
+     "from": "2026-10-02-i06",
+     "to": null,
+     "min": 165,
+     "cost": null,
+     "covered": false,
+     "dest": "인천 공항(ICN)",
+     "origin": "아오모리 공항(AOJ)",
+     "notes": [
+      "KE2194 · 12:45~15:30"
+     ],
+     "image": null,
+     "seat": null
+    }
+   ],
+   "moveMin": 200,
+   "bounds": {
+    "n": 40.823419,
+    "s": 40.822494,
+    "e": 140.744815,
+    "w": 140.742633
+   },
+   "tasks": []
+  }
+ ]
+}

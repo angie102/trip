@@ -1,0 +1,23 @@
+[
+  {
+    "target": "2026-09-18",
+    "field": "region",
+    "from": null,
+    "to": "인천-니가타",
+    "why": "엑셀에 비어 있던 지역명"
+  },
+  {
+    "target": "2026-10-02",
+    "field": "region",
+    "from": null,
+    "to": "아오모리-인천",
+    "why": "엑셀에 비어 있던 지역명"
+  },
+  {
+    "target": "2026-10-02-l07",
+    "field": "durationMin",
+    "from": null,
+    "to": 165,
+    "why": "12:45~15:30 에서 계산"
+  }
+]
