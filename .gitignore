@@ -28,3 +28,6 @@ tools/cut_bg.py
 tools/render_mock.mjs
 tools/probe_route.mjs
 web-react/probe.mjs
+
+# 예약서 (개인정보)
+web-react/public/resv/
