@@ -244,8 +244,7 @@
     },
     "pay": "결제완료",
     "booker": "아고다",
-    "terms": "조식 포함",
-    "doc": "2026-09-18_ANA크라운플라자니가타.pdf"
+    "terms": "조식 포함"
    },
    "flags": [],
    "items": [
@@ -487,8 +486,7 @@
       "costText": "6,600엔(1인)",
       "note": "낮 코스 · 언니 이름  2인",
       "name": "스시키 야마다 토시치",
-      "pay": "현지 결제",
-      "doc": "2026-09-19_1300_스시키야마다토시치.pdf"
+      "pay": "현지 결제"
      },
      "settled": true,
      "place": {
@@ -668,8 +666,7 @@
       "costText": "23,800엔",
       "note": "야리스,MAZDA2, 스위프트,카로라 중 랜덤",
       "name": "일본 렌터카 니가타역 북쪽 출구 지점",
-      "pay": "현지 결제",
-      "doc": "2026-09-19_1500_닛폰렌터카니가타역북쪽출구.pdf"
+      "pay": "현지 결제"
      },
      "place": {
       "id": "p_ニッポンレンタカー新潟駅北口営業所",
@@ -1567,8 +1564,7 @@
       "costText": "9,900엔(1인)",
       "note": "타마가와도 코스",
       "name": "Tsubamesanjo Bit 츠바메 산조 본점",
-      "pay": "현지 결제",
-      "doc": "2026-09-20_1930_츠바메산조Bit.pdf"
+      "pay": "현지 결제"
      },
      "place": {
       "id": "p_tsubamesanjo_bit_츠바메_산조_본점",
@@ -1739,8 +1735,7 @@
     "pay": "현지 결제",
     "booker": "홈페이지",
     "terms": "1박",
-    "costJpy": 46200,
-    "doc": "2026-09-21_BLUE_BASE_SENAMI.pdf"
+    "costJpy": 46200
    },
    "flags": [
     {
@@ -1797,8 +1792,7 @@
       "costText": "4,000엔(1인)",
       "note": "낮 코스 · 야채, 생선 튀김 정식",
       "name": "텐키아라타(天㐂あらた)",
-      "pay": "현지 결제",
-      "doc": "2026-09-21_1130_텐키아라타.pdf"
+      "pay": "현지 결제"
      },
      "place": {
       "id": "p_텐키아라타_天㐂あらた",
@@ -2146,8 +2140,7 @@
       "costText": "8,800엔+880엔(1인)",
       "note": "무라카미 소 나오는 코스 (村上堪能コース)",
       "name": "료우테이 노토신(料亭 能登新)",
-      "pay": "현지 결제",
-      "doc": "2026-09-21_1900_료우테이노토신.pdf"
+      "pay": "현지 결제"
      },
      "place": {
       "id": "p_료우테이_노토신_料亭_能登新",
@@ -2260,8 +2253,7 @@
     "pay": "현지 결제",
     "booker": "아고다",
     "terms": "트윈룸 (소파베드)",
-    "costJpy": 41270,
-    "doc": "2026-09-22_다이와로이넷오미야.pdf"
+    "costJpy": 41270
    },
    "flags": [
     {
@@ -2623,8 +2615,7 @@
      "lng": 139.620998,
      "gid": "ChIJPcPz4ofBGGARofMHft7l17Q",
      "address": "1-chōme-398-1 Sakuragichō, Omiya Ward, Saitama, 330-0854, Japan"
-    },
-    "doc": "2026-09-22_다이와로이넷오미야.pdf"
+    }
    },
    "flags": [
     {
@@ -2917,8 +2908,7 @@
       "booker": "table check",
       "note": "좌석 · 대기가 좀 있을 수도 있다는데 일단 예약함",
       "name": "Gyukatsu Motomura Tofrom Yaesu",
-      "pay": "-",
-      "doc": "2026-09-23_1130_규카츠모토무라야에스.pdf"
+      "pay": "-"
      },
      "place": {
       "id": "p_gyukatsu_motomura_tofrom_yaesu",
@@ -3053,8 +3043,7 @@
       "costText": "5,800엔+580엔(1인)",
       "note": "긴자 코스 츠루",
       "name": "CANTON8 銀座店",
-      "pay": "현지 결제",
-      "doc": "2026-09-23_1730_CANTON8긴자점.pdf"
+      "pay": "현지 결제"
      },
      "place": {
       "id": "p_canton_8",
@@ -3306,8 +3295,7 @@
     },
     "pay": "결제완료",
     "booker": "쟈란넷",
-    "terms": "저녁,아침 포함",
-    "doc": "2026-09-24_와카마츠야.pdf"
+    "terms": "저녁,아침 포함"
    },
    "flags": [
     {
@@ -3866,8 +3854,7 @@
     "pay": "현지 결제",
     "booker": "홈페이지",
     "terms": "저녁,아침 포함 · 전세온천 1회 포함",
-    "costJpy": 56100,
-    "doc": "2026-09-25_츠루야.pdf"
+    "costJpy": 56100
    },
    "flags": [
     {
@@ -4144,8 +4131,7 @@
     },
     "pay": "결제완료",
     "booker": "아고다",
-    "terms": "2박 일본식 룸",
-    "doc": "2026-09-26_그랜드선피아하치노헤.pdf"
+    "terms": "2박 일본식 룸"
    },
    "flags": [
     {
@@ -4477,8 +4463,7 @@
       "costText": "39,000엔",
       "note": "스바루 크로스트렉, 스바루 인프레자, 카롤라 투어링, 카롤라 크로스, 에클립스 크로스 중 랜덤",
       "name": "일본 렌터카 하치노헤역 동쪽 출구",
-      "pay": "현지 결제",
-      "doc": "2026-09-26_1800_닛폰렌터카하치노헤역동쪽출구.pdf"
+      "pay": "현지 결제"
      },
      "place": {
       "id": "p_nippon_rent_a_car_hachinohe_eki_east_exit",
@@ -4758,8 +4743,7 @@
      "lng": 141.46941,
      "gid": "ChIJ9UbjhrtNm18R1ySQ46Kn2Jo",
      "address": "1-chōme-1-1 Higashihakusandai, Hachinohe, Aomori 039-1111, Japan"
-    },
-    "doc": "2026-09-26_그랜드선피아하치노헤.pdf"
+    }
    },
    "flags": [
     {
@@ -5263,8 +5247,7 @@
     },
     "pay": "결제완료",
     "booker": "아고다",
-    "terms": "저녁,아침 포함",
-    "doc": "2026-09-28_츠타온천.pdf"
+    "terms": "저녁,아침 포함"
    },
    "flags": [
     {
@@ -5699,8 +5682,7 @@
     },
     "pay": "결제완료",
     "booker": "아고다",
-    "terms": "3박 · 트리풀 룸",
-    "doc": "2026-09-29_리치몬드아오모리.pdf"
+    "terms": "3박 · 트리풀 룸"
    },
    "flags": [
     {
@@ -5932,8 +5914,7 @@
       "costText": "3,500엔+700엔(1인)",
       "note": "나나와야키 코스(七輪焼コース)",
       "name": "나나베야(七兵衛や)",
-      "pay": "현지 결제",
-      "doc": "2026-09-29_1930_나나베야.pdf"
+      "pay": "현지 결제"
      },
      "place": {
       "id": "p_七兵衛や_나나베야",
@@ -6030,8 +6011,7 @@
      "lng": 140.744815,
      "gid": "ChIJAdS43AKfm18RocTO5lMdny0",
      "address": "1-chōme-6-6 Nagashima, Aomori, 030-0861, Japan"
-    },
-    "doc": "2026-09-29_리치몬드아오모리.pdf"
+    }
    },
    "flags": [],
    "items": [
@@ -6593,8 +6573,7 @@
      "lng": 140.744815,
      "gid": "ChIJAdS43AKfm18RocTO5lMdny0",
      "address": "1-chōme-6-6 Nagashima, Aomori, 030-0861, Japan"
-    },
-    "doc": "2026-09-29_리치몬드아오모리.pdf"
+    }
    },
    "flags": [],
    "items": [

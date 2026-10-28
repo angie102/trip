@@ -14,10 +14,6 @@ import type { CSSProperties } from 'react'
 const PATHS: Record<string, string> = {
   // noteblock-text — 준비 화면
   prep: `<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 3v4m4 0V3m4 0v4m-8 4h8m-8 4h4m-6 6h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z"/>`,
-  // document — 예약 확인서(PDF). 모서리를 접은 종이에 글줄 셋.
-  // 지도 링크(link)와 나란히 서므로 획 굵기와 여백을 같은 결로 둔다 —
-  // 둘이 한 줄에서 크기가 어긋나면 뒤엣것이 곁다리로 보인다.
-  doc: `<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8m-5-5 5 5m-5-5v5h5M9 13h6m-6 4h4"/>`,
   // bookmark — 잡아 둔 자리
   resv: `<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 3H7a2 2 0 0 0-2 2v15.138a.5.5 0 0 0 .748.434l5.26-3.005a2 2 0 0 1 1.984 0l5.26 3.006a.5.5 0 0 0 .748-.435V5a2 2 0 0 0-2-2z"/>`,
   // bookmark solid — 예약 표식

@@ -295,18 +295,6 @@ export default function App() {
                   호텔의 자리는 이 줄만 안다. 체크인·체크아웃 항목은 좌표를
                   갖지 않으므로(같은 곳을 여러 번 조회할 까닭이 없다),
                   좌표가 있으면 그 가게로 바로 열고 없으면 이름으로 찾는다 */}
-              {/* 예약 확인서 — 지도보다 앞에 선다.
-                  「여기 묵는다」 다음에 오는 물음이 「어디인가」보다 「제대로
-                  잡혀 있나」라서다. 파일은 서버에 그대로 얹혀 있고 새 탭으로 연다 —
-                  받아서 여는 것이 아니라 그 자리에서 확인하는 것이다. */}
-              {day.stay.doc && (
-                <a className="pin sm"
-                   href={`resv/${encodeURIComponent(day.stay.doc)}`}
-                   target="_blank" rel="noopener"
-                   aria-label={`${day.stay.name} 예약 확인서`}>
-                  <Icon name="doc" size={16} />
-                </a>
-              )}
               <a className="pin sm"
                  href={gmapPlace(day.stay.place) ?? gmapSearch(day.stay.name)}
                  target="_blank" rel="noopener" aria-label={`${day.stay.name} 지도`}>

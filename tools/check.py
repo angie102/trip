@@ -677,42 +677,6 @@ def rule_checks() -> None:
             say("죽은 예외", f"  data/exceptions.json 분류  {k} — 안 고쳐도 같다")
 
 
-def resv_doc_checks() -> None:
-    """예약 확인서가 어딘가에 걸렸나.
-
-    파일 이름이 곧 색인이라 매핑 표가 없다(export_web.resv_docs).
-    표가 없으니 틀어질 표도 없지만, 이름이 한 끗 어긋나면 그 파일은
-    아무 데도 안 걸린 채 조용히 서버에만 얹혀 있다 — 예약서가 링크에서
-    사라진 것을 사람이 알아채는 때는 대개 가게 앞이다.
-
-    숙소는 날짜 하나로 걸리지만 밥집은 날짜와 시각 둘로 걸린다.
-    걸 자리가 둘이면 어긋날 자리도 둘이다. 그래서 여기서 되짚는다 —
-    폴더에 있는 파일이 다 화면에 나왔는지, 화면이 가리키는 파일이
-    다 있는지 양쪽으로 본다.
-    """
-    folder = ROOT / "web-react" / "public" / "resv"
-    if not folder.exists():
-        return
-    view = load("web-react/src/data/trip.json")
-
-    used: dict[str, str] = {}     # 파일이름 → 어디에 걸렸나
-    for d in view["days"]:
-        stay = d.get("stay") or {}
-        if stay.get("doc"):
-            used[stay["doc"]] = f"{d['date']} 숙소 {stay.get('name', '')}"
-        for it in d["items"]:
-            doc = (it.get("reservation") or {}).get("doc")
-            if doc:
-                used[doc] = f"{d['date']} {it.get('time') or ''} "                             f"{it.get('detail') or it['title']}"
-
-    on_disk = {f.name for f in folder.glob("*.pdf")}
-    for name in sorted(on_disk - used.keys()):
-        say("걸 자리 없는 예약서",
-            f"  web-react/public/resv/{name} — 이름의 날짜·시각이 일정과 맞는가")
-    for name in sorted(used.keys() - on_disk):
-        say("없는 예약서를 가리킨다", f"  {used[name]}  →  resv/{name}")
-
-
 def doc_checks() -> None:
     """색 문서가 화면보다 낡았나.
 
@@ -757,7 +721,7 @@ def doc_checks() -> None:
 # ── 내보내기 ────────────────────────────────────────────
 PARTS = {"정본": master_checks, "데이터": data_checks, "규칙": rule_checks,
          "화면": lambda: (screen_values(), screen_gaps(),
-                          resv_doc_checks(), doc_checks())}
+                          doc_checks())}
 
 
 def main() -> int:

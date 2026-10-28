@@ -117,17 +117,6 @@ function Place({ name, nameJa, place, desc, cost, reserved, group, resv,
         {/* 표식과 링크는 이름 바로 뒤에 붙는다 — 줄 끝으로 밀어 두면
             이름이 짧을수록 멀어져 어느 가게 것인지 눈으로 이어야 했다 */}
         {booked && <Icon name="resvOn" size={16} className="resvmark" />}
-        {/* 예약 확인서 — 북마크와 지도 사이에 선다. 숙소 줄과 같은 차례다.
-            「잡아 뒀다」(북마크) 다음에 오는 물음이 「어디인가」(지도)보다
-            「제대로 잡혀 있나」라서, 표식과 그 근거가 맞붙어 있어야 한다. */}
-        {resv?.doc && (
-          <a className="pin sm"
-             href={`resv/${encodeURIComponent(resv.doc)}`}
-             target="_blank" rel="noopener"
-             aria-label={`${name} 예약 확인서`}>
-            <Icon name="doc" size={16} />
-          </a>
-        )}
         {mappable && (
           <a className="pin sm" href={gmapPlace(place) ?? gmapSearch(name)}
              target="_blank" rel="noopener" aria-label={`${name} 지도`}>

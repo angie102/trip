@@ -31,3 +31,8 @@ web-react/probe.mjs
 
 # 예약서 (개인정보)
 web-react/public/resv/
+
+# Claude Code 설정
+.claude/
+.mcp.json
+CLAUDE.md

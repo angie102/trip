@@ -149,49 +149,6 @@ def stay_of(d: dict, places: dict | None = None, iso: str = "") -> dict | None:
     return out
 
 
-RESV_DIR = ROOT / "web-react" / "public" / "resv"
-# 「2026-09-20_1930_…」의 가운데 토막. 네 자리 숫자면 시각이다.
-DOC_TIME = re.compile(r"^(\d{4}-\d{2}-\d{2})_(\d{2})(\d{2})_")
-DOC_DATE = re.compile(r"^(\d{4}-\d{2}-\d{2})_")
-
-
-def resv_docs() -> tuple[dict[str, str], dict[tuple[str, str], str]]:
-    """예약 확인서(PDF) — 파일 이름이 곧 색인이다.
-
-    web-react/public/resv/ 에 두 꼴이 산다.
-
-        2026-09-18_ANA크라운플라자니가타.pdf     숙소 — 날짜로 정해진다
-        2026-09-20_1930_츠바메산조Bit.pdf       밥집 — 날짜와 시각으로 정해진다
-
-    숙소는 하루에 하나라 날짜만으로 충분했다. 밥집은 9/21 에만 둘이라
-    (11:30 텐키아라타 · 19:00 료우테이 노토신) 날짜만으로는 어느 쪽인지
-    가릴 수 없다. 그래서 시각을 이름에 넣는다 — 시각은 이미 일정이 갖고
-    있는 값이라 새로 지어내는 것이 아니다.
-
-    가운데 토막이 네 자리 숫자면 시각이고, 아니면 숙소 이름의 시작이다.
-
-    매핑 표를 따로 두면 표와 파일이 어긋나는 날이 오는데, 그때 화면은
-    아무 말 없이 링크만 죽는다. 이어 주는 것이 하나여야 그런 틈이 없다.
-    다만 이름으로 잇는 값이 둘(날짜·시각)로 늘었으니 어긋날 자리도 늘었다 —
-    걸리지 못한 파일은 check.py 가 「걸 자리 없는 예약서」로 불러 준다.
-
-    @return ({체크인날짜: 파일이름}, {(날짜, "HH:MM"): 파일이름})
-    """
-    stays: dict[str, str] = {}
-    meals: dict[tuple[str, str], str] = {}
-    if not RESV_DIR.exists():
-        return stays, meals
-    for f in sorted(RESV_DIR.glob("*.pdf")):
-        m = DOC_TIME.match(f.name)
-        if m:
-            meals[(m.group(1), f"{m.group(2)}:{m.group(3)}")] = f.name
-            continue
-        m = DOC_DATE.match(f.name)
-        if m:
-            stays[m.group(1)] = f.name
-    return stays, meals
-
-
 def weekday(iso: str) -> str:
     y, m, d = map(int, iso.split("-"))
     return DOW[date(y, m, d).weekday()]
@@ -528,9 +485,6 @@ def label_places(out: dict) -> list[tuple[str, str, str]]:
 
 def export(trip: dict, places: dict) -> dict:
     days = []
-    DOCS, MEAL_DOCS = resv_docs()
-    last_stay: str | None = None      # 이어 묵는 동안 문서를 물려주려고 든다
-    last_doc: str | None = None
     for d in trip["days"]:
         iso = d["date"]
         items, pts = [], []
@@ -597,13 +551,7 @@ def export(trip: dict, places: dict) -> dict:
             if it.get("hideTime"):
                 row["hideTime"] = True
             if it.get("reservation"):
-                # 정본의 dict 를 그대로 넘기면 확인서가 정본에 스며든다.
-                # 예약서는 뷰에만 있는 것이라 여기서 한 겹 떠서 붙인다.
-                resv = dict(it["reservation"])
-                doc = MEAL_DOCS.get((iso, row["time"] or ""))
-                if doc:
-                    resv["doc"] = doc
-                row["reservation"] = resv
+                row["reservation"] = dict(it["reservation"])
                 open_by_reservation(pv, places, pid)
                 # 예약한 집이 후보 중 하나면 그 줄에 표식을 단다.
                 # 견주는 것은 후보의 이름 하나다 — place.name 은 자리마다
@@ -634,15 +582,6 @@ def export(trip: dict, places: dict) -> dict:
         by_id = {r["id"]: r for r in items}
         # 「숙소」로 적힌 끝은 이 줄이 푼다 — 체크인·체크아웃 항목은 좌표가 없다
         stay = stay_of(d, places, iso)
-        # 문서는 체크인 날에만 있다. 같은 곳에 이어 묵는 동안은 그것을 물려준다 —
-        # 이틀째에 예약서가 사라지면 「어제는 있었는데」가 되어 더 헷갈린다.
-        if stay:
-            if stay["name"] != last_stay:
-                last_stay, last_doc = stay["name"], DOCS.get(iso)
-            if last_doc:
-                stay["doc"] = last_doc
-        else:
-            last_stay, last_doc = None, None
         for lg in d.get("legs", []):
             notes = lg.get("notes", [])
             head = lambda p: next((x[len(p):] for x in notes

@@ -33,8 +33,6 @@ export type Reservation = {
   pay?: string              // 「현지 결제」 등
   name?: string             // 예약한 집 이름
   note?: string
-  /** 예약 확인서 파일 이름. 숙소의 것과 같은 자리(public/resv/)에 얹혀 있다 */
-  doc?: string
 }
 
 export type Spot = {
@@ -150,8 +148,6 @@ export type Day = {
     costJpy?: number        // 현지 결제일 때만 — 아직 낼 돈
     /** 호텔의 자리. 체크인·체크아웃 항목은 좌표를 갖지 않으므로 여기가 유일하다 */
     place?: Place
-    /** 예약 확인서 파일 이름. public/resv/ 아래에 그대로 얹혀 있다 */
-    doc?: string
   } | null
   flags: { kind: string; text: string; full?: string }[]
   items: Item[]
