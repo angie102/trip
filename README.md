@@ -1,60 +1,71 @@
 # 도호쿠 여행 일정 앱
 
-구글 시트에 적은 여행 계획을 날짜별 일정과 지도로 보여 주는 웹앱이다. 2026년 9월 18일부터 10월 2일까지 도호쿠 여행에 썼다.
+구글 시트에 적은 여행 계획을 일정과 지도로 보여 주는 웹앱. 2026년 9월 18일부터 10월 2일까지 15일간 여행에 썼다.
 
-배포 주소: https://tohoku-2026-9pf.pages.dev
+https://tohoku-2026-9pf.pages.dev
 
-## 데이터 넣기
+## 화면
 
-일정은 구글 시트에 적는다. `tools/pull_sheet.py`가 시트를 `data/sheet.xlsx`로 받는다. 시트 주소를 바꾸려면 이 파일의 `SHEET_ID`를 고친다.
+- 일정: 날짜별 항목, 사이사이 이동(수단, 좌석, 소요 시간), 후보 장소의 영업시간과 지도 링크
+- 지도: 목록에서 누른 장소를 지도에서 보여 주고, 길 안내는 구글 지도로 넘긴다
+- 동선: 하루 또는 15일 전체 이동을 지도 위에서 재생
+- 준비: 출발 전 챙길 것, 날짜별 할 일
 
-구글 지도에 저장한 장소 목록은 Google Takeout으로 내보낸 CSV를 `data/saved/`에 넣는다. 이름에 「일본」이 들어간 목록만 읽는다.
+## 구현
 
-장소 위치를 바로잡고 싶으면 시트의 「길찾기」 줄에 구글 지도 공유 링크(`maps.app.goo.gl/…`)를 적는다.
+```
+구글 시트 → pull_sheet.py → parse_trip.py → master.json
+          → places_keys.py, places_lookup.py, links.py (좌표, 영업시간)
+          → export_web.py → trip.json → React 앱
+```
 
-시트로 고칠 수 없는 것은 `data/exceptions.json`에 적는다. 시트의 장소 이름과 저장 목록의 장소를 잇는 표는 `data/place_map.json`이다. 두 파일 맨 위의 `_설명`에 쓰는 법이 있다.
+- 데이터는 Python 스크립트가 미리 만들고 앱은 `trip.json`만 읽는다. 순서는 `build.py`가 고정하고 `check.py`가 결과를 검사한다.
+- 장소는 이름 대신 구글 ID로 맞춘다. 구글 지도 저장 목록 CSV의 CID를 placeId로 변환해 일정과 잇는다(`saved_lists.py`).
+- 동선의 길은 OSRM에서 한 번 받아 `paths.json`에 넣어 두었다. 구글 지도 코드는 `route/gmap.ts` 안에만 있다.
+- 시트로 못 고치는 예외는 `data/exceptions.json` 한 곳에 둔다.
 
-## API 키 넣기
+React 18, TypeScript, Vite, Google Maps JavaScript API, Places API, Python, Cloudflare Pages
 
-키는 저장소에 올리지 않는다. 두 파일을 직접 만든다.
+## 돌려 보기
 
-앱의 지도는 `web-react/src/config.local.ts`에서 키를 읽는다.
+### 데이터
+
+- 일정: 구글 시트. 주소는 `tools/pull_sheet.py`의 `SHEET_ID`
+- 구글 지도 저장 목록: Google Takeout CSV를 `data/saved/`에 넣는다(이름에 「일본」이 든 목록만 읽음)
+- 장소 위치 고치기: 시트의 「길찾기」 줄에 구글 지도 공유 링크를 적는다
+- 그 밖의 예외: `data/exceptions.json` (쓰는 법은 파일 맨 위 `_설명`)
+
+### API 키
+
+저장소에 없으니 직접 만든다.
+
+`web-react/src/config.local.ts` (앱 지도)
 
 ```ts
 export const GOOGLE_MAPS_API_KEY = "키"
-export const GOOGLE_MAPS_MAP_ID = ""   // 비워 두면 기본 지도
+export const GOOGLE_MAPS_MAP_ID = ""
 ```
 
-장소 좌표와 영업시간을 받아 오는 스크립트는 프로젝트 맨 위의 `.env`에서 키를 읽는다.
+`.env` (장소 조회 스크립트)
 
 ```
 GOOGLE_PLACES_API_KEY=키
 ```
 
-## 실행
+### 실행
 
 ```
 cd web-react
 npm install
-npm run dev      # http://localhost:5180
-npm run build    # dist/ 에 만든다
+npm run dev
 ```
 
-## 데이터 다시 만들기
-
-시트를 고쳤으면 시트를 받고 다시 만든다.
+### 데이터 다시 만들기
 
 ```
 python tools/pull_sheet.py
 python tools/build.py --reparse
+python tools/build.py --lookup    # 새 장소 조회, Places API 요금 발생
 ```
 
-새 장소가 생겼으면 좌표와 영업시간을 받아 온다. Places API 요금이 나간다.
-
-```
-python tools/build.py --lookup
-```
-
-저장 목록 CSV를 새로 넣었으면 `python tools/places_lookup.py --saved`를 먼저 돌린다. 이것도 요금이 나간다.
-
-`tools/parse_trip.py`는 따로 돌리지 않는다. 손으로 고친 내용이 사라진다. 다시 만들 때는 `build.py --reparse`만 쓴다.
+`parse_trip.py`만 따로 돌리면 손수정이 사라지니 `build.py --reparse`로 돌린다.
